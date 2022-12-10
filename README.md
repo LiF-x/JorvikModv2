@@ -1,6 +1,6 @@
 # JorvikMod
 
- A New Log Cart added credits to Kurai & Dorian
+ JorvikMod Rewritten to be compatible with LiFx Framework and Yolauncher
 
 [Download here](https://github.com/LiF-x/JorvikMod/releases/latest)
 
