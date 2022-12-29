@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf8"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <table name="objects_types">
 	<row>
@@ -12,12 +12,12 @@
 		<IsDevice>0</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>0</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>0</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage></FaceImage>
+		<MaxContSize isnull="true" />
+		<Length isnull="true" />
+		<MaxStackSize isnull="true" />
+		<UnitWeight isnull="true" />
+		<BackgndImage isnull="true" />
+		<FaceImage isnull="true" />
 		<Description>DO NOT TRANSLATE! Root type for other utility types</Description>
 	</row>
 	<row>
@@ -31,12 +31,12 @@
 		<IsDevice>0</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>0</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>0</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage></FaceImage>
+		<MaxContSize isnull="true" />
+		<Length isnull="true" />
+		<MaxStackSize isnull="true" />
+		<UnitWeight isnull="true" />
+		<BackgndImage isnull="true" />
+		<FaceImage isnull="true" />
 		<Description>DO NOT TRANSLATE! Root type for gameplay types</Description>
 	</row>
 	<row>
@@ -2007,10 +2007,10 @@
 		<IsDevice>1</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>300000</MaxContSize>
+		<MaxContSize>100000</MaxContSize>
 		<Length>6</Length>
 		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>10000</UnitWeight>
+		<UnitWeight>20000</UnitWeight>
 		<BackgndImage>art\images\Smelting_bg.png</BackgndImage>
 		<FaceImage>art\2D\Objects\furnace.png</FaceImage>
 		<Description></Description>
@@ -2165,7 +2165,7 @@
 		<UnitWeight>20000</UnitWeight>
 		<BackgndImage>art\images\Smelting_bg.png</BackgndImage>
 		<FaceImage>art\2D\Objects\kiln.png</FaceImage>
-		<Description>Kiln With Increased Container Size</Description>
+		<Description></Description>
 	</row>
 	<row>
 		<ID>118</ID>
@@ -2520,7 +2520,7 @@
 		<IsDevice>1</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>500000</MaxContSize>
+		<MaxContSize>100000</MaxContSize>
 		<Length>6</Length>
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>200000</UnitWeight>
@@ -2558,7 +2558,7 @@
 		<IsDevice>1</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>1000000</MaxContSize>
+		<MaxContSize>400000</MaxContSize>
 		<Length>6</Length>
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>50000</UnitWeight>
@@ -7213,7 +7213,7 @@
 		<IsDevice>1</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>200000</MaxContSize>
+		<MaxContSize>100000</MaxContSize>
 		<Length>6</Length>
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>50000</UnitWeight>
@@ -11507,13 +11507,13 @@
 		<IsDevice>1</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>2500000</MaxContSize>
-		<Length>7</Length>
+		<MaxContSize>50000</MaxContSize>
+		<Length>3</Length>
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>1000</UnitWeight>
 		<BackgndImage>art\images\fireplace_bg.png</BackgndImage>
 		<FaceImage>art\2D\Objects\campfire.png</FaceImage>
-		<Description>Camp Fire With Increased Container Size, put dirt in here</Description>
+		<Description></Description>
 	</row>
 	<row>
 		<ID>683</ID>
@@ -18871,7 +18871,7 @@
 	<row>
 		<ID>1072</ID>
 		<ParentID>130</ParentID>
-		<Name>0de Wall (diagonal)</Name>
+		<Name>Palisade Wall (diagonal)</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>0</IsMovableObject>
 		<IsUnmovableobject>1</IsUnmovableobject>
@@ -26464,8 +26464,8 @@
 		<Length>5</Length>
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>2000</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage></FaceImage>
+		<BackgndImage isnull="true" />
+		<FaceImage isnull="true" />
 		<Description></Description>
 	</row>
 	<row>
@@ -26483,8 +26483,8 @@
 		<Length>0</Length>
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>20</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage></FaceImage>
+		<BackgndImage isnull="true" />
+		<FaceImage isnull="true" />
 		<Description></Description>
 	</row>
 	<row>
@@ -36177,314 +36177,9 @@
 		<FaceImage>art\2D\Items\gold_and_silver_amulet.png</FaceImage>
 		<Description>Elder's gift for helping the villagers.</Description>
 	</row>
-		<row>
-		<ID>2360</ID>
-		<ParentID>624</ParentID>
-		<Name>Knool Hunter Carcass</Name>
-		<IsContainer>1</IsContainer>
-		<IsMovableObject>1</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>10000000</MaxContSize>
-		<Length>10</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>1000</UnitWeight>
-		<BackgndImage>art\images\universal</BackgndImage>
-		<FaceImage></FaceImage>
-		<Description></Description>
-	</row>
-	<row>
-		<ID>2361</ID>
-		<ParentID>624</ParentID>
-		<Name>Knool Mole Carcass</Name>
-		<IsContainer>1</IsContainer>
-		<IsMovableObject>1</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>10000000</MaxContSize>
-		<Length>10</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>1000</UnitWeight>
-		<BackgndImage>art\images\universal</BackgndImage>
-		<FaceImage></FaceImage>
-		<Description></Description>
-	</row>
-	<row>
-		<ID>2362</ID>
-		<ParentID>624</ParentID>
-		<Name>Knool Witch Carcass</Name>
-		<IsContainer>1</IsContainer>
-		<IsMovableObject>1</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>10000000</MaxContSize>
-		<Length>10</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>1000</UnitWeight>
-		<BackgndImage>art\images\universal</BackgndImage>
-		<FaceImage></FaceImage>
-		<Description></Description>
-	</row>
-	<row>
-		<ID>2394</ID>
-		<ParentID>751</ParentID>
-		<Name>Knool Bear</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>1</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>1000000</MaxContSize>
-		<Length>6</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>1</UnitWeight>
-		<BackgndImage>art\images\universal</BackgndImage>
-		<FaceImage></FaceImage>
-		<Description></Description>
-	</row>
-	<row>
-		<ID>2395</ID>
-		<ParentID>751</ParentID>
-		<Name>Knool Chieftain</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>1</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>1000000</MaxContSize>
-		<Length>6</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>1</UnitWeight>
-		<BackgndImage>art\images\universal</BackgndImage>
-		<FaceImage></FaceImage>
-		<Description></Description>
-	</row>
-	<row>
-		<ID>2396</ID>
-		<ParentID>751</ParentID>
-		<Name>Knool Hunter</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>1</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>1000000</MaxContSize>
-		<Length>6</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>1</UnitWeight>
-		<BackgndImage>art\images\universal</BackgndImage>
-		<FaceImage></FaceImage>
-		<Description></Description>
-	</row>
-	<row>
-		<ID>2397</ID>
-		<ParentID>751</ParentID>
-		<Name>Knool Mole</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>1</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>1000000</MaxContSize>
-		<Length>6</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>1</UnitWeight>
-		<BackgndImage>art\images\universal</BackgndImage>
-		<FaceImage></FaceImage>
-		<Description></Description>
-	</row>
-	<row>
-		<ID>2398</ID>
-		<ParentID>751</ParentID>
-		<Name>Knool Witch</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>1</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>1000000</MaxContSize>
-		<Length>6</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>1</UnitWeight>
-		<BackgndImage>art\images\universal</BackgndImage>
-		<FaceImage></FaceImage>
-		<Description></Description>
-	</row>
-	<row>
-		<ID>2399</ID>
-		<ParentID>624</ParentID>
-		<Name>Knool Bear Carcass</Name>
-		<IsContainer>1</IsContainer>
-		<IsMovableObject>1</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>10000000</MaxContSize>
-		<Length>10</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>1000</UnitWeight>
-		<BackgndImage>art\images\universal</BackgndImage>
-		<FaceImage></FaceImage>
-		<Description></Description>
-	</row>
-	<row>
-		<ID>2359</ID>
-		<ParentID>624</ParentID>
-		<Name>Chieftain Carcass</Name>
-		<IsContainer>1</IsContainer>
-		<IsMovableObject>1</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>10000000</MaxContSize>
-		<Length>10</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>1000</UnitWeight>
-		<BackgndImage>art\images\universal</BackgndImage>
-		<FaceImage></FaceImage>
-		<Description></Description>
-	</row>
-<!-- Knool Weapons -->
-	<row>
-		<ID>2461</ID>
-		<ParentID>1031</ParentID>
-		<Name>Witch Sickle</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>0</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>1</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>4</Length>
-		<MaxStackSize>1</MaxStackSize>
-		<UnitWeight>1500</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher\modpack\art\2D\Items\NativeWeapons\Witch_Sickle.png</FaceImage>
-		<Description>A Weapon of the knools, Liberated from one whom was slayed.</Description>
-	</row>
-	<row>
-		<ID>2462</ID>
-		<ParentID>58</ParentID>
-		<Name>Bear Axe</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>0</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>4</Length>
-		<MaxStackSize>1</MaxStackSize>
-		<UnitWeight>1500</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher\modpack\art\2D\Items\NativeWeapons\bearaxe.png</FaceImage>
-		<Description>A Weapon of the knools, Liberated from one whom was slayed.</Description>
-	</row>
-	<row>
-		<ID>2463</ID>
-		<ParentID>57</ParentID>
-		<Name>Chieftain Sword</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>0</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>4</Length>
-		<MaxStackSize>1</MaxStackSize>
-		<UnitWeight>1500</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher\modpack\art\2D\Items\NativeWeapons\ChieftainSword.png</FaceImage>
-		<Description>A Weapon of the knools, Liberated from one whom was slayed.</Description>
-	</row>
-	<row>
-		<ID>2464</ID>
-		<ParentID>34</ParentID>
-		<Name>Hunter Axe</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>0</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>1</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>2</Length>
-		<MaxStackSize>1</MaxStackSize>
-		<UnitWeight>1</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher\modpack\art\2D\Items\NativeWeapons\hunteraxe.png</FaceImage>
-		<Description>A Weapon of the knools, Liberated from one whom was slayed.</Description>
-	</row>
-	<row>
-		<ID>2465</ID>
-		<ParentID>35</ParentID>
-		<Name>Mole Pickaxe</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>0</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>1</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>4</Length>
-		<MaxStackSize>1</MaxStackSize>
-		<UnitWeight>1</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher\modpack\art\2D\Items\NativeWeapons\molepickaxe.png</FaceImage>
-		<Description>A Weapon of the knools, Liberated from one whom was slayed.</Description>
-	</row>
-	<row>
-		<ID>2466</ID>
-		<ParentID>8</ParentID>
-		<Name>Hunter Bow</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>0</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>4</Length>
-		<MaxStackSize>1</MaxStackSize>
-		<UnitWeight>1</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher\modpack\art\2D\Items\NativeWeapons\hunterbow.png</FaceImage>
-		<Description>A Weapon of the knools, Liberated from one whom was slayed.</Description>
-	</row>
 	<row>
 		<ID>2400</ID>
-		<ParentID>1722</ParentID>
+		<ParentID>61</ParentID>
 		<Name>Wooden Cross</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>0</IsMovableObject>
@@ -36493,18 +36188,19 @@
 		<IsDevice>0</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>0</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>1000</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage>\mods\JorvikMod\art\2D\objects\wooden_cross.png</FaceImage>
-		<Description>Object from Jorvik MOD pack CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
+		<MaxContSize>100000</MaxContSize>
+		<Length>6</Length>
+		<MaxStackSize>1</MaxStackSize>
+		<UnitWeight>100000</UnitWeight>
+		<BackgndImage>art\images\bag</BackgndImage>
+		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/wooden_cross.png</FaceImage>
+		<Description>Object from Jorvik MOD pack 
+ CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
 	</row>
 	<row>
 		<ID>2401</ID>
 		<ParentID>61</ParentID>
-		<Name>Wooden Bridge</Name> 
+		<Name>Wooden Bridge</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>0</IsMovableObject>
 		<IsUnmovableobject>1</IsUnmovableobject>
@@ -36512,18 +36208,19 @@
 		<IsDevice>0</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>3</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>5000</UnitWeight>
-		<BackgndImage> </BackgndImage>
-		<FaceImage>mods\JorvikMod\art\2D\objects\wooden_bridge.png</FaceImage>
-		<Description>Object from Jorvik MOD pack CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
+		<MaxContSize>100000</MaxContSize>
+		<Length>6</Length>
+		<MaxStackSize>1</MaxStackSize>
+		<UnitWeight>100000</UnitWeight>
+		<BackgndImage>art\images\bag</BackgndImage>
+		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/wooden_bridge.png</FaceImage>
+		<Description>Object from Jorvik MOD pack 
+ CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
 	</row>
 	<row>
 		<ID>2402</ID>
 		<ParentID>61</ParentID>
-		<Name>Stone Bridge</Name> 
+		<Name>Stone Bridge</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>0</IsMovableObject>
 		<IsUnmovableobject>1</IsUnmovableobject>
@@ -36531,18 +36228,19 @@
 		<IsDevice>0</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>3</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>10000</UnitWeight>
-		<BackgndImage> </BackgndImage>
-		<FaceImage>mods\JorvikMod\art\2D\objects\stone_bridge.png</FaceImage>
-		<Description>Object from Jorvik MOD pack CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
+		<MaxContSize>100000</MaxContSize>
+		<Length>6</Length>
+		<MaxStackSize>1</MaxStackSize>
+		<UnitWeight>100000</UnitWeight>
+		<BackgndImage>art\images\bag</BackgndImage>
+		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/stone_bridge.png</FaceImage>
+		<Description>Object from Jorvik MOD pack 
+ CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
 	</row>
 	<row>
 		<ID>2403</ID>
 		<ParentID>69</ParentID>
-		<Name>Small Wooden Shed</Name>
+		<Name>Small wooden shed</Name>
 		<IsContainer>1</IsContainer>
 		<IsMovableObject>1</IsMovableObject>
 		<IsUnmovableobject>0</IsUnmovableobject>
@@ -36554,13 +36252,14 @@
 		<Length>8</Length>
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>10000</UnitWeight>
-		<BackgndImage>art\\images\\warehouse</BackgndImage>
-		<FaceImage>mods\JorvikMod\art\2D\objects\small_wooden_shed.png</FaceImage>
-		<Description>Object from Jorvik MOD pack</Description>
+		<BackgndImage>art\images\warehouse</BackgndImage>
+		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/small_wooden_shed.png</FaceImage>
+		<Description>Object from Jorvik MOD pack 
+ CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
 	</row>
 	<row>
 		<ID>2404</ID>
-		<ParentID>72</ParentID>
+		<ParentID>61</ParentID>
 		<Name>Metal Cage</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>0</IsMovableObject>
@@ -36569,18 +36268,19 @@
 		<IsDevice>0</IsDevice>
 		<IsDoor>1</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>0</Length>
-		<MaxStackSize>3</MaxStackSize>
-		<UnitWeight>10000</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage>mods\JorvikMod\art\2D\objects\metal_cage.png</FaceImage>
-		<Description>Object from Jorvik MOD pack CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
+		<MaxContSize>100000</MaxContSize>
+		<Length>6</Length>
+		<MaxStackSize>1</MaxStackSize>
+		<UnitWeight>100000</UnitWeight>
+		<BackgndImage>art\images\bag</BackgndImage>
+		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/metal_cage.png</FaceImage>
+		<Description>Object from Jorvik MOD pack 
+ CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
 	</row>
 	<row>
 		<ID>2405</ID>
 		<ParentID>61</ParentID>
-		<Name>Wooden Pier</Name> 
+		<Name>Wooden Pier</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>0</IsMovableObject>
 		<IsUnmovableobject>1</IsUnmovableobject>
@@ -36588,15 +36288,15 @@
 		<IsDevice>0</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>3</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>5000</UnitWeight>
-		<BackgndImage> </BackgndImage>
-		<FaceImage>mods\JorvikMod\art\2D\objects\wooden_pier.png</FaceImage>
-		<Description>Object from Jorvik MOD pack CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
+		<MaxContSize>100000</MaxContSize>
+		<Length>6</Length>
+		<MaxStackSize>1</MaxStackSize>
+		<UnitWeight>100000</UnitWeight>
+		<BackgndImage>art\images\bag</BackgndImage>
+		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/wooden_pier.png</FaceImage>
+		<Description>Object from Jorvik MOD pack  /n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
 	</row>
-		<row>
+	<row>
 		<ID>2406</ID>
 		<ParentID>130</ParentID>
 		<Name>Wooden Barricade</Name>
@@ -36610,15 +36310,36 @@
 		<MaxContSize>0</MaxContSize>
 		<Length>4</Length>
 		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage>art\images\bag</BackgndImage>
+		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/wooden_barricade.png</FaceImage>
+		<Description>Object from Jorvik MOD pack 
+ CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
+	</row>
+	<row>
+		<ID>2407</ID>
+		<ParentID>1902</ParentID>
+		<Name>Wooden Barricade</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>2000</MaxContSize>
+		<Length>4</Length>
+		<MaxStackSize>1</MaxStackSize>
 		<UnitWeight>2000</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage>mods\JorvikMod\art\2D\objects\wooden_barricade.png</FaceImage>
-		<Description>Object from Jorvik MOD pack CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
+		<BackgndImage>art\images\bag</BackgndImage>
+		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/wooden_barricade.png</FaceImage>
+		<Description>Object from Jorvik MOD pack 
+ CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
 	</row>
 	<row>
 		<ID>2408</ID>
 		<ParentID>61</ParentID>
-		<Name>Stone Altar</Name> 
+		<Name>Stone Altar</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>0</IsMovableObject>
 		<IsUnmovableobject>1</IsUnmovableobject>
@@ -36626,18 +36347,19 @@
 		<IsDevice>0</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>3</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>5000</UnitWeight>
-		<BackgndImage> </BackgndImage>
-		<FaceImage>mods\JorvikMod\art\2D\objects\stone_altar.png</FaceImage>
-		<Description>Object from Jorvik MOD pack CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
+		<MaxContSize>100000</MaxContSize>
+		<Length>6</Length>
+		<MaxStackSize>1</MaxStackSize>
+		<UnitWeight>100000</UnitWeight>
+		<BackgndImage>art\images\bag</BackgndImage>
+		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/wooden_barricade.png</FaceImage>
+		<Description>Object from Jorvik MOD pack 
+ CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
 	</row>
 	<row>
 		<ID>2409</ID>
 		<ParentID>72</ParentID>
-		<Name>Wooden House with Tower</Name>
+		<Name>Wooden Tower House</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>0</IsMovableObject>
 		<IsUnmovableobject>1</IsUnmovableobject>
@@ -36645,13 +36367,14 @@
 		<IsDevice>0</IsDevice>
 		<IsDoor>1</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>0</Length>
+		<MaxContSize>100000</MaxContSize>
+		<Length>6</Length>
 		<MaxStackSize>12</MaxStackSize>
 		<UnitWeight>200000</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage>mods\JorvikMod\art\2D\objects\wooden_house_with_tower.png</FaceImage>
-		<Description>HOUSE FROM JORVIKMOD - This homes 12 charactors</Description>
+		<BackgndImage>art\images\bag</BackgndImage>
+		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/wooden_house_with_tower.png</FaceImage>
+		<Description>Object from Jorvik MOD pack 
+ CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
 	</row>
 	<row>
 		<ID>2410</ID>
@@ -36664,18 +36387,19 @@
 		<IsDevice>0</IsDevice>
 		<IsDoor>1</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>4</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>20000000</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage>mods\JorvikMod\art\2D\objects\wooden_church.png</FaceImage>
-		<Description>Object from Jorvik MOD pack CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
+		<MaxContSize>100000</MaxContSize>
+		<Length>6</Length>
+		<MaxStackSize>1</MaxStackSize>
+		<UnitWeight>100000</UnitWeight>
+		<BackgndImage>art\images\bag</BackgndImage>
+		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/wooden_church.png</FaceImage>
+		<Description>Object from Jorvik MOD pack 
+ CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
 	</row>
 	<row>
 		<ID>2411</ID>
 		<ParentID>61</ParentID>
-		<Name>Wooden Pier T</Name> 
+		<Name>Wooden Pier T</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>0</IsMovableObject>
 		<IsUnmovableobject>1</IsUnmovableobject>
@@ -36683,18 +36407,19 @@
 		<IsDevice>0</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>3</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>5000</UnitWeight>
-		<BackgndImage> </BackgndImage>
-		<FaceImage>mods\JorvikMod\art\2D\objects\pier_T.png</FaceImage>
-		<Description>Object from Jorvik MOD pack CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
+		<MaxContSize>100000</MaxContSize>
+		<Length>6</Length>
+		<MaxStackSize>1</MaxStackSize>
+		<UnitWeight>100000</UnitWeight>
+		<BackgndImage>art\images\bag</BackgndImage>
+		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/pier_T.png</FaceImage>
+		<Description>Object from Jorvik MOD pack 
+ CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
 	</row>
 	<row>
 		<ID>2412</ID>
 		<ParentID>61</ParentID>
-		<Name>Wooden Pier L</Name> 
+		<Name>Wooden Pier L</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>0</IsMovableObject>
 		<IsUnmovableobject>1</IsUnmovableobject>
@@ -36702,18 +36427,19 @@
 		<IsDevice>0</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>3</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>5000</UnitWeight>
-		<BackgndImage> </BackgndImage>
-		<FaceImage>mods\JorvikMod\art\2D\objects\pier_L.png</FaceImage>
-		<Description>Object from Jorvik MOD pack CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
+		<MaxContSize>100000</MaxContSize>
+		<Length>6</Length>
+		<MaxStackSize>1</MaxStackSize>
+		<UnitWeight>100000</UnitWeight>
+		<BackgndImage>art\images\bag</BackgndImage>
+		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/pier_T.png</FaceImage>
+		<Description>Object from Jorvik MOD pack 
+ CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
 	</row>
 	<row>
 		<ID>2413</ID>
 		<ParentID>61</ParentID>
-		<Name>Stone tomb with cross</Name> 
+		<Name>Stone Tomb Cross</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>0</IsMovableObject>
 		<IsUnmovableobject>1</IsUnmovableobject>
@@ -36721,12 +36447,13 @@
 		<IsDevice>0</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>3</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>3000</UnitWeight>
-		<BackgndImage> </BackgndImage>
-		<FaceImage>mods\JorvikMod\art\2D\objects\stone_tomb_with_cross.png</FaceImage>
-		<Description>Object from Jorvik MOD pack CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
+		<MaxContSize>100000</MaxContSize>
+		<Length>6</Length>
+		<MaxStackSize>1</MaxStackSize>
+		<UnitWeight>100000</UnitWeight>
+		<BackgndImage>art\images\bag</BackgndImage>
+		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/stone_tomb_with_cross.png</FaceImage>
+		<Description>Object from Jorvik MOD pack 
+ CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
 	</row>
 </table>
