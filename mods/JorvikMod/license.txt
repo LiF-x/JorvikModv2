@@ -1,2 +1,3 @@
 Jorvik MOD created by Odin One Eye. Free to modify and use. Thank you for your financial support. www.jorvik.eu
 
+License replaced by GPLv3
