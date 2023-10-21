@@ -103,9 +103,9 @@ package JorvikMod
       %lastInsert = %resultSet.getFieldValue("ID");
     //dbi.update("INSERT IGNORE INTO `recipe_requirement` VALUES (RecipeID,            MaterialObjectTypeID, Quality, Influence, Quantity, IsRegionalItemRequired)
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       20,         4,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  281,                  0,      20,        40,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  235,                  0,      20,       40,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1356,                  0,      20,      10,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  281,                  0,       20,         40,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  235,                  0,       20,         40,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1356,                  0,       20,         10,       0)");
     }
     dbi.remove(%resultSet);
     %resultSet.delete();
@@ -151,8 +151,8 @@ package JorvikMod
       %lastInsert = %resultSet.getFieldValue("ID");
     //dbi.update("INSERT IGNORE INTO `recipe_requirement` VALUES (RecipeID,            MaterialObjectTypeID, Quality, Influence, Quantity, IsRegionalItemRequired)
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       30,         1,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  264,                  0,      30,        1,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  262,                  0,      10,       1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  264,                  0,       30,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  262,                  0,       10,         1,       0)");
     }
     dbi.remove(%resultSet);
     %resultSet.delete();
@@ -198,8 +198,8 @@ package JorvikMod
       %lastInsert = %resultSet.getFieldValue("ID");
     //dbi.update("INSERT IGNORE INTO `recipe_requirement` VALUES (RecipeID,            MaterialObjectTypeID, Quality, Influence, Quantity, IsRegionalItemRequired)
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       30,         1,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  264,                  0,      30,        1,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  262,                  0,      10,       1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  264,                  0,       30,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  262,                  0,       10,         1,       0)");
     }
     dbi.remove(%resultSet);
     %resultSet.delete();
@@ -245,10 +245,10 @@ package JorvikMod
       %lastInsert = %resultSet.getFieldValue("ID");
     //dbi.update("INSERT IGNORE INTO `recipe_requirement` VALUES (RecipeID,            MaterialObjectTypeID, Quality, Influence, Quantity, IsRegionalItemRequired)
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       30,         500,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  326,                  0,       20,          300,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  281,                  0,       30,          1000,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  286,                  0,       20,       1,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  241,                  0,       20,       1500,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  326,                  0,       20,         300,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  281,                  0,       30,         1000,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  286,                  0,       20,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  241,                  0,       20,         1500,       0)");
     }
     dbi.remove(%resultSet);
     %resultSet.delete();
@@ -293,11 +293,10 @@ package JorvikMod
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
     //dbi.update("INSERT IGNORE INTO `recipe_requirement` VALUES (RecipeID,            MaterialObjectTypeID, Quality, Influence, Quantity, IsRegionalItemRequired)
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       30,         500,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  326,                  0,       20,          300,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  281,                  0,       30,          1000,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  286,                  0,       20,       1,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  241,                  0,       20,       1500,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  269,                  0,       30,         50,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  235,                  0,       30,         30,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  244,                  0,       30,         400,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1356,                  0,       30,         20,       0)");
     }
     dbi.remove(%resultSet);
     %resultSet.delete();
@@ -343,9 +342,10 @@ package JorvikMod
       %lastInsert = %resultSet.getFieldValue("ID");
     //dbi.update("INSERT IGNORE INTO `recipe_requirement` VALUES (RecipeID,            MaterialObjectTypeID, Quality, Influence, Quantity, IsRegionalItemRequired)
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1356,                  0,       10,         10,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       20,          10,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  235,                  0,       10,          40,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  281,                  0,       10,          30,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       20,         10,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  235,                  0,       10,         40,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  281,                  0,       10,         30,       0)");
+
     }
     dbi.remove(%resultSet);
     %resultSet.delete();
@@ -390,10 +390,8 @@ package JorvikMod
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
     //dbi.update("INSERT IGNORE INTO `recipe_requirement` VALUES (RecipeID,            MaterialObjectTypeID, Quality, Influence, Quantity, IsRegionalItemRequired)
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1356,                  0,       10,         10,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       20,          10,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  235,                  0,       10,          40,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  281,                  0,       10,          30,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  269,                  0,       40,         100,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  244,                  0,       10,         600,       0)");
     }
     dbi.remove(%resultSet);
     %resultSet.delete();
@@ -2967,7 +2965,11 @@ package JorvikMod
   function JorvikMod::LargeWoodenBridgeRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1356,                  0,       10,         15,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       20,         12,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  235,                  0,       10,         50,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  281,                  0,       10,         60,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -2978,7 +2980,8 @@ package JorvikMod
   function JorvikMod::LargeStoneBridgeRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  269,                  0,       40,         200,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  244,                  0,       10,         1200,       0)");
 	  
     }
     dbi.remove(%resultSet);
@@ -2989,7 +2992,8 @@ package JorvikMod
   function JorvikMod::LargeStoneBridgeEndRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  269,                  0,       40,         100,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  244,                  0,       10,         600,       0)");
 	  
     }
     dbi.remove(%resultSet);
@@ -3000,7 +3004,8 @@ package JorvikMod
   function JorvikMod::SmallStoneBridgeEndRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  269,                  0,       40,         50,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  244,                  0,       10,         300,       0)");
 	  
     }
     dbi.remove(%resultSet);
@@ -3012,7 +3017,8 @@ package JorvikMod
   function JorvikMod::SmallLogWallRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         15,       0)");
 	  
     }
     dbi.remove(%resultSet);
@@ -3024,7 +3030,8 @@ package JorvikMod
   function JorvikMod::SmallWoodenPillarRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         1,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3036,7 +3043,9 @@ package JorvikMod
   function JorvikMod::SmallLogCornerWallRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         30,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3048,7 +3057,10 @@ package JorvikMod
   function JorvikMod::SmallLogWallWithWindowRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         12,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  235,                  0,       10,         4,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3060,7 +3072,11 @@ package JorvikMod
   function JorvikMod::SmallLogWallWithShuttersRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1356,                  0,       10,         4,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         12,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  288,                  0,       10,         1,       0)");
+ 
 	  
     }
     dbi.remove(%resultSet);
@@ -3072,7 +3088,10 @@ package JorvikMod
   function JorvikMod::SmallLogWallWithEntranceRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         4,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1356,                  0,       10,         4,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         8,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3084,7 +3103,11 @@ package JorvikMod
   function JorvikMod::SmallLogWallWithDoorRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         4,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1356,                  0,       10,         10,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         8,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  286,                  0,       10,         1,       1)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3096,7 +3119,8 @@ package JorvikMod
   function JorvikMod::SmallWoodenFloorEntranceRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  235,                  0,       10,         8,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3108,7 +3132,8 @@ package JorvikMod
   function JorvikMod::SmallWoodenFloorRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  235,                  0,       10,         5,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3120,7 +3145,9 @@ package JorvikMod
   function JorvikMod::SmallLogWallSlopeRightRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         5,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         2,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3132,7 +3159,9 @@ package JorvikMod
   function JorvikMod::SmallLogWallSlopeLeftRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         5,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         2,       0)");
+ 
 	  
     }
     dbi.remove(%resultSet);
@@ -3144,7 +3173,10 @@ package JorvikMod
   function JorvikMod::SmallThatchRoofRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  362,                  0,       10,         5,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3156,7 +3188,10 @@ package JorvikMod
   function JorvikMod::SmallThatchRoofRightEndRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  362,                  0,       10,         5,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3168,7 +3203,10 @@ package JorvikMod
   function JorvikMod::SmallThatchRoofLeftEndRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  362,                  0,       10,         5,       0)");
+ 
 	  
     }
     dbi.remove(%resultSet);
@@ -3179,7 +3217,10 @@ package JorvikMod
   function JorvikMod::SmallThatchRoofOuterCornerRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  362,                  0,       10,         10,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3190,7 +3231,8 @@ package JorvikMod
   function JorvikMod::SmallLogWallRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         15,       0)");
 	  
     }
     dbi.remove(%resultSet);
@@ -3201,7 +3243,8 @@ package JorvikMod
   function JorvikMod::SmallWoodenPillarRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         1,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3213,7 +3256,9 @@ package JorvikMod
   function JorvikMod::SmallLogCornerWallRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         30,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3225,7 +3270,10 @@ package JorvikMod
   function JorvikMod::SmallLogWallWithWindowRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         12,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  235,                  0,       10,         4,       0)");
+ 
 	  
     }
     dbi.remove(%resultSet);
@@ -3237,7 +3285,11 @@ package JorvikMod
   function JorvikMod::SmallLogWallWithShuttersRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1356,                  0,       10,         4,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         12,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  288,                  0,       10,         1,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3249,7 +3301,9 @@ package JorvikMod
   function JorvikMod::SmallLogWallWithEntranceRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         4,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1356,                  0,       10,         4,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3261,7 +3315,11 @@ package JorvikMod
   function JorvikMod::SmallLogWallWithDoorRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         4,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1356,                  0,       10,         10,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         8,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  286,                  0,       10,         1,       1)");
+ 
 	  
     }
     dbi.remove(%resultSet);
@@ -3273,7 +3331,8 @@ package JorvikMod
   function JorvikMod::SmallWoodenFloorEntranceRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  235,                  0,       10,         8,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3285,7 +3344,8 @@ package JorvikMod
   function JorvikMod::SmallWoodenFloorRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  235,                  0,       10,         5,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3297,7 +3357,10 @@ package JorvikMod
   function JorvikMod::SmallWoodenStairsRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  324,                  0,       30,         6,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  327,                  0,       20,         15,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  281,                  0,       30,         20,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3309,7 +3372,10 @@ package JorvikMod
   function JorvikMod::SmallThatchRoofTopRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  362,                  0,       10,         5,       0)");
+ 
 	  
     }
     dbi.remove(%resultSet);
@@ -3321,7 +3387,10 @@ package JorvikMod
   function JorvikMod::SmallThatchRoofOuterCornerTopRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  362,                  0,       10,         5,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3333,7 +3402,10 @@ package JorvikMod
   function JorvikMod::SmallThatchRoofTopLeftEndRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  362,                  0,       10,         5,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3345,7 +3417,10 @@ package JorvikMod
   function JorvikMod::SmallThatchRoofTopRightEndRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  362,                  0,       10,         5,       0)");
+ 
 	  
     }
     dbi.remove(%resultSet);
@@ -3357,7 +3432,10 @@ package JorvikMod
   function JorvikMod::SmallThatchRoofRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  362,                  0,       10,         5,       0)");
+  
 	  
     }
     dbi.remove(%resultSet);
@@ -3369,7 +3447,10 @@ package JorvikMod
   function JorvikMod::SmallThatchRoofOuterCornerRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  362,                  0,       10,         10,       0)");
+    
 	  
     }
     dbi.remove(%resultSet);
@@ -3381,7 +3462,8 @@ package JorvikMod
   function JorvikMod::SmallWoodenRailingRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  235,                  0,       10,         5,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3393,7 +3475,8 @@ package JorvikMod
   function JorvikMod::SmallWoodenRailingRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  235,                  0,       10,         5,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3405,7 +3488,10 @@ package JorvikMod
   function JorvikMod::SmallThatchRoofOuterCornerTopRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  362,                  0,       10,         5,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3417,7 +3503,8 @@ package JorvikMod
   function JorvikMod::WallTorchRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1634,                  0,       90,         1,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3429,7 +3516,8 @@ package JorvikMod
   function JorvikMod::SmallCandleRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1634,                  0,       90,         1,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3441,7 +3529,13 @@ package JorvikMod
   function JorvikMod::AurochsCowstandRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  675,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  342,                  0,       10,         100,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1046,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  427,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         200,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3453,7 +3547,13 @@ package JorvikMod
   function JorvikMod::AurochsCoweatRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  675,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  342,                  0,       10,         100,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1046,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  427,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         200,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3465,7 +3565,13 @@ package JorvikMod
   function JorvikMod::AurochsCowsleepRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  675,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  342,                  0,       10,         100,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1046,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  427,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         200,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+ 
 	  
     }
     dbi.remove(%resultSet);
@@ -3477,7 +3583,13 @@ package JorvikMod
   function JorvikMod::SowstandRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  675,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  342,                  0,       10,         50,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1048,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  429,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         100,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3489,7 +3601,13 @@ package JorvikMod
   function JorvikMod::SoweatRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  675,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  342,                  0,       10,         50,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1048,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  429,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         100,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+ 
 	  
     }
     dbi.remove(%resultSet);
@@ -3501,7 +3619,13 @@ package JorvikMod
   function JorvikMod::SowsleepRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  675,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  342,                  0,       10,         50,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1048,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  429,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         100,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+ 
 	  
     }
     dbi.remove(%resultSet);
@@ -3513,7 +3637,13 @@ package JorvikMod
   function JorvikMod::HorsestandRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  675,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  342,                  0,       10,         100,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1039,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  427,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         200,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3525,7 +3655,13 @@ package JorvikMod
   function JorvikMod::HorseeatRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  675,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  342,                  0,       10,         100,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1039,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  427,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         200,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3537,7 +3673,13 @@ package JorvikMod
   function JorvikMod::HorsesleepRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  675,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  342,                  0,       10,         100,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1039,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  427,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         200,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3549,7 +3691,13 @@ package JorvikMod
   function JorvikMod::SlaveworkingRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  675,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  342,                  0,       10,         80,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1409,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1700,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         100,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3561,7 +3709,13 @@ package JorvikMod
   function JorvikMod::WranentheHunterstandRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  675,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  342,                  0,       10,         80,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1409,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1700,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         100,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3573,7 +3727,7 @@ package JorvikMod
   function JorvikMod::BookPaperRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1130,                  0,       10,         10,       0)");
 	  
     }
     dbi.remove(%resultSet);
@@ -3585,7 +3739,9 @@ package JorvikMod
   function JorvikMod::HealthBookRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2463,                  0,       10,         100,       1)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  374,                  0,       10,         10,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3597,7 +3753,10 @@ package JorvikMod
   function JorvikMod::SmallThatchRoofInnerCornerRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  234,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  362,                  0,       10,         10,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3609,7 +3768,12 @@ package JorvikMod
   function JorvikMod::WoodCartRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  235,                  0,       20,         30,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  255,                  0,       10,         4,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1131,                  0,       10,         20,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  36,                  0,       10,         40,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  262,                  0,       10,         10,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3621,7 +3785,10 @@ package JorvikMod
   function JorvikMod::SiegeTowerRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1135,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1134,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  255,                  0,       10,         6,       0)");
+ 
 	  
     }
     dbi.remove(%resultSet);
@@ -3633,7 +3800,13 @@ package JorvikMod
   function JorvikMod::AurochsBullstandRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  675,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  342,                  0,       10,         100,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1047,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  427,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         200,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3645,7 +3818,13 @@ package JorvikMod
   function JorvikMod::AurochsBulleatRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  675,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  342,                  0,       10,         100,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1047,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  427,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         200,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3657,7 +3836,13 @@ package JorvikMod
   function JorvikMod::AurochsBullsleepRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  675,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  342,                  0,       10,         100,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1047,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  427,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         200,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3669,7 +3854,9 @@ package JorvikMod
   function JorvikMod::SmallWoodenPierRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  324,                  0,       10,         16,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  326,                  0,       10,         32,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1356,                  0,       10,         10,       0)");
 	  
     }
     dbi.remove(%resultSet);
@@ -3681,7 +3868,9 @@ package JorvikMod
   function JorvikMod::SmallWoodenPierTRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  324,                  0,       10,         30,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  326,                  0,       10,         64,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1356,                  0,       10,         20,       0)");
 	  
     }
     dbi.remove(%resultSet);
@@ -3693,7 +3882,9 @@ package JorvikMod
   function JorvikMod::SmallWoodenPierLRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  324,                  0,       10,         30,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  326,                  0,       10,         64,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1356,                  0,       10,         20,       0)");
 	  
     }
     dbi.remove(%resultSet);
@@ -3705,7 +3896,8 @@ package JorvikMod
   function JorvikMod::WattleWicketRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  237,                  0,       45,         12,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3717,7 +3909,10 @@ package JorvikMod
   function JorvikMod::IdolCrossRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1356,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  247,                  0,       10,         1,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3729,13 +3924,33 @@ package JorvikMod
   function JorvikMod::WoodenChurchRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       30,         150,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  268,                  0,       10,         250,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  286,                  0,       10,         1,       1)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  288,                  0,       5,         7,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  326,                  0,       5,         250,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
     %resultSet.delete();
-  }	function JorvikMod::SanctumoftheSleeper() {
+  }
+  function JorvikMod::SanctumoftheSleeper() {
     dbi.Select(JorvikMod, "SanctumoftheSleeperRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Sanctum of the Sleeper', 'Object from Jorvik MOD',        32,               20,          60,        2530,               35,                       1,        0,          0,           'yolauncher/modpack/art\2D\Recipes\church.png') RETURNING ID");
+  }
+  function JorvikMod::SanctumoftheSleeperRequirements(%this, %resultSet) {
+    if(%resultSet.ok() && %resultSet.nextRecord()) {
+      %lastInsert = %resultSet.getFieldValue("ID");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  271,                  0,       30,         6000,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1490,                  0,       30,         10,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  528,                  0,       30,         800,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  268,                  0,       30,         500,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  409,                  0,       30,         10,       0)");
+
+	  
+    }
+    dbi.remove(%resultSet);
+    %resultSet.delete();
   }
   function JorvikMod::NoviceDecoratorsKit() {
     dbi.Select(JorvikMod, "NoviceDecoratorsKitRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Novice Decorator\'s Kit', 'Object from Jorvik MOD',        293,               8,          90,        2531,               10,                       1,        1,          0,           'yolauncher/modpack/art\2D\Items\decoration_kit_small.png') RETURNING ID");
@@ -3743,7 +3958,12 @@ package JorvikMod
   function JorvikMod::NoviceDecoratorsKitRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1130,                  0,       30,         20,       1)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  349,                  0,       30,         1,       1)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  242,                  0,       30,         15,       1)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  409,                  0,       30,         2,       1)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1356,                  0,       30,         5,       1)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3754,7 +3974,12 @@ package JorvikMod
   function JorvikMod::ApprenticeDecoratorsKitRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1130,                  0,       30,         50,       1)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  269,                  0,       30,         30,       1)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  411,                  0,       30,         2,       1)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  343,                  0,       30,         20,       1)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1477,                  0,       30,         5,       1)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3765,7 +3990,12 @@ package JorvikMod
   function JorvikMod::MasterDecoratorsKitRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1130,                  0,       30,         100,       1)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  271,                  0,       30,         50,       1)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  412,                  0,       30,         2,       1)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  345,                  0,       30,         20,       1)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  261,                  0,       30,         5,       1)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3777,7 +4007,13 @@ package JorvikMod
   function JorvikMod::WolfstandRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  675,                  0,       10,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  342,                  0,       10,         50,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1404,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  428,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         100,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3789,7 +4025,10 @@ package JorvikMod
   function JorvikMod::GoldSheetRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  406,                  0,       60,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1647,                  0,       10,         40,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  453,                  0,       10,         15,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3801,7 +4040,10 @@ package JorvikMod
   function JorvikMod::MetalScissorsRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  364,                  0,       50,         1,       1)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1647,                  0,       10,         40,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  453,                  0,       10,         15,       0)");
+ 
 	  
     }
     dbi.remove(%resultSet);
@@ -3813,7 +4055,10 @@ package JorvikMod
   function JorvikMod::MetalStampRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  364,                  0,       50,         1,       1)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1647,                  0,       10,         40,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  453,                  0,       10,         15,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3826,7 +4071,10 @@ package JorvikMod
   function JorvikMod::GoldBlanksRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2482,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2483,                  0,       10,         40,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  453,                  0,       10,         15,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3835,30 +4083,30 @@ package JorvikMod
   function JorvikMod::SilverSheet() {
     dbi.Select(JorvikMod, "Silver SheetRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Silver Sheet', 'Object from Jorvik MOD',        453,               4,          0,        2539,               20,                       1,        1,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Items\silver_sheet.png') RETURNING ID");
   }
-  function JorvikMod::Silver SheetRequirements(%this, %resultSet) {
+  function JorvikMod::SilverSheetRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  405,                  0,       60,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1647,                  0,       10,         40,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  453,                  0,       10,         15,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
     %resultSet.delete();
-  }  function JorvikMod::Silver SheetRequirements(%this, %resultSet) {
-    if(%resultSet.ok() && %resultSet.nextRecord()) {
-      %lastInsert = %resultSet.getFieldValue("ID");
-	  
-	  
-    }
-    dbi.remove(%resultSet);
-    %resultSet.delete();
-  }	
+  }
   function JorvikMod::CopperSheet() {
     dbi.Select(JorvikMod, "CopperSheetRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Copper Sheet', 'Object from Jorvik MOD',        453,               4,          0,        2540,               20,                       1,        1,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Items\copper_sheet.png') RETURNING ID");
   }
   function JorvikMod::CopperSheetRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  403,                  0,       60,         2,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1647,                  0,       10,         40,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  453,                  0,       10,         15,       0)");
+
+
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3870,7 +4118,11 @@ package JorvikMod
   function JorvikMod::SilverBlanksRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2486,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2483,                  0,       10,         40,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  453,                  0,       10,         15,       0)");
+
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3882,7 +4134,11 @@ package JorvikMod
   function JorvikMod::CopperBlanksRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2487,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2483,                  0,       10,         40,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  453,                  0,       10,         15,       0)");
+ 
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3894,7 +4150,11 @@ package JorvikMod
   function JorvikMod::GoldCoinsRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2485,                  0,       50,         5,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2484,                  0,       10,         40,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  453,                  0,       10,         15,       0)");
+
 	  
     }
     dbi.remove(%resultSet);
@@ -3906,7 +4166,10 @@ package JorvikMod
   function JorvikMod::SilverCoinsRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2488,                  0,       50,         5,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2484,                  0,       10,         40,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  453,                  0,       10,         15,       0)");
+  
 	  
     }
     dbi.remove(%resultSet);
@@ -3918,7 +4181,9 @@ package JorvikMod
   function JorvikMod::CopperCoinsRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-	  
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2489,                  0,       50,         5,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2484,                  0,       10,         40,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  453,                  0,       10,         15,       0)");
 	  
     }
     dbi.remove(%resultSet);
