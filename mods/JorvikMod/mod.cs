@@ -812,8 +812,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Wooden Floor() {
-    return new ScriptObject(ObjectsTypesSmall Wooden Floor : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallWoodenFloor() {
+    return new ScriptObject(ObjectsTypesSmallWoodenFloor : ObjectsTypes)
     {
       id = 2473; 
       ObjectName = "Small Wooden Floor"; 
@@ -844,8 +844,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Log Wall Slope Right() {
-    return new ScriptObject(ObjectsTypesSmall Log Wall Slope Right : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallLogWallSlopeRight() {
+    return new ScriptObject(ObjectsTypesSmallLogWallSlopeRight : ObjectsTypes)
     {
       id = 2474; 
       ObjectName = "Small Log Wall Slope Right"; 
@@ -876,8 +876,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Log Wall Slope Left() {
-    return new ScriptObject(ObjectsTypesSmall Log Wall Slope Left : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallLogWallSlopeLeft() {
+    return new ScriptObject(ObjectsTypesSmallLogWallSlopeLeft : ObjectsTypes)
     {
       id = 2475; 
       ObjectName = "Small Log Wall Slope Left"; 
@@ -908,11 +908,11 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Thatch Roof() {
-    return new ScriptObject(ObjectsTypesSmall Thatch Roof : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallThatchRoof() {
+    return new ScriptObject(ObjectsTypesSmallThatchRoof : ObjectsTypes)
     {
       id = 2476; 
-      ObjectName = "Small Thatch Roof"; 
+      ObjectName = "SmallThatchRoof"; 
       ParentID = 2411; 
       IsContainer = 0;
       IsMovableObject = 1; 
@@ -940,11 +940,11 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Thatch Roof Right End() {
-    return new ScriptObject(ObjectsTypesSmall Thatch Roof Right End : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallThatchRoofRightEnd() {
+    return new ScriptObject(ObjectsTypesSmallThatchRoofRightEnd : ObjectsTypes)
     {
       id = 2477; 
-      ObjectName = "Small Thatch Roof Right End"; 
+      ObjectName = "SmallThatchRoofRightEnd"; 
       ParentID = 2411; 
       IsContainer = 0;
       IsMovableObject = 1; 
@@ -972,11 +972,11 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Thatch Roof Left End() {
-    return new ScriptObject(ObjectsTypesSmall Thatch Roof Left End : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallThatchRoofLeftEnd() {
+    return new ScriptObject(ObjectsTypesSmallThatchRoofLeftEnd : ObjectsTypes)
     {
       id = 2478; 
-      ObjectName = "Small Thatch Roof Left End"; 
+      ObjectName = "SmallThatchRoofLeftEnd"; 
       ParentID = 2411; 
       IsContainer = 0;
       IsMovableObject = 1; 
@@ -1004,11 +1004,11 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Thatch Roof Outer Corner() {
-    return new ScriptObject(ObjectsTypesSmall Thatch Roof Outer Corner : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallThatchRoofOuterCorner() {
+    return new ScriptObject(ObjectsTypesSmallThatchRoofOuterCorner : ObjectsTypes)
     {
       id = 2479; 
-      ObjectName = "Small Thatch Roof Outer Corner"; 
+      ObjectName = "SmallThatchRoofOuterCorner"; 
       ParentID = 2411; 
       IsContainer = 0;
       IsMovableObject = 1; 
@@ -1036,8 +1036,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesModular Constructions lvl 1() {
-    return new ScriptObject(ObjectsTypesModular Constructions lvl 1 : ObjectsTypes)
+  function JorvikMod::ObjectsTypesModularConstructionslvl1() {
+    return new ScriptObject(ObjectsTypesModularConstructionslvl1 : ObjectsTypes)
     {
       id = 2480; 
       ObjectName = "Modular Constructions lvl 1"; 
@@ -1068,8 +1068,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Log Wall() {
-    return new ScriptObject(ObjectsTypesSmall Log Wall : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallLogWall() {
+    return new ScriptObject(ObjectsTypesSmallLogWall : ObjectsTypes)
     {
       id = 2481; 
       ObjectName = "Small Log Wall"; 
@@ -1100,8 +1100,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Wooden Pillar() {
-    return new ScriptObject(ObjectsTypesSmall Wooden Pillar : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallWoodenPillar() {
+    return new ScriptObject(ObjectsTypesSmallWoodenPillar : ObjectsTypes)
     {
       id = 2482; 
       ObjectName = "Small Wooden Pillar"; 
@@ -1132,8 +1132,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Log Corner Wall() {
-    return new ScriptObject(ObjectsTypesSmall Log Corner Wall : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallLogCornerWall() {
+    return new ScriptObject(ObjectsTypesSmallLogCornerWall : ObjectsTypes)
     {
       id = 2483; 
       ObjectName = "Small Log Corner Wall"; 
@@ -1164,8 +1164,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Log Wall With Window() {
-    return new ScriptObject(ObjectsTypesSmall Log Wall With Window : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallLogWallWithWindow() {
+    return new ScriptObject(ObjectsTypesSmallLogWallWithWindow : ObjectsTypes)
     {
       id = 2484; 
       ObjectName = "Small Log Wall With Window"; 
@@ -1196,8 +1196,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Log Wall With Shutters() {
-    return new ScriptObject(ObjectsTypesSmall Log Wall With Shutters : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallLogWallWithShutters() {
+    return new ScriptObject(ObjectsTypesSmallLogWallWithShutters : ObjectsTypes)
     {
       id = 2485; 
       ObjectName = "Small Log Wall With Shutters"; 
@@ -1228,8 +1228,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Log Wall With Entrance() {
-    return new ScriptObject(ObjectsTypesSmall Log Wall With Entrance : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallLogWallWithEntrance() {
+    return new ScriptObject(ObjectsTypesSmallLogWallWithEntrance : ObjectsTypes)
     {
       id = 2486; 
       ObjectName = "Small Log Wall With Entrance"; 
@@ -1260,8 +1260,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Log Wall With Door() {
-    return new ScriptObject(ObjectsTypesSmall Log Wall With Door : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallLogWallWithDoor() {
+    return new ScriptObject(ObjectsTypesSmallLogWallWithDoor : ObjectsTypes)
     {
       id = 2487; 
       ObjectName = "Small Log Wall With Door"; 
@@ -1292,8 +1292,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Wooden Floor Entrance() {
-    return new ScriptObject(ObjectsTypesSmall Wooden Floor Entrance : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallWoodenFloorEntrance() {
+    return new ScriptObject(ObjectsTypesSmallWoodenFloorEntrance : ObjectsTypes)
     {
       id = 2488; 
       ObjectName = "Small Wooden Floor Entrance"; 
@@ -1324,8 +1324,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Wooden Floor() {
-    return new ScriptObject(ObjectsTypesSmall Wooden Floor : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallWoodenFloor() {
+    return new ScriptObject(ObjectsTypesSmallWoodenFloor : ObjectsTypes)
     {
       id = 2489; 
       ObjectName = "Small Wooden Floor"; 
@@ -1356,8 +1356,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Wooden Stairs() {
-    return new ScriptObject(ObjectsTypesSmall Wooden Stairs : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallWoodenStairs() {
+    return new ScriptObject(ObjectsTypesSmallWoodenStairs : ObjectsTypes)
     {
       id = 2490; 
       ObjectName = "Small Wooden Stairs"; 
@@ -1388,11 +1388,11 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Thatch Roof Top() {
-    return new ScriptObject(ObjectsTypesSmall Thatch Roof Top : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallThatchRoofTop() {
+    return new ScriptObject(ObjectsTypesSmallThatchRoofTop: ObjectsTypes)
     {
       id = 2491; 
-      ObjectName = "Small Thatch Roof Top"; 
+      ObjectName = "SmallThatchRoofTop"; 
       ParentID = 2411; 
       IsContainer = 0;
       IsMovableObject = 1; 
@@ -1420,11 +1420,11 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Thatch Roof Outer Corner Top() {
-    return new ScriptObject(ObjectsTypesSmall Thatch Roof Outer Corner Top : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallThatchRoofOuterCornerTop() {
+    return new ScriptObject(ObjectsTypesSmallThatchRoofOuterCornerTop: ObjectsTypes)
     {
       id = 2492; 
-      ObjectName = "Small Thatch Roof Outer Corner Top"; 
+      ObjectName = "SmallThatchRoofOuterCornerTop"; 
       ParentID = 2411; 
       IsContainer = 0;
       IsMovableObject = 1; 
@@ -1452,11 +1452,11 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Thatch Roof Top Left End() {
-    return new ScriptObject(ObjectsTypesSmall Thatch Roof Top Left End : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallThatchRoofTopLeftEnd() {
+    return new ScriptObject(ObjectsTypesSmallThatchRoofTopLeftEnd : ObjectsTypes)
     {
       id = 2493; 
-      ObjectName = "Small Thatch Roof Top Left End"; 
+      ObjectName = "SmallThatchRoofTopLeftEnd"; 
       ParentID = 2411; 
       IsContainer = 0;
       IsMovableObject = 1; 
@@ -1484,11 +1484,11 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Thatch Roof Top Right End() {
-    return new ScriptObject(ObjectsTypesSmall Thatch Roof Top Right End : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallThatchRoofTopRightEnd() {
+    return new ScriptObject(ObjectsTypesSmallThatchRoofTopRightEnd : ObjectsTypes)
     {
       id = 2494; 
-      ObjectName = "Small Thatch Roof Top Right End"; 
+      ObjectName = "SmallThatchRoofTopRightEnd"; 
       ParentID = 2411; 
       IsContainer = 0;
       IsMovableObject = 1; 
@@ -1516,11 +1516,11 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Thatch Roof() {
-    return new ScriptObject(ObjectsTypesSmall Thatch Roof : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallThatchRoof() {
+    return new ScriptObject(ObjectsTypesSmallThatchRoof : ObjectsTypes)
     {
       id = 2495; 
-      ObjectName = "Small Thatch Roof"; 
+      ObjectName = "SmallThatchRoof"; 
       ParentID = 2427; 
       IsContainer = 0;
       IsMovableObject = 1; 
@@ -1548,11 +1548,11 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Thatch Roof Outer Corner() {
-    return new ScriptObject(ObjectsTypesSmall Thatch Roof Outer Corner : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallThatchRoofOuterCorner() {
+    return new ScriptObject(ObjectsTypesSmallThatchRoofOuterCorner : ObjectsTypes)
     {
       id = 2496; 
-      ObjectName = "Small Thatch Roof Outer Corner"; 
+      ObjectName = "SmallThatchRoofOuterCorner"; 
       ParentID = 2427; 
       IsContainer = 0;
       IsMovableObject = 1; 
@@ -1580,8 +1580,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Wooden Railing() {
-    return new ScriptObject(ObjectsTypesSmall Wooden Railing : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallWoodenRailing() {
+    return new ScriptObject(ObjectsTypesSmallWoodenRailing : ObjectsTypes)
     {
       id = 2497; 
       ObjectName = "Small Wooden Railing"; 
@@ -1612,8 +1612,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Wooden Railing() {
-    return new ScriptObject(ObjectsTypesSmall Wooden Railing : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallWoodenRailing() {
+    return new ScriptObject(ObjectsTypesSmallWoodenRailing : ObjectsTypes)
     {
       id = 2498; 
       ObjectName = "Small Wooden Railing"; 
@@ -1644,11 +1644,11 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Thatch Roof Outer Corner() {
-    return new ScriptObject(ObjectsTypesSmall Thatch Roof Outer Corner : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallThatchRoofOuterCorner() {
+    return new ScriptObject(ObjectsTypesSmallThatchRoofOuterCorner : ObjectsTypes)
     {
       id = 2499; 
-      ObjectName = "Small Thatch Roof Outer Corner"; 
+      ObjectName = "SmallThatchRoofOuterCorner"; 
       ParentID = 2427; 
       IsContainer = 0;
       IsMovableObject = 1; 
@@ -1676,8 +1676,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesWall Torch() {
-    return new ScriptObject(ObjectsTypesWall Torch : ObjectsTypes)
+  function JorvikMod::ObjectsTypesWallTorch() {
+    return new ScriptObject(ObjectsTypesWallTorch : ObjectsTypes)
     {
       id = 2500; 
       ObjectName = "Wall Torch"; 
@@ -1708,9 +1708,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-(2501,1902,'Wall Torch',0,0,0,0,0,0,0,0,3,1,1000,'',0,0,0,0,0,0,'mod/JorvikMod/art/2D/Recipes/wall_torch.png','Object from Jorvik MOD',NULL,NULL,0,0),
-  function JorvikMod::ObjectsTypesSmall Candle() {
-    return new ScriptObject(ObjectsTypesSmall Candle : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallCandle() {
+    return new ScriptObject(ObjectsTypesSmallCandle : ObjectsTypes)
     {
       id = 2502; 
       ObjectName = "Small Candle"; 
@@ -1741,9 +1740,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-(2503,1902,'Small Candle',0,0,0,0,0,0,0,0,3,1,1000,'',0,0,0,0,0,0,'mod/JorvikMod/art/2D/Recipes/small_candle.png','Object from Jorvik MOD',NULL,NULL,0,0),
-  function JorvikMod::ObjectsTypesAurochs Cow (stand)() {
-    return new ScriptObject(ObjectsTypesAurochs Cow (stand) : ObjectsTypes)
+  function JorvikMod::ObjectsTypesAurochsCowstand() {
+    return new ScriptObject(ObjectsTypesAurochsCowstand : ObjectsTypes)
     {
       id = 2504; 
       ObjectName = "Aurochs Cow (stand)"; 
@@ -1774,8 +1772,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesAurochs Cow (eat)() {
-    return new ScriptObject(ObjectsTypesAurochs Cow (eat) : ObjectsTypes)
+  function JorvikMod::ObjectsTypesAurochsCoweat() {
+    return new ScriptObject(ObjectsTypesAurochsCoweat : ObjectsTypes)
     {
       id = 2505; 
       ObjectName = "Aurochs Cow (eat)"; 
@@ -1806,8 +1804,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesAurochs Cow (sleep)() {
-    return new ScriptObject(ObjectsTypesAurochs Cow (sleep) : ObjectsTypes)
+  function JorvikMod::ObjectsTypesAurochsCowsleep() {
+    return new ScriptObject(ObjectsTypesAurochsCowsleep : ObjectsTypes)
     {
       id = 2506; 
       ObjectName = "Aurochs Cow (sleep)"; 
@@ -1838,9 +1836,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-(2507,1902,'Small Wooden Stairs',0,1,0,0,0,0,0,0,0,0,5000,'',0,0,0,0,0,0,'mod/JorvikMod/art/2D/Objects/small_wooden_stairs.png','Object from Jorvik MOD',NULL,NULL,0,0),
-  function JorvikMod::ObjectsTypesSow (stand)() {
-    return new ScriptObject(ObjectsTypesSow (stand) : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSowstand() {
+    return new ScriptObject(ObjectsTypesSowstand : ObjectsTypes)
     {
       id = 2508; 
       ObjectName = "Sow (stand)"; 
@@ -1871,8 +1868,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSow (eat)() {
-    return new ScriptObject(ObjectsTypesSow (eat) : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSoweat() {
+    return new ScriptObject(ObjectsTypesSoweat : ObjectsTypes)
     {
       id = 2509; 
       ObjectName = "Sow (eat)"; 
@@ -1903,8 +1900,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSow (sleep)() {
-    return new ScriptObject(ObjectsTypesSow (sleep) : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSowsleep() {
+    return new ScriptObject(ObjectsTypesSowsleep : ObjectsTypes)
     {
       id = 2510; 
       ObjectName = "Sow (sleep)"; 
@@ -1935,8 +1932,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesHorse (stand)() {
-    return new ScriptObject(ObjectsTypesHorse (stand) : ObjectsTypes)
+  function JorvikMod::ObjectsTypesHorsestand() {
+    return new ScriptObject(ObjectsTypesHorsestand : ObjectsTypes)
     {
       id = 2511; 
       ObjectName = "Horse (stand)"; 
@@ -1967,8 +1964,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesHorse (eat)() {
-    return new ScriptObject(ObjectsTypesHorse (eat) : ObjectsTypes)
+  function JorvikMod::ObjectsTypesHorseeat() {
+    return new ScriptObject(ObjectsTypesHorseeat : ObjectsTypes)
     {
       id = 2512; 
       ObjectName = "Horse (eat)"; 
@@ -1999,8 +1996,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesHorse (sleep)() {
-    return new ScriptObject(ObjectsTypesHorse (sleep) : ObjectsTypes)
+  function JorvikMod::ObjectsTypesHorsesleep() {
+    return new ScriptObject(ObjectsTypesHorsesleep : ObjectsTypes)
     {
       id = 2513; 
       ObjectName = "Horse (sleep)"; 
@@ -2031,8 +2028,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSlave (working)() {
-    return new ScriptObject(ObjectsTypesSlave (working) : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSlaveworking() {
+    return new ScriptObject(ObjectsTypesSlaveworking : ObjectsTypes)
     {
       id = 2514; 
       ObjectName = "Slave (working)"; 
@@ -2063,8 +2060,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesWranen the Hunter (stand)() {
-    return new ScriptObject(ObjectsTypesWranen the Hunter (stand) : ObjectsTypes)
+  function JorvikMod::ObjectsTypesWranentheHunterstand() {
+    return new ScriptObject(ObjectsTypesWranentheHunterstand : ObjectsTypes)
     {
       id = 2515; 
       ObjectName = "Wranen the Hunter (stand)"; 
@@ -2095,8 +2092,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesBook Paper() {
-    return new ScriptObject(ObjectsTypesBook Paper : ObjectsTypes)
+  function JorvikMod::ObjectsTypesBookPaper() {
+    return new ScriptObject(ObjectsTypesBookPaper : ObjectsTypes)
     {
       id = 2516; 
       ObjectName = "Book Paper"; 
@@ -2127,8 +2124,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesHealth Book() {
-    return new ScriptObject(ObjectsTypesHealth Book : ObjectsTypes)
+  function JorvikMod::ObjectsTypesHealthBook() {
+    return new ScriptObject(ObjectsTypesHealthBook : ObjectsTypes)
     {
       id = 2517; 
       ObjectName = "Health Book"; 
@@ -2159,11 +2156,11 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Thatch Roof Inner Corner() {
-    return new ScriptObject(ObjectsTypesSmall Thatch Roof Inner Corner : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallThatchRoofInnerCorner() {
+    return new ScriptObject(ObjectsTypesSmallThatchRoofInnerCorner : ObjectsTypes)
     {
       id = 2518; 
-      ObjectName = "Small Thatch Roof Inner Corner"; 
+      ObjectName = "SmallThatchRoof Inner Corner"; 
       ParentID = 2411; 
       IsContainer = 0;
       IsMovableObject = 1; 
@@ -2191,8 +2188,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesWood Cart() {
-    return new ScriptObject(ObjectsTypesWood Cart : ObjectsTypes)
+  function JorvikMod::ObjectsTypesWoodCart() {
+    return new ScriptObject(ObjectsTypesWoodCart : ObjectsTypes)
     {
       id = 2519; 
       ObjectName = "Wood Cart"; 
@@ -2223,8 +2220,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSiege Tower() {
-    return new ScriptObject(ObjectsTypesSiege Tower : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSiegeTower() {
+    return new ScriptObject(ObjectsTypesSiegeTower : ObjectsTypes)
     {
       id = 2520; 
       ObjectName = "Siege Tower"; 
@@ -2255,8 +2252,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesAurochs Bull (stand)() {
-    return new ScriptObject(ObjectsTypesAurochs Bull (stand) : ObjectsTypes)
+  function JorvikMod::ObjectsTypesAurochsBullstand() {
+    return new ScriptObject(ObjectsTypesAurochsBullstand : ObjectsTypes)
     {
       id = 2521; 
       ObjectName = "Aurochs Bull (stand)"; 
@@ -2287,8 +2284,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesAurochs Bull (eat)() {
-    return new ScriptObject(ObjectsTypesAurochs Bull (eat) : ObjectsTypes)
+  function JorvikMod::ObjectsTypesAurochsBulleat() {
+    return new ScriptObject(ObjectsTypesAurochsBulleat : ObjectsTypes)
     {
       id = 2522; 
       ObjectName = "Aurochs Bull (eat)"; 
@@ -2319,8 +2316,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesAurochs Bull (sleep)() {
-    return new ScriptObject(ObjectsTypesAurochs Bull (sleep) : ObjectsTypes)
+  function JorvikMod::ObjectsTypesAurochsBullsleep() {
+    return new ScriptObject(ObjectsTypesAurochsBullsleep : ObjectsTypes)
     {
       id = 2523; 
       ObjectName = "Aurochs Bull (sleep)"; 
@@ -2351,8 +2348,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Wooden Pier() {
-    return new ScriptObject(ObjectsTypesSmall Wooden Pier : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallWoodenPier() {
+    return new ScriptObject(ObjectsTypesSmallWoodenPier : ObjectsTypes)
     {
       id = 2524; 
       ObjectName = "Small Wooden Pier"; 
@@ -2383,8 +2380,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Wooden Pier T() {
-    return new ScriptObject(ObjectsTypesSmall Wooden Pier T : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallWoodenPierT() {
+    return new ScriptObject(ObjectsTypesSmallWoodenPierT : ObjectsTypes)
     {
       id = 2525; 
       ObjectName = "Small Wooden Pier T"; 
@@ -2415,8 +2412,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Wooden Pier L() {
-    return new ScriptObject(ObjectsTypesSmall Wooden Pier L : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallWoodenPierL() {
+    return new ScriptObject(ObjectsTypesSmallWoodenPierL : ObjectsTypes)
     {
       id = 2526; 
       ObjectName = "Small Wooden Pier L"; 
@@ -2447,8 +2444,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesWattle Wicket() {
-    return new ScriptObject(ObjectsTypesWattle Wicket : ObjectsTypes)
+  function JorvikMod::ObjectsTypesWattleWicket() {
+    return new ScriptObject(ObjectsTypesWattleWicket : ObjectsTypes)
     {
       id = 2527; 
       ObjectName = "Wattle Wicket"; 
@@ -2479,8 +2476,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesIdol Cross() {
-    return new ScriptObject(ObjectsTypesIdol Cross : ObjectsTypes)
+  function JorvikMod::ObjectsTypesIdolCross() {
+    return new ScriptObject(ObjectsTypesIdolCross : ObjectsTypes)
     {
       id = 2528; 
       ObjectName = "Idol Cross"; 
@@ -2511,7 +2508,7 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesWooden Church() {
+  function JorvikMod::ObjectsTypesWoodenChurch() {
     return new ScriptObject(ObjectsTypesWooden Church : ObjectsTypes)
     {
       id = 2529; 
@@ -2543,8 +2540,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSanctum of the Sleeper() {
-    return new ScriptObject(ObjectsTypesSanctum of the Sleeper : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSanctumoftheSleeper() {
+    return new ScriptObject(ObjectsTypesSanctumoftheSleeper : ObjectsTypes)
     {
       id = 2530; 
       ObjectName = "Sanctum of the Sleeper"; 
@@ -3168,7 +3165,7 @@ package JorvikMod
     %resultSet.delete();
   }
   function JorvikMod::SmallThatchRoof() {
-    dbi.Select(JorvikMod, "SmallThatchRoofRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Thatch Roof', 'Object from Jorvik MOD',        32,               18,          30,        2476,               35,                       1,        0,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Recipes\small_thatch_roof.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallThatchRoofRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'SmallThatchRoof', 'Object from Jorvik MOD',        32,               18,          30,        2476,               35,                       1,        0,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Recipes\small_thatch_roof.png') RETURNING ID");
   }
   function JorvikMod::SmallThatchRoofRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
@@ -3183,7 +3180,7 @@ package JorvikMod
     %resultSet.delete();
   }
   function JorvikMod::SmallThatchRoofRightEnd() {
-    dbi.Select(JorvikMod, "SmallThatchRoofRightEndRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Thatch Roof Right End', 'Object from Jorvik MOD',        32,               18,          30,        2477,               35,                       1,        0,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Recipes\small_thatch_roof_right_end.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallThatchRoofRightEndRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'SmallThatchRoofRightEnd', 'Object from Jorvik MOD',        32,               18,          30,        2477,               35,                       1,        0,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Recipes\small_thatch_roof_right_end.png') RETURNING ID");
   }
   function JorvikMod::SmallThatchRoofRightEndRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
@@ -3198,7 +3195,7 @@ package JorvikMod
     %resultSet.delete();
   }
   function JorvikMod::SmallThatchRoofLeftEnd() {
-    dbi.Select(JorvikMod, "SmallThatchRoofLeftEndRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Thatch Roof Left End', 'Object from Jorvik MOD',        32,               18,          30,        2478,               35,                       1,        0,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Recipes\small_thatch_roof_left_end.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallThatchRoofLeftEndRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'SmallThatchRoofLeftEnd', 'Object from Jorvik MOD',        32,               18,          30,        2478,               35,                       1,        0,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Recipes\small_thatch_roof_left_end.png') RETURNING ID");
   }
   function JorvikMod::SmallThatchRoofLeftEndRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
@@ -3212,7 +3209,7 @@ package JorvikMod
     dbi.remove(%resultSet);
     %resultSet.delete();
   }  function JorvikMod::SmallThatchRoofOuterCorner() {
-    dbi.Select(JorvikMod, "SmallThatchRoofOuterCornerRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Thatch Roof Outer Corner', 'Object from Jorvik MOD',        32,               18,          30,        2479,               35,                       1,        0,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Recipes\small_thatch_roof_outer_corner.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallThatchRoofOuterCornerRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'SmallThatchRoofOuterCorner', 'Object from Jorvik MOD',        32,               18,          30,        2479,               35,                       1,        0,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Recipes\small_thatch_roof_outer_corner.png') RETURNING ID");
   }
   function JorvikMod::SmallThatchRoofOuterCornerRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
@@ -3367,7 +3364,7 @@ package JorvikMod
     %resultSet.delete();
   }	
   function JorvikMod::SmallThatchRoofTop() {
-    dbi.Select(JorvikMod, "SmallThatchRoofTopRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Thatch Roof Top', 'Object from Jorvik MOD',        32,               18,          30,        2491,               35,                       1,        0,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Recipes\small_thatch_roof_top.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallThatchRoofTopRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'SmallThatchRoofTop', 'Object from Jorvik MOD',        32,               18,          30,        2491,               35,                       1,        0,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Recipes\small_thatch_roof_top.png') RETURNING ID");
   }
   function JorvikMod::SmallThatchRoofTopRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
@@ -3382,7 +3379,7 @@ package JorvikMod
     %resultSet.delete();
   }	
   function JorvikMod::SmallThatchRoofOuterCornerTop() {
-    dbi.Select(JorvikMod, "SmallThatchRoofOuterCornerTopRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Thatch Roof Outer Corner Top', 'Object from Jorvik MOD',        32,               18,          30,        2492,               35,                       1,        0,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Recipes\small_thatch_roof_outer_corner_top.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallThatchRoofOuterCornerTopRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'SmallThatchRoofOuterCornerTop', 'Object from Jorvik MOD',        32,               18,          30,        2492,               35,                       1,        0,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Recipes\small_thatch_roof_outer_corner_top.png') RETURNING ID");
   }
   function JorvikMod::SmallThatchRoofOuterCornerTopRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
@@ -3397,7 +3394,7 @@ package JorvikMod
     %resultSet.delete();
   }	
   function JorvikMod::SmallThatchRoofTopLeftEnd() {
-    dbi.Select(JorvikMod, "SmallThatchRoofTopLeftEndRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Thatch Roof Top Left End', 'Object from Jorvik MOD',        32,               18,          30,        2493,               35,                       1,        0,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Recipes\small_thatch_roof_top_left_end.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallThatchRoofTopLeftEndRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'SmallThatchRoofTopLeftEnd', 'Object from Jorvik MOD',        32,               18,          30,        2493,               35,                       1,        0,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Recipes\small_thatch_roof_top_left_end.png') RETURNING ID");
   }
   function JorvikMod::SmallThatchRoofTopLeftEndRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
@@ -3412,7 +3409,7 @@ package JorvikMod
     %resultSet.delete();
   }	
   function JorvikMod::SmallThatchRoofTopRightEnd() {
-    dbi.Select(JorvikMod, "SmallThatchRoofTopRightEndRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Thatch Roof Top Right End', 'Object from Jorvik MOD',        32,               18,          30,        2494,               35,                       1,        0,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Recipes\small_thatch_roof_top_right_end.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallThatchRoofTopRightEndRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'SmallThatchRoofTopRightEnd', 'Object from Jorvik MOD',        32,               18,          30,        2494,               35,                       1,        0,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Recipes\small_thatch_roof_top_right_end.png') RETURNING ID");
   }
   function JorvikMod::SmallThatchRoofTopRightEndRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
@@ -3427,7 +3424,7 @@ package JorvikMod
     %resultSet.delete();
   }	
   function JorvikMod::SmallThatchRoof() {
-    dbi.Select(JorvikMod, "SmallThatchRoofRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Thatch Roof', 'Object from Jorvik MOD',        32,               18,          30,        2495,               35,                       1,        0,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Recipes\small_thatch_roof.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallThatchRoofRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'SmallThatchRoof', 'Object from Jorvik MOD',        32,               18,          30,        2495,               35,                       1,        0,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Recipes\small_thatch_roof.png') RETURNING ID");
   }
   function JorvikMod::SmallThatchRoofRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
@@ -3442,7 +3439,7 @@ package JorvikMod
     %resultSet.delete();
   }	
   function JorvikMod::SmallThatchRoofOuterCorner() {
-    dbi.Select(JorvikMod, "SmallThatchRoofOuterCornerRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Thatch Roof Outer Corner', 'Object from Jorvik MOD',        32,               18,          30,        2496,               35,                       1,        0,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Recipes\small_thatch_roof_outer_corner.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallThatchRoofOuterCornerRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'SmallThatchRoofOuterCorner', 'Object from Jorvik MOD',        32,               18,          30,        2496,               35,                       1,        0,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Recipes\small_thatch_roof_outer_corner.png') RETURNING ID");
   }
   function JorvikMod::SmallThatchRoofOuterCornerRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
@@ -3483,7 +3480,7 @@ package JorvikMod
     %resultSet.delete();
   }	
   function JorvikMod::SmallThatchRoofOuterCornerTop() {
-    dbi.Select(JorvikMod, "SmallThatchRoofOuterCornerTopRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Thatch Roof Outer Corner Top', 'Object from Jorvik MOD',        32,               18,          30,        2499,               35,                       1,        0,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Recipes\small_thatch_roof_outer_corner_top.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallThatchRoofOuterCornerTopRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'SmallThatchRoofOuterCornerTop', 'Object from Jorvik MOD',        32,               18,          30,        2499,               35,                       1,        0,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Recipes\small_thatch_roof_outer_corner_top.png') RETURNING ID");
   }
   function JorvikMod::SmallThatchRoofOuterCornerTopRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
@@ -3748,7 +3745,7 @@ package JorvikMod
     %resultSet.delete();
   }	
   function JorvikMod::SmallThatchRoofInnerCorner() {
-    dbi.Select(JorvikMod, "SmallThatchRoofInnerCornerRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Thatch Roof Inner Corner', 'Object from Jorvik MOD',        32,               18,          30,        2518,               35,                       1,        0,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Recipes\small_thatch_roof_inner_corner.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallThatchRoofInnerCornerRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'SmallThatchRoof Inner Corner', 'Object from Jorvik MOD',        32,               18,          30,        2518,               35,                       1,        0,          0,           'yolauncher/modpack/mod\JorvikMod\art\2D\Recipes\small_thatch_roof_inner_corner.png') RETURNING ID");
   }
   function JorvikMod::SmallThatchRoofInnerCornerRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
