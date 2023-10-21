@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf8"?>
 
 <table name="recipe">
 	<row>
@@ -3716,7 +3716,7 @@
 		<Name>Campfire</Name>
 		<Description></Description>
 		<StartingToolsID>0</StartingToolsID>
-		<SkillTypeID>1</SkillTypeID>
+		<SkillTypeID>18</SkillTypeID>
 		<SkillLvl>0</SkillLvl>
 		<ResultObjectTypeID>682</ResultObjectTypeID>
 		<SkillDepends>60</SkillDepends>
@@ -8140,7 +8140,7 @@
 		<Name>Sleeping bag</Name>
 		<Description></Description>
 		<StartingToolsID>0</StartingToolsID>
-		<SkillTypeID>1</SkillTypeID>
+		<SkillTypeID>8</SkillTypeID>
 		<SkillLvl>0</SkillLvl>
 		<ResultObjectTypeID>523</ResultObjectTypeID>
 		<SkillDepends>50</SkillDepends>
@@ -8154,7 +8154,7 @@
 		<Name>Bark Box</Name>
 		<Description></Description>
 		<StartingToolsID>0</StartingToolsID>
-		<SkillTypeID>1</SkillTypeID>
+		<SkillTypeID>8</SkillTypeID>
 		<SkillLvl>0</SkillLvl>
 		<ResultObjectTypeID>1152</ResultObjectTypeID>
 		<SkillDepends>50</SkillDepends>
@@ -13791,176 +13791,72 @@
 		<IsBlueprint>0</IsBlueprint>
 		<ImagePath>art\2D\Items\flag_game_12.png</ImagePath>
 	</row>
+	    <!--Jorvik Mod-->
+		<!--Small Wooden Shed-->
 	<row>
-		<ID>1088</ID>
-		<Name>Wooden Cross</Name>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.</Description>
-		<StartingToolsID>34</StartingToolsID>
-		<SkillTypeID>54</SkillTypeID>
+		<ID>1087</ID>
+		<Name>Small Wooden Shed</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
 		<SkillLvl>60</SkillLvl>
 		<ResultObjectTypeID>2400</ResultObjectTypeID>
 		<SkillDepends>25</SkillDepends>
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mods/Jorvik/art/2D/recipes/wooden_cross.png</ImagePath>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_wooden_shed.png</ImagePath>
 	</row>
+        <!--name = Flag PvP-->
+	<row>
+		<ID>1088</ID>
+		<Name>Flag PvP</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>19</SkillTypeID>
+		<SkillLvl>100</SkillLvl>
+		<ResultObjectTypeID>2401</ResultObjectTypeID>
+		<SkillDepends>20</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\flag_pvp.png</ImagePath>
+	</row>
+        <!--name = Flag PvE-->
 	<row>
 		<ID>1089</ID>
-		<Name>Wooden Bridge</Name>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.</Description>
+		<Name>Flag PvE</Name>
+		<Description>Object from Jorvik MOD</Description>
 		<StartingToolsID>32</StartingToolsID>
-		<SkillTypeID>18</SkillTypeID>
-		<SkillLvl>60</SkillLvl>
-		<ResultObjectTypeID>2401</ResultObjectTypeID>
-		<SkillDepends>10</SkillDepends>
+		<SkillTypeID>19</SkillTypeID>
+		<SkillLvl>100</SkillLvl>
+		<ResultObjectTypeID>2402</ResultObjectTypeID>
+		<SkillDepends>20</SkillDepends>
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mods/Jorvik/art/2D/recipes/wooden_bridge.png</ImagePath>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\flag_pve.png</ImagePath>
 	</row>
+    	<!--name = Long_House-->
 	<row>
 		<ID>1090</ID>
-		<Name>Stone Bridge</Name>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.</Description>
+		<Name>Long house</Name>
+		<Description>Object from Jorvik MOD</Description>
 		<StartingToolsID>32</StartingToolsID>
-		<SkillTypeID>19</SkillTypeID>
-		<SkillLvl>60</SkillLvl>
-		<ResultObjectTypeID>2402</ResultObjectTypeID>
-		<SkillDepends>10</SkillDepends>
-		<Quantity>1</Quantity>
-		<Autorepeat>0</Autorepeat>
-		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mods/Jorvik/art/2D/recipes/stone_bridge.png</ImagePath>
-	</row>
-	<row>
-		<ID>1091</ID>
-		<Name>Small Wooden Shed</Name>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.</Description>
-		<StartingToolsID>32</StartingToolsID>
-		<SkillTypeID>18</SkillTypeID>
+		<SkillTypeID>20</SkillTypeID>
 		<SkillLvl>60</SkillLvl>
 		<ResultObjectTypeID>2403</ResultObjectTypeID>
-		<SkillDepends>25</SkillDepends>
-		<Quantity>1</Quantity>
-		<Autorepeat>0</Autorepeat>
-		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mods/Jorvik/art/2D/recipes/small_wooden_shed.png</ImagePath>
-	</row>
-	<row>
-		<ID>1092</ID>
-		<Name>Wooden Pier</Name>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.</Description>
-		<StartingToolsID>32</StartingToolsID>
-		<SkillTypeID>18</SkillTypeID>
-		<SkillLvl>60</SkillLvl>
-		<ResultObjectTypeID>2405</ResultObjectTypeID>
 		<SkillDepends>10</SkillDepends>
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mods/Jorvik/art/2D/recipes/wooden_pier.png</ImagePath>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\long_house.png</ImagePath>
 	</row>
+      <!--name = Stone gate 2x1-->
 	<row>
-		<ID>1094</ID>
-		<Name>Stone Alter</Name>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.</Description>
-		<StartingToolsID>32</StartingToolsID>
-		<SkillTypeID>19</SkillTypeID>
-		<SkillLvl>60</SkillLvl>
-		<ResultObjectTypeID>2408</ResultObjectTypeID>
-		<SkillDepends>10</SkillDepends>
-		<Quantity>1</Quantity>
-		<Autorepeat>0</Autorepeat>
-		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mods/Jorvik/art/2D/recipes/stone_altar.png</ImagePath>
-	</row>
-	<row>
-		<ID>1095</ID>
-		<Name>Wooden House with Tower</Name>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.</Description>
-		<StartingToolsID>36</StartingToolsID>
-		<SkillTypeID>18</SkillTypeID>
-		<SkillLvl>60</SkillLvl>
-		<ResultObjectTypeID>2409</ResultObjectTypeID>
-		<SkillDepends>10</SkillDepends>
-		<Quantity>1</Quantity>
-		<Autorepeat>0</Autorepeat>
-		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mods/Jorvik/art/2D/recipes/wooden_house_with_tower.png</ImagePath>
-	</row>
-	<row>
-		<ID>1096</ID>
-		<Name>Wooden Church</Name>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.</Description>
-		<StartingToolsID>32</StartingToolsID>
-		<SkillTypeID>19</SkillTypeID>
-		<SkillLvl>60</SkillLvl>
-		<ResultObjectTypeID>2410</ResultObjectTypeID>
-		<SkillDepends>35</SkillDepends>
-		<Quantity>1</Quantity>
-		<Autorepeat>0</Autorepeat>
-		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mods/Jorvik/art/2D/recipes/wooden_church.png</ImagePath>
-	</row>
-	<row>
-		<ID>1097</ID>
-		<Name>Wooden Pier T</Name>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.</Description>
-		<StartingToolsID>32</StartingToolsID>
-		<SkillTypeID>18</SkillTypeID>
-		<SkillLvl>60</SkillLvl>
-		<ResultObjectTypeID>2411</ResultObjectTypeID>
-		<SkillDepends>10</SkillDepends>
-		<Quantity>1</Quantity>
-		<Autorepeat>0</Autorepeat>
-		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mods/Jorvik/art/2D/recipes/pier_T.png</ImagePath>
-	</row>
-	<row>
-		<ID>1098</ID>
-		<Name>Wooden Pier L</Name>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.</Description>
-		<StartingToolsID>32</StartingToolsID>
-		<SkillTypeID>18</SkillTypeID>
-		<SkillLvl>60</SkillLvl>
-		<ResultObjectTypeID>2412</ResultObjectTypeID>
-		<SkillDepends>10</SkillDepends>
-		<Quantity>1</Quantity>
-		<Autorepeat>0</Autorepeat>
-		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mods/Jorvik/art/2D/recipes/pier_L.png</ImagePath>
-	</row>
-	<row>
-		<ID>1099</ID>
-		<Name>Stone tomb with cross</Name>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.</Description>
-		<StartingToolsID>32</StartingToolsID>
-		<SkillTypeID>19</SkillTypeID>
-		<SkillLvl>60</SkillLvl>
-		<ResultObjectTypeID>2413</ResultObjectTypeID>
-		<SkillDepends>10</SkillDepends>
-		<Quantity>1</Quantity>
-		<Autorepeat>0</Autorepeat>
-		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mods/Jorvik/art/2D/recipes/stone_tomb_with_cross.png</ImagePath>
-	</row>
-	<row>
-		<ID>1100</ID>
-		<Name>Metal Cage</Name>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.</Description>
+		<ID>1091</ID>
+		<Name>Stone Gate</Name>
+		<Description>Object from Jorvik MOD</Description>
 		<StartingToolsID>32</StartingToolsID>
 		<SkillTypeID>19</SkillTypeID>
 		<SkillLvl>60</SkillLvl>
@@ -13969,21 +13865,1251 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mods/Jorvik/art/2D/recipes/metal_cage.png</ImagePath>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\stone_gate.png</ImagePath>
 	</row>
+      <!--name = Small Wooden Bridge-->
 	<row>
-		<ID>1101</ID>
-		<Name>Wooden Barricade</Name>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.</Description>
-		<StartingToolsID>36</StartingToolsID>
+		<ID>1092</ID>
+		<Name>Small Wooden Bridge</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
 		<SkillTypeID>18</SkillTypeID>
 		<SkillLvl>60</SkillLvl>
-		<ResultObjectTypeID>2406</ResultObjectTypeID>
-		<SkillDepends>40</SkillDepends>
+		<ResultObjectTypeID>2405</ResultObjectTypeID>
+		<SkillDepends>10</SkillDepends>
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mods/Jorvik/art/2D/recipes/wooden_barricade.png</ImagePath>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_wooden_bridge.png</ImagePath>
+	</row>
+      <!--name = Small Stone Bridge-->
+	<row>
+		<ID>1093</ID>
+		<Name>Small Stone Bridge</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>19</SkillTypeID>
+		<SkillLvl>60</SkillLvl>
+		<ResultObjectTypeID>2406</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_stone_bridge.png</ImagePath>
+	</row>
+      <!--name = Large Wooden Bridge-->
+	<row>
+		<ID>1094</ID>
+		<Name>Large Wooden Bridge</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>60</SkillLvl>
+		<ResultObjectTypeID>2407</ResultObjectTypeID>
+		<SkillDepends>10</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\large_wooden_bridge.png</ImagePath>
+	</row>
+     <!--name = Large Stone Bridge-->
+	<row>
+		<ID>1095</ID>
+		<Name>Large Stone Bridge</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>19</SkillTypeID>
+		<SkillLvl>60</SkillLvl>
+		<ResultObjectTypeID>2408</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\large_stone_bridge.png</ImagePath>
+	</row>
+      <!--name = Large Stone Bridge End-->
+	<row>
+		<ID>1096</ID>
+		<Name>Large Stone Bridge End</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>19</SkillTypeID>
+		<SkillLvl>60</SkillLvl>
+		<ResultObjectTypeID>2409</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\large_stone_bridge_end.png</ImagePath>
+	</row>
+      <!--name = Small Stone Bridge End-->
+	<row>
+		<ID>1097</ID>
+		<Name>Small Stone Bridge End</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>19</SkillTypeID>
+		<SkillLvl>60</SkillLvl>
+		<ResultObjectTypeID>2410</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_stone_bridge_end.png</ImagePath>
+	</row>
+	  <!--name = Small Log Wall-->
+	<row>
+		<ID>1098</ID>
+		<Name>Small Log Wall</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2412</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_log_wall.png</ImagePath>
+	</row>
+      <!--name = Small Wooden Pillar-->
+	<row>
+		<ID>1099</ID>
+		<Name>Small Wooden Pillar</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2413</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_wooden_pillar.png</ImagePath>
+	</row>
+      <!--name = Small Log Corner Wall-->
+	<row>
+		<ID>1100</ID>
+		<Name>Small Log Corner Wall</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2414</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_log_corner_wall.png</ImagePath>
+	</row>
+	<!--name = Small Log Wall With Window-->
+	<row>
+		<ID>1101</ID>
+		<Name>Small Log Wall With Window</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2415</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_log_wall_with_window.png</ImagePath>
+	</row>
+	<!--name = Small Log Wall With Shutters-->
+	<row>
+		<ID>1102</ID>
+		<Name>Small Log Wall With Shutters</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2416</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_log_wall_with_shutters.png</ImagePath>
+	</row>
+	<!--name = Small Log Wall With Entrance-->
+	<row>
+		<ID>1103</ID>
+		<Name>Small Log Wall With Entrance</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2417</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_log_wall_with_entrance.png</ImagePath>
+	</row>
+	<!--name = Small Log Wall With Door-->
+	<row>
+		<ID>1104</ID>
+		<Name>Small Log Wall With Door</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2418</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_log_wall_with_door.png</ImagePath>
+	</row>
+	<!--name = Small Wooden Floor Entrance-->
+	<row>
+		<ID>1105</ID>
+		<Name>Small Wooden Floor Entrance</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2419</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_wooden_floor_entrance.png</ImagePath>
+	</row>
+	<!--name = Small Wooden Floor-->
+	<row>
+		<ID>1106</ID>
+		<Name>Small Wooden Floor</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2420</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_wooden_floor.png</ImagePath>
+	</row>
+	<!--name = Small Log Wall Slope Right-->
+	<row>
+		<ID>1107</ID>
+		<Name>Small Log Wall Slope Right</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2421</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_log_wall_slope_right.png</ImagePath>
+	</row>
+	<!--name = Small Log Wall Slope Left-->
+	<row>
+		<ID>1108</ID>
+		<Name>Small Log Wall Slope Left</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2422</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_log_wall_slope_left.png</ImagePath>
+	</row>
+	<!--name = Small Thatch Roof-->
+	<row>
+		<ID>1109</ID>
+		<Name>Small Thatch Roof</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2423</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_thatch_roof.png</ImagePath>
+	</row>
+	<!--name = Small Thatch Roof Right End-->
+	<row>
+		<ID>1110</ID>
+		<Name>Small Thatch Roof Right End</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2424</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_thatch_roof_right_end.png</ImagePath>
+	</row>
+	<!--name = Small Thatch Roof left End-->
+	<row>
+		<ID>1111</ID>
+		<Name>Small Thatch Roof Left End</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2425</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_thatch_roof_left_end.png</ImagePath>
+	</row>
+	<!--name = Small Thatch Roof Outer Corner-->
+	<row>
+		<ID>1112</ID>
+		<Name>Small Thatch Roof Outer Corner</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2426</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_thatch_roof_outer_corner.png</ImagePath>
+	</row>
+	<!--name = Small Log Wall lvl 1-->
+	<row>
+		<ID>1113</ID>
+		<Name>Small Log Wall</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2428</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_log_wall_lvl1.png</ImagePath>
+	</row>
+	  <!--name = Small Wooden Pillar lvl 1-->
+	<row>
+		<ID>1114</ID>
+		<Name>Small Wooden Pillar</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2429</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_wooden_pillar_lvl1.png</ImagePath>
+	</row>
+	  <!--name = Small Log Corner Wall lvl 1-->
+	<row>
+		<ID>1115</ID>
+		<Name>Small Log Corner Wall</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2430</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_log_corner_wall_lvl1.png</ImagePath>
+	</row>
+	  <!--name = Small Log Wall With Window lvl 1-->
+	<row>
+		<ID>1116</ID>
+		<Name>Small Log Wall With Window</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2431</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_log_wall_with_window_lvl1.png</ImagePath>
+	</row>
+	<!--name = Small Log Wall With Shutters lvl 1-->
+	<row>
+		<ID>1117</ID>
+		<Name>Small Log Wall With Shutters</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2432</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_log_wall_with_shutters_lvl1.png</ImagePath>
+	</row>
+	<!--name = Small Log Wall With Entrance lvl 1-->
+	<row>
+		<ID>1118</ID>
+		<Name>Small Log Wall With Entrance</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2433</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_log_wall_with_entrance_lvl1.png</ImagePath>
+	</row>
+	<!--name = Small Log Wall With Door lvl 1-->
+	<row>
+		<ID>1119</ID>
+		<Name>Small Log Wall With Door</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2434</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_log_wall_with_door_lvl1.png</ImagePath>
+	</row>
+	<!--name = Small Wooden Floor Entrance lvl 1-->
+	<row>
+		<ID>1120</ID>
+		<Name>Small Wooden Floor Entrance</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2435</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_wooden_floor_entrance_lvl1.png</ImagePath>
+	</row>
+	<!--name = Small Wooden Floor lvl 1-->
+	<row>
+		<ID>1121</ID>
+		<Name>Small Wooden Floor</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2436</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_wooden_floor_lvl1.png</ImagePath>
+	</row>
+	<!--name = Small Wooden Stairs-->
+	<row>
+		<ID>1122</ID>
+		<Name>Small Wooden Stairs</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2437</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_wooden_stairs.png</ImagePath>
+	</row>
+	<!--name = Small Thatch Roof Top-->
+	<row>
+		<ID>1123</ID>
+		<Name>Small Thatch Roof Top</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2438</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_thatch_roof_top.png</ImagePath>
+	</row>
+	<!--name = Small Thatch Roof Outer Corner Top-->
+	<row>
+		<ID>1124</ID>
+		<Name>Small Thatch Roof Outer Corner Top</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2439</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_thatch_roof_outer_corner_top.png</ImagePath>
+	</row>
+	<!--name = Small Thatch Roof Top Left End-->
+	<row>
+		<ID>1125</ID>
+		<Name>Small Thatch Roof Top Left End</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2440</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_thatch_roof_top_left_end.png</ImagePath>
+	</row>
+	<!--name = Small Thatch Roof Top Right End-->
+	<row>
+		<ID>1126</ID>
+		<Name>Small Thatch Roof Top Right End</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2441</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_thatch_roof_top_right_end.png</ImagePath>
+	</row>
+	<!--name = Small Thatch Roof lvl 1-->
+	<row>
+		<ID>1127</ID>
+		<Name>Small Thatch Roof</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2442</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_thatch_roof.png</ImagePath>
+	</row>
+	<!--name = Small Thatch Roof Outer Corner lvl 1-->
+	<row>
+		<ID>1128</ID>
+		<Name>Small Thatch Roof Outer Corner</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2443</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_thatch_roof_outer_corner.png</ImagePath>
+	</row>
+	<!--name = Small Wooden Railing-->
+	<row>
+		<ID>1129</ID>
+		<Name>Small Wooden Railing</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2444</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_wooden_railing.png</ImagePath>
+	</row>
+	<!--name = Small Wooden Railing lvl 1-->
+	<row>
+		<ID>1130</ID>
+		<Name>Small Wooden Railing</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2445</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_wooden_railing_lvl1.png</ImagePath>
+	</row>
+	<!--name = Small Thatch Roof Outer Corner Top lvl 1-->
+	<row>
+		<ID>1131</ID>
+		<Name>Small Thatch Roof Outer Corner Top</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2446</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_thatch_roof_outer_corner_top.png</ImagePath>
+	</row>
+	<!--name = wall torch-->
+	<row>
+		<ID>1132</ID>
+		<Name>Wall Torch</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>0</StartingToolsID>
+		<SkillTypeID>62</SkillTypeID>
+		<SkillLvl>0</SkillLvl>
+		<ResultObjectTypeID>2447</ResultObjectTypeID>
+		<SkillDepends>10</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\wall_torch.png</ImagePath>
+	</row>
+	<!--name = small candle-->
+	<row>
+		<ID>1133</ID>
+		<Name>Small Candle</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>0</StartingToolsID>
+		<SkillTypeID>62</SkillTypeID>
+		<SkillLvl>0</SkillLvl>
+		<ResultObjectTypeID>2449</ResultObjectTypeID>
+		<SkillDepends>10</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_candle.png</ImagePath>
+	</row>
+	<!--name = Aurochs Cow (stand)-->
+	<row>
+		<ID>1134</ID>
+		<Name>Aurochs Cow (stand)</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>2464</StartingToolsID>
+		<SkillTypeID>14</SkillTypeID>
+		<SkillLvl>90</SkillLvl>
+		<ResultObjectTypeID>2451</ResultObjectTypeID>
+		<SkillDepends>90</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\aurochs_cow.png</ImagePath>
+	</row>
+	<!--name = Aurochs Cow (eat)-->
+	<row>
+		<ID>1135</ID>
+		<Name>Aurochs Cow (eat)</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>2464</StartingToolsID>
+		<SkillTypeID>14</SkillTypeID>
+		<SkillLvl>90</SkillLvl>
+		<ResultObjectTypeID>2452</ResultObjectTypeID>
+		<SkillDepends>90</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\aurochs_cow.png</ImagePath>
+	</row>
+	<!--name = Aurochs Cow (sleep)-->
+	<row>
+		<ID>1136</ID>
+		<Name>Aurochs Cow (sleep)</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>2464</StartingToolsID>
+		<SkillTypeID>14</SkillTypeID>
+		<SkillLvl>90</SkillLvl>
+		<ResultObjectTypeID>2453</ResultObjectTypeID>
+		<SkillDepends>90</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\aurochs_cow.png</ImagePath>
+	</row>
+	<!--name = Sow (stand)-->
+	<row>
+		<ID>1137</ID>
+		<Name>Sow (stand)</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>2464</StartingToolsID>
+		<SkillTypeID>14</SkillTypeID>
+		<SkillLvl>90</SkillLvl>
+		<ResultObjectTypeID>2455</ResultObjectTypeID>
+		<SkillDepends>90</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\sow.png</ImagePath>
+	</row>
+	<!--name = Sow (eat)-->
+	<row>
+		<ID>1138</ID>
+		<Name>Sow (eat)</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>2464</StartingToolsID>
+		<SkillTypeID>14</SkillTypeID>
+		<SkillLvl>90</SkillLvl>
+		<ResultObjectTypeID>2456</ResultObjectTypeID>
+		<SkillDepends>90</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\sow.png</ImagePath>
+	</row>
+	<!--name = Sow (sleep)-->
+	<row>
+		<ID>1139</ID>
+		<Name>Sow (sleep)</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>2464</StartingToolsID>
+		<SkillTypeID>14</SkillTypeID>
+		<SkillLvl>90</SkillLvl>
+		<ResultObjectTypeID>2457</ResultObjectTypeID>
+		<SkillDepends>90</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\sow.png</ImagePath>
+	</row>
+	<!--name = Horse (stand)-->
+	<row>
+		<ID>1140</ID>
+		<Name>Horse (stand)</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>2464</StartingToolsID>
+		<SkillTypeID>14</SkillTypeID>
+		<SkillLvl>90</SkillLvl>
+		<ResultObjectTypeID>2458</ResultObjectTypeID>
+		<SkillDepends>90</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\horse.png</ImagePath>
+	</row>
+	<!--name = Horse (eat)-->
+	<row>
+		<ID>1141</ID>
+		<Name>Horse (eat)</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>2464</StartingToolsID>
+		<SkillTypeID>14</SkillTypeID>
+		<SkillLvl>90</SkillLvl>
+		<ResultObjectTypeID>2459</ResultObjectTypeID>
+		<SkillDepends>90</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\horse.png</ImagePath>
+	</row>
+	<!--name = Horse (sleep)-->
+	<row>
+		<ID>1142</ID>
+		<Name>Horse (sleep)</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>2464</StartingToolsID>
+		<SkillTypeID>14</SkillTypeID>
+		<SkillLvl>90</SkillLvl>
+		<ResultObjectTypeID>2460</ResultObjectTypeID>
+		<SkillDepends>90</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\horse.png</ImagePath>
+	</row>
+	<!--name = Slave (working)-->
+	<row>
+		<ID>1143</ID>
+		<Name>Slave (working)</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>2464</StartingToolsID>
+		<SkillTypeID>14</SkillTypeID>
+		<SkillLvl>90</SkillLvl>
+		<ResultObjectTypeID>2461</ResultObjectTypeID>
+		<SkillDepends>90</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\slave.png</ImagePath>
+	</row>
+	<!--name = Wranen the Hunter (stand)-->
+	<row>
+		<ID>1144</ID>
+		<Name>Wranen the Hunter (stand)</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>2464</StartingToolsID>
+		<SkillTypeID>14</SkillTypeID>
+		<SkillLvl>90</SkillLvl>
+		<ResultObjectTypeID>2462</ResultObjectTypeID>
+		<SkillDepends>90</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\wranen_the_hunter.png</ImagePath>
+	</row>
+	<!--name = Book Paper-->
+	<row>
+		<ID>1145</ID>
+		<Name>Book Paper</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>293</StartingToolsID>
+		<SkillTypeID>8</SkillTypeID>
+		<SkillLvl>90</SkillLvl>
+		<ResultObjectTypeID>2463</ResultObjectTypeID>
+		<SkillDepends>10</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>1</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Items\paper.png</ImagePath>
+	</row>
+	<!--name = Health Book-->
+	<row>
+		<ID>1146</ID>
+		<Name>Health Book</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>293</StartingToolsID>
+		<SkillTypeID>8</SkillTypeID>
+		<SkillLvl>90</SkillLvl>
+		<ResultObjectTypeID>2464</ResultObjectTypeID>
+		<SkillDepends>10</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>1</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Items\health_book.png</ImagePath>
+	</row>
+	<!--name = Small Thatch Roof Inner Corner-->
+	<row>
+		<ID>1147</ID>
+		<Name>Small Thatch Roof Inner Corner</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>30</SkillLvl>
+		<ResultObjectTypeID>2465</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_thatch_roof_inner_corner.png</ImagePath>
+	</row>
+	<!--name = Wood Cart-->
+	<row>
+		<ID>1148</ID>
+		<Name>Wood Cart</Name>
+		<Description></Description>
+		<StartingToolsID>36</StartingToolsID>
+		<SkillTypeID>8</SkillTypeID>
+		<SkillLvl>90</SkillLvl>
+		<ResultObjectTypeID>2466</ResultObjectTypeID>
+		<SkillDepends>30</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\wood_cart.png</ImagePath>
+	</row>
+	<!--name = Siege Tower-->
+	<row>
+		<ID>1149</ID>
+		<Name>Siege Tower</Name>
+		<Description></Description>
+		<StartingToolsID>36</StartingToolsID>
+		<SkillTypeID>10</SkillTypeID>
+		<SkillLvl>0</SkillLvl>
+		<ResultObjectTypeID>2467</ResultObjectTypeID>
+		<SkillDepends>30</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\siegetower.png</ImagePath>
+	</row>
+	<!--name = Aurochs Bull (stand)-->
+	<row>
+		<ID>1150</ID>
+		<Name>Aurochs Bull (stand)</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>2464</StartingToolsID>
+		<SkillTypeID>14</SkillTypeID>
+		<SkillLvl>90</SkillLvl>
+		<ResultObjectTypeID>2468</ResultObjectTypeID>
+		<SkillDepends>90</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\aurochs_bull.png</ImagePath>
+	</row>
+	<!--name = Aurochs Bull (eat)-->
+	<row>
+		<ID>1151</ID>
+		<Name>Aurochs Bull (eat)</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>2464</StartingToolsID>
+		<SkillTypeID>14</SkillTypeID>
+		<SkillLvl>90</SkillLvl>
+		<ResultObjectTypeID>2469</ResultObjectTypeID>
+		<SkillDepends>90</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\aurochs_bull.png</ImagePath>
+	</row>
+	<!--name = Aurochs Bull (sleep)-->
+	<row>
+		<ID>1152</ID>
+		<Name>Aurochs Bull (sleep)</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>2464</StartingToolsID>
+		<SkillTypeID>14</SkillTypeID>
+		<SkillLvl>90</SkillLvl>
+		<ResultObjectTypeID>2470</ResultObjectTypeID>
+		<SkillDepends>90</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\aurochs_bull.png</ImagePath>
+	</row>
+	<!--name = Small Wooden Pier-->
+	<row>
+		<ID>1153</ID>
+		<Name>Small Wooden Pier</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>60</SkillLvl>
+		<ResultObjectTypeID>2471</ResultObjectTypeID>
+		<SkillDepends>10</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_wooden_pier.png</ImagePath>
+	</row>
+	<!--name = Small Wooden Pier T-->
+	<row>
+		<ID>1154</ID>
+		<Name>Small Wooden Pier T</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>60</SkillLvl>
+		<ResultObjectTypeID>2472</ResultObjectTypeID>
+		<SkillDepends>10</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_wooden_pier_T.png</ImagePath>
+	</row>
+	<!--name = Small Wooden Pier L-->
+	<row>
+		<ID>1155</ID>
+		<Name>Small Wooden Pier L</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>60</SkillLvl>
+		<ResultObjectTypeID>2473</ResultObjectTypeID>
+		<SkillDepends>10</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\small_wooden_pier_L.png</ImagePath>
+	</row>
+	<!--name = Wattle Wicket-->
+	<row>
+		<ID>1156</ID>
+		<Name>Wattle Wicket</Name>
+		<Description></Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>18</SkillTypeID>
+		<SkillLvl>0</SkillLvl>
+		<ResultObjectTypeID>2474</ResultObjectTypeID>
+		<SkillDepends>30</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\wattle_wicket.png</ImagePath>
+	</row>
+	<!--name = Idol Cross-->
+	<row>
+		<ID>1157</ID>
+		<Name>Idol Cross</Name>
+		<Description></Description>
+		<StartingToolsID>34</StartingToolsID>
+		<SkillTypeID>54</SkillTypeID>
+		<SkillLvl>0</SkillLvl>
+		<ResultObjectTypeID>2475</ResultObjectTypeID>
+		<SkillDepends>25</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\idol_cross.png</ImagePath>
+	</row>
+	<!--name = Wooden Church-->
+	<row>
+		<ID>1158</ID>
+		<Name>Wooden Church</Name>
+		<Description>Object from Jorvik MOD pack</Description>
+		<StartingToolsID>32</StartingToolsID>
+		<SkillTypeID>20</SkillTypeID>
+		<SkillLvl>60</SkillLvl>
+		<ResultObjectTypeID>2476</ResultObjectTypeID>
+		<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\wooden_church.png</ImagePath>
+	</row>
+	<!--name = Sanctum of the Sleeper-->
+	<row>
+    	<ID>1159</ID>
+    	<Name>Sanctum of the Sleeper</Name>
+    	<Description>Object from Jorvik MOD pack</Description>
+		<StartingToolsID>32</StartingToolsID>
+    	<SkillTypeID>20</SkillTypeID>
+    	<SkillLvl>60</SkillLvl>
+    	<ResultObjectTypeID>2477</ResultObjectTypeID>
+    	<SkillDepends>35</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\church.png</ImagePath>
+  	</row>
+	<!--Novice Decorator's Kit -->
+	<row>
+		<ID>1160</ID>
+		<Name>Novice Decorator's Kit</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>293</StartingToolsID>
+		<SkillTypeID>8</SkillTypeID>
+		<SkillLvl>90</SkillLvl>
+		<ResultObjectTypeID>2478</ResultObjectTypeID>
+		<SkillDepends>10</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>1</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>art\2D\Items\decoration_kit_small.png</ImagePath>
+	</row>
+	<!--Apprentice Decorator's Kit-->
+	<row>
+		<ID>1161</ID>
+		<Name>Apprentice Decorator's Kit</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>293</StartingToolsID>
+		<SkillTypeID>8</SkillTypeID>
+		<SkillLvl>90</SkillLvl>
+		<ResultObjectTypeID>2479</ResultObjectTypeID>
+		<SkillDepends>10</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>1</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>art\2D\Items\decoration_kit_medium.png</ImagePath>
+	</row>
+	<!--Master Decorator's Kit-->
+	<row>
+		<ID>1162</ID>
+		<Name>Master Decorator's Kit</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>293</StartingToolsID>
+		<SkillTypeID>8</SkillTypeID>
+		<SkillLvl>90</SkillLvl>
+		<ResultObjectTypeID>2480</ResultObjectTypeID>
+		<SkillDepends>10</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>1</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>art\2D\Items\decoration_kit_large.png</ImagePath>
+	</row>
+	<!--name = Wolf (stand)-->
+	<row>
+		<ID>1163</ID>
+		<Name>Wolf (stand)</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>2464</StartingToolsID>
+		<SkillTypeID>14</SkillTypeID>
+		<SkillLvl>90</SkillLvl>
+		<ResultObjectTypeID>2481</ResultObjectTypeID>
+		<SkillDepends>90</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>0</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Recipes\wolf.png</ImagePath>
+	</row>
+	<!--name = Gold sheet-->
+	<row>
+		<ID>1164</ID>
+		<Name>Gold Sheet</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>453</StartingToolsID>
+		<SkillTypeID>4</SkillTypeID>
+		<SkillLvl>0</SkillLvl>
+		<ResultObjectTypeID>2482</ResultObjectTypeID>
+		<SkillDepends>20</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>1</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Items\gold_sheet.png</ImagePath>
+	</row>
+	<!--name = Metal Scissors-->
+	<row>
+		<ID>1165</ID>
+		<Name>Metal Scissors</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>453</StartingToolsID>
+		<SkillTypeID>4</SkillTypeID>
+		<SkillLvl>0</SkillLvl>
+		<ResultObjectTypeID>2483</ResultObjectTypeID>
+		<SkillDepends>20</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>1</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Items\scissors.png</ImagePath>
+	</row>
+	<!--name = Metal Stamp-->
+	<row>
+		<ID>1166</ID>
+		<Name>Metal Stamp</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>453</StartingToolsID>
+		<SkillTypeID>4</SkillTypeID>
+		<SkillLvl>0</SkillLvl>
+		<ResultObjectTypeID>2484</ResultObjectTypeID>
+		<SkillDepends>20</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>1</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Items\metal_stamp.png</ImagePath>
+	</row>
+	<!--name = Gold Coins-->
+	<row>
+		<ID>1167</ID>
+		<Name>Gold Coins</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>453</StartingToolsID>
+		<SkillTypeID>4</SkillTypeID>
+		<SkillLvl>100</SkillLvl>
+		<ResultObjectTypeID>1061</ResultObjectTypeID>
+		<SkillDepends>100</SkillDepends>
+		<Quantity>5</Quantity>
+		<Autorepeat>1</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>art\2D\Items\gold_coins.png</ImagePath>
+	</row>
+	<!--name = Gold blanks-->
+	<row>
+		<ID>1168</ID>
+		<Name>Gold Blanks</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>453</StartingToolsID>
+		<SkillTypeID>4</SkillTypeID>
+		<SkillLvl>90</SkillLvl>
+		<ResultObjectTypeID>2485</ResultObjectTypeID>
+		<SkillDepends>90</SkillDepends>
+		<Quantity>5</Quantity>
+		<Autorepeat>1</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Items\gold_blanks.png</ImagePath>
+	</row>
+	<!--name = Silver sheet-->
+	<row>
+		<ID>1169</ID>
+		<Name>Silver Sheet</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>453</StartingToolsID>
+		<SkillTypeID>4</SkillTypeID>
+		<SkillLvl>0</SkillLvl>
+		<ResultObjectTypeID>2486</ResultObjectTypeID>
+		<SkillDepends>20</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>1</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Items\silver_sheet.png</ImagePath>
+	</row>
+	<!--name = Copper sheet-->
+	<row>
+		<ID>1170</ID>
+		<Name>Copper Sheet</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>453</StartingToolsID>
+		<SkillTypeID>4</SkillTypeID>
+		<SkillLvl>0</SkillLvl>
+		<ResultObjectTypeID>2487</ResultObjectTypeID>
+		<SkillDepends>20</SkillDepends>
+		<Quantity>1</Quantity>
+		<Autorepeat>1</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Items\copper_sheet.png</ImagePath>
+	</row>
+	<!--name = Silver blanks-->
+	<row>
+		<ID>1171</ID>
+		<Name>Silver Blanks</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>453</StartingToolsID>
+		<SkillTypeID>4</SkillTypeID>
+		<SkillLvl>90</SkillLvl>
+		<ResultObjectTypeID>2488</ResultObjectTypeID>
+		<SkillDepends>90</SkillDepends>
+		<Quantity>5</Quantity>
+		<Autorepeat>1</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Items\silver_blanks.png</ImagePath>
+	</row>
+	<!--name = Copper blanks-->
+	<row>
+		<ID>1172</ID>
+		<Name>Copper Blanks</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>453</StartingToolsID>
+		<SkillTypeID>4</SkillTypeID>
+		<SkillLvl>90</SkillLvl>
+		<ResultObjectTypeID>2489</ResultObjectTypeID>
+		<SkillDepends>90</SkillDepends>
+		<Quantity>5</Quantity>
+		<Autorepeat>1</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>mod\JorvikMod\art\2D\Items\copper_blanks.png</ImagePath>
+	</row>
+	<!--name = Silver Coins-->
+	<row>
+		<ID>1173</ID>
+		<Name>Silver Coins</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>453</StartingToolsID>
+		<SkillTypeID>4</SkillTypeID>
+		<SkillLvl>100</SkillLvl>
+		<ResultObjectTypeID>1060</ResultObjectTypeID>
+		<SkillDepends>100</SkillDepends>
+		<Quantity>5</Quantity>
+		<Autorepeat>1</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>art\2D\Items\silver_coins.png</ImagePath>
+	</row>
+	<!--name = Copper Coins-->
+	<row>
+		<ID>1174</ID>
+		<Name>Copper Coins</Name>
+		<Description>Object from Jorvik MOD</Description>
+		<StartingToolsID>453</StartingToolsID>
+		<SkillTypeID>4</SkillTypeID>
+		<SkillLvl>100</SkillLvl>
+		<ResultObjectTypeID>1059</ResultObjectTypeID>
+		<SkillDepends>100</SkillDepends>
+		<Quantity>5</Quantity>
+		<Autorepeat>1</Autorepeat>
+		<IsBlueprint>0</IsBlueprint>
+		<ImagePath>art\2D\Items\copper_coins.png</ImagePath>
 	</row>
 </table>

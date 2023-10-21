@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf8"?>
 
 <table name="objects_types">
 	<row>
@@ -12,12 +12,12 @@
 		<IsDevice>0</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize isnull="true" />
-		<Length isnull="true" />
-		<MaxStackSize isnull="true" />
-		<UnitWeight isnull="true" />
-		<BackgndImage isnull="true" />
-		<FaceImage isnull="true" />
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>0</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage></FaceImage>
 		<Description>DO NOT TRANSLATE! Root type for other utility types</Description>
 	</row>
 	<row>
@@ -31,12 +31,12 @@
 		<IsDevice>0</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize isnull="true" />
-		<Length isnull="true" />
-		<MaxStackSize isnull="true" />
-		<UnitWeight isnull="true" />
-		<BackgndImage isnull="true" />
-		<FaceImage isnull="true" />
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>0</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage></FaceImage>
 		<Description>DO NOT TRANSLATE! Root type for gameplay types</Description>
 	</row>
 	<row>
@@ -1591,7 +1591,7 @@
 		<IsPremium>0</IsPremium>
 		<MaxContSize>0</MaxContSize>
 		<Length>6</Length>
-		<MaxStackSize>0</MaxStackSize>
+		<MaxStackSize>1</MaxStackSize>
 		<UnitWeight>1000</UnitWeight>
 		<BackgndImage></BackgndImage>
 		<FaceImage>art\2D\Objects\simple_bed.png</FaceImage>
@@ -1610,7 +1610,7 @@
 		<IsPremium>0</IsPremium>
 		<MaxContSize>0</MaxContSize>
 		<Length>8</Length>
-		<MaxStackSize>0</MaxStackSize>
+		<MaxStackSize>2</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
 		<FaceImage>art\2D\Objects\large_decorated_bed.png</FaceImage>
@@ -26464,8 +26464,8 @@
 		<Length>5</Length>
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>2000</UnitWeight>
-		<BackgndImage isnull="true" />
-		<FaceImage isnull="true" />
+		<BackgndImage></BackgndImage>
+		<FaceImage></FaceImage>
 		<Description></Description>
 	</row>
 	<row>
@@ -26483,8 +26483,8 @@
 		<Length>0</Length>
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>20</UnitWeight>
-		<BackgndImage isnull="true" />
-		<FaceImage isnull="true" />
+		<BackgndImage></BackgndImage>
+		<FaceImage></FaceImage>
 		<Description></Description>
 	</row>
 	<row>
@@ -36177,70 +36177,12 @@
 		<FaceImage>art\2D\Items\gold_and_silver_amulet.png</FaceImage>
 		<Description>Elder's gift for helping the villagers.</Description>
 	</row>
+	    <!--Jorvik Mod-->
+		<!--Small Wooden Shed-->
 	<row>
 		<ID>2400</ID>
-		<ParentID>61</ParentID>
-		<Name>Wooden Cross</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>0</IsMovableObject>
-		<IsUnmovableobject>1</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>100000</MaxContSize>
-		<Length>6</Length>
-		<MaxStackSize>1</MaxStackSize>
-		<UnitWeight>100000</UnitWeight>
-		<BackgndImage>art\images\bag</BackgndImage>
-		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/wooden_cross.png</FaceImage>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
-	</row>
-	<row>
-		<ID>2401</ID>
-		<ParentID>61</ParentID>
-		<Name>Wooden Bridge</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>0</IsMovableObject>
-		<IsUnmovableobject>1</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>100000</MaxContSize>
-		<Length>6</Length>
-		<MaxStackSize>1</MaxStackSize>
-		<UnitWeight>100000</UnitWeight>
-		<BackgndImage>art\images\bag</BackgndImage>
-		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/wooden_bridge.png</FaceImage>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
-	</row>
-	<row>
-		<ID>2402</ID>
-		<ParentID>61</ParentID>
-		<Name>Stone Bridge</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>0</IsMovableObject>
-		<IsUnmovableobject>1</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>100000</MaxContSize>
-		<Length>6</Length>
-		<MaxStackSize>1</MaxStackSize>
-		<UnitWeight>100000</UnitWeight>
-		<BackgndImage>art\images\bag</BackgndImage>
-		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/stone_bridge.png</FaceImage>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
-	</row>
-	<row>
-		<ID>2403</ID>
 		<ParentID>69</ParentID>
-		<Name>Small wooden shed</Name>
+		<Name>Small Wooden Shed</Name>
 		<IsContainer>1</IsContainer>
 		<IsMovableObject>1</IsMovableObject>
 		<IsUnmovableobject>0</IsUnmovableobject>
@@ -36250,37 +36192,17 @@
 		<IsPremium>0</IsPremium>
 		<MaxContSize>5000000</MaxContSize>
 		<Length>8</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>10000</UnitWeight>
-		<BackgndImage>art\images\warehouse</BackgndImage>
-		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/small_wooden_shed.png</FaceImage>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
-	</row>
-	<row>
-		<ID>2404</ID>
-		<ParentID>61</ParentID>
-		<Name>Metal Cage</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>0</IsMovableObject>
-		<IsUnmovableobject>1</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>1</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>100000</MaxContSize>
-		<Length>6</Length>
 		<MaxStackSize>1</MaxStackSize>
-		<UnitWeight>100000</UnitWeight>
-		<BackgndImage>art\images\bag</BackgndImage>
-		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/metal_cage.png</FaceImage>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
+		<UnitWeight>10000</UnitWeight>
+		<BackgndImage>art\images\\warehouse</BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\objects\small_wooden_shed.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
 	</row>
+			<!--Flag PvP-->
 	<row>
-		<ID>2405</ID>
-		<ParentID>61</ParentID>
-		<Name>Wooden Pier</Name>
+		<ID>2401</ID>
+		<ParentID>60</ParentID>
+		<Name>Flag PvP</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>0</IsMovableObject>
 		<IsUnmovableobject>1</IsUnmovableobject>
@@ -36288,18 +36210,219 @@
 		<IsDevice>0</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>100000</MaxContSize>
-		<Length>6</Length>
-		<MaxStackSize>1</MaxStackSize>
-		<UnitWeight>100000</UnitWeight>
-		<BackgndImage>art\images\bag</BackgndImage>
-		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/wooden_pier.png</FaceImage>
-		<Description>Object from Jorvik MOD pack  /n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\flag_pvp.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
 	</row>
+			<!--Flag PvE-->
+	<row>
+		<ID>2402</ID>
+		<ParentID>60</ParentID>
+		<Name>Flag PvE</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\flag_pve.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+			<!--Long Hause-->
+	<row>
+		<ID>2403</ID>
+		<ParentID>72</ParentID>
+		<Name>Long house</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>1</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>12</MaxStackSize>
+		<UnitWeight>1000000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\long_house.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+      <!--name = Stone gate 2x1-->
+	<row>
+		<ID>2404</ID>
+		<ParentID>172</ParentID>
+		<Name>Stone Gate</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>1</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>600000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\stone_gate.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+      <!--name = Small Wooden Bridge-->
+	<row>
+		<ID>2405</ID>
+		<ParentID>61</ParentID>
+		<Name>Small Wooden Bridge</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>400000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_wooden_bridge.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	      <!--name = Small Stone Bridge-->
 	<row>
 		<ID>2406</ID>
-		<ParentID>130</ParentID>
-		<Name>Wooden Barricade</Name>
+		<ParentID>61</ParentID>
+		<Name>Small Stone Bridge</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>700000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_stone_bridge.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	      <!--name = Large Wooden Bridge-->
+	<row>
+		<ID>2407</ID>
+		<ParentID>61</ParentID>
+		<Name>Large Wooden Bridge</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>600000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\large_wooden_bridge.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	      <!--name = Large Stone Bridge-->
+	<row>
+		<ID>2408</ID>
+		<ParentID>61</ParentID>
+		<Name>Large Stone Bridge</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>900000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\large_stone_bridge.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	      <!--name = Large Stone Bridge End-->
+	<row>
+		<ID>2409</ID>
+		<ParentID>61</ParentID>
+		<Name>Large Stone Bridge End</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>500000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\large_stone_bridge_end.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	      <!--name = Small Stone Bridge End-->
+	<row>
+		<ID>2410</ID>
+		<ParentID>61</ParentID>
+		<Name>Small Stone Bridge End</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>400000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_stone_bridge_end.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	      <!--name = Wooden Modular Constructions-->
+	<row>
+		<ID>2411</ID>
+		<ParentID>13</ParentID>
+		<Name>Modular Constructions</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>0</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage></FaceImage>
+		<Description>Modular Constructions</Description>
+	</row>
+	      <!--name = Small Log Wall-->
+	<row>
+		<ID>2412</ID>
+		<ParentID>2411</ParentID>
+		<Name>Small Log Wall</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>1</IsMovableObject>
 		<IsUnmovableobject>0</IsUnmovableobject>
@@ -36308,18 +36431,298 @@
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
 		<MaxContSize>0</MaxContSize>
-		<Length>4</Length>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_log_wall.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	      <!--name = Small Wooden Pillar-->
+	<row>
+		<ID>2413</ID>
+		<ParentID>2411</ParentID>
+		<Name>Small Wooden Pillar</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>1000</UnitWeight>
-		<BackgndImage>art\images\bag</BackgndImage>
-		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/wooden_barricade.png</FaceImage>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_wooden_pillar.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
 	</row>
+	      <!--name = Small Log Corner Wall-->
 	<row>
-		<ID>2407</ID>
-		<ParentID>1902</ParentID>
-		<Name>Wooden Barricade</Name>
+		<ID>2414</ID>
+		<ParentID>2411</ParentID>
+		<Name>Small Log Corner Wall</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>10000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_log_corner_wall.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	      <!--name = Small Log Wall With Window-->
+	<row>
+		<ID>2415</ID>
+		<ParentID>2411</ParentID>
+		<Name>Small Log Wall With Window</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_log_wall_with_window.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	      <!--name = Small Log Wall With Shutters-->
+	<row>
+		<ID>2416</ID>
+		<ParentID>2411</ParentID>
+		<Name>Small Log Wall With Shutters</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>1</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_log_wall_with_shutters.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	      <!--name = Small Log Wall With Entrance-->
+	<row>
+		<ID>2417</ID>
+		<ParentID>2411</ParentID>
+		<Name>Small Log Wall With Entrance</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_log_wall_with_entrance.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Log Wall With Door-->
+	<row>
+		<ID>2418</ID>
+		<ParentID>2411</ParentID>
+		<Name>Small Log Wall With Door</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>1</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_log_wall_with_door.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Wooden Floor Entrance-->
+	<row>
+		<ID>2419</ID>
+		<ParentID>2411</ParentID>
+		<Name>Small Wooden Floor Entrance</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>2000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_wooden_floor_entrance.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Wooden Floor-->
+	<row>
+		<ID>2420</ID>
+		<ParentID>2411</ParentID>
+		<Name>Small Wooden Floor</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_wooden_floor.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Log Wall Slope Right-->
+	<row>
+		<ID>2421</ID>
+		<ParentID>2411</ParentID>
+		<Name>Small Log Wall Slope Right</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_log_wall_slope_right.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Log Wall Slope Left-->
+	<row>
+		<ID>2422</ID>
+		<ParentID>2411</ParentID>
+		<Name>Small Log Wall Slope Left</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_log_wall_slope_left.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Thatch Roof-->
+	<row>
+		<ID>2423</ID>
+		<ParentID>2411</ParentID>
+		<Name>Small Thatch Roof</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_thatch_roof.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Thatch Roof Right End-->
+	<row>
+		<ID>2424</ID>
+		<ParentID>2411</ParentID>
+		<Name>Small Thatch Roof Right End</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_thatch_roof_right_end.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Thatch Roof Right End-->
+	<row>
+		<ID>2425</ID>
+		<ParentID>2411</ParentID>
+		<Name>Small Thatch Roof Left End</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_thatch_roof_left_end.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Thatch Roof Outer Corner-->
+	<row>
+		<ID>2426</ID>
+		<ParentID>2411</ParentID>
+		<Name>Small Thatch Roof Outer Corner</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>10000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_thatch_roof_outer_corner.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Wooden Modular Constructions lvl 1-->
+	<row>
+		<ID>2427</ID>
+		<ParentID>13</ParentID>
+		<Name>Modular Constructions lvl 1</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>0</IsMovableObject>
 		<IsUnmovableobject>0</IsUnmovableobject>
@@ -36327,19 +36730,879 @@
 		<IsDevice>0</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>2000</MaxContSize>
-		<Length>4</Length>
-		<MaxStackSize>1</MaxStackSize>
-		<UnitWeight>2000</UnitWeight>
-		<BackgndImage>art\images\bag</BackgndImage>
-		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/wooden_barricade.png</FaceImage>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>0</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage></FaceImage>
+		<Description>Modular Constructions level 1</Description>
 	</row>
+	<!--name = Small Log Wall lvl 1-->
 	<row>
-		<ID>2408</ID>
+		<ID>2428</ID>
+		<ParentID>2427</ParentID>
+		<Name>Small Log Wall</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_log_wall_lvl1.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Wooden Pillar lvl 1-->
+	<row>
+		<ID>2429</ID>
+		<ParentID>2427</ParentID>
+		<Name>Small Wooden Pillar</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\Objects\small_wooden_pillar_lvl1.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Log Corner Wall lvl 1-->
+	<row>
+		<ID>2430</ID>
+		<ParentID>2427</ParentID>
+		<Name>Small Log Corner Wall</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>10000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_log_corner_wall_lvl1.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Log Wall With Window lvl 1-->
+	<row>
+		<ID>2431</ID>
+		<ParentID>2427</ParentID>
+		<Name>Small Log Wall With Window</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_log_wall_with_window_lvl1.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	      <!--name = Small Log Wall With Shutters lvl 1-->
+	<row>
+		<ID>2432</ID>
+		<ParentID>2427</ParentID>
+		<Name>Small Log Wall With Shutters</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>1</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_log_wall_with_shutters_lvl1.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Log Wall With Entrance lvl1-->
+	<row>
+		<ID>2433</ID>
+		<ParentID>2427</ParentID>
+		<Name>Small Log Wall With Entrance</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_log_wall_with_entrance_lvl1.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Log Wall With Door lvl 1-->
+	<row>
+		<ID>2434</ID>
+		<ParentID>2427</ParentID>
+		<Name>Small Log Wall With Door</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>1</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_log_wall_with_door_lvl1.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Wooden Floor Entrance lvl1-->
+	<row>
+		<ID>2435</ID>
+		<ParentID>2427</ParentID>
+		<Name>Small Wooden Floor Entrance</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>2000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_wooden_floor_entrance_lvl1.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Wooden Floor lvl1-->
+	<row>
+		<ID>2436</ID>
+		<ParentID>2427</ParentID>
+		<Name>Small Wooden Floor</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_wooden_floor_lvl1.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Wooden Stairs-->
+	<row>
+		<ID>2437</ID>
 		<ParentID>61</ParentID>
-		<Name>Stone Altar</Name>
+		<Name>Small Wooden Stairs</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_wooden_stairs.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Thatch Roof Top-->
+	<row>
+		<ID>2438</ID>
+		<ParentID>2411</ParentID>
+		<Name>Small Thatch Roof Top</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_thatch_top.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Thatch Roof Outer Corner Top-->
+	<row>
+		<ID>2439</ID>
+		<ParentID>2411</ParentID>
+		<Name>Small Thatch Roof Outer Corner Top</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_thatch_roof_outer_corner_top.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Thatch Roof Top Left End-->
+	<row>
+		<ID>2440</ID>
+		<ParentID>2411</ParentID>
+		<Name>Small Thatch Roof Left End</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_thatch_roof_top_left_end.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Thatch Roof Top Right End-->
+	<row>
+		<ID>2441</ID>
+		<ParentID>2411</ParentID>
+		<Name>Small Thatch Roof Right End</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_thatch_roof_top_right_end.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Thatch Roof lvl 1-->
+	<row>
+		<ID>2442</ID>
+		<ParentID>2427</ParentID>
+		<Name>Small Thatch Roof</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_thatch_roof.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Thatch Roof Outer Corner lvl 1-->
+	<row>
+		<ID>2443</ID>
+		<ParentID>2427</ParentID>
+		<Name>Small Thatch Roof Outer Corner</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>10000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_thatch_roof_outer_corner.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Wooden Railing-->
+	<row>
+		<ID>2444</ID>
+		<ParentID>2411</ParentID>
+		<Name>Small Wooden Railing</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_wooden_railing.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Wooden Railing lvl 1-->
+	<row>
+		<ID>2445</ID>
+		<ParentID>2427</ParentID>
+		<Name>Small Wooden Railing</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_wooden_railing_lvl1.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Thatch Roof Outer Corner Top lvl 1-->
+	<row>
+		<ID>2446</ID>
+		<ParentID>2427</ParentID>
+		<Name>Small Thatch Roof Outer Corner Top</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_thatch_roof_outer_corner_top.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Wall Torch-->
+	<row>
+		<ID>2447</ID>
+		<ParentID>1637</ParentID>
+		<Name>Wall Torch</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>1</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\Recipes\wall_torch.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Wall Torch for objects_conversions-->
+	<row>
+		<ID>2448</ID>
+		<ParentID>1902</ParentID>
+		<Name>Wall Torch</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>1</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\wall_torch.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Candle-->
+	<row>
+		<ID>2449</ID>
+		<ParentID>1637</ParentID>
+		<Name>Small Candle</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>1</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_candle.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Candle for objects_conversions-->
+	<row>
+		<ID>2450</ID>
+		<ParentID>1902</ParentID>
+		<Name>Small Candle</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>1</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_candle.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Aurochs Cow (stand)-->
+	<row>
+		<ID>2451</ID>
+		<ParentID>1637</ParentID>
+		<Name>Aurochs Cow (stand)</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>1</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>400000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\aurochs_cow.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Aurochs Cow (eat)-->
+	<row>
+		<ID>2452</ID>
+		<ParentID>1637</ParentID>
+		<Name>Aurochs Cow (eat)</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>1</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>400000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\aurochs_cow.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Aurochs Cow (sleep)-->
+	<row>
+		<ID>2453</ID>
+		<ParentID>1637</ParentID>
+		<Name>Aurochs Cow (sleep) </Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>1</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>400000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\aurochs_cow.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Wooden Stairs for objects_conversions -->
+	<row>
+		<ID>2454</ID>
+		<ParentID>1902</ParentID>
+		<Name>Small Wooden Stairs</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_wooden_stairs.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Sow (stand)-->
+	<row>
+		<ID>2455</ID>
+		<ParentID>1637</ParentID>
+		<Name>Sow (stand)</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>1</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>1</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>100000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\sow.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Sow (eat)-->
+	<row>
+		<ID>2456</ID>
+		<ParentID>1637</ParentID>
+		<Name>Sow (eat)</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>1</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>1</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>100000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\sow.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Sow (sleep)-->
+	<row>
+		<ID>2457</ID>
+		<ParentID>1637</ParentID>
+		<Name>Sow (sleep)</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>1</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>1</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>100000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\sow.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Horse (stand)-->
+	<row>
+		<ID>2458</ID>
+		<ParentID>1637</ParentID>
+		<Name>Horse (stand)</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>1</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>300000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\horse.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Horse (eat)-->
+	<row>
+		<ID>2459</ID>
+		<ParentID>1637</ParentID>
+		<Name>Horse (eat)</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>1</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>300000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\horse.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Horse (sleep)-->
+	<row>
+		<ID>2460</ID>
+		<ParentID>1637</ParentID>
+		<Name>Horse (sleep)</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>1</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>300000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\horse.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Slave (working)-->
+	<row>
+		<ID>2461</ID>
+		<ParentID>1637</ParentID>
+		<Name>Slave (working)</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>1</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>300000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\slave.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Wranen the Hunter (stand)-->
+	<row>
+		<ID>2462</ID>
+		<ParentID>1637</ParentID>
+		<Name>Wranen the Hunter (stand)</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>1</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>300000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\wranen_the_hunter.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--Book Paper-->
+	<row>
+		<ID>2463</ID>
+		<ParentID>7</ParentID>
+		<Name>Book Paper</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>4</Length>
+		<MaxStackSize>1000</MaxStackSize>
+		<UnitWeight>100</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Items\paper.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--Health Book-->
+	<row>
+		<ID>2464</ID>
+		<ParentID>10</ParentID>
+		<Name>Health Book</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>1</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>1</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Items\health_book.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Thatch Roof Inner Corner-->
+	<row>
+		<ID>2465</ID>
+		<ParentID>2411</ParentID>
+		<Name>Small Thatch Roof Inner Corner</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>10000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_thatch_roof_inner_corner.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Wood Cart-->
+	<row>
+		<ID>2466</ID>
+		<ParentID>77</ParentID>
+		<Name>Wood Cart</Name>
+		<IsContainer>1</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>3000000</MaxContSize>
+		<Length>7</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>10000</UnitWeight>
+		<BackgndImage>art\images\universal</BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\wood_cart.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Siege Tower-->
+	<row>
+		<ID>2467</ID>
+		<ParentID>75</ParentID>
+		<Name>Siege Tower</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>1</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>7</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>100000</UnitWeight>
+		<BackgndImage>art\images\universal</BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\siegetower.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Aurochs Bull (stand)-->
+	<row>
+		<ID>2468</ID>
+		<ParentID>1637</ParentID>
+		<Name>Aurochs Bull (stand)</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>1</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>400000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\aurochs_bull.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Aurochs Bull (eat)-->
+	<row>
+		<ID>2469</ID>
+		<ParentID>1637</ParentID>
+		<Name>Aurochs Bull (eat)</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>1</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>400000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\aurochs_bull.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Aurochs Bull (sleep)-->
+	<row>
+		<ID>2470</ID>
+		<ParentID>1637</ParentID>
+		<Name>Aurochs Bull (sleep) </Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>1</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>400000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\aurochs_bull.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Wooden Pier-->
+	<row>
+		<ID>2471</ID>
+		<ParentID>61</ParentID>
+		<Name>Small Wooden Pier</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>0</IsMovableObject>
 		<IsUnmovableobject>1</IsUnmovableobject>
@@ -36347,19 +37610,59 @@
 		<IsDevice>0</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>100000</MaxContSize>
-		<Length>6</Length>
-		<MaxStackSize>1</MaxStackSize>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>100000</UnitWeight>
-		<BackgndImage>art\images\bag</BackgndImage>
-		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/wooden_barricade.png</FaceImage>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_wooden_pier.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
 	</row>
+	<!--name = Small Wooden Pier T-->
 	<row>
-		<ID>2409</ID>
-		<ParentID>72</ParentID>
-		<Name>Wooden Tower House</Name>
+		<ID>2472</ID>
+		<ParentID>61</ParentID>
+		<Name>Small Wooden Pier T</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>100000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_wooden_pier_T.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Small Wooden Pier L-->
+	<row>
+		<ID>2473</ID>
+		<ParentID>61</ParentID>
+		<Name>Small Wooden Pier L</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>100000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\small_wooden_pier_T.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!--name = Wattle Wicket-->
+	<row>
+		<ID>2474</ID>
+		<ParentID>66</ParentID>
+		<Name>Wattle Wicket</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>0</IsMovableObject>
 		<IsUnmovableobject>1</IsUnmovableobject>
@@ -36367,17 +37670,37 @@
 		<IsDevice>0</IsDevice>
 		<IsDoor>1</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>100000</MaxContSize>
-		<Length>6</Length>
-		<MaxStackSize>12</MaxStackSize>
-		<UnitWeight>200000</UnitWeight>
-		<BackgndImage>art\images\bag</BackgndImage>
-		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/wooden_house_with_tower.png</FaceImage>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\wattle_wicket.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
 	</row>
+	<!--name = Idol Cross-->
 	<row>
-		<ID>2410</ID>
+		<ID>2475</ID>
+		<ParentID>1722</ParentID>
+		<Name>Idol Cross</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\idol_cross.png</FaceImage>
+		<Description></Description>
+	</row>
+	<!--name = Wooden Church-->
+	<row>
+		<ID>2476</ID>
 		<ParentID>72</ParentID>
 		<Name>Wooden Church</Name>
 		<IsContainer>0</IsContainer>
@@ -36387,73 +37710,272 @@
 		<IsDevice>0</IsDevice>
 		<IsDoor>1</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>100000</MaxContSize>
-		<Length>6</Length>
-		<MaxStackSize>1</MaxStackSize>
-		<UnitWeight>100000</UnitWeight>
-		<BackgndImage>art\images\bag</BackgndImage>
-		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/wooden_church.png</FaceImage>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
+		<MaxContSize>0</MaxContSize>
+		<Length>4</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>2000000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\wooden_church.png</FaceImage>
+		<Description>Object from Jorvik MOD pack</Description>
 	</row>
+	<!--name = Sanctum of the Sleeper-->
 	<row>
-		<ID>2411</ID>
-		<ParentID>61</ParentID>
-		<Name>Wooden Pier T</Name>
+    	<ID>2477</ID>
+    	<ParentID>72</ParentID>
+    	<Name>Sanctum of the Sleeper</Name>
+    	<IsContainer>0</IsContainer>
+    	<IsMovableObject>0</IsMovableObject>
+   		<IsUnmovableobject>1</IsUnmovableobject>
+    	<IsTool>0</IsTool>
+    	<IsDevice>0</IsDevice>
+    	<IsDoor>1</IsDoor>
+    	<IsPremium>0</IsPremium>
+    	<MaxContSize>0</MaxContSize>
+    	<Length>10</Length>
+    	<MaxStackSize>0</MaxStackSize>
+    	<UnitWeight>4000000</UnitWeight>
+    	<BackgndImage></BackgndImage>
+    	<FaceImage>mod\JorvikMod\art\2D\Objects\church.png</FaceImage>
+    	<Description>Object from Jorvik MOD pack</Description>
+  	</row>
+	<!--Novice Decorator's Kit -->
+	<row>
+		<ID>2478</ID>
+		<ParentID>7</ParentID>
+		<Name>Novice Decorator's Kit</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>4</Length>
+		<MaxStackSize>10000</MaxStackSize>
+		<UnitWeight>10000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>art\2D\Items\decoration_kit_small.png</FaceImage>
+		<Description>Object from Jorvik MOD pack</Description>
+	</row>
+	<!--Apprentice Decorator's Kit-->
+	<row>
+		<ID>2479</ID>
+		<ParentID>7</ParentID>
+		<Name>Apprentice Decorator's Kit</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>4</Length>
+		<MaxStackSize>10000</MaxStackSize>
+		<UnitWeight>20000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>art\2D\Items\decoration_kit_medium.png</FaceImage>
+		<Description>Object from Jorvik MOD pack</Description>
+	</row>
+	<!--Master Decorator's Kit-->
+	<row>
+		<ID>2480</ID>
+		<ParentID>7</ParentID>
+		<Name>Master Decorator's Kit</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>4</Length>
+		<MaxStackSize>10000</MaxStackSize>
+		<UnitWeight>30000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>art\2D\Items\decoration_kit_large.png</FaceImage>
+		<Description>Object from Jorvik MOD pack</Description>
+	</row>
+	<!--name = Wolf (stand)-->
+	<row>
+		<ID>2481</ID>
+		<ParentID>1637</ParentID>
+		<Name>Wolf (stand)</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>0</IsMovableObject>
 		<IsUnmovableobject>1</IsUnmovableobject>
 		<IsTool>0</IsTool>
 		<IsDevice>0</IsDevice>
 		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>100000</MaxContSize>
-		<Length>6</Length>
-		<MaxStackSize>1</MaxStackSize>
+		<IsPremium>1</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>100000</UnitWeight>
-		<BackgndImage>art\images\bag</BackgndImage>
-		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/pier_T.png</FaceImage>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Objects\wolf.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
 	</row>
+	<!-- Gold Sheet -->
 	<row>
-		<ID>2412</ID>
-		<ParentID>61</ParentID>
-		<Name>Wooden Pier L</Name>
+		<ID>2482</ID>
+		<ParentID>213</ParentID>
+		<Name>Gold Sheet</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>0</IsMovableObject>
-		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsUnmovableobject>0</IsUnmovableobject>
 		<IsTool>0</IsTool>
 		<IsDevice>0</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>100000</MaxContSize>
-		<Length>6</Length>
-		<MaxStackSize>1</MaxStackSize>
-		<UnitWeight>100000</UnitWeight>
-		<BackgndImage>art\images\bag</BackgndImage>
-		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/pier_T.png</FaceImage>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>10000</MaxStackSize>
+		<UnitWeight>10000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Items\gold_sheet.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
 	</row>
+	<!-- Metal Scissors -->
 	<row>
-		<ID>2413</ID>
-		<ParentID>61</ParentID>
-		<Name>Stone Tomb Cross</Name>
+		<ID>2483</ID>
+		<ParentID>10</ParentID>
+		<Name>Metal Scissors</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>0</IsMovableObject>
-		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>1</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>1</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Items\scissors.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!-- Metal Stamp -->
+	<row>
+		<ID>2484</ID>
+		<ParentID>10</ParentID>
+		<Name>Metal Stamp</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>1</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>1</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Items\metal_stamp.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!-- Gold Blanks -->
+	<row>
+		<ID>2485</ID>
+		<ParentID>213</ParentID>
+		<Name>Gold Blanks</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
 		<IsTool>0</IsTool>
 		<IsDevice>0</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>100000</MaxContSize>
-		<Length>6</Length>
-		<MaxStackSize>1</MaxStackSize>
-		<UnitWeight>100000</UnitWeight>
-		<BackgndImage>art\images\bag</BackgndImage>
-		<FaceImage>yolauncher/modpack/mods/Jorvik/art/2D/objects/stone_tomb_with_cross.png</FaceImage>
-		<Description>Object from Jorvik MOD pack 
- CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK</Description>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>10000</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Items\gold_blanks.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!-- Silver Sheet -->
+	<row>
+		<ID>2486</ID>
+		<ParentID>213</ParentID>
+		<Name>Silver Sheet</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>10000</MaxStackSize>
+		<UnitWeight>10000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Items\silver_sheet.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!-- Copper Sheet -->
+	<row>
+		<ID>2487</ID>
+		<ParentID>213</ParentID>
+		<Name>Copper Sheet</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>10000</MaxStackSize>
+		<UnitWeight>10000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Items\copper_sheet.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!-- Silver Blanks -->
+	<row>
+		<ID>2488</ID>
+		<ParentID>213</ParentID>
+		<Name>Silver Blanks</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>10000</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Items\silver_blanks.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<!-- Copper Blanks -->
+	<row>
+		<ID>2489</ID>
+		<ParentID>213</ParentID>
+		<Name>Copper Blanks</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>10000</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>mod\JorvikMod\art\2D\Items\copper_blanks.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
 	</row>
 </table>

@@ -42,7 +42,7 @@
 		<skill_mult>1</skill_mult>
 		<abilities>
 			<ability lvl="0" name="to Lower Ground Level" id="7" type="Use Shovel" priority="10.1">
-				<duration const="">1</duration>
+				<duration const="6 50"/>
 				<ability_skill_mult>100</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -62,12 +62,12 @@
 				<results>
 					<animation>digging</animation>
 					<sound>player_dig</sound>
-					<sstam_spent>1</sstam_spent>
+					<sstam_spent>50</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
 			<ability lvl="0" name="Pour on the Ground" id="8">
-				<duration const="">1</duration>
+				<duration const="">4</duration>
 				<ability_skill_mult>20</ability_skill_mult>
 				<entities>
 					<entity type="inventory_item">
@@ -90,7 +90,7 @@
 				<autorepeat>possible</autorepeat>
 			</ability>
 			<ability lvl="30" name="to Flat Ground" id="9" type="Use Shovel" priority="11.3">
-				<duration const="">1</duration>
+				<duration const="6 25"/>
 				<ability_skill_mult>200</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -111,12 +111,12 @@
 				<results>
 					<animation>digging</animation>
 					<sound>player_dig</sound>
-					<sstam_spent>1</sstam_spent>
+					<sstam_spent>20</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
 			<ability lvl="30" name="to Flat Upward Slope" type="Use Shovel" id="10" priority="11.2">
-				<duration const="">1</duration>
+				<duration const="6 50"/>
 				<ability_skill_mult>300</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -137,12 +137,12 @@
 				<results>
 					<animation>digging</animation>
 					<sound>player_dig</sound>
-					<sstam_spent>1</sstam_spent>
+					<sstam_spent>20</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
 			<ability lvl="30" name="to Flat Downward Slope" type="Use Shovel" id="11" priority="11.1">
-				<duration const="">1</duration>
+				<duration const="6 50"/>
 				<ability_skill_mult>300</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -163,7 +163,7 @@
 				<results>
 					<animation>digging</animation>
 					<sound>player_dig</sound>
-					<sstam_spent>1</sstam_spent>
+					<sstam_spent>20</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
@@ -192,7 +192,7 @@
 				<autorepeat>possible</autorepeat>
 			</ability>
 			<ability lvl="0" name="Cut Down" id="34" type="Special" priority="9.1">
-				<duration const="">5</duration>
+				<duration const="10 20"/>
 				<chance>0.04</chance>
 				<ability_skill_mult>600</ability_skill_mult>
 				<entities>
@@ -213,12 +213,12 @@
 				<results>
 					<animation>tree_cut</animation>
 					<sound>player_treecut</sound>
-					<sstam_spent>10</sstam_spent>
+					<sstam_spent>50</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
 			<ability lvl="30" name="Uproot" type="Special" id="35">
-				<duration const="">1</duration>
+				<duration const="20 10"/>
 				<chance>0.06</chance>
 				<ability_skill_mult>960</ability_skill_mult>
 				<entities>
@@ -239,11 +239,11 @@
 				<results>
 					<animation>digging</animation>
 					<sound>player_dig</sound>
-					<sstam_spent>30</sstam_spent>
+					<sstam_spent>100</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="0" name="Cut Down" id="36" type="Special" priority="9.1">
-				<duration const="">2</duration>
+				<duration const="15 20"/>
 				<chance>0.04</chance>
 				<ability_skill_mult>880</ability_skill_mult>
 				<entities>
@@ -264,7 +264,7 @@
 				<results>
 					<animation>tree_cut</animation>
 					<sound>player_treecut</sound>
-					<sstam_spent>10</sstam_spent>
+					<sstam_spent>50</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
@@ -287,32 +287,9 @@
 				<requirements/>
 				<results/>
 			</ability>
-			<ability lvl="0" name="a Camp" type="Create" id="23">
-				<duration const="">1</duration>
-				<ability_skill_mult>600</ability_skill_mult>
-				<entities>
-					<entity type="cell">
-						<ent_reqs>
-							<ent_req type="claim" usage_type="build"/>
-						</ent_reqs>
-					</entity>
-					<entity type="complex_obj">
-						<ent_reqs>
-							<ent_req type="state">incomplete</ent_req>
-							<ent_req type="object_type_id">523 682 1152</ent_req>
-							<ent_req type="claim" usage_type="build"/>
-						</ent_reqs>
-					</entity>
-				</entities>
-				<requirements/>
-				<results>
-					<animation>perform</animation>
-					<sound>player_perform</sound>
-					<sstam_spent>20</sstam_spent>
-				</results>
-			</ability>
+			
 			<ability lvl="0" name="Create a Primitive Tool" id="24">
-				<duration const="">2</duration>
+				<duration const="10 20"/>
 				<ability_skill_mult>500</ability_skill_mult>
 				<entities>
 					<entity type="inventory_item">
@@ -330,7 +307,7 @@
 				<autorepeat>possible</autorepeat>
 			</ability>
 			<ability lvl="0" name="to Raise Ground Level" type="Use Shovel" id="70" priority="10.2">
-				<duration const="">1</duration>
+				<duration const="">4</duration>
 				<ability_skill_mult>200</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -350,7 +327,7 @@
 				<results>
 					<animation>digging</animation>
 					<sound>player_dig</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>10</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
@@ -376,7 +353,7 @@
 		<skill_mult>1</skill_mult>
 		<abilities>
 			<ability lvl="0" name="a Flint Stone" type="Gather" id="6">
-				<duration const="">1</duration>
+				<duration const="">2</duration>
 				<chance>0.7</chance>
 				<ability_skill_mult>300</ability_skill_mult>
 				<entities>
@@ -399,7 +376,7 @@
 				</results>
 			</ability>
 			<ability lvl="0" name="Ammo for Sling" type="Gather" id="179">
-				<duration const="">1</duration>
+				<duration const="">2</duration>
 				<ability_skill_mult>200</ability_skill_mult>
 				<entities>
 					<entity type="gatherable">
@@ -421,7 +398,7 @@
 				</results>
 			</ability>
 			<ability lvl="0" name="a Branch" type="Gather" id="21">
-				<duration const="">1</duration>
+				<duration const="">5</duration>
 				<ability_skill_mult>100</ability_skill_mult>
 				<entities>
 					<entity type="tree">
@@ -448,12 +425,12 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>20</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
 			<ability lvl="0" name="Plant Fiber" type="Gather" id="45">
-				<duration const="">1</duration>
+				<duration const="">2</duration>
 				<chance>0.7</chance>
 				<ability_skill_mult>200</ability_skill_mult>
 				<entities>
@@ -472,11 +449,11 @@
 				<results>
 					<animation>mowing</animation>
 					<sound>player_mow</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>20</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="30" name="Herbs" type="Look for" id="46">
-				<duration const="">1</duration>
+				<duration const="20 10"/>
 				<chance>0.3</chance>
 				<ability_skill_mult>0</ability_skill_mult>
 				<entities>
@@ -498,7 +475,7 @@
 				</results>
 			</ability>
 			<ability lvl="0" name="Materials" type="Look for" id="325">
-				<duration const="">1</duration>
+				<duration const="20 10"/>
 				<chance>0.3</chance>
 				<ability_skill_mult>0</ability_skill_mult>
 				<entities>
@@ -520,7 +497,7 @@
 				</results>
 			</ability>
 			<ability lvl="0" name="Edibles" type="Look for" id="326">
-				<duration const="">1</duration>
+				<duration const="20 10"/>
 				<chance>0.3</chance>
 				<ability_skill_mult>0</ability_skill_mult>
 				<entities>
@@ -539,11 +516,11 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>30</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="0" name="Prepare Food" type="Special" id="114">
-				<duration const="">2</duration>
+				<duration const="15 10"/>
 				<ability_skill_mult>400</ability_skill_mult>
 				<entities>
 					<entity type="complex_obj">
@@ -561,7 +538,7 @@
 				<requirements/>
 				<results>
 					<animation>perform</animation>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>20</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
@@ -585,7 +562,7 @@
 				<results>
 					<animation>mowing</animation>
 					<sound>player_mow</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>10</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="0" name="Berries" type="Gather" id="51">
@@ -608,12 +585,12 @@
 				<results>
 					<animation>mowing</animation>
 					<sound>player_mow</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>10</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
 			<ability lvl="30" name="Gather Herbs" type="Special" id="52">
-				<duration const="">1</duration>
+				<duration const="">5</duration>
 				<chance>0.3</chance>
 				<ability_skill_mult>500</ability_skill_mult>
 				<entities>
@@ -634,11 +611,11 @@
 				<results>
 					<animation>mowing</animation>
 					<sound>player_mow</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>10</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="0" name="Apples" type="Gather" id="98">
-				<duration const="">1</duration>
+				<duration const="">5</duration>
 				<ability_skill_mult>100</ability_skill_mult>
 				<entities>
 					<entity type="tree">
@@ -656,12 +633,12 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>10</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
 			<ability lvl="0" name="Nuts" type="Gather" id="280">
-				<duration const="">1</duration>
+				<duration const="">5</duration>
 				<ability_skill_mult>100</ability_skill_mult>
 				<entities>
 					<entity type="tree">
@@ -737,12 +714,12 @@
 				<results>
 					<animation>Fishing</animation>
 					<sound>player_fishing</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>40</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
 			<ability lvl="0" name="Skin" type="Special" id="90">
-				<duration const="">2</duration>
+				<duration const="">10</duration>
 				<chance>0.05</chance>
 				<regional type="resource" probability="0.05">383 384 385 386 390 426 427 428 429 430 431</regional>
 				<ability_skill_mult>600</ability_skill_mult>
@@ -765,11 +742,11 @@
 				<results>
 					<animation>skinning</animation>
 					<sound>player_skinrip</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>50</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="0" name="Tracks of Peaceful Animals" type="Look for" id="91">
-				<duration const="">1</duration>
+				<duration const="">5</duration>
 				<ability_skill_mult>160</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -783,7 +760,7 @@
 				</results>
 			</ability>
 			<ability lvl="60" name="Tracks of Aggressive Animals" type="Look for" id="92">
-				<duration const="">1</duration>
+				<duration const="">5</duration>
 				<ability_skill_mult>400</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -797,7 +774,7 @@
 				</results>
 			</ability>
 			<ability lvl="0" name="Craft Hunting Gear" id="169">
-				<duration const="">1</duration>
+				<duration const="10 20"/>
 				<ability_skill_mult>480</ability_skill_mult>
 				<entities>
 					<entity type="inventory_item">
@@ -831,7 +808,7 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>20</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="0" name="Check a Snare" type="Special" id="171">
@@ -854,7 +831,7 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>10</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="0" name="Pick up a Snare" type="Special" id="172">
@@ -877,7 +854,7 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>10</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="30" name="a Trap" type="Create" id="173">
@@ -898,7 +875,7 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>20</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="30" name="Pick up Trap" type="Special" id="175">
@@ -965,7 +942,7 @@
 		<skill_mult>1</skill_mult>
 		<abilities>
 			<ability lvl="0" name="Simple Construction" type="Build" id="18">
-				<duration const="">3</duration>
+				<duration const="15 10"/>
 				<ability_skill_mult>320</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -988,11 +965,11 @@
 				<results>
 					<animation>building</animation>
 					<sound>player_nail</sound>
-					<sstam_spent>10</sstam_spent>
+					<sstam_spent>50</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="0" name="Stone Road" type="Build" id="65">
-				<duration const="">2</duration>
+				<duration const="15 20"/>
 				<ability_skill_mult>200</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -1012,11 +989,11 @@
 				<results>
 					<animation>building</animation>
 					<sound>player_nail</sound>
-					<sstam_spent>10</sstam_spent>
+					<sstam_spent>50</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="0" name="Slate Road" type="Build" id="310">
-				<duration const="">2</duration>
+				<duration const="15 20"/>
 				<ability_skill_mult>200</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -1036,11 +1013,11 @@
 				<results>
 					<animation>building</animation>
 					<sound>player_nail</sound>
-					<sstam_spent>10</sstam_spent>
+					<sstam_spent>50</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="0" name="Marble Road" type="Build" id="311">
-				<duration const="">2</duration>
+				<duration const="15 20"/>
 				<ability_skill_mult>200</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -1060,7 +1037,7 @@
 				<results>
 					<animation>building</animation>
 					<sound>player_nail</sound>
-					<sstam_spent>10</sstam_spent>
+					<sstam_spent>50</sstam_spent>
 				</results>
 			</ability>
 		</abilities>
@@ -1085,7 +1062,7 @@
 		<skill_mult>1</skill_mult>
 		<abilities>
 			<ability lvl="0" name="Construction" type="Build" id="19">
-				<duration const="">2</duration>
+				<duration const="15 10"/>
 				<ability_skill_mult>300</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -1108,7 +1085,7 @@
 				<results>
 					<animation>building</animation>
 					<sound>player_nail</sound>
-					<sstam_spent>10</sstam_spent>
+					<sstam_spent>50</sstam_spent>
 				</results>
 			</ability>
 		</abilities>
@@ -1133,7 +1110,7 @@
 		<skill_mult>1</skill_mult>
 		<abilities>
 			<ability lvl="0" name="Complex Construction" type="Build" id="20">
-				<duration const="">3</duration>
+				<duration const="15 10"/>
 				<ability_skill_mult>400</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -1156,7 +1133,7 @@
 				<results>
 					<animation>building</animation>
 					<sound>player_nail</sound>
-					<sstam_spent>10</sstam_spent>
+					<sstam_spent>50</sstam_spent>
 				</results>
 			</ability>
 		</abilities>
@@ -1181,12 +1158,12 @@
 		<skill_mult>1</skill_mult>
 		<abilities>
 			<ability lvl="0" name="Repair" type="Special" id="210">
-				<duration const="">2</duration>
+				<duration const="10 50"/>
 				<ability_skill_mult>150</ability_skill_mult>
 				<entities>
 					<entity type="complex_obj">
 						<ent_reqs>
-							<ent_req type="not_object_type_id">60 74 76 622 624 625 682 1125 1397 1153 1154 1155 1448 1449 1457 </ent_req>
+							<ent_req type="not_object_type_id">60 74 76 622 624 625 682 1125 1397 1153 1154 1155 1448 1449 1457</ent_req>
 							<ent_req type="claim" usage_type="use">
 								<land type="realm" jh_allowed_worlds="everywhere"/>
 								<land type="outpost" jh_allowed_worlds="everywhere"/>
@@ -1245,7 +1222,7 @@
 		<skill_mult>1</skill_mult>
 		<abilities>
 			<ability lvl="0" name="Forward" type="Dig a Tunnel" id="12" priority="12.2">
-				<duration const="">2</duration>
+				<duration const="5 50"/>
 				<regional type="resource" probability="0.01">243</regional>
 				<ability_skill_mult>280</ability_skill_mult>
 				<entities>
@@ -1268,11 +1245,11 @@
 				<results>
 					<animation>mining</animation>
 					<sound>player_mine</sound>
-					<sstam_spent>15</sstam_spent>
+					<sstam_spent>40</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="0" name="Downward" type="Dig a Tunnel" id="14" priority="12.1">
-				<duration const="">2</duration>
+				<duration const="5 50"/>
 				<regional type="resource" probability="0.01">243</regional>
 				<ability_skill_mult>280</ability_skill_mult>
 				<entities>
@@ -1295,11 +1272,11 @@
 				<results>
 					<animation>mining</animation>
 					<sound>player_mine</sound>
-					<sstam_spent>15</sstam_spent>
+					<sstam_spent>40</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="30" name="Upward" type="Dig a Tunnel" id="13" priority="12.2">
-				<duration const="">2</duration>
+				<duration const="5 50"/>
 				<regional type="resource" probability="0.01">243</regional>
 				<ability_skill_mult>300</ability_skill_mult>
 				<entities>
@@ -1322,11 +1299,11 @@
 				<results>
 					<animation>mining</animation>
 					<sound>player_mine</sound>
-					<sstam_spent>15</sstam_spent>
+					<sstam_spent>40</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="60" name="Reinforce Tunnel" id="15" type="Special" priority="9.1">
-				<duration>500</duration>
+				<duration>10</duration>
 				<ability_skill_mult>600</ability_skill_mult>
 				<entities>
 					<entity type="tun_side">
@@ -1341,11 +1318,11 @@
 				<results>
 					<animation>building</animation>
 					<sound>player_nail</sound>
-					<sstam_spent>200</sstam_spent>
+					<sstam_spent>20</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="90" name="Construct Supporting Column" type="Special" id="16" priority="9.2">
-				<duration>500</duration>
+				<duration>10</duration>
 				<ability_skill_mult>560</ability_skill_mult>
 				<entities>
 					<entity type="tun_side">
@@ -1360,7 +1337,7 @@
 				<results>
 					<animation>building</animation>
 					<sound>player_nail</sound>
-					<sstam_spent>200</sstam_spent>
+					<sstam_spent>30</sstam_spent>
 				</results>
 			</ability>
 		</abilities>
@@ -1385,7 +1362,7 @@
 		<skill_mult>1</skill_mult>
 		<abilities>
 			<ability lvl="0" name="Copper Ore" type="Mine" id="148">
-				<duration const="">2</duration>
+				<duration const="10 20"/>
 				<chance>0.005</chance>
 				<ability_skill_mult>300</ability_skill_mult>
 				<regional type="resource" probability="0.01">329</regional>
@@ -1407,12 +1384,12 @@
 				<results>
 					<animation>mining</animation>
 					<sound>player_mine</sound>
-					<sstam_spent>10</sstam_spent>
+					<sstam_spent>50</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
 			<ability lvl="0" name="Iron Ore" type="Mine" id="149">
-				<duration const="">2</duration>
+				<duration const="10 20"/>
 				<chance>0.005</chance>
 				<ability_skill_mult>200</ability_skill_mult>
 				<regional type="resource" probability="0.01">328</regional>
@@ -1434,7 +1411,7 @@
 				<results>
 					<animation>mining</animation>
 					<sound>player_mine</sound>
-					<sstam_spent>10</sstam_spent>
+					<sstam_spent>50</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
@@ -1488,7 +1465,7 @@
 				<results>
 					<animation>mining</animation>
 					<sound>player_mine</sound>
-					<sstam_spent>10</sstam_spent>
+					<sstam_spent>50</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
@@ -1514,7 +1491,7 @@
 				<results>
 					<animation>mining</animation>
 					<sound>player_mine</sound>
-					<sstam_spent>10</sstam_spent>
+					<sstam_spent>50</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
@@ -1589,7 +1566,7 @@
 		<skill_mult>1</skill_mult>
 		<abilities>
 			<ability lvl="0" name="Craft" id="17">
-				<duration const="">2</duration>
+				<duration const="15 20"/>
 				<regional type="blueprint" probability="0.15"/>
 				<ability_skill_mult>400</ability_skill_mult>
 				<entities>
@@ -1609,7 +1586,7 @@
 				<autorepeat>possible</autorepeat>
 			</ability>
 			<ability lvl="0" name="a Billet" type="Saw out" id="37">
-				<duration const="">3</duration>
+				<duration const="12 10"/>
 				<ability_skill_mult>150</ability_skill_mult>
 				<entities>
 					<entity type="complex_obj">
@@ -1629,12 +1606,12 @@
 				<results>
 					<animation>sawing</animation>
 					<sound>player_saw</sound>
-					<sstam_spent>10</sstam_spent>
+					<sstam_spent>20</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
 			<ability lvl="0" name="a Board" type="Saw out" id="38">
-				<duration const="">3</duration>
+				<duration const="15 20"/>
 				<ability_skill_mult>250</ability_skill_mult>
 				<regional type="resource" probability="0.05">326 327</regional>
 				<entities>
@@ -1655,12 +1632,12 @@
 				<results>
 					<animation>sawing</animation>
 					<sound>player_saw</sound>
-					<sstam_spent>10</sstam_spent>
+					<sstam_spent>40</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
 			<ability lvl="0" name="a Building Log" type="Saw out" id="39">
-				<duration const="">2</duration>
+				<duration const="15 20"/>
 				<ability_skill_mult>400</ability_skill_mult>
 				<entities>
 					<entity type="complex_obj">
@@ -1680,12 +1657,12 @@
 				<results>
 					<animation>sawing</animation>
 					<sound>player_saw</sound>
-					<sstam_spent>10</sstam_spent>
+					<sstam_spent>40</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
 			<ability lvl="0" name="a Furniture" type="Create" id="40">
-				<duration const="">2</duration>
+				<duration const="15 10"/>
 				<ability_skill_mult>400</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -1757,7 +1734,7 @@
 		<skill_mult>1</skill_mult>
 		<abilities>
 			<ability lvl="0" name="Craft Archer's Gear" id="42">
-				<duration const="">1</duration>
+				<duration const="15 20"/>
 				<chance>0.001</chance>
 				<ability_skill_mult>350</ability_skill_mult>
 				<entities>
@@ -1835,7 +1812,7 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>20</sstam_spent>
+					<sstam_spent>50</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
@@ -1869,7 +1846,7 @@
 				<results>
 					<animation>building</animation>
 					<sound>player_nail</sound>
-					<sstam_spent>10</sstam_spent>
+					<sstam_spent>50</sstam_spent>
 				</results>
 			</ability>
 		</abilities>
@@ -1894,7 +1871,7 @@
 		<skill_mult>1</skill_mult>
 		<abilities>
 			<ability lvl="0" name="Shape Stones" id="61">
-				<duration const="">2</duration>
+				<duration const="15 10"/>
 				<ability_skill_mult>500</ability_skill_mult>
 				<entities>
 					<entity type="inventory_item">
@@ -1908,12 +1885,12 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>10</sstam_spent>
+					<sstam_spent>30</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
 			<ability lvl="0" name="Mold" id="62">
-				<duration const="">2</duration>
+				<duration const="15 10"/>
 				<ability_skill_mult>500</ability_skill_mult>
 				<entities>
 					<entity type="inventory_item">
@@ -1926,7 +1903,7 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>30</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
@@ -1972,7 +1949,7 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>2</sstam_spent>
+					<sstam_spent>30</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
@@ -2092,7 +2069,7 @@
 				</results>
 			</ability>
 			<ability lvl="0" name="Smelt" type="Special" id="102">
-				<duration const="">1</duration>
+				<duration const="">5</duration>
 				<ability_skill_mult>200</ability_skill_mult>
 				<entities>
 					<entity type="complex_obj">
@@ -2136,7 +2113,7 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>30</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="90" name="Recycle" type="Special" id="104">
@@ -2186,8 +2163,8 @@
 		<GMMessageID>497</GMMessageID>
 		<skill_mult>1</skill_mult>
 		<abilities>
-			<ability lvl="0" name="Metal Tools" type="Forge" id="105">
-				<duration const="">2</duration>
+			<ability lvl="0" name="Metal Tools and Coins" type="Forge" id="105">
+				<duration const="15 10"/>
 				<chance>0.001</chance>
 				<ability_skill_mult>320</ability_skill_mult>
 				<entities>
@@ -2204,17 +2181,17 @@
 					</entity>
 				</entities>
 				<requirements>
-					<req type="tool_id" parent="1">43 1647</req>
+					<req type="tool_id" parent="1">43 1647 2483 2484</req>
 				</requirements>
 				<results>
 					<animation>Smithing</animation>
 					<sound>player_smithing</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>20</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
 			<ability lvl="30" name="Weapons" type="Forge" id="106">
-				<duration const="">2</duration>
+				<duration const="15 10"/>
 				<chance>0.001</chance>
 				<ability_skill_mult>320</ability_skill_mult>
 				<entities>
@@ -2236,7 +2213,7 @@
 				<results>
 					<animation>Smithing</animation>
 					<sound>player_smithing</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>25</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
@@ -2262,8 +2239,8 @@
 		<skill_mult>1</skill_mult>
 		<abilities>
 			<ability lvl="0" name="Armor Parts" type="Forge" id="107">
-				<duration const="">1</duration>
-				<chance>0.015</chance>
+				<duration const="15 10"/>
+				<chance>0.001</chance>
 				<ability_skill_mult>320</ability_skill_mult>
 				<entities>
 					<entity type="complex_obj">
@@ -2284,12 +2261,12 @@
 				<results>
 					<animation>Smithing</animation>
 					<sound>player_smithing</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>40</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
 			<ability lvl="30" name="Make Armor" type="Special" id="281">
-				<duration const="">2</duration>
+				<duration const="15 20"/>
 				<regional type="blueprint" probability="0.15"/>
 				<ability_skill_mult>320</ability_skill_mult>
 				<entities>
@@ -2309,7 +2286,7 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>20</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
@@ -2376,7 +2353,7 @@
 		<skill_mult>1</skill_mult>
 		<abilities>
 			<ability lvl="0" name="Wild Plants" type="Look for"  id="334">
-				<duration const="">1</duration>
+				<duration const="20 10"/>
 				<chance>0.3</chance>
 				<ability_skill_mult>0</ability_skill_mult>
 				<entities>
@@ -2398,7 +2375,7 @@
 				</results>
 			</ability>
 			<ability lvl="0" name="Wild Plants" type="Gather" id="68">
-				<duration const="">1</duration>
+				<duration const="">5</duration>
 				<chance>0.09</chance>
 				<ability_skill_mult>300</ability_skill_mult>
 				<entities>
@@ -2419,7 +2396,7 @@
 				<results>
 					<animation>mowing</animation>
 					<sound>player_mow</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>30</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="0" name="to Plow" type="Use Shovel" id="69">
@@ -2439,7 +2416,7 @@
 				<results>
 					<animation>digging</animation>
 					<sound>player_dig</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>50</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="0" name="Harvest Crops" type="Special" id="73">
@@ -2464,11 +2441,11 @@
 				<results>
 					<animation>mowing</animation>
 					<sound>player_mow</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>10</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="90" name="Fertilize" type="Special" id="74">
-				<duration const="">1</duration>
+				<duration const="6 50"/>
 				<ability_skill_mult>300</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -2486,11 +2463,11 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>20</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="0" name="Gather Silkworm Cocoons" type="Special" id="99">
-				<duration const="">1</duration>
+				<duration const="">5</duration>
 				<ability_skill_mult>300</ability_skill_mult>
 				<entities>
 					<entity type="tree">
@@ -2513,7 +2490,7 @@
 				<autorepeat>possible</autorepeat>
 			</ability>
 			<ability lvl="30" name="Wheat" type="Sow" id="133">
-				<duration const="">1</duration>
+				<duration const="15 10"/>
 				<ability_skill_mult>300</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -2535,7 +2512,7 @@
 				</results>
 			</ability>
 			<ability lvl="30" name="Peas" type="Sow" id="134">
-				<duration const="">1</duration>
+				<duration const="15 10"/>
 				<ability_skill_mult>300</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -2553,11 +2530,11 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>10</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="60" name="Cabbage" type="Sow" id="135">
-				<duration const="">1</duration>
+				<duration const="15 10"/>
 				<ability_skill_mult>500</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -2575,11 +2552,11 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>10</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="30" name="Onions" type="Sow" id="136">
-				<duration const="">1</duration>
+				<duration const="15 10"/>
 				<ability_skill_mult>300</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -2601,7 +2578,7 @@
 				</results>
 			</ability>
 			<ability lvl="30" name="Carrots" type="Sow" id="137">
-				<duration const="">1</duration>
+				<duration const="15 10"/>
 				<ability_skill_mult>300</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -2623,7 +2600,7 @@
 				</results>
 			</ability>
 			<ability lvl="30" name="Flax" type="Sow" id="138">
-				<duration const="">1</duration>
+				<duration const="15 10"/>
 				<ability_skill_mult>200</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -2645,7 +2622,7 @@
 				</results>
 			</ability>
 			<ability lvl="60" name="Grapes" type="Sow" id="139">
-				<duration const="">2</duration>
+				<duration const="15 10"/>
 				<ability_skill_mult>600</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -2667,7 +2644,7 @@
 				</results>
 			</ability>
 			<ability lvl="60" name="Potatoes" type="Sow" id="140">
-				<duration const="">1</duration>
+				<duration const="15 10"/>
 				<ability_skill_mult>500</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -2689,7 +2666,7 @@
 				</results>
 			</ability>
 			<ability lvl="0" name="Pour Water" id="313">
-				<duration const="">1</duration>
+				<duration const="10 50"/>
 				<ability_skill_mult>20</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -2707,7 +2684,7 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>10</sstam_spent>
+					<sstam_spent>20</sstam_spent>
 				</results>
 			</ability>
 		</abilities>
@@ -2750,7 +2727,7 @@
 				<autorepeat>possible</autorepeat>
 			</ability>
 			<ability lvl="30" name="Extract Honey" type="Special" id="234">
-				<duration const="">2</duration>
+				<duration const="">15</duration>
 				<ability_skill_mult>400</ability_skill_mult>
 				<entities>
 					<entity type="complex_obj">
@@ -2768,7 +2745,7 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>10</sstam_spent>
+					<sstam_spent>50</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="0" name="Grind Grain" type="Special" id="211">
@@ -2965,7 +2942,7 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>10</sstam_spent>
+					<sstam_spent>50</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
@@ -2991,7 +2968,7 @@
 		<skill_mult>1</skill_mult>
 		<abilities>
 			<ability lvl="0" name="Cook" type="Special" id="87">
-				<duration const="">3</duration>
+				<duration const="15 10"/>
 				<ability_skill_mult>300</ability_skill_mult>
 				<regional type="blueprint" probability="0.05"/>
 				<entities>
@@ -3012,7 +2989,7 @@
 				</requirements>
 				<results>
 					<animation>cooking</animation>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>30</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
@@ -3058,7 +3035,7 @@
 		<skill_mult>1</skill_mult>
 		<abilities>
 			<ability lvl="0" name="a Sprout" type="Gather" id="25">
-				<duration const="">1</duration>
+				<duration const="">5</duration>
 				<ability_skill_mult>100</ability_skill_mult>
 				<entities>
 					<entity type="tree">
@@ -3081,7 +3058,7 @@
 				<autorepeat>possible</autorepeat>
 			</ability>
 			<ability lvl="30" name="a Spruce Tree" type="Plant" id="26">
-				<duration const="">1</duration>
+				<duration const="15 10"/>
 				<ability_skill_mult>400</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -3097,11 +3074,11 @@
 				<results>
 					<animation>digging</animation>
 					<sound>player_dig</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>30</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="60" name="a Pine Tree" type="Plant" id="27">
-				<duration const="">2</duration>
+				<duration const="15 10"/>
 				<ability_skill_mult>400</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -3117,11 +3094,11 @@
 				<results>
 					<animation>digging</animation>
 					<sound>player_dig</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>30</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="30" name="a Birch Tree" type="Plant" id="28">
-				<duration const="">1</duration>
+				<duration const="15 10"/>
 				<ability_skill_mult>500</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -3137,11 +3114,11 @@
 				<results>
 					<animation>digging</animation>
 					<sound>player_dig</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>30</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="60" name="an Aspen Tree" type="Plant" id="29">
-				<duration const="">1</duration>
+				<duration const="15 10"/>
 				<ability_skill_mult>500</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -3157,11 +3134,11 @@
 				<results>
 					<animation>digging</animation>
 					<sound>player_dig</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>30</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="90" name="an Elm Tree" type="Plant" id="30">
-				<duration const="">1</duration>
+				<duration const="15 10"/>
 				<ability_skill_mult>600</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -3177,11 +3154,11 @@
 				<results>
 					<animation>digging</animation>
 					<sound>player_dig</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>30</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="60" name="a Maple Tree" type="Plant" id="31">
-				<duration const="">1</duration>
+				<duration const="15 10"/>
 				<ability_skill_mult>600</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -3197,11 +3174,11 @@
 				<results>
 					<animation>digging</animation>
 					<sound>player_dig</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>30</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="90" name="an Oak Tree" type="Plant" id="32">
-				<duration const="">2</duration>
+				<duration const="15 10"/>
 				<ability_skill_mult>600</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -3217,7 +3194,7 @@
 				<results>
 					<animation>digging</animation>
 					<sound>player_dig</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>30</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="0" name="a Hazel Tree" type="Plant" id="278">
@@ -3360,7 +3337,7 @@
 				<requirements/>
 				<results>
 					<animation>perform</animation>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>30</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="60" name="Harvest" type="Interface" id="274">
@@ -3411,7 +3388,7 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>10</sstam_spent>
 				</results>
 			</ability>
 		</abilities>
@@ -3436,7 +3413,7 @@
 		<skill_mult>1</skill_mult>
 		<abilities>
 			<ability lvl="0" name="Patient" type="Treat" id="54">
-				<duration const="">2</duration>
+				<duration const="">5</duration>
 				<ability_skill_mult>300</ability_skill_mult>
 				<entities>
 					<entity type="player">
@@ -3447,11 +3424,11 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>10</sstam_spent>
+					<sstam_spent>50</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="0" name="to Revive" type="Treat" id="55">
-				<duration const="">1</duration>
+				<duration const="">5</duration>
 				<ability_skill_mult>150</ability_skill_mult>
 				<entities>
 					<entity type="player">
@@ -3461,11 +3438,35 @@
 				<requirements/>
 				<results>
 					<animation>Bring_round</animation>
-					<sstam_spent>10</sstam_spent>
+					<sstam_spent>50</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="90" name="NPC's" type="Create" id="23">
+				<duration const="10 20"/>
+				<ability_skill_mult>600</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="claim" usage_type="build"/>
+						</ent_reqs>
+					</entity>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="state">incomplete</ent_req>
+							<ent_req type="object_type_id">2451 2452 2453 2455 2456 2457 2458 2459 2460 2461 2462 2468 2469 2470 2481</ent_req>
+							<ent_req type="claim" usage_type="build"/>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements/>
+				<results>
+					<animation>pray</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>50</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="30" name="Wounds" type="Treat" id="56">
-				<duration const="">2</duration>
+				<duration const="">5</duration>
 				<ability_skill_mult>300</ability_skill_mult>
 				<entities>
 					<entity type="player">
@@ -3476,11 +3477,11 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>10</sstam_spent>
+					<sstam_spent>50</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="60" name="Fractures" type="Treat" id="57">
-				<duration const="">2</duration>
+				<duration const="">5</duration>
 				<ability_skill_mult>600</ability_skill_mult>
 				<entities>
 					<entity type="player">
@@ -3497,7 +3498,7 @@
 				</results>
 			</ability>
 			<ability lvl="90" name="Severe Injuries" type="Treat" id="58">
-				<duration const="">2</duration>
+				<duration const="">10</duration>
 				<ability_skill_mult>800</ability_skill_mult>
 				<entities>
 					<entity type="player">
@@ -3611,7 +3612,7 @@
 		<skill_mult>1</skill_mult>
 		<abilities>
 			<ability lvl="0" name="Tame" type="Special" id="76">
-				<duration const="">1</duration>
+				<duration const="">2</duration>
 				<ability_skill_mult>1000</ability_skill_mult>
 				<entities>
 					<entity type="npc">
@@ -3646,7 +3647,7 @@
 				<results/>
 			</ability>
 			<ability lvl="0" name="Harvest" type="Interface" id="78">
-				<duration const="">2</duration>
+				<duration const="">5</duration>
 				<regional type="resource" probability="0.05">338 339 390</regional>
 				<ability_skill_mult>300</ability_skill_mult>
 				<entities>
@@ -3669,7 +3670,7 @@
 				</results>
 			</ability>
 			<ability lvl="0" name="Clean" type="Interface" id="79">
-				<duration const="">1</duration>
+				<duration const="">5</duration>
 				<ability_skill_mult>300</ability_skill_mult>
 				<entities>
 					<entity type="complex_obj">
@@ -3733,7 +3734,7 @@
 				</results>
 			</ability>
 			<ability lvl="0" name="Create a Bone Glue" type="Special" id="81">
-				<duration const="">2</duration>
+				<duration const="15 10"/>
 				<ability_skill_mult>300</ability_skill_mult>
 				<entities>
 					<entity type="complex_obj">
@@ -3752,7 +3753,7 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>5</sstam_spent>
+					<sstam_spent>30</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
@@ -3845,7 +3846,7 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>10</sstam_spent>
+					<sstam_spent>30</sstam_spent>
 				</results>
 			</ability>
 			<ability lvl="30" name="Weave Rope" id="86">
@@ -3897,7 +3898,7 @@
 					<entity type="complex_obj">
 						<ent_reqs>
 							<ent_req type="state">working</ent_req>
-							<ent_req type="object_type_id">472 </ent_req>
+							<ent_req type="object_type_id">472</ent_req>
 							<ent_req type="claim" usage_type="use">
 								<land type="realm" jh_allowed_worlds="everywhere"/>
 								<land type="outpost" jh_allowed_worlds="everywhere"/>
@@ -4703,7 +4704,7 @@
 				</requirements>
 				<results>
 					<cooldowns>
-						<cooldown group="240">10</cooldown>
+						<cooldown group="240">45</cooldown>
 					</cooldowns>
 					<animation>volley</animation>
 				</results>
@@ -5403,7 +5404,7 @@
 				<results>
 					<sstam_spent>30</sstam_spent>
 					<cooldowns>
-						<cooldown group="245">60</cooldown>
+						<cooldown group="245">40</cooldown>
 					</cooldowns>
 				</results>
 			</ability>
@@ -5416,9 +5417,9 @@
 					<req type="warstance">only</req>
 				</requirements>
 				<results>
-					<sstam_spent>40</sstam_spent>
+					<sstam_spent>30</sstam_spent>
 					<cooldowns>
-						<cooldown group="246">90</cooldown>
+						<cooldown group="246">60</cooldown>
 					</cooldowns>
 				</results>
 			</ability>
@@ -5493,7 +5494,7 @@
 		<skill_mult>1</skill_mult>
 		<abilities>
 			<ability lvl="0" name="Prayer for Homecoming" id="146">
-				<duration const="">15</duration>
+				<duration const="">10</duration>
 				<ability_skill_mult>480</ability_skill_mult>
 				<icon>art\2D\skills\abilities\Recall.png</icon>
 				<entities/>
@@ -5509,7 +5510,7 @@
 				</results>
 			</ability>
 			<ability lvl="0" name="Praise your God!" id="147">
-				<duration const="">2</duration>
+				<duration const="">5</duration>
 				<ability_skill_mult>600</ability_skill_mult>
 				<icon>art\2D\skills\abilities\praise_your_God.png</icon>
 				<entities/>
@@ -5528,7 +5529,7 @@
 				</results>
 			</ability>
 			<ability lvl="60" name="a God's Mercy" type="Bless with" id="248">
-				<duration const="">2</duration>
+				<duration const="">5</duration>
 				<chance>0.5</chance>
 				<ability_skill_mult>480</ability_skill_mult>
 				<entities>
@@ -5550,7 +5551,7 @@
 				</results>
 			</ability>
 			<ability lvl="90" name="a God's Love" type="Bless with" id="249">
-				<duration const="">2</duration>
+				<duration const="">5</duration>
 				<chance>0.5</chance>
 				<ability_skill_mult>480</ability_skill_mult>
 				<entities>
@@ -5572,12 +5573,12 @@
 				</results>
 			</ability>
 			<ability lvl="0" name="Praise the God!" type="Special" id="347">
-				<duration const="">2</duration>
+				<duration const="">5</duration>
 				<ability_skill_mult>600</ability_skill_mult>
 				<entities>
 					<entity type="complex_obj">
 						<ent_reqs>
-							<ent_req type="object_type_id" parent="1">1722 1715 1716 1717 1718 1719 1720 1734 1735 1892 1893 1894 1895 1896 1897 1898 2005 </ent_req>
+							<ent_req type="object_type_id" parent="1">1722 1715 1716 1717 1718 1719 1720 1734 1735 1892 1893 1894 1895 1896 1897 1898 2005</ent_req>
 							<ent_req type="state">complete</ent_req>
 							<ent_req type="claim" usage_type="use"/>
 						</ent_reqs>
@@ -5643,7 +5644,7 @@
 		<skill_mult>1</skill_mult>
 		<abilities>
 			<ability lvl="0" name="Become a Mentor of this School" type="Special" id="256">
-				<duration const="">1</duration>
+				<duration const="">5</duration>
 				<ability_skill_mult>960</ability_skill_mult>
 				<entities>
 					<entity type="complex_obj">
@@ -5662,7 +5663,7 @@
 				</results>
 			</ability>
 			<ability lvl="0" name="Attend this School" type="Special" id="258">
-				<duration const="">2</duration>
+				<duration const="">5</duration>
 				<chance>0.0015</chance>
 				<ability_skill_mult>0</ability_skill_mult>
 				<entities>
@@ -5713,7 +5714,7 @@
 						<ent_reqs>
 							<ent_req type="complex_object_type">movable</ent_req>
 							<ent_req type="state">complete damaged</ent_req>
-							<ent_req type="not_object_type_id">77 1070 1071 1079 1080 1083 1090 1448 1449 1457 2003</ent_req>
+							<ent_req type="not_object_type_id">77 1070 1071 1079 1080 1083 1090 1448 1449 1457 2003 2400 2412 2413 2414 2415 2416 2417 2418 2419 2420 2421 2422 2423 2424 2425 2426 2418 2429 2430 2431 2432 2433 2434 2435 2436 2438 2439 2440 2441 2442 2443 2444 2445 2446 2465 2467</ent_req>
 							<ent_req type="claim" usage_type="use">
 								<land type="realm" jh_allowed_worlds="everywhere"/>
 								<land type="outpost" jh_allowed_worlds="everywhere"/>
@@ -5734,13 +5735,9 @@
 				<entities>
 					<entity type="cell">
 						<ent_reqs>
-							<ent_req type="complex_object_type">movable</ent_req>
-							<ent_req type="state">complete damaged</ent_req>
-							<ent_req type="not_object_type_id">523 81 1945 1944</ent_req> <!--Restrict droppable items, make sure only siege ladders can be used-->
 							<ent_req type="claim" usage_type="use">
 								<land type="realm" jh_allowed_worlds="everywhere"/>
 								<land type="outpost" jh_allowed_worlds="everywhere"/>
-								<land type="town" jh_allowed_worlds="red"/>
 							</ent_req>
 						</ent_reqs>
 					</entity>
@@ -5831,7 +5828,7 @@
 		<skill_mult>1</skill_mult>
 		<abilities>
 			<ability lvl="0" name="Eat" id="43">
-				<duration const="">0</duration>
+				<duration const="">4</duration>
 				<ability_skill_mult>200</ability_skill_mult>
 				<entities>
 					<entity type="inventory_item">
@@ -5881,7 +5878,7 @@
 					</entity>
 					<entity type="attached_obj">
 						<ent_reqs>
-							<ent_req type="object_type_id">1437 1496 </ent_req>
+							<ent_req type="object_type_id">1437 1496 2466</ent_req>
 							<ent_req type="claim" usage_type="use">
 								<land type="realm" jh_allowed_worlds="everywhere"/>
 								<land type="outpost" jh_allowed_worlds="everywhere"/>
@@ -5933,7 +5930,7 @@
 				<results/>
 			</ability>
 			<ability lvl="0" name="Get Water" type="Special" id="109">
-				<duration const="">1</duration>
+				<duration const="">2</duration>
 				<ability_skill_mult>100</ability_skill_mult>
 				<entities>
 					<entity type="water"/>
@@ -5952,7 +5949,7 @@
 				<results>
 					<animation>perform</animation>
 					<sound>player_perform</sound>
-					<sstam_spent>2</sstam_spent>
+					<sstam_spent>10</sstam_spent>
 				</results>
 				<autorepeat>possible</autorepeat>
 			</ability>
@@ -5987,7 +5984,7 @@
 				</results>
 			</ability>
 			<ability lvl="0" name="Equip" id="126">
-				<duration const="">2</duration>
+				<duration const="">3</duration>
 				<priority>5</priority>
 				<ability_skill_mult>0</ability_skill_mult>
 				<entities>
@@ -6008,32 +6005,35 @@
 					<sound>player_equip</sound>
 				</results>
 			</ability>
-			<ability lvl="0" name="Open/Close Door" type="Special" id="144">
-                <duration const="">0</duration>
-                <ability_skill_mult>0</ability_skill_mult>
-                <enable_movement>1</enable_movement>
-                <entities>
-                    <entity type="complex_obj">
-                        <ent_reqs>
-                            <ent_req type="state">complete working</ent_req>
-                            <ent_req type="object_type_id">127 128 131 132 134 139 140 146 147 148 186 187 188 189 455 516 518 519 520 521 1055 1085 1086 1087 1088 1089 1109 1077 1665 2404 2409 2410</ent_req>
-                            <ent_req type="claim" usage_type="use"/>
-                        </ent_reqs>
-                    </entity>
-                </entities>
-                <requirements/>
-                <results>
-                    <animation>perform</animation>
-                    <sound>player_perform</sound>
-                </results>
-            </ability>
+			<ability lvl="0" name="Open/Close" type="Special" id="144">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<enable_movement>1</enable_movement>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="state">complete working</ent_req>
+							<ent_req type="object_type_id">127 128 131 132 134 139 140 146 147 148 186 187 188 189 455 516 518 519 520 521 1055 1085 1086 1087 1088 1089 1109 1077 1665 2403 2404 2416 2418 2432 2434 2467 2474 2476 2477</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere"/>
+								<land type="outpost" jh_allowed_worlds="everywhere"/>
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements/>
+				<results>
+					<animation>perform</animation>
+					<sound>player_perform</sound>
+				</results>
+			</ability>
 			<ability lvl="0" name="as Your Home" type="Claim" id="145">
 				<duration const="">1</duration>
 				<ability_skill_mult>0</ability_skill_mult>
 				<entities>
 					<entity type="complex_obj">
 						<ent_reqs>
-							<ent_req type="object_type_id">139 140 142 145 146 1055 147 518 519 521 148 1084 1085 1086 1087 1088 1089 1355 2409 </ent_req>
+							<ent_req type="object_type_id">84 85 139 140 142 145 146 1055 147 518 519 521 148 1084 1085 1086 1087 1088 1089 1355 2403</ent_req>
 							<ent_req type="claim" usage_type="use"/>
 						</ent_reqs>
 					</entity>
@@ -6083,7 +6083,7 @@
 				</results>
 			</ability>
 			<ability lvl="0" name="Stuck" id="168">
-				<duration const="">15</duration>
+				<duration const="">30</duration>
 				<ability_skill_mult>0</ability_skill_mult>
 				<entities/>
 				<requirements>
@@ -6093,7 +6093,7 @@
 					<animation>perform</animation>
 					<sound>player_perform</sound>
 					<cooldowns>
-						<cooldown group="unstuck">5</cooldown>
+						<cooldown group="unstuck">60</cooldown>
 					</cooldowns>
 				</results>
 			</ability>
@@ -6451,7 +6451,7 @@
 				</results>
 			</ability>
 			<ability lvl="0" name="Repair" id="252">
-				<duration const="">2</duration>
+				<duration const="">5</duration>
 				<ability_skill_mult>100</ability_skill_mult>
 				<entities>
 					<entity type="inventory_item">
@@ -6494,7 +6494,7 @@
 				<entities>
 					<entity type="complex_obj">
 						<ent_reqs>
-							<ent_req type="object_type_id">86 165 166 1336 1629 1630 1631 1632 1633 1657 1658 1659 1660 1661</ent_req>
+							<ent_req type="object_type_id">86 165 166 1336 1629 1630 1631 1632 1633 1657 1658 1659 1660 1661 2447 2449</ent_req>
 							<ent_req type="claim" usage_type="use"/>
 						</ent_reqs>
 					</entity>
@@ -6602,7 +6602,7 @@
 				<entities>
 					<entity type="complex_obj">
 						<ent_reqs>
-							<ent_req type="object_type_id">1461 1497 </ent_req>
+							<ent_req type="object_type_id">1461 1497 2466 2467</ent_req>
 							<ent_req type="state">complete damaged</ent_req>
 							<ent_req type="claim" usage_type="use">
 								<land type="realm" jh_allowed_worlds="everywhere"/>
@@ -6625,7 +6625,7 @@
 				<entities>
 					<entity type="attached_obj">
 						<ent_reqs>
-							<ent_req type="object_type_id">1437 1496 </ent_req>
+							<ent_req type="object_type_id">1437 1496 2466 2467</ent_req>
 							<ent_req type="claim" usage_type="use">
 								<land type="realm" jh_allowed_worlds="everywhere"/>
 								<land type="outpost" jh_allowed_worlds="everywhere"/>
@@ -6711,7 +6711,7 @@
 				<entities>
 					<entity type="attached_obj">
 						<ent_reqs>
-							<ent_req type="object_type_id">1437 1496 </ent_req>
+							<ent_req type="object_type_id">1437 1496 2466 2467</ent_req>
 							<ent_req type="claim" usage_type="use">
 								<land type="realm" jh_allowed_worlds="everywhere"/>
 								<land type="outpost" jh_allowed_worlds="everywhere"/>
@@ -6721,7 +6721,7 @@
 					</entity>
 					<entity type="complex_obj">
 						<ent_reqs>
-							<ent_req type="object_type_id">1461 1497 </ent_req>
+							<ent_req type="object_type_id">1461 1497 2466 2467</ent_req>
 							<ent_req type="state">complete damaged</ent_req>
 							<ent_req type="claim" usage_type="use">
 								<land type="realm" jh_allowed_worlds="everywhere"/>
@@ -6740,7 +6740,7 @@
 				<entities>
 					<entity type="attached_obj">
 						<ent_reqs>
-							<ent_req type="object_type_id">1437 1496 </ent_req>
+							<ent_req type="object_type_id">1437 1496 2466</ent_req>
 							<ent_req type="claim" usage_type="use">
 								<land type="realm" jh_allowed_worlds="everywhere"/>
 								<land type="outpost" jh_allowed_worlds="everywhere"/>
@@ -6750,7 +6750,7 @@
 					</entity>
 					<entity type="complex_obj">
 						<ent_reqs>
-							<ent_req type="object_type_id">1461 1497 </ent_req>
+							<ent_req type="object_type_id">1461 1497 2466</ent_req>
 							<ent_req type="state">complete damaged</ent_req>
 							<ent_req type="claim" usage_type="use">
 								<land type="realm" jh_allowed_worlds="everywhere"/>
@@ -6830,7 +6830,7 @@
 				</results>
 			</ability>
 			<ability lvl="0" name="Clean Coop" type="Special" id="314">
-				<duration const="">1</duration>
+				<duration const="">5</duration>
 				<ability_skill_mult>20</ability_skill_mult>
 				<entities>
 					<entity type="complex_obj">
@@ -6851,7 +6851,7 @@
 				</results>
 			</ability>
 			<ability lvl="0" name="Gather Eggs" type="Special" id="315">
-				<duration const="">2</duration>
+				<duration const="">5</duration>
 				<ability_skill_mult>10</ability_skill_mult>
 				<entities>
 					<entity type="complex_obj">
@@ -6883,7 +6883,7 @@
 					</entity>
 				</entities>
 				<requirements>
-					<req type="tool_id" parent="0">42 43 1464</req>
+					<req type="tool_id" parent="0">42 43 1464 2483 2484</req>
 				</requirements>
 				<results>
 					<animation>Smithing</animation>
@@ -6937,7 +6937,7 @@
 				</results>
 			</ability>
 			<ability lvl="0" name="Gather Flax" type="Special" id="319">
-				<duration const="">1</duration>
+				<duration const="">5</duration>
 				<ability_skill_mult>10</ability_skill_mult>
 				<entities>
 					<entity type="cell">
@@ -7095,7 +7095,7 @@
 					<entity type="complex_obj">
 						<ent_reqs>
 							<ent_req type="state">complete</ent_req>
-							<ent_req type="object_type_id">1670 1671 1733 </ent_req>
+							<ent_req type="object_type_id">1670 1671 1733 2476</ent_req>
 							<ent_req type="claim" usage_type="use"/>
 						</ent_reqs>
 					</entity>
@@ -7107,7 +7107,7 @@
 				</results>
 			</ability>
 			<ability lvl="0" name="Use baromsag" id="346">
-				<duration const="">1</duration>
+				<duration const="">5</duration>
 				<ability_skill_mult>400</ability_skill_mult>
 				<entities>
 					<entity type="inventory_item">
@@ -7161,7 +7161,7 @@
 		<skill_mult>300</skill_mult>
 		<abilities>
 			<ability lvl="0" name="Release" id="220">
-				<duration const="">1</duration>
+				<duration const="">5</duration>
 				<ability_skill_mult>0</ability_skill_mult>
 				<entities>
 					<entity type="inventory_item">
@@ -7257,7 +7257,7 @@
 					</entity>
 					<entity type="attached_obj">
 						<ent_reqs>
-							<ent_req type="object_type_id">1437 1496 </ent_req>
+							<ent_req type="object_type_id">1437 1496 2466 2467</ent_req>
 							<ent_req type="claim" usage_type="use">
 								<land type="realm" jh_allowed_worlds="everywhere"/>
 								<land type="outpost" jh_allowed_worlds="everywhere"/>
@@ -7534,7 +7534,7 @@
 				<entities>
 					<entity type="complex_obj">
 						<ent_reqs>
-							<ent_req type="object_type_id">139 140 142 145 146 147 148 165 175 176 177 518 519 521 1055 1084 1085 1086 1087 1088 1089 1092 1336 1355 2409 </ent_req>
+							<ent_req type="object_type_id">139 140 142 145 146 147 148 165 175 176 177 518 519 521 1055 1084 1085 1086 1087 1088 1089 1092 1336 1355</ent_req>
 							<ent_req type="claim" usage_type="use"/>
 						</ent_reqs>
 					</entity>
@@ -7660,7 +7660,7 @@
 				<entities>
 					<entity type="complex_obj">
 						<ent_reqs>
-							<ent_req type="object_type_id" parent="1">74 96 107 109 111 114 115 116 117 118 122 123 131 132 133 134 135 136 137 138 139 140 141 143 144 145 146 147 148 174 175 176 177 453 455 472 503 504 507 508 509 512 513 514 515 516 517 518 519 520 521 682 1055 1077 1084 1085 1086 1087 1088 1089 1092 1093 1097 1098 1109 1110 1121 1342 1343 1353 1357 1359 1394 1410 1411 1412 1413 1499 53 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 97 98 99 100 101 103 104 105 106 109 115 116 118 119 120 121 123 167 168 169 472 522 523 1152 1323 1333 1334 1394 1405 1406 1407 1445 1446 1461 1497 1657 1658 1659 1660 1661 1701 1723 1724 1725 1726 1727 1728 1729 1730 1731 1732 </ent_req>
+							<ent_req type="object_type_id" parent="1">74 96 107 109 111 114 115 116 117 118 122 123 131 132 133 134 135 136 137 138 139 140 141 143 144 145 146 147 148 174 175 176 177 453 455 472 503 504 507 508 509 512 513 514 515 516 517 518 519 520 521 682 1055 1077 1084 1085 1086 1087 1088 1089 1092 1093 1097 1098 1109 1110 1121 1342 1343 1353 1357 1359 1394 1410 1411 1412 1413 1499 53 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 97 98 99 100 101 103 104 105 106 109 115 116 118 119 120 121 123 167 168 169 472 522 523 1152 1323 1333 1334 1394 1405 1406 1407 1445 1446 1461 1497 1657 1658 1659 1660 1661 1701 1723 1724 1725 1726 1727 1728 1729 1730 1731 1732</ent_req>
 							<ent_req type="claim" usage_type="destroy"/>
 						</ent_reqs>
 					</entity>
@@ -7676,7 +7676,7 @@
 				<entities>
 					<entity type="complex_obj">
 						<ent_reqs>
-							<ent_req type="object_type_id" parent="1">74 96 107 109 111 114 115 116 117 118 122 123 131 132 133 134 135 136 137 138 139 140 141 143 144 145 146 147 148 174 175 176 177 453 455 472 503 504 507 508 509 512 513 514 515 516 517 518 519 520 521 682 1055 1077 1084 1085 1086 1087 1088 1089 1092 1093 1097 1098 1109 1110 1121 1342 1343 1353 1357 1359 1394 1410 1411 1412 1413 1499 1701 2404 2409 2410 </ent_req>
+							<ent_req type="object_type_id" parent="1">74 96 107 109 111 114 115 116 117 118 122 123 131 132 133 134 135 136 137 138 139 140 141 143 144 145 146 147 148 174 175 176 177 453 455 472 503 504 507 508 509 512 513 514 515 516 517 518 519 520 521 682 1055 1077 1084 1085 1086 1087 1088 1089 1092 1093 1097 1098 1109 1110 1121 1342 1343 1353 1357 1359 1394 1410 1411 1412 1413 1499 1701</ent_req>
 						</ent_reqs>
 					</entity>
 				</entities>
@@ -7819,7 +7819,7 @@
 				<results/>
 			</ability>
 			<ability lvl="0" name="Enslave" id="345">
-				<duration const="">20</duration>
+				<duration const="">6</duration>
 				<ability_skill_mult>0</ability_skill_mult>
 				<icon>art\2D\skills\abilities\coup_de_grace.png</icon>
 				<entities>
@@ -7827,6 +7827,11 @@
 						<ent_reqs/>
 					</entity>
 				</entities>
+				<requirements>
+					<req type="warstance">allowed</req>
+					<req type="world">red</req>
+					<req type="jh">only</req>
+				</requirements>
 				<results>
 					<animation>mowing</animation>
 					<sound>player_perform</sound>

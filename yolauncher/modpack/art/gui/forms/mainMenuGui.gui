@@ -1,0 +1,385 @@
+
+%escMenuOffsetX = 108;
+%escMenuOffsetY = 100;
+%escMenuButtonStep = 92;
+%escMenuButtonExtent = "200 44";
+%buttonProfile = EscMenuButtonProfile;
+
+%guiContent = new GuiControl( MainMenuGui)
+{
+	position = "0 0";
+	extent = "100% 100%";
+	horizSizing = "center";
+	vertSizing = "center";
+	profile = "GuiOverlayAutoCursorProfile";
+	visible = "1";
+	active = "1";
+	isContainer = "1";
+
+	new GuiBitmapCtrl(MainMenuGuiBg)			// full screen bg
+	{
+		position = "0 0";
+		extent = "406 629";
+		horizSizing = "center";
+		vertSizing = "center";
+		visible = "1";
+		tile = "0";
+		isContainer = "1";
+		wrap = "1";
+		profile = "GuiDefaultProfile";
+		bitmap = "gui/images/menu_esc.png";
+
+
+		new guiHorzTilingButtonCtrl( MainMenuGuiShopBtn)
+		{
+			text = GetMessageIDText(4120); // Shop
+			useManualIndex = "1";
+			imageIndex = GoldBtn;
+			depressedImageIndex = GoldBtnMouseOver;
+			mouseOverImageIndex = GoldBtnDepressed;
+			disabledImageIndex = H44BtnDisabled;
+			horizSizing = "center";
+			vertSizing = "bottom";
+			position = "102 105";
+			extent = %escMenuButtonExtent;
+			profile = %buttonProfile;
+			groupNum = "-1";
+			buttonType = "PushButton";
+			useMouseEvents = "0";
+			visible = "1";
+			active = "1";
+			isContainer = "0";
+			canSave = "1";
+			canSaveDynamicFields = "0";
+			command = "";
+		};//button
+
+		new GuiBitmapCtrl(MainMenuGuiLabelSale) //sale
+		{
+			position = "253 104";
+			extent = "45 56";
+			active = "0";
+			visible = "0";
+			tile = "0";
+			isContainer = "1";
+			wrap = "1";
+			profile = "GuiDefaultProfile";
+			bitmap = "gui/images/labelSale.png";
+		};
+
+		new guiHorzTilingButtonCtrl( MainMenuGuiSubscribeBtn)
+		{
+			text = GetMessageIDText(4361); // Subscribe
+			useManualIndex = "1";
+			imageIndex = GoldBtn;
+			depressedImageIndex = GoldBtnMouseOver;
+			mouseOverImageIndex = GoldBtnDepressed;
+			disabledImageIndex = H44BtnDisabled;
+			horizSizing = "center";
+			vertSizing = "bottom";
+			position = "102 169";
+			extent = %escMenuButtonExtent;
+			profile = "EscMenuButtonProfile";
+			groupNum = "-1";
+			buttonType = "PushButton";
+			useMouseEvents = "0";
+			visible = "1";
+			active = "1";
+			isContainer = "0";
+			canSave = "1";
+			canSaveDynamicFields = "0";
+			command = "hideEscMenu(); openXsollaSubscriptionInfo();";
+		};//button
+
+		new guiHorzTilingButtonCtrl(MainMenuGuiChangeIslandBtn)
+		{
+			text = GetMessageIDText(4630); // Change Island
+			imageIndex = "H44Btn";
+			horizSizing = "center";
+			vertSizing = "bottom";
+			position = "102 233";
+			extent = %escMenuButtonExtent;
+			profile = "EscMenuButtonProfile";
+			groupNum = "-1";
+			buttonType = "PushButton";
+			useMouseEvents = "0";
+			visible = "1";
+			active = "1";
+			isContainer = "0";
+			canSave = "1";
+			canSaveDynamicFields = "0";
+			command = "hideEscMenu();openQuestFerryManSelectionDialog();";
+		};//button
+
+		//Line
+		new GuiBitmapCtrl(MainMenuGuiLine)
+		{
+			imageIndex = BlackSlimHLineCenter;
+			profile = "GuiAtlas3ImageProfile";
+			extent = "299 3";
+			position = "55 243";
+			vertSizing = "top";
+			wrap = true;
+		};
+
+		new guiHorzTilingButtonCtrl( MainMenuerverRulesBtn)
+		{
+			text = GetMessageIDText(5207); // Server Rules
+			imageIndex = "H44Btn";
+			horizSizing = "center";
+			vertSizing = "bottom";
+			position = "102 80";	//position set in function toggleEscMenu
+			extent = %escMenuButtonExtent;
+			profile = "EscMenuButtonProfile";
+			groupNum = "-1";
+			buttonType = "PushButton";
+			useMouseEvents = "0";
+			visible = "1";
+			active = "1";
+			isContainer = "0";
+			canSave = "1";
+			canSaveDynamicFields = "0";
+			command = "hideEscMenu(); displayRules(true);";
+		};//button
+
+		new guiHorzTilingButtonCtrl( MainMenuGuiHelpBtn)
+		{
+			text = GetMessageIDText(1154); // Help
+			imageIndex = "H44Btn";
+			horizSizing = "center";
+			vertSizing = "bottom";
+			position = "102 277";				//position set in function toggleEscMenu
+			extent = %escMenuButtonExtent;
+			profile = "EscMenuButtonProfile";
+			groupNum = "-1";
+			buttonType = "PushButton";
+			useMouseEvents = "0";
+			visible = "1";
+			active = "1";
+			isContainer = "0";
+			canSave = "1";
+			canSaveDynamicFields = "0";
+			command = "hideEscMenu(); showHelpWindow(true);";
+		};//button
+
+		new guiHorzTilingButtonCtrl( MainMenuGuiSettingsBtn)
+		{
+			text = GetMessageIDText(2895); // Settings
+			imageIndex = "H44Btn";
+			horizSizing = "center";
+			vertSizing = "bottom";
+			position = "102 342";				//position set in function toggleEscMenu
+			extent = %escMenuButtonExtent;
+			profile = "EscMenuButtonProfile";
+			groupNum = "-1";
+			buttonType = "PushButton";
+			useMouseEvents = "0";
+			visible = "1";
+			active = "1";
+			isContainer = "0";
+			canSave = "1";
+			canSaveDynamicFields = "0";
+			command = "hideEscMenu(); togglSettingsMenu(true);";
+		};//button
+
+		new guiHorzTilingButtonCtrl( MainMenuGuiDisconnectBtn)
+		{
+			text = GetMessageIDText(2136); // Disconnect
+			imageIndex = "H44Btn";
+			horizSizing = "center";
+			vertSizing = "bottom";
+			position = "102 406";				//position set in function toggleEscMenu
+			extent = %escMenuButtonExtent;
+			profile = "EscMenuButtonProfile";
+			groupNum = "-1";
+			buttonType = "PushButton";
+			useMouseEvents = "0";
+			visible = "1";
+			active = "1";
+			isContainer = "0";
+			canSave = "1";
+			canSaveDynamicFields = "0";
+			command = "hideEscMenu(); userWantsToExit(\"Disconnect\");";
+		};//button
+
+		new guiHorzTilingButtonCtrl(MainMenuGuiExitBtn)
+		{
+			text = GetMessageIDText(1158); // Exit
+			imageIndex = "H44Btn";
+			horizSizing = "center";
+			vertSizing = "bottom";
+			position = "102 471";				//position set in function toggleEscMenu
+			extent = %escMenuButtonExtent;
+			profile = "EscMenuButtonProfile";
+			groupNum = "-1";
+			buttonType = "PushButton";
+			useMouseEvents = "0";
+			visible = "1";
+			active = "1";
+			isContainer = "0";
+			canSave = "1";
+			canSaveDynamicFields = "0";
+			command = "hideEscMenu(); userWantsToExit(\"Quit\");";
+		};
+
+		new guiHorzTilingButtonCtrl(MainMenuGuiPlayersBtn)
+		{
+			text = GetMessageIDText(1147); // Players
+			imageIndex = "H44Btn";
+			horizSizing = "center";
+			vertSizing = "bottom";
+			position = "102 471";
+			extent = %escMenuButtonExtent;
+			profile = "EscMenuButtonProfile";
+			groupNum = "-1";
+			buttonType = "PushButton";
+			useMouseEvents = "0";
+			visible = "1";
+			active = "1";
+			isContainer = "0";
+			canSave = "1";
+			canSaveDynamicFields = "0";
+			command = "hideEscMenu(); openOptionsPlayers();";
+		};
+		new GuiButtonCtrl(MainMenuGuiBackBtn)
+		{
+			text = GetMessageIDText(1137); // Back
+			imageIndex = BtnCloseEscMenu;
+			position = "351 24";
+			extent = %escMenuButtonExtent;
+			profile = "EscMenuButtonProfile";
+			groupNum = "-1";
+			buttonType = "PushButton";
+			useMouseEvents = "0";
+			visible = "1";
+			active = "1";
+			isContainer = "0";
+			canSave = "1";
+			canSaveDynamicFields = "0";
+			accelerator = "escape";
+			command = "hideEscMenu();";
+		};
+	};
+};
+
+%guiContent = new GuiControl( SettingsMenuGui)
+{
+	position = "0 0";
+	extent = "100% 100%";
+	horizSizing = "center";
+	vertSizing = "center";
+	profile = "GuiOverlayAutoCursorProfile";
+	visible = "1";
+	active = "1";
+	isContainer = "1";
+	
+	new GuiBitmapCtrl(SettingsGuiBg)			// full screen bg
+	{
+		position = "0 0";
+		extent = "406 529";
+		horizSizing = "center";
+		vertSizing = "center";
+		visible = "1";
+		tile = "0";
+		isContainer = "1";
+		wrap = "1";
+		profile = "GuiDefaultProfile";
+		bitmap = "gui/images/menu_esc_settings.png";
+
+		new guiHorzTilingButtonCtrl(SettingsControlsBtn) 
+		{
+			text = GetMessageIDText(1155); // Controls
+			imageIndex = "H44Btn";
+			horizSizing = "center";
+			position = %escMenuOffsetX SPC (%escMenuOffsetY + %escMenuButtonStep * 0);
+			extent = %escMenuButtonExtent;
+			profile = "EscMenuButtonProfile";
+			groupNum = "-1";
+			buttonType = "PushButton";
+			useMouseEvents = "0";
+			visible = "1";
+			active = "1";
+			isContainer = "0";
+			canSave = "1";
+			canSaveDynamicFields = "0";
+			command = "togglSettingsMenu(false); ShowOptionsControls();";
+		};//button
+
+		new guiHorzTilingButtonCtrl( SettingsVideoBtn) 
+		{
+			text = GetMessageIDText(1156); // Video
+			imageIndex = "H44Btn";
+			horizSizing = "center";
+			extent = %escMenuButtonExtent;
+			position = %escMenuOffsetX SPC (%escMenuOffsetY + %escMenuButtonStep * 1);
+			profile = "EscMenuButtonProfile";
+			groupNum = "-1";
+			buttonType = "PushButton";
+			useMouseEvents = "0";
+			visible = "1";
+			active = "1";
+			isContainer = "0";
+			canSave = "1";
+			canSaveDynamicFields = "0";
+			command = "togglSettingsMenu(false); createOptionsVideoDlg(); Canvas.pushDialog(OptionsVideoDlg);";
+		};//button
+
+		new guiHorzTilingButtonCtrl( SettingsAudioBtn) 
+		{
+			text = GetMessageIDText(1157); // Audio
+			imageIndex = "H44Btn";
+			horizSizing = "center";
+			position = %escMenuOffsetX SPC (%escMenuOffsetY + %escMenuButtonStep * 2);
+			extent = %escMenuButtonExtent;
+			profile = "EscMenuButtonProfile";
+			groupNum = "-1";
+			buttonType = "PushButton";
+			useMouseEvents = "0";
+			visible = "1";
+			active = "1";
+			isContainer = "0";
+			canSave = "1";
+			canSaveDynamicFields = "0";
+			command = "togglSettingsMenu(false); createOptionsAudioDlg(); Canvas.pushDialog(OptionsAudioDlg);";
+		};//button
+
+		new guiHorzTilingButtonCtrl(SettingsGameSettingsBtn) 
+		{
+			text = GetMessageIDText(2490); // Game settings
+			imageIndex = "H44Btn";
+			horizSizing = "center";
+			position = %escMenuOffsetX SPC (%escMenuOffsetY + %escMenuButtonStep * 3);
+			extent = %escMenuButtonExtent;
+			profile = "EscMenuButtonProfile";
+			groupNum = "-1";
+			buttonType = "PushButton";
+			useMouseEvents = "0";
+			visible = "1";
+			active = "1";
+			command = "togglSettingsMenu(false); OpenGameSettings();";
+			isContainer = "0";
+			canSave = "1";
+			canSaveDynamicFields = "0";
+		};//button
+
+		new GuiButtonCtrl(SettingsGuiBackBtn)
+		{
+			text = GetMessageIDText(1137); // Back
+			imageIndex = BtnCloseEscMenu;
+			position = "351 24";
+			extent = %escMenuButtonExtent;
+			profile = "EscMenuButtonProfile";
+			groupNum = "-1";
+			buttonType = "PushButton";
+			useMouseEvents = "0";
+			visible = "1";
+			active = "1";
+			isContainer = "0";
+			canSave = "1";
+			canSaveDynamicFields = "0";
+			accelerator = "escape";
+			command = "togglSettingsMenu(false);";
+		};
+	};
+};
+//--- OBJECT WRITE END ---

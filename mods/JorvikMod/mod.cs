@@ -1,579 +1,97 @@
 /**
-* <author>Warped ibun</author>
-* <email>lifxmod@gmail.com</email>
+* <author>Christophe Roblin</author>
 * <url>lifxmod.com</url>
-* <credits>Christophe Roblin <christophe@roblin.no> modification to make it yolauncher server modpack and lifxcompatible</credits>
-* <description>knools from mmo introduced to Lif:YO</description>
+* <credits>Odin one Eye of Jorvik</credits>
+* <description>LiFx compatible v2.1.0 of Jorvik Mod</description>
 * <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
 */
 
-if (!isObject(LiFxJorvikConversion))
+// Register your mod as an object in the game engine, important for loading and unloading a package (mod)
+if (!isObject(JorvikMod))
 {
-    new ScriptObject(LiFxJorvikConversion)
+    new ScriptObject(JorvikMod)
     {
     };
 }
 
-package LiFxJorvikConversion
 
+// LiFx expect each mod to be it's own unique package
+package JorvikMod
 {
-    function LiFxJorvikConversion::setup() {
-        LiFx::registerCallback($LiFx::hooks::onServerCreatedCallbacks, Dbchanges, LiFxJorvikConversion);
-        LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, ConChanges, LiFxJorvikConversion);
-        
-        // Register new objects
-        LiFx::registerObjectsTypes(LiFxJorvikConversion::ObjectsTypesWoodenCross(), LiFxJorvikConversion);
-        LiFx::registerObjectsTypes(LiFxJorvikConversion::ObjectsTypesWoodenBridge(), LiFxJorvikConversion);
-        LiFx::registerObjectsTypes(LiFxJorvikConversion::ObjectsTypesStoneBridge(), LiFxJorvikConversion);
-        LiFx::registerObjectsTypes(LiFxJorvikConversion::ObjectsTypesSmallWoodenshed(), LiFxJorvikConversion);
-        LiFx::registerObjectsTypes(LiFxJorvikConversion::ObjectsTypesMetalCage(), LiFxJorvikConversion);
-        LiFx::registerObjectsTypes(LiFxJorvikConversion::ObjectsTypesWoodenPier(), LiFxJorvikConversion);
-        LiFx::registerObjectsTypes(LiFxJorvikConversion::ObjectsTypesWoodenBarricadeA(), LiFxJorvikConversion);
-        LiFx::registerObjectsTypes(LiFxJorvikConversion::ObjectsTypesWoodenBarricade(), LiFxJorvikConversion);
-        LiFx::registerObjectsTypes(LiFxJorvikConversion::ObjectsTypesStoneAltar(), LiFxJorvikConversion);
-        LiFx::registerObjectsTypes(LiFxJorvikConversion::ObjectsTypesWoodenTowerHouse(), LiFxJorvikConversion);
-        LiFx::registerObjectsTypes(LiFxJorvikConversion::ObjectsTypesWoodenChurch(), LiFxJorvikConversion);
-        LiFx::registerObjectsTypes(LiFxJorvikConversion::ObjectsTypesWoodenPierT(), LiFxJorvikConversion);
-        LiFx::registerObjectsTypes(LiFxJorvikConversion::ObjectsTypesWoodenPierL(), LiFxJorvikConversion);
-        LiFx::registerObjectsTypes(LiFxJorvikConversion::ObjectsTypesStoneTombCross(), LiFxJorvikConversion);
-    }
-    function LiFxJorvikConversion::version() {
-        return "1.0.0";
-    }
+  // Returns a string as a version, LiFx will look for this specific function to output version to new connecting players
+  // Takes no parameters, is a reserved function for LiFx compatability.
+  function JorvikMod::version() {
+    return "v2.1.0";
+  }
 
-    function LiFxJorvikConversion::ObjectsTypesWoodenCross() {
-        return new ScriptObject(ObjectsTypesWoodenCross : ObjectsTypes)
-        {
-            id = 2400; // has to be globally unique, please reserve ids here: https://www.lifxmod.com/info/object-id-list/
-            ObjectName = "Wooden Cross";
-            ParentID = 61;
-            IsContainer = 0;
-            IsMovableObject = 0;
-            IsUnmovableobject = 1;
-            IsTool = 0;
-            IsDevice = 0;
-            IsDoor = 0;
-            IsPremium = 0;
-            MaxContSize = 100000;
-            Length = 6; 
-            MaxStackSize = 1;
-            UnitWeight = 100000;
-            BackgrndImage = "art\\\\images\\\\bag";
-            WorkAreaTop = 0;
-            WorkAreaLeft = 0;
-            WorkAreaWidth = 0;
-            WorkAreaHeight = 0;
-            BtnCloseTop = 0;
-            BtnCloseLeft = 0;
-            FaceImage = "yolauncher/modpack/mods/Jorvik/art/2D/objects/wooden_cross.png";
-            Description = "Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK";
-            BasePrice = NULL;
-            OwnerTimeout = NULL;
-            AllowExportFromRed = 0;
-            AllowExportFromGreen = 0;
-        };
-    }
-    function LiFxJorvikConversion::ObjectsTypesWoodenBridge() {
-        return new ScriptObject(ObjectsTypesWoodenBridge : ObjectsTypes)
-        {
-            id = 2401; // has to be globally unique, please reserve ids here: https://www.lifxmod.com/info/object-id-list/
-            ObjectName = "Wooden Bridge";
-            ParentID = 61;
-            IsContainer = 0;
-            IsMovableObject = 0;
-            IsUnmovableobject = 1;
-            IsTool = 0;
-            IsDevice = 0;
-            IsDoor = 0;
-            IsPremium = 0;
-            MaxContSize = 100000;
-            Length = 6; 
-            MaxStackSize = 1;
-            UnitWeight = 100000;
-            BackgrndImage = "art\\\\images\\\\bag";
-            WorkAreaTop = 0;
-            WorkAreaLeft = 0;
-            WorkAreaWidth = 0;
-            WorkAreaHeight = 0;
-            BtnCloseTop = 0;
-            BtnCloseLeft = 0;
-            FaceImage = "yolauncher/modpack/mods/Jorvik/art/2D/objects/wooden_bridge.png";
-            Description = "Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK";
-            BasePrice = NULL;
-            OwnerTimeout = NULL;
-            AllowExportFromRed = 0;
-            AllowExportFromGreen = 0;
-        };
-    }
-    function LiFxJorvikConversion::ObjectsTypesStoneBridge() {
-        return new ScriptObject(ObjectsTypesStoneBridge : ObjectsTypes)
-        {
-            id = 2402; // has to be globally unique, please reserve ids here: https://www.lifxmod.com/info/object-id-list/
-            ObjectName = "Stone Bridge";
-            ParentID = 61;
-            IsContainer = 0;
-            IsMovableObject = 0;
-            IsUnmovableobject = 1;
-            IsTool = 0;
-            IsDevice = 0;
-            IsDoor = 0;
-            IsPremium = 0;
-            MaxContSize = 100000;
-            Length = 6; 
-            MaxStackSize = 1;
-            UnitWeight = 100000;
-            BackgrndImage = "art\\\\images\\\\bag";
-            WorkAreaTop = 0;
-            WorkAreaLeft = 0;
-            WorkAreaWidth = 0;
-            WorkAreaHeight = 0;
-            BtnCloseTop = 0;
-            BtnCloseLeft = 0;
-            FaceImage = "yolauncher/modpack/mods/Jorvik/art/2D/objects/stone_bridge.png";
-            Description = "Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK";
-            BasePrice = NULL;
-            OwnerTimeout = NULL;
-            AllowExportFromRed = 0;
-            AllowExportFromGreen = 0;
-        };
-    }
-    function LiFxJorvikConversion::ObjectsTypesSmallWoodenshed() {
-        return new ScriptObject(ObjectsTypesSmallWoodenshed : ObjectsTypes)
-        {
-            id = 2403; // has to be globally unique, please reserve ids here: https://www.lifxmod.com/info/object-id-list/
-            ObjectName = "Small wooden shed";
-            ParentID = 69;
-            IsContainer = 1;
-            IsMovableObject = 1;
-            IsUnmovableobject = 0;
-            IsTool = 0;
-            IsDevice = 0;
-            IsDoor = 0;
-            IsPremium = 0;
-            MaxContSize = 5000000;
-            Length = 8; 
-            MaxStackSize = 0;
-            UnitWeight = 10000;
-            BackgrndImage = "art\\\\images\\\\warehouse";
-            WorkAreaTop = 0;
-            WorkAreaLeft = 0;
-            WorkAreaWidth = 0;
-            WorkAreaHeight = 0;
-            BtnCloseTop = 0;
-            BtnCloseLeft = 0;
-            FaceImage = "yolauncher/modpack/mods/Jorvik/art/2D/objects/small_wooden_shed.png";
-            Description = "Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK";
-            BasePrice = 194200;
-            OwnerTimeout = NULL;
-            AllowExportFromRed = 0;
-            AllowExportFromGreen = 0;
-        };
-    } 
-    function LiFxJorvikConversion::ObjectsTypesMetalCage() {
-        return new ScriptObject(ObjectsTypesSmallMetalCage : ObjectsTypes)
-        {
-            id = 2404; // has to be globally unique, please reserve ids here: https://www.lifxmod.com/info/object-id-list/
-            ObjectName = "Metal Cage";
-            ParentID = 61;
-            IsContainer = 0;
-            IsMovableObject = 0;
-            IsUnmovableobject = 1;
-            IsTool = 0;
-            IsDevice = 0;
-            IsDoor = 1;
-            IsPremium = 0;
-            MaxContSize = 100000;
-            Length = 6; 
-            MaxStackSize = 1;
-            UnitWeight = 100000;
-            BackgrndImage = "art\\\\images\\\\bag";
-            WorkAreaTop = 0;
-            WorkAreaLeft = 0;
-            WorkAreaWidth = 0;
-            WorkAreaHeight = 0;
-            BtnCloseTop = 0;
-            BtnCloseLeft = 0;
-            FaceImage = "yolauncher/modpack/mods/Jorvik/art/2D/objects/metal_cage.png";
-            Description = "Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK";
-            BasePrice = NULL;
-            OwnerTimeout = NULL;
-            AllowExportFromRed = 0;
-            AllowExportFromGreen = 0;
-        };
-    }
-    function LiFxJorvikConversion::ObjectsTypesWoodenPier() {
-        return new ScriptObject(ObjectsTypesWoodenPier : ObjectsTypes)
-        {
-            id = 2405; // has to be globally unique, please reserve ids here: https://www.lifxmod.com/info/object-id-list/
-            ObjectName = "Wooden Pier";
-            ParentID = 61;
-            IsContainer = 0;
-            IsMovableObject = 0;
-            IsUnmovableobject = 1;
-            IsTool = 0;
-            IsDevice = 0;
-            IsDoor = 0;
-            IsPremium = 0;
-            MaxContSize = 100000;
-            Length = 6; 
-            MaxStackSize = 1;
-            UnitWeight = 100000;
-            BackgrndImage = "art\\\\images\\\\bag";
-            WorkAreaTop = 0;
-            WorkAreaLeft = 0;
-            WorkAreaWidth = 0;
-            WorkAreaHeight = 0;
-            BtnCloseTop = 0;
-            BtnCloseLeft = 0;
-            FaceImage = "yolauncher/modpack/mods/Jorvik/art/2D/objects/wooden_pier.png";
-            Description = "Object from Jorvik MOD pack  /n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK";
-            BasePrice = NULL;
-            OwnerTimeout = NULL;
-            AllowExportFromRed = 0;
-            AllowExportFromGreen = 0;
-        };
-    }
-    function LiFxJorvikConversion::ObjectsTypesWoodenBarricadeA() {
-        return new ScriptObject(ObjectsTypesWoodenBarricadeA : ObjectsTypes)
-        {
-            id = 2406; // has to be globally unique, please reserve ids here: https://www.lifxmod.com/info/object-id-list/
-            ObjectName = "Wooden Barricade";
-            ParentID = 130;
-            IsContainer = 0;
-            IsMovableObject = 1;
-            IsUnmovableobject = 0;
-            IsTool = 0;
-            IsDevice = 0;
-            IsDoor = 0;
-            IsPremium = 0;
-            MaxContSize = 0;
-            Length = 4; 
-            MaxStackSize = 0;
-            UnitWeight = 1000;
-            BackgrndImage = "art\\\\images\\\\bag";
-            WorkAreaTop = 0;
-            WorkAreaLeft = 0;
-            WorkAreaWidth = 0;
-            WorkAreaHeight = 0;
-            BtnCloseTop = 0;
-            BtnCloseLeft = 0;
-            FaceImage = "yolauncher/modpack/mods/Jorvik/art/2D/objects/wooden_barricade.png";
-            Description = "Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK";
-            BasePrice = 2400;
-            OwnerTimeout = 120;
-            AllowExportFromRed = 0;
-            AllowExportFromGreen = 0;
-        };
-    }
-        function LiFxJorvikConversion::ObjectsTypesWoodenBarricade() {
-        return new ScriptObject(ObjectsTypesWoodenBarricade : ObjectsTypes)
-        {
-            id = 2407; // has to be globally unique, please reserve ids here: https://www.lifxmod.com/info/object-id-list/
-            ObjectName = "Wooden Barricade";
-            ParentID = 1902;
-            IsContainer = 0;
-            IsMovableObject = 0;
-            IsUnmovableobject = 0;
-            IsTool = 0;
-            IsDevice = 0;
-            IsDoor = 0;
-            IsPremium = 0;
-            MaxContSize = 2000;
-            Length = 4; 
-            MaxStackSize = 1;
-            UnitWeight = 2000;
-            BackgrndImage = "art\\\\images\\\\bag";
-            WorkAreaTop = 0;
-            WorkAreaLeft = 0;
-            WorkAreaWidth = 0;
-            WorkAreaHeight = 0;
-            BtnCloseTop = 0;
-            BtnCloseLeft = 0;
-            FaceImage = "yolauncher/modpack/mods/Jorvik/art/2D/objects/wooden_barricade.png";
-            Description = "Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK";
-            BasePrice = NULL;
-            OwnerTimeout = NULL;
-            AllowExportFromRed = 0;
-            AllowExportFromGreen = 0;
-        };
-    }
-    function LiFxJorvikConversion::ObjectsTypesStoneAltar() {
-        return new ScriptObject(ObjectsTypesStoneAltar : ObjectsTypes)
-        {
-            id = 2408; // has to be globally unique, please reserve ids here: https://www.lifxmod.com/info/object-id-list/
-            ObjectName = "Stone Altar";
-            ParentID = 61;
-            IsContainer = 0;
-            IsMovableObject = 0;
-            IsUnmovableobject = 1;
-            IsTool = 0;
-            IsDevice = 0;
-            IsDoor = 0;
-            IsPremium = 0;
-            MaxContSize = 100000;
-            Length = 6; 
-            MaxStackSize = 1;
-            UnitWeight = 100000;
-            BackgrndImage = "art\\\\images\\\\bag";
-            WorkAreaTop = 0;
-            WorkAreaLeft = 0;
-            WorkAreaWidth = 0;
-            WorkAreaHeight = 0;
-            BtnCloseTop = 0;
-            BtnCloseLeft = 0;
-            FaceImage = "yolauncher/modpack/mods/Jorvik/art/2D/objects/wooden_barricade.png";
-            Description = "Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK";
-            BasePrice = NULL;
-            OwnerTimeout = NULL;
-            AllowExportFromRed = 0;
-            AllowExportFromGreen = 0;
-        };
-    }
-    function LiFxJorvikConversion::ObjectsTypesWoodenTowerHouse() {
-        return new ScriptObject(ObjectsTypesWoodenTowerHouse : ObjectsTypes)
-        {
-            id = 2409; // has to be globally unique, please reserve ids here: https://www.lifxmod.com/info/object-id-list/
-            ObjectName = "Wooden Tower House";
-            ParentID = 72;
-            IsContainer = 0;
-            IsMovableObject = 0;
-            IsUnmovableobject = 1;
-            IsTool = 0;
-            IsDevice = 0;
-            IsDoor = 1;
-            IsPremium = 0;
-            MaxContSize = 100000;
-            Length = 6; 
-            MaxStackSize = 12;
-            UnitWeight = 200000;
-            BackgrndImage = "art\\\\images\\\\bag";
-            WorkAreaTop = 0;
-            WorkAreaLeft = 0;
-            WorkAreaWidth = 0;
-            WorkAreaHeight = 0;
-            BtnCloseTop = 0;
-            BtnCloseLeft = 0;
-            FaceImage = "yolauncher/modpack/mods/Jorvik/art/2D/objects/wooden_house_with_tower.png";
-            Description = "Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK";
-            BasePrice = NULL;
-            OwnerTimeout = NULL;
-            AllowExportFromRed = 0;
-            AllowExportFromGreen = 0;
-        };
-    }
-    function LiFxJorvikConversion::ObjectsTypesWoodenChurch() {
-        return new ScriptObject(ObjectsTypesWoodenChurch : ObjectsTypes)
-        {
-            id = 2410; // has to be globally unique, please reserve ids here: https://www.lifxmod.com/info/object-id-list/
-            ObjectName = "Wooden Church";
-            ParentID = 72;
-            IsContainer = 0;
-            IsMovableObject = 0;
-            IsUnmovableobject = 1;
-            IsTool = 0;
-            IsDevice = 0;
-            IsDoor = 1;
-            IsPremium = 0;
-            MaxContSize = 100000;
-            Length = 6; 
-            MaxStackSize = 1;
-            UnitWeight = 100000;
-            BackgrndImage = "art\\\\images\\\\bag";
-            WorkAreaTop = 0;
-            WorkAreaLeft = 0;
-            WorkAreaWidth = 0;
-            WorkAreaHeight = 0;
-            BtnCloseTop = 0;
-            BtnCloseLeft = 0;
-            FaceImage = "yolauncher/modpack/mods/Jorvik/art/2D/objects/wooden_church.png";
-            Description = "Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK";
-            BasePrice = NULL;
-            OwnerTimeout = NULL;
-            AllowExportFromRed = 0;
-            AllowExportFromGreen = 0;
-        };
-    }
-    function LiFxJorvikConversion::ObjectsTypesWoodenPierT() {
-        return new ScriptObject(ObjectsTypesWoodenPierT : ObjectsTypes)
-        {
-            id = 2411; // has to be globally unique, please reserve ids here: https://www.lifxmod.com/info/object-id-list/
-            ObjectName = "Wooden Pier T";
-            ParentID = 61;
-            IsContainer = 0;
-            IsMovableObject = 0;
-            IsUnmovableobject = 1;
-            IsTool = 0;
-            IsDevice = 0;
-            IsDoor = 0;
-            IsPremium = 0;
-            MaxContSize = 100000;
-            Length = 6; 
-            MaxStackSize = 1;
-            UnitWeight = 100000;
-            BackgrndImage = "art\\\\images\\\\bag";
-            WorkAreaTop = 0;
-            WorkAreaLeft = 0;
-            WorkAreaWidth = 0;
-            WorkAreaHeight = 0;
-            BtnCloseTop = 0;
-            BtnCloseLeft = 0;
-            FaceImage = "yolauncher/modpack/mods/Jorvik/art/2D/objects/pier_T.png";
-            Description = "Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK";
-            BasePrice = NULL;
-            OwnerTimeout = NULL;
-            AllowExportFromRed = 0;
-            AllowExportFromGreen = 0;
-        };
-    }
-    function LiFxJorvikConversion::ObjectsTypesWoodenPierL() {
-        return new ScriptObject(ObjectsTypesWoodenPierL : ObjectsTypes)
-        {
-            id = 2412; // has to be globally unique, please reserve ids here: https://www.lifxmod.com/info/object-id-list/
-            ObjectName = "Wooden Pier L";
-            ParentID = 61;
-            IsContainer = 0;
-            IsMovableObject = 0;
-            IsUnmovableobject = 1;
-            IsTool = 0;
-            IsDevice = 0;
-            IsDoor = 0;
-            IsPremium = 0;
-            MaxContSize = 100000;
-            Length = 6; 
-            MaxStackSize = 1;
-            UnitWeight = 100000;
-            BackgrndImage = "art\\\\images\\\\bag";
-            WorkAreaTop = 0;
-            WorkAreaLeft = 0;
-            WorkAreaWidth = 0;
-            WorkAreaHeight = 0;
-            BtnCloseTop = 0;
-            BtnCloseLeft = 0;
-            FaceImage = "yolauncher/modpack/mods/Jorvik/art/2D/objects/pier_T.png";
-            Description = "Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK";
-            BasePrice = NULL;
-            OwnerTimeout = NULL;
-            AllowExportFromRed = 0;
-            AllowExportFromGreen = 0;
-        };
-    }
-    function LiFxJorvikConversion::ObjectsTypesStoneTombCross() {
-        return new ScriptObject(ObjectsTypesStoneTombCross : ObjectsTypes)
-        {
-            id = 2413; // has to be globally unique, please reserve ids here: https://www.lifxmod.com/info/object-id-list/
-            ObjectName = "Stone Tomb Cross";
-            ParentID = 61;
-            IsContainer = 0;
-            IsMovableObject = 0;
-            IsUnmovableobject = 1;
-            IsTool = 0;
-            IsDevice = 0;
-            IsDoor = 0;
-            IsPremium = 0;
-            MaxContSize = 100000;
-            Length = 6; 
-            MaxStackSize = 1;
-            UnitWeight = 100000;
-            BackgrndImage = "art\\\\images\\\\bag";
-            WorkAreaTop = 0;
-            WorkAreaLeft = 0;
-            WorkAreaWidth = 0;
-            WorkAreaHeight = 0;
-            BtnCloseTop = 0;
-            BtnCloseLeft = 0;
-            FaceImage = "yolauncher/modpack/mods/Jorvik/art/2D/objects/stone_tomb_with_cross.png";
-            Description = "Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK";
-            BasePrice = NULL;
-            OwnerTimeout = NULL;
-            AllowExportFromRed = 0;
-            AllowExportFromGreen = 0;
-        };
-    }
-    function LiFxJorvikConversion::conChanges() {
-      dbi.Update("INSERT IGNORE `objects_conversions` VALUES (NULL, 2406, 2407)");
-      }
+  // The setup method is required, and will be looked for by the framework, if it doesn't have it your mod will not execute
+  // This is where you tell the framework, which hooks you use and what object types you have added, so that the framework can call your code at the appropiate time
+  function JorvikMod::setup() {
+    // Register callback hooks, do not run any form of code that does anything here, just register the hook
+	/**
+	* LiFx::registerCallback is a global framework function, it takes 3 parameters
+    * Parameter 1: The hook to register your function on
+    * Parameter 2: Non scoped name of function in your package
+    * Parameter 3: The package name to scope your function appropiately.
+	*/
+    LiFx::registerCallback($LiFx::hooks::onSpawnCallbacks, onSpawn, JorvikMod);
 
-  function LiFxJorvikConversion::dbChanges() {
-           ///////////////////////////////////////Recipe /////////////////////////////////////////////
-      dbi.Update("INSERT IGNORE `recipe` VALUES (1088, 'Wooden Cross', 'Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.', 34, 54, 60, 2400, 25, 1, 0, 0, 'yolauncher/modpack/mods/Jorvik/art/2D/recipes/wooden_cross.png')");
-      dbi.Update("INSERT IGNORE `recipe` VALUES (1089, 'Wooden Bridge', 'Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.', 32, 18, 60, 2401, 10, 1, 0, 0, 'yolauncher/modpack/mods/Jorvik/art/2D/recipes/wooden_bridge.png')");
-      dbi.Update("INSERT IGNORE `recipe` VALUES (1090, 'Stone Bridge', 'Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.', 32, 19, 60, 2402, 10, 1, 0, 0, 'yolauncher/modpack/mods/Jorvik/art/2D/recipes/stone_bridge.png')");
-      dbi.Update("INSERT IGNORE `recipe` VALUES (1091, 'Small Wooden Shed', 'Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.', 32, 18, 60, 2403, 25, 1, 0, 0, 'yolauncher/modpack/mods/Jorvik/art/2D/recipes/small_wooden_shed.png')");
-      dbi.Update("INSERT IGNORE `recipe` VALUES (1100, 'Metal Cage', 'Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.', 32, 19, 60, 2404, 35, 1, 0, 0, 'yolauncher/modpack/mods/Jorvik/art/2D/recipes/metal_cage.png')");
-      dbi.Update("INSERT IGNORE `recipe` VALUES (1092, 'Wooden Pier', 'Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.', 32, 18, 60, 2405, 10, 1, 0, 0, 'yolauncher/modpack/mods/Jorvik/art/2D/recipes/wooden_pier.png')");
-      dbi.Update("INSERT IGNORE `recipe` VALUES (1101, 'Wooden Barricade', 'Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.', 36, 18, 60, 2406, 40, 1, 0, 0, 'yolauncher/modpack/mods/Jorvik/art/2D/recipes/wooden_barricade.png')");
-      dbi.Update("INSERT IGNORE `recipe` VALUES (1094, 'Stone Alter', 'Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.', 32, 19, 60, 2408, 10, 1, 0, 0, 'yolauncher/modpack/mods/Jorvik/art/2D/recipes/stone_altar.png')");
-      dbi.Update("INSERT IGNORE `recipe` VALUES (1095, 'Wooden House with Tower', 'Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.', 36, 18, 60, 2409, 10, 1, 0, 0, 'yolauncher/modpack/mods/Jorvik/art/2D/recipes/wooden_house_with_tower.png')");
-      dbi.Update("INSERT IGNORE `recipe` VALUES (1096, 'Wooden Church', 'Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.', 32, 19, 60, 2410, 35, 1, 0, 0, 'yolauncher/modpack/mods/Jorvik/art/2D/recipes/wooden_church.png')");
-      dbi.Update("INSERT IGNORE `recipe` VALUES (1097, 'Wooden Pier T', 'Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.', 32, 18, 60, 2411, 10, 1, 0, 0, 'yolauncher/modpack/mods/Jorvik/art/2D/recipes/pier_T.png')");
-      dbi.Update("INSERT IGNORE `recipe` VALUES (1098, 'Wooden Pier L', 'Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.', 32, 18, 60, 2412, 10, 1, 0, 0, 'yolauncher/modpack/mods/Jorvik/art/2D/recipes/pier_L.png')");
-      dbi.Update("INSERT IGNORE `recipe` VALUES (1099, 'Stone tomb with cross', 'Object from Jorvik MOD pack \n CONVERTED TO LIFX AND YO LAUNCHER FRAMEWORK.', 32, 19, 60, 2413, 10, 1, 0, 0, 'yolauncher/modpack/mods/Jorvik/art/2D/recipes/stone_tomb_with_cross.png')");
+	/**
+	* LiFx::registerObjectsTypes is a global framework function, it takes 2 parameters
+	* It is used to write to the dump.sql on start, prior to the server reading it, and is necessary as bitbox wipes the objectstypes table on each start up.
+    * Parameter 1: The function including scope to your objectstypes definition
+    * Parameter 2: The package name of your mod
+	*/
 
- ///////////////////////////////////////Recipe Requirements /////////////////////////////////////////////
+    // Buildings
+    // Small Wooden Shed
+    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenShed(), JorvikMod);
+  }
 
-    //dbi.update("INSERT IGNORE INTO `recipe_requirement` VALUES (RecipeID,            MaterialObjectTypeID, Quality, Influence, Quantity, IsRegionalItemRequired)
-    //Wooden Cross
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1088, 233, 0, 65, 2, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1088, 34, 0, 10, 40, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1088, 247, 0, 0, 1, 0)");
-    //Wooden Bridge
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1089, 326, 0, 30, 18, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1089, 233, 0, 20, 4, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1089, 32, 0, 10, 15, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1089, 262, 0, 20, 8, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1089, 281, 0, 20, 40, 0)");
-    //Stone Bridge
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1090, 269, 0, 30, 100, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1090, 233, 0, 20, 8, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1090, 32, 0, 10, 15, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1090, 528, 0, 20, 40, 0)");
-    // Wooden Shed 
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1091, 233, 0, 20, 4, 0)");//no tool
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1091, 326, 0, 20, 40, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1091, 281, 0, 10, 40, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1091, 1356, 0, 20, 10, 0)");    
-    //Metal Cage **
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1100, 282, 0, 20, 4, 0)");//no tool
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1100, 283, 0, 20, 2, 0)"); 
-    //Wooden Pier
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1092, 326, 0, 30, 18, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1092, 233, 0, 20, 8, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1092, 32, 0, 10, 25, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1092, 281, 0, 10, 40, 0)");
-    //Wooden Barricade **
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1101, 233, 0, 20, 3, 0)");//no tool
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1101, 1356, 0, 20, 4, 0)");
-    //Stone Alter
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1094, 269, 0, 30, 80, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1094, 32, 0, 10, 10, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1094, 528, 0, 20, 30, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1094, 270, 0, 20, 4, 0)");
-    //Wooden Tower House
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1095, 233, 0, 30, 200, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1095, 281, 0, 10, 400, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1095, 286, 0, 10, 1, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1095, 326, 0, 5, 230, 0)");
-    //Wooden Church
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1096, 233, 0, 30, 250, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1096, 281, 0, 10, 400, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1096, 286, 0, 10, 2, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1096, 288, 0, 5, 6, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1096, 326, 0, 5, 280, 0)");
-    //Wooden Wooden Pier T
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1097, 326, 0, 30, 36, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1097, 233, 0, 20, 16, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1097, 32, 0, 10, 50, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1097, 281, 0, 10, 80, 0)");
-    //Wooden Wooden Pier L
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1098, 326, 0, 30, 36, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1098, 233, 0, 20, 16, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1098, 32, 0, 10, 50, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1098, 281, 0, 10, 80, 0)");
-    //Stone Tomb with Cross
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1099, 269, 0, 30, 50, 0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, 1099, 528, 0, 20, 20, 0)");
-  
+  // Example function references from setup above, this code will execute when the hook is called by the LiFx framework
+  function JorvikMod::onSpawn(%this, %client) {
+    echo(%this.getName() SPC %client.getName());
+
+  }
+  // The function name should match the object you create as a return object inside of the function
+  function JorvikMod::ObjectsTypesSmallWoodenShed() {
+
+    // this returns and writes to the dump.sql file for ease of distribution
+	// The name of the object should be the same as the function name it registers
+	// Each of the variables in the object, corrosponds to the column value in the database
+    return new ScriptObject(ObjectsTypesSmallWoodenShed : ObjectsTypes)
+    {
+      id = ; // *UNIQUE INT* Has to be a unique id - grab id from here: https://lifxmod.com/Docs/objects-types-id-list.html
+      ObjectName = "Small Wooden Shed"; // *STRING* Name of your object
+      ParentID = 69; // *INT* ParentID decides what type of object you have, think of it as class inheritance
+      IsContainer = 1; // *BOOL* 1 (true) or 0 (false) - If your object is supposed to have a container referenced
+      IsMovableObject = 1; // *BOOL* 1 (true) or 0 (false) - If your object is supposed to be movable
+      IsUnmovableobject = 0; // *BOOL* 1 (true) or 0 (false) - If your object is supposed to be unmovable
+      IsTool = 0; // *BOOL* 1 (true) or 0 (false) - If your object is supposed to be a tool to cut down trees or build buildings
+      IsDevice = 0; // *BOOL* 1 (true) or 0 (false) - If your object is a device used in crafting or other interactions
+      IsDoor = 0; // *BOOL* 1 (true) or 0 (false) - If your object has a door
+      IsPremium = 0; // *BOOL* 1 (true) or 0 (false) - Premium defintion currently is not in use for Your Own.
+      MaxContSize = 5000000; // *INT* The Max size of the container, if IsContainer is true
+      Length = 8;  // *INT* Length of your object, used to decide if your object fits in a particular container
+      MaxStackSize = 0; // *INT* Max number of items in a stack of your item in the inventory
+      UnitWeight = 10000; // *INT* The weight of your object, used in calculation of encumbarance
+      BackgrndImage = "art\\\\images\\\\warehouse"; // *STRING* Image reference to your inventory background, must be set if your object has a container
+      WorkAreaTop = 0;
+      WorkAreaLeft = 0;
+      WorkAreaWidth = 0;
+      WorkAreaHeight = 0;
+      BtnCloseTop = 0;
+      BtnCloseLeft = 0;
+      FaceImage = "mods/JorvikMod/BuildingImages/Example.png"; // *STRING* Reference to png that will be displayed in crafting menu
+      Description = ""; // *STRING* Used in crafting and skill to describe your object
+      BasePrice = 0; // *INT* Used as price for sacrificing to monuments, high value gives more maintenance points
+      OwnerTimeout = 0; // *INT* Used to set a timer on the object when made or dropped.
+      AllowExportFromRed = 0; // Not in use
+      AllowExportFromGreen = 0; // Not in use
+    };
   }
 };
-activatePackage(LiFxJorvikConversion);
-LiFx::registerCallback($LiFx::hooks::mods, setup, LiFxJorvikConversion);
+
+// This command is from Torque, and activates your package so that the engine can reference it
+// This is required for your mod to work, and have the code loaded in torque engine.
+activatePackage(JorvikMod);
