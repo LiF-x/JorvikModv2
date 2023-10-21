@@ -79,7 +79,7 @@ package JorvikMod
       Length = 8;  // *INT* Length of your object, used to decide if your object fits in a particular container
       MaxStackSize = 0; // *INT* Max number of items in a stack of your item in the inventory
       UnitWeight = 10000; // *INT* The weight of your object, used in calculation of encumbarance
-      BackgrndImage = "art\\\\images\\\\warehouse"; // *STRING* Image reference to your inventory background, must be set if your object has a container
+      BackgrndImage = "art/images/warehouse"; // *STRING* Image reference to your inventory background, must be set if your object has a container
       WorkAreaTop = 0;
       WorkAreaLeft = 0;
       WorkAreaWidth = 0;
@@ -94,6 +94,23 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
     };
   }
+  function JorvikMod::SmallWoodenShed() {
+                                   //dbi.update("INSERT IGNORE INTO `recipe` VALUES (NULL,      Name,                 Description,      StartingToolsID,   SkillTypeID, SkillLvl, ResultObjectTypeID, SkillDepends,       Quantity, Autorepeat, isBluePrint, ImagePath)
+    dbi.Select(JorvikMod, "SmallWoodenShedRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Wooden Shed', 'Object from Jorvik MOD',        32,               18,          60,        2400,               25,           1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_wooden_shed.png') RETURNING ID");
+  }
+  function JorvikMod::SmallWoodenShedRequirements(%this, %resultSet) {
+    if(%resultSet.ok() && %resultSet.nextRecord()) {
+      %lastInsert = %resultSet.getFieldValue("ID");
+    //dbi.update("INSERT IGNORE INTO `recipe_requirement` VALUES (RecipeID,            MaterialObjectTypeID, Quality, Influence, Quantity, IsRegionalItemRequired)
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       20,         4,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  281,                  0,      20,        40,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  235,                  0,      20,       40,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1356,                  0,      20,      10,       0)");
+    }
+    dbi.remove(%resultSet);
+    %resultSet.delete();
+  }
+  funct
   function JorvikMod::ObjectsTypesFlagPvP() {
     return new ScriptObject(ObjectsTypesFlagPvP : ObjectsTypes)
     {
@@ -246,7 +263,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_wooden_bridge.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_wooden_bridge.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -278,7 +295,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_stone_bridge.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_stone_bridge.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -310,7 +327,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\large_wooden_bridge.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/large_wooden_bridge.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -342,7 +359,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\large_stone_bridge.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/large_stone_bridge.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -374,7 +391,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\large_stone_bridge_end.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/large_stone_bridge_end.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -406,7 +423,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_stone_bridge_end.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_stone_bridge_end.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -470,7 +487,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_log_wall.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_log_wall.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -502,7 +519,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_wooden_pillar.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_wooden_pillar.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -534,7 +551,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_log_corner_wall.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_log_corner_wall.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -566,7 +583,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_log_wall_with_window.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_log_wall_with_window.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -598,7 +615,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_log_wall_with_shutters.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_log_wall_with_shutters.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -630,7 +647,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_log_wall_with_entrance.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_log_wall_with_entrance.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -662,7 +679,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_log_wall_with_door.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_log_wall_with_door.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -694,7 +711,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_wooden_floor_entrance.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_wooden_floor_entrance.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -726,7 +743,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_wooden_floor.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_wooden_floor.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -758,7 +775,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_log_wall_slope_right.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_log_wall_slope_right.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -790,7 +807,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_log_wall_slope_left.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_log_wall_slope_left.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -822,7 +839,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_thatch_roof.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_thatch_roof.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -854,7 +871,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_thatch_roof_rihgt_end.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_thatch_roof_rihgt_end.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -886,7 +903,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_thatch_roof_left_end.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_thatch_roof_left_end.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -918,7 +935,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_thatch_roof_outer_corner.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_thatch_roof_outer_corner.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -982,7 +999,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_log_wall_lvl1.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_log_wall_lvl1.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1014,7 +1031,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_wooden_pillar_lvl1.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_wooden_pillar_lvl1.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1046,7 +1063,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_log_corner_wall.png_lvl1";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_log_corner_wall.png_lvl1";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1078,7 +1095,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_log_wall_with_window_lvl1.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_log_wall_with_window_lvl1.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1110,7 +1127,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_log_wall_with_shutters_lvl1.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_log_wall_with_shutters_lvl1.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1142,7 +1159,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_log_wall_with_entrance_lvl1.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_log_wall_with_entrance_lvl1.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1174,7 +1191,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_log_wall_with_door_lvl1.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_log_wall_with_door_lvl1.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1206,7 +1223,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_wooden_floor_entrance_lvl1.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_wooden_floor_entrance_lvl1.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1238,7 +1255,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_wooden_floor.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_wooden_floor.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1270,7 +1287,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_wooden_stairs.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_wooden_stairs.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 100; 
       OwnerTimeout = 120; 
@@ -1302,7 +1319,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_thatch_roof_top.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_thatch_roof_top.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1334,7 +1351,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_thatch_roof_outer_corner_top.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_thatch_roof_outer_corner_top.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1366,7 +1383,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_thatch_roof_top_left_end.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_thatch_roof_top_left_end.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1398,7 +1415,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_thatch_roof_top_right_end.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_thatch_roof_top_right_end.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1430,7 +1447,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_thatch_roof.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_thatch_roof.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1462,7 +1479,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_thatch_roof_outer_corner.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_thatch_roof_outer_corner.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1494,7 +1511,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_wooden_railing.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_wooden_railing.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1526,7 +1543,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_wooden_railing_lvl1.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_wooden_railing_lvl1.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1558,7 +1575,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_thatch_roof_outer_corner.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_thatch_roof_outer_corner.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1590,7 +1607,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Recipes\\wall_torch.png";
+      FaceImage = "yolauncher/modpack/art/2D/Recipes/wall_torch.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1598,7 +1615,7 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-(2501,1902,'Wall Torch',0,0,0,0,0,0,0,0,3,1,1000,'',0,0,0,0,0,0,'mod\\JorvikMod\\art\\2D\\Recipes\\wall_torch.png','Object from Jorvik MOD',NULL,NULL,0,0),
+(2501,1902,'Wall Torch',0,0,0,0,0,0,0,0,3,1,1000,'',0,0,0,0,0,0,'mod/JorvikMod/art/2D/Recipes/wall_torch.png','Object from Jorvik MOD',NULL,NULL,0,0),
   function JorvikMod::ObjectsTypesSmall Candle() {
     return new ScriptObject(ObjectsTypesSmall Candle : ObjectsTypes)
     {
@@ -1623,7 +1640,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Recipes\\small_candle.png";
+      FaceImage = "yolauncher/modpack/art/2D/Recipes/small_candle.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1631,7 +1648,7 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-(2503,1902,'Small Candle',0,0,0,0,0,0,0,0,3,1,1000,'',0,0,0,0,0,0,'mod\\JorvikMod\\art\\2D\\Recipes\\small_candle.png','Object from Jorvik MOD',NULL,NULL,0,0),
+(2503,1902,'Small Candle',0,0,0,0,0,0,0,0,3,1,1000,'',0,0,0,0,0,0,'mod/JorvikMod/art/2D/Recipes/small_candle.png','Object from Jorvik MOD',NULL,NULL,0,0),
   function JorvikMod::ObjectsTypesAurochs Cow (stand)() {
     return new ScriptObject(ObjectsTypesAurochs Cow (stand) : ObjectsTypes)
     {
@@ -1656,7 +1673,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Recipes\\aurochs_cow.png";
+      FaceImage = "yolauncher/modpack/art/2D/Recipes/aurochs_cow.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1688,7 +1705,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\Recipes\\aurochs_cow.png";
+      FaceImage = "yolauncher/modpack/art/2D\Recipes/aurochs_cow.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1720,7 +1737,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Recipes\\aurochs_cow.png";
+      FaceImage = "yolauncher/modpack/art/2D/Recipes/aurochs_cow.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1728,7 +1745,7 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-(2507,1902,'Small Wooden Stairs',0,1,0,0,0,0,0,0,0,0,5000,'',0,0,0,0,0,0,'mod\\JorvikMod\\art\\2D\\Objects\\small_wooden_stairs.png','Object from Jorvik MOD',NULL,NULL,0,0),
+(2507,1902,'Small Wooden Stairs',0,1,0,0,0,0,0,0,0,0,5000,'',0,0,0,0,0,0,'mod/JorvikMod/art/2D/Objects/small_wooden_stairs.png','Object from Jorvik MOD',NULL,NULL,0,0),
   function JorvikMod::ObjectsTypesSow (stand)() {
     return new ScriptObject(ObjectsTypesSow (stand) : ObjectsTypes)
     {
@@ -1753,7 +1770,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Recipes\\sow.png";
+      FaceImage = "yolauncher/modpack/art/2D/Recipes/sow.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1785,7 +1802,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Recipes\\sow.png";
+      FaceImage = "yolauncher/modpack/art/2D/Recipes/sow.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1817,7 +1834,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Recipes\\sow.png";
+      FaceImage = "yolauncher/modpack/art/2D/Recipes/sow.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1849,7 +1866,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Recipes\\horse.png";
+      FaceImage = "yolauncher/modpack/art/2D/Recipes/horse.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1881,7 +1898,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Recipes\\horse.png";
+      FaceImage = "yolauncher/modpack/art/2D/Recipes/horse.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1913,7 +1930,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Recipes\\horse.png";
+      FaceImage = "yolauncher/modpack/art/2D/Recipes/horse.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1945,7 +1962,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Recipes\\slave.png";
+      FaceImage = "yolauncher/modpack/art/2D/Recipes/slave.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -1977,7 +1994,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Recipes\\wranen_the_hunter.png";
+      FaceImage = "yolauncher/modpack/art/2D/Recipes/wranen_the_hunter.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 1; 
       OwnerTimeout = 0; 
@@ -2009,7 +2026,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Items\\paper.png";
+      FaceImage = "yolauncher/modpack/art/2D/Items/paper.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 100; 
       OwnerTimeout = NULL; 
@@ -2041,7 +2058,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Items\\health_book.png";
+      FaceImage = "yolauncher/modpack/art/2D/Items/health_book.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 9000; 
       OwnerTimeout = NULL; 
@@ -2073,7 +2090,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\small_thatch_roof_inner_corner.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_thatch_roof_inner_corner.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -2098,14 +2115,14 @@ package JorvikMod
       Length = 7;  
       MaxStackSize = 0; 
       UnitWeight = 10000; 
-      BackgrndImage = "art\\images\\universal"; 
+      BackgrndImage = "art/images/universal"; 
       WorkAreaTop = 0;
       WorkAreaLeft = 0;
       WorkAreaWidth = 0;
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\wood_cart.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/wood_cart.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 135600; 
       OwnerTimeout = 30; 
@@ -2130,14 +2147,14 @@ package JorvikMod
       Length = 7;  
       MaxStackSize = 0; 
       UnitWeight = 100000; 
-      BackgrndImage = "art\\images\\universal"; 
+      BackgrndImage = "art/images/universal"; 
       WorkAreaTop = 0;
       WorkAreaLeft = 0;
       WorkAreaWidth = 0;
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Objects\\siegetower.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/siegetower.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 135600; 
       OwnerTimeout = 30; 
@@ -2169,7 +2186,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Recipes\\aurochs_bull.png";
+      FaceImage = "yolauncher/modpack/art/2D/Recipes/aurochs_bull.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -2201,7 +2218,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\Recipes\\aurochs_bull.png";
+      FaceImage = "yolauncher/modpack/art/2D\Recipes/aurochs_bull.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -2233,7 +2250,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Recipes\\aurochs_bull.png";
+      FaceImage = "yolauncher/modpack/art/2D/Recipes/aurochs_bull.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -2265,7 +2282,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Recipes\\small_wooden_pier.png";
+      FaceImage = "yolauncher/modpack/art/2D/Recipes/small_wooden_pier.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -2297,7 +2314,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Recipes\\small_wooden_pier_T.png";
+      FaceImage = "yolauncher/modpack/art/2D/Recipes/small_wooden_pier_T.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -2329,7 +2346,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Recipes\\small_wooden_pier_L.png";
+      FaceImage = "yolauncher/modpack/art/2D/Recipes/small_wooden_pier_L.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -2361,7 +2378,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Recipes\\wattle_wicket.png";
+      FaceImage = "yolauncher/modpack/art/2D/Recipes/wattle_wicket.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 3100; 
       OwnerTimeout = 86400; 
@@ -2393,7 +2410,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Recipes\\idol_cross.png";
+      FaceImage = "yolauncher/modpack/art/2D/Recipes/idol_cross.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 1; 
       OwnerTimeout = NULL; 
@@ -2425,7 +2442,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Recipes\\wooden_church.png";
+      FaceImage = "yolauncher/modpack/art/2D/Recipes/wooden_church.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 2400; 
       OwnerTimeout = 120; 
@@ -2457,7 +2474,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Recipes\\church.png";
+      FaceImage = "yolauncher/modpack/art/2D/Recipes/church.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 2400; 
       OwnerTimeout = 120; 
@@ -2489,7 +2506,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/art\\2D\\Items\\decoration_kit_small.png";
+      FaceImage = "yolauncher/modpack/art/2D/Items/decoration_kit_small.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 100; 
       OwnerTimeout = NULL; 
@@ -2521,7 +2538,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/art\\2D\\Items\\decoration_kit_medium.png";
+      FaceImage = "yolauncher/modpack/art/2D/Items/decoration_kit_medium.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 100; 
       OwnerTimeout = NULL; 
@@ -2553,7 +2570,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/art\\2D\\Items\\decoration_kit_large.png";
+      FaceImage = "yolauncher/modpack/art/2D/Items/decoration_kit_large.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 100; 
       OwnerTimeout = NULL; 
@@ -2585,7 +2602,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Recipes\\wolf.png";
+      FaceImage = "yolauncher/modpack/art/2D/Recipes/wolf.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -2617,7 +2634,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Items\\gold_sheet.png";
+      FaceImage = "yolauncher/modpack/art/2D/Items/gold_sheet.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 9000; 
       OwnerTimeout = NULL; 
@@ -2649,7 +2666,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Items\\scissors.png";
+      FaceImage = "yolauncher/modpack/art/2D/Items/scissors.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 9000; 
       OwnerTimeout = NULL; 
@@ -2681,7 +2698,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Items\\metal_stamp.png";
+      FaceImage = "yolauncher/modpack/art/2D/Items/metal_stamp.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 9000; 
       OwnerTimeout = NULL; 
@@ -2713,7 +2730,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Items\\gold_blanks.png";
+      FaceImage = "yolauncher/modpack/art/2D/Items/gold_blanks.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 9000; 
       OwnerTimeout = NULL; 
@@ -2745,7 +2762,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Items\\silver_sheet.png";
+      FaceImage = "yolauncher/modpack/art/2D/Items/silver_sheet.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 9000; 
       OwnerTimeout = NULL; 
@@ -2777,7 +2794,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Items\\copper_sheet.png";
+      FaceImage = "yolauncher/modpack/art/2D/Items/copper_sheet.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 9000; 
       OwnerTimeout = NULL; 
@@ -2809,7 +2826,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Items\\silver_blanks.png";
+      FaceImage = "yolauncher/modpack/art/2D/Items/silver_blanks.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 9000; 
       OwnerTimeout = NULL; 
@@ -2841,7 +2858,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mod\\JorvikMod\\art\\2D\\Items\\silver_blanks.png";
+      FaceImage = "yolauncher/modpack/art/2D/Items/silver_blanks.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 9000; 
       OwnerTimeout = NULL; 
