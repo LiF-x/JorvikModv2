@@ -396,8 +396,8 @@ package JorvikMod
     dbi.remove(%resultSet);
     %resultSet.delete();
   }
-  function JorvikMod::ObjectsTypesLarge Wooden Bridge() {
-    return new ScriptObject(ObjectsTypesLarge Wooden Bridge : ObjectsTypes)
+  function JorvikMod::ObjectsTypesLargeWoodenBridge() {
+    return new ScriptObject(ObjectsTypesLargeWoodenBridge : ObjectsTypes)
     {
       id = 2407; 
       ObjectName = "Large Wooden Bridge"; 
@@ -428,8 +428,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesLarge Stone Bridge() {
-    return new ScriptObject(ObjectsTypesLarge Stone Bridge : ObjectsTypes)
+  function JorvikMod::ObjectsTypesLargeStoneBridge() {
+    return new ScriptObject(ObjectsTypesLargeStoneBridge : ObjectsTypes)
     {
       id = 2408; 
       ObjectName = "Large Stone Bridge"; 
@@ -460,8 +460,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesLarge Stone Bridge End() {
-    return new ScriptObject(ObjectsTypesLarge Stone Bridge End : ObjectsTypes)
+  function JorvikMod::ObjectsTypesLargeStoneBridgeEnd() {
+    return new ScriptObject(ObjectsTypesLargeStoneBridgeEnd : ObjectsTypes)
     {
       id = 2409; 
       ObjectName = "Large Stone Bridge End"; 
@@ -492,8 +492,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Stone Bridge End() {
-    return new ScriptObject(ObjectsTypesSmall Stone Bridge End : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallStoneBridgeEnd() {
+    return new ScriptObject(ObjectsTypesSmallStoneBridgeEnd : ObjectsTypes)
     {
       id = 2410; 
       ObjectName = "Small Stone Bridge End"; 
@@ -524,8 +524,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesModular Constructions() {
-    return new ScriptObject(ObjectsTypesModular Constructions : ObjectsTypes)
+  function JorvikMod::ObjectsTypesModularConstructions() {
+    return new ScriptObject(ObjectsTypesModularConstructions : ObjectsTypes)
     {
       id = 2411; 
       ObjectName = "Modular Constructions"; 
@@ -556,8 +556,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Log Wall() {
-    return new ScriptObject(ObjectsTypesSmall Log Wall : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallLogWall() {
+    return new ScriptObject(ObjectsTypesSmallLogWall : ObjectsTypes)
     {
       id = 2412; 
       ObjectName = "Small Log Wall"; 
@@ -588,8 +588,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Wooden Pillar() {
-    return new ScriptObject(ObjectsTypesSmall Wooden Pillar : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallWoodenPillar() {
+    return new ScriptObject(ObjectsTypesSmallWoodenPillar : ObjectsTypes)
     {
       id = 2413; 
       ObjectName = "Small Wooden Pillar"; 
@@ -620,8 +620,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Log Corner Wall() {
-    return new ScriptObject(ObjectsTypesSmall Log Corner Wall : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallLogCornerWall() {
+    return new ScriptObject(ObjectsTypesSmallLogCornerWall : ObjectsTypes)
     {
       id = 2414; 
       ObjectName = "Small Log Corner Wall"; 
@@ -652,8 +652,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Log Wall With Window() {
-    return new ScriptObject(ObjectsTypesSmall Log Wall With Window : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallLogWallWithWindow() {
+    return new ScriptObject(ObjectsTypesSmallLogWallWithWindow : ObjectsTypes)
     {
       id = 2415; 
       ObjectName = "Small Log Wall With Window"; 
@@ -684,8 +684,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Log Wall With Shutters() {
-    return new ScriptObject(ObjectsTypesSmall Log Wall With Shutters : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallLogWallWithShutters() {
+    return new ScriptObject(ObjectsTypesSmallLogWallWithShutters : ObjectsTypes)
     {
       id = 2416; 
       ObjectName = "Small Log Wall With Shutters"; 
@@ -716,8 +716,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Log Wall With Entrance() {
-    return new ScriptObject(ObjectsTypesSmall Log Wall With Entrance : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallLogWallWithEntrance() {
+    return new ScriptObject(ObjectsTypesSmallLogWallWithEntrance : ObjectsTypes)
     {
       id = 2417; 
       ObjectName = "Small Log Wall With Entrance"; 
@@ -748,8 +748,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Log Wall With Door() {
-    return new ScriptObject(ObjectsTypesSmall Log Wall With Door : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallLogWallWithDoor() {
+    return new ScriptObject(ObjectsTypesSmallLogWallWithDoor : ObjectsTypes)
     {
       id = 2418; 
       ObjectName = "Small Log Wall With Door"; 
@@ -780,8 +780,8 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmall Wooden Floor Entrance() {
-    return new ScriptObject(ObjectsTypesSmall Wooden Floor Entrance : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallWoodenFloorEntrance() {
+    return new ScriptObject(ObjectsTypesSmallWoodenFloorEntrance : ObjectsTypes)
     {
       id = 2419; 
       ObjectName = "Small Wooden Floor Entrance"; 
