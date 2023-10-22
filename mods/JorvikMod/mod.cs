@@ -730,7 +730,7 @@ package JorvikMod
   function JorvikMod::ObjectsTypesSmallLogWall() {
     return new ScriptObject(ObjectsTypesSmallLogWall : ObjectsTypes)
     {
-      id = 2461; 
+      id = 2561; 
       ObjectName = "Small Log Wall"; 
       ParentID = 2473; 
       IsContainer = 0;
@@ -762,7 +762,7 @@ package JorvikMod
   function JorvikMod::ObjectsTypesSmallWoodenPillar() {
     return new ScriptObject(ObjectsTypesSmallWoodenPillar : ObjectsTypes)
     {
-      id = 2462; 
+      id = 2562; 
       ObjectName = "Small Wooden Pillar"; 
       ParentID = 2473; 
       IsContainer = 0;
@@ -794,7 +794,7 @@ package JorvikMod
   function JorvikMod::ObjectsTypesSmallLogCornerWall() {
     return new ScriptObject(ObjectsTypesSmallLogCornerWall : ObjectsTypes)
     {
-      id = 2463; 
+      id = 2563; 
       ObjectName = "Small Log Corner Wall"; 
       ParentID = 2473; 
       IsContainer = 0;
@@ -826,7 +826,7 @@ package JorvikMod
   function JorvikMod::ObjectsTypesSmallLogWallWithWindow() {
     return new ScriptObject(ObjectsTypesSmallLogWallWithWindow : ObjectsTypes)
     {
-      id = 2464; 
+      id = 2564; 
       ObjectName = "Small Log Wall With Window"; 
       ParentID = 2473; 
       IsContainer = 0;
@@ -858,7 +858,7 @@ package JorvikMod
   function JorvikMod::ObjectsTypesSmallLogWallWithShutters() {
     return new ScriptObject(ObjectsTypesSmallLogWallWithShutters : ObjectsTypes)
     {
-      id = 2465; 
+      id = 2565; 
       ObjectName = "Small Log Wall With Shutters"; 
       ParentID = 2473; 
       IsContainer = 0;
@@ -890,7 +890,7 @@ package JorvikMod
   function JorvikMod::ObjectsTypesSmallLogWallWithEntrance() {
     return new ScriptObject(ObjectsTypesSmallLogWallWithEntrance : ObjectsTypes)
     {
-      id = 2466; 
+      id = 2566; 
       ObjectName = "Small Log Wall With Entrance"; 
       ParentID = 2473; 
       IsContainer = 0;
@@ -922,7 +922,7 @@ package JorvikMod
   function JorvikMod::ObjectsTypesSmallLogWallWithDoor() {
     return new ScriptObject(ObjectsTypesSmallLogWallWithDoor : ObjectsTypes)
     {
-      id = 2467; 
+      id = 2567; 
       ObjectName = "Small Log Wall With Door"; 
       ParentID = 2473; 
       IsContainer = 0;
@@ -954,7 +954,7 @@ package JorvikMod
   function JorvikMod::ObjectsTypesSmallWoodenFloorEntrance() {
     return new ScriptObject(ObjectsTypesSmallWoodenFloorEntrance : ObjectsTypes)
     {
-      id = 2468; 
+      id = 2568; 
       ObjectName = "Small Wooden Floor Entrance"; 
       ParentID = 2473; 
       IsContainer = 0;
@@ -986,7 +986,7 @@ package JorvikMod
   function JorvikMod::ObjectsTypesSmallWoodenFloor() {
     return new ScriptObject(ObjectsTypesSmallWoodenFloor : ObjectsTypes)
     {
-      id = 2469; 
+      id = 2569; 
       ObjectName = "Small Wooden Floor"; 
       ParentID = 2473; 
       IsContainer = 0;
@@ -3276,7 +3276,7 @@ package JorvikMod
     %resultSet.delete();
   }
   function JorvikMod::SmallLogWall() {
-    dbi.Select(JorvikMod, "SmallLogWallRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Log Wall', 'Object from Jorvik MOD',        32,               18,          30,        2461,               35,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_log_wall.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallLogWallRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Log Wall', 'Object from Jorvik MOD',        32,               18,          30,        2561,               35,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_log_wall.png') RETURNING ID");
   }
   function JorvikMod::SmallLogWallRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
@@ -3289,7 +3289,7 @@ package JorvikMod
     %resultSet.delete();
   }
   function JorvikMod::SmallWoodenPillar() {
-    dbi.Select(JorvikMod, "SmallWoodenPillarRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Wooden Pillar', 'Object from Jorvik MOD',        32,               18,          30,        2462,               35,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_wooden_pillar.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallWoodenPillarRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Wooden Pillar', 'Object from Jorvik MOD',        32,               18,          30,        2562,               35,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_wooden_pillar.png') RETURNING ID");
   }
   function JorvikMod::SmallWoodenPillarRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
@@ -3302,7 +3302,7 @@ package JorvikMod
     %resultSet.delete();
   }
   function JorvikMod::SmallLogCornerWall() {
-    dbi.Select(JorvikMod, "SmallLogCornerWallRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Log Corner Wall', 'Object from Jorvik MOD',        32,               18,          30,        2463,               35,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_log_corner_wall.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallLogCornerWallRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Log Corner Wall', 'Object from Jorvik MOD',        32,               18,          30,        2563,               35,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_log_corner_wall.png') RETURNING ID");
   }
   function JorvikMod::SmallLogCornerWallRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
@@ -3316,7 +3316,7 @@ package JorvikMod
     %resultSet.delete();
   }
   function JorvikMod::SmallLogWallWithWindow() {
-    dbi.Select(JorvikMod, "SmallLogWallWithWindowRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Log Wall With Window', 'Object from Jorvik MOD',        32,               18,          30,        2464,               35,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_log_wall_with_window.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallLogWallWithWindowRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Log Wall With Window', 'Object from Jorvik MOD',        32,               18,          30,        2564,               35,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_log_wall_with_window.png') RETURNING ID");
   }
   function JorvikMod::SmallLogWallWithWindowRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
@@ -3331,7 +3331,7 @@ package JorvikMod
     %resultSet.delete();
   }
   function JorvikMod::SmallLogWallWithShutters() {
-    dbi.Select(JorvikMod, "SmallLogWallWithShuttersRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Log Wall With Shutters', 'Object from Jorvik MOD',        32,               18,          30,        2465,               35,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_log_wall_with_shutters.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallLogWallWithShuttersRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Log Wall With Shutters', 'Object from Jorvik MOD',        32,               18,          30,        2565,               35,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_log_wall_with_shutters.png') RETURNING ID");
   }
   function JorvikMod::SmallLogWallWithShuttersRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
@@ -3347,7 +3347,7 @@ package JorvikMod
     %resultSet.delete();
   }
   function JorvikMod::SmallLogWallWithEntrance() {
-    dbi.Select(JorvikMod, "SmallLogWallWithEntranceRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Log Wall With Entrance', 'Object from Jorvik MOD',        32,               18,          30,        2466,               35,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_log_wall_with_entrance.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallLogWallWithEntranceRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Log Wall With Entrance', 'Object from Jorvik MOD',        32,               18,          30,        2566,               35,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_log_wall_with_entrance.png') RETURNING ID");
   }
   function JorvikMod::SmallLogWallWithEntranceRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
@@ -3362,7 +3362,7 @@ package JorvikMod
     %resultSet.delete();
   }
   function JorvikMod::SmallLogWallWithDoor() {
-    dbi.Select(JorvikMod, "SmallLogWallWithDoorRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Log Wall With Door', 'Object from Jorvik MOD',        32,               18,          30,        2467,               35,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_log_wall_with_door.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallLogWallWithDoorRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Log Wall With Door', 'Object from Jorvik MOD',        32,               18,          30,        2567,               35,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_log_wall_with_door.png') RETURNING ID");
   }
   function JorvikMod::SmallLogWallWithDoorRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
@@ -3378,7 +3378,7 @@ package JorvikMod
     %resultSet.delete();
   }
   function JorvikMod::SmallWoodenFloorEntrance() {
-    dbi.Select(JorvikMod, "SmallWoodenFloorEntranceRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Wooden Floor Entrance', 'Object from Jorvik MOD',        32,               18,          30,        2468,               35,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_wooden_floor_entrance.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallWoodenFloorEntranceRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Wooden Floor Entrance', 'Object from Jorvik MOD',        32,               18,          30,        2568,               35,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_wooden_floor_entrance.png') RETURNING ID");
   }
   function JorvikMod::SmallWoodenFloorEntranceRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
@@ -3391,7 +3391,7 @@ package JorvikMod
     %resultSet.delete();
   }
   function JorvikMod::SmallWoodenFloor() {
-    dbi.Select(JorvikMod, "SmallWoodenFloorRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Wooden Floor', 'Object from Jorvik MOD',        32,               18,          30,        2469,               35,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_wooden_floor.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallWoodenFloorRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Wooden Floor', 'Object from Jorvik MOD',        32,               18,          30,        2569,               35,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_wooden_floor.png') RETURNING ID");
   }
   function JorvikMod::SmallWoodenFloorRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
@@ -3800,7 +3800,7 @@ package JorvikMod
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1046,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  427,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         200,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2517,                  0,       10,         1,       0)");
 
 	  
     }
@@ -3818,7 +3818,7 @@ package JorvikMod
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1046,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  427,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         200,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2517,                  0,       10,         1,       0)");
 
 	  
     }
@@ -3836,7 +3836,7 @@ package JorvikMod
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1046,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  427,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         200,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2517,                  0,       10,         1,       0)");
  
 	  
     }
@@ -3854,7 +3854,7 @@ package JorvikMod
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1048,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  429,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         100,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2517,                  0,       10,         1,       0)");
 
 	  
     }
@@ -3872,7 +3872,7 @@ package JorvikMod
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1048,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  429,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         100,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2517,                  0,       10,         1,       0)");
  
 	  
     }
@@ -3890,7 +3890,7 @@ package JorvikMod
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1048,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  429,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         100,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2517,                  0,       10,         1,       0)");
  
 	  
     }
@@ -3908,7 +3908,7 @@ package JorvikMod
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1039,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  427,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         200,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2517,                  0,       10,         1,       0)");
 
 	  
     }
@@ -3926,7 +3926,7 @@ package JorvikMod
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1039,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  427,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         200,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2517,                  0,       10,         1,       0)");
 
 	  
     }
@@ -3944,7 +3944,7 @@ package JorvikMod
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1039,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  427,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         200,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2517,                  0,       10,         1,       0)");
 
 	  
     }
@@ -3962,7 +3962,7 @@ package JorvikMod
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1409,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1700,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         100,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2517,                  0,       10,         1,       0)");
 
 	  
     }
@@ -3980,7 +3980,7 @@ package JorvikMod
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1409,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1700,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         100,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2517,                  0,       10,         1,       0)");
 
 	  
     }
@@ -4005,7 +4005,7 @@ package JorvikMod
   function JorvikMod::HealthBookRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2463,                  0,       10,         100,       1)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2516,                  0,       10,         100,       1)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  374,                  0,       10,         10,       0)");
 
 	  
@@ -4071,7 +4071,7 @@ package JorvikMod
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1047,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  427,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         200,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2517,                  0,       10,         1,       0)");
 
 	  
     }
@@ -4089,7 +4089,7 @@ package JorvikMod
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1047,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  427,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         200,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2517,                  0,       10,         1,       0)");
 
 	  
     }
@@ -4107,7 +4107,7 @@ package JorvikMod
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1047,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  427,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         200,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2517,                  0,       10,         1,       0)");
 
 	  
     }
@@ -4278,7 +4278,7 @@ package JorvikMod
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  1404,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  428,                  0,       10,         1,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  386,                  0,       10,         100,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2464,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2517,                  0,       10,         1,       0)");
 
 	  
     }
