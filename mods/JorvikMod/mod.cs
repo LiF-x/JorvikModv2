@@ -427,7 +427,7 @@ package JorvikMod
   function JorvikMod::ObjectsTypesStoneGate() {
     return new ScriptObject(ObjectsTypesStoneGate : ObjectsTypes)
     {
-      id = 2454; 
+      id = 2554; 
       ObjectName = "Stone Gate"; 
       ParentID = 172; 
       IsContainer = 0;
@@ -458,7 +458,7 @@ package JorvikMod
   }
   function JorvikMod::StoneGate() {
                                    //dbi.update("INSERT IGNORE INTO `recipe` VALUES (NULL,      Name,                 Description,      StartingToolsID,   SkillTypeID, SkillLvl, ResultObjectTypeID, SkillDepends,       Quantity, Autorepeat, isBluePrint, ImagePath)
-    dbi.Select(JorvikMod, "StoneGateRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Stone Gate', 'Object from Jorvik MOD',        32,               19,          60,        2454,               35,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/stone_gate.png') RETURNING ID");
+    dbi.Select(JorvikMod, "StoneGateRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Stone Gate', 'Object from Jorvik MOD',        32,               19,          60,        2554,               35,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/stone_gate.png') RETURNING ID");
   }
   function JorvikMod::StoneGateRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {

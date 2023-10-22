@@ -26713,7 +26713,7 @@
             </state>
         </states>
     </object>
-    <object id="2461" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+    <object id="2561" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Log Wall-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -26751,7 +26751,7 @@
             </state>
         </states>
     </object>
-    <object id="2462" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+    <object id="2562" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Wooden Pillar-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -26779,7 +26779,7 @@
             </state>        
         </states>
     </object>
-    <object id="2463" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+    <object id="2563" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Log Corner Wall-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -26817,7 +26817,7 @@
             </state>
         </states>
     </object>
-	<object id="2464" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2564" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Log Wall with Window-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -26855,7 +26855,7 @@
             </state>
         </states>
     </object>
-	<object id="2465" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2565" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Log Wall With Shutters-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -26893,7 +26893,7 @@
             </state>
         </states>
     </object>
-	<object id="2466" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2566" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Log Wall With Entrance-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -26931,7 +26931,7 @@
             </state>
         </states>
     </object>
-	<object id="2467" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2567" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Log Wall With Door-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -26969,7 +26969,7 @@
             </state>
         </states>
     </object>
-	<object id="2468" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2568" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Wooden Floor Entrance-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -26997,7 +26997,7 @@
             </state>        
         </states>
     </object>
-	<object id="2469" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2569" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Wooden Floor-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -29151,7 +29151,7 @@
             </state>
         </states>
     </object>
-    <object id="2530" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="3" noRuins="1">
+    <object id="2485" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="3" noRuins="1">
 	    <!--name = Sanctum of the Sleeper -->
 	    <lockedCells>
 			<cell x="1" y="0" />
