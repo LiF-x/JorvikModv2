@@ -27,6 +27,7 @@ package JorvikMod
   // The setup method is required, and will be looked for by the framework, if it doesn't have it your mod will not execute
   // This is where you tell the framework, which hooks you use and what object types you have added, so that the framework can call your code at the appropiate time
   function JorvikMod::setup() {
+    JorvikMod::modRoot = getSubStr($Con::File,0,strrchrpos($Con::File,"/") + 1);
     // Register callback hooks, do not run any form of code that does anything here, just register the hook
 	/**
 	* LiFx::registerCallback is a global framework function, it takes 3 parameters
@@ -4615,6 +4616,34 @@ package JorvikMod
     %resultSet.delete();
   }  
   
+
+  function serverCmdRequestRules(%client)
+  {
+      %file = new FileObject();
+      %file.openForRead(JorvikMod::modRoot @ "server_rules.txt");
+
+      %content = "";
+      while (!%file.isEOF())
+      {
+          %line = %file.readLine();
+          %content = %content @ %line @ "\n";
+      }
+
+      %file.close();
+      %file.delete();
+
+      %packets = mCeil(strLen(%content) / 255);
+      %count = 0;
+
+      while (%count < %packets)
+      {
+          %subContent = getSubStr(%content, %count * 255, 255);
+          commandToClient(%client, 'DisplayRules', %subContent);
+          %count++;
+      }
+
+      commandToClient(%client, 'EndRulesTransmission');
+  }
 };
 // This command is from Torque, and activates your package so that the engine can reference it
 // This is required for your mod to work, and have the code loaded in torque engine.
