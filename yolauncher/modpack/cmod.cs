@@ -16,7 +16,7 @@ if (!isObject(JorvikMod))
 package JorvikMod
 {
   function JorvikMod::setup() {
-    LiFx::registerCallback($LiFx::hooks::onMaterialsLoaded, RegisterMaterials, JorvikMod);
+    LiFx::registerCallback($LiFx::hooks::onMaterialsLoad, RegisterMaterials, JorvikMod);
     LiFx::registerCallback($LiFx::hooks::onInitialized, onInitialized, JorvikMod);
     LiFx::registerCallback($LiFx::hooks::onDatablockLoad, RegisterDatablock, JorvikMod);
   }
