@@ -26224,7 +26224,7 @@
             <state type="Complete">
               <shapes>
                   <shape>
-                      <shapeName>mod/JorvikMod/art/models/3d/construction/storage/small_wooden_shed/small_wooden_shed.dts</shapeName>
+                      <shapeName>yolauncher/modpack/art/models/3d/construction/storage/small_wooden_shed/small_wooden_shed.dts</shapeName>
                       <offset x="0" y="0" z="0" />
                       <rot x="0" y="0" z="0" angle="0" />
                       <scale x="1" y="1" z="1" />
@@ -26234,7 +26234,7 @@
             <state type="Damaged">
               <shapes>
                   <shape>
-                      <shapeName>mod/JorvikMod/art/models/3d/construction/storage/small_wooden_shed/small_wooden_shed_dmg.dts</shapeName>
+                      <shapeName>yolauncher/modpack/art/models/3d/construction/storage/small_wooden_shed/small_wooden_shed_dmg.dts</shapeName>
                       <offset x="0" y="0" z="0" />
                       <rot x="0" y="0" z="0" angle="0" />
                       <scale x="1" y="1" z="1" />
@@ -26271,7 +26271,7 @@
           <state type="Incomplete">
               <shapes>
                   <shape>
-                      <shapeName>mod/JorvikMod/art/models/3d/construction/storage/small_wooden_shed/small_wooden_shed_inc.dts</shapeName>
+                      <shapeName>yolauncher/modpack/art/models/3d/construction/storage/small_wooden_shed/small_wooden_shed_inc.dts</shapeName>
                       <offset x="0" y="0" z="0" />
                       <rot x="0" y="0" z="0" angle="0" />
                       <scale x="1" y="1" z="1" />
@@ -26289,7 +26289,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/decorations/flags/flag_pvp.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/decorations/flags/flag_pvp.dts</shapeName>
                         <animationName>Wind</animationName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
@@ -26300,7 +26300,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/decorations/flags/flag_pvp.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/decorations/flags/flag_pvp.dts</shapeName>
                         <animationName>Wind</animationName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
@@ -26329,7 +26329,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/decorations/flags/flag_pve.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/decorations/flags/flag_pve.dts</shapeName>
                         <animationName>Wind</animationName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
@@ -26340,7 +26340,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/decorations/flags/flag_pve.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/decorations/flags/flag_pve.dts</shapeName>
                         <animationName>Wind</animationName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
@@ -26378,7 +26378,7 @@
             <state type="Complete">
                 <shapes>
                     <shape isDoor="1">
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/residence/long_house/long_house.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/long_house/long_house.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26388,7 +26388,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/residence/long_house/long_house_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/long_house/long_house_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26398,7 +26398,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/residence/long_house/long_house_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/long_house/long_house_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26445,7 +26445,7 @@
             <state type="Complete">
                 <shapes>
                     <shape isDoor="1">
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Fortifications/stone_gate/stone_gate.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Fortifications/stone_gate/stone_gate.dts</shapeName>
                         <offset x="-6" y="2" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26455,7 +26455,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Fortifications/stone_gate/stone_gate_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Fortifications/stone_gate/stone_gate_inc.dts</shapeName>
                         <offset x="-6" y="2" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26465,7 +26465,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Fortifications/stone_gate/stone_gate_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Fortifications/stone_gate/stone_gate_dmg.dts</shapeName>
                         <offset x="-6" y="2" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26484,7 +26484,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/small_wooden_bridge/small_wooden_bridge.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_wooden_bridge/small_wooden_bridge.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26494,7 +26494,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/small_wooden_bridge/small_wooden_bridge_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_wooden_bridge/small_wooden_bridge_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26504,7 +26504,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/small_wooden_bridge/small_wooden_bridge_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_wooden_bridge/small_wooden_bridge_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26523,7 +26523,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/small_stone_bridge/small_stone_bridge.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_stone_bridge/small_stone_bridge.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26533,7 +26533,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/small_stone_bridge/small_stone_bridge_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_stone_bridge/small_stone_bridge_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26543,7 +26543,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/small_stone_bridge/small_stone_bridge_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_stone_bridge/small_stone_bridge_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26564,7 +26564,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/large_wooden_bridge/large_wooden_bridge.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/large_wooden_bridge/large_wooden_bridge.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26574,7 +26574,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/large_wooden_bridge/large_wooden_bridge_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/large_wooden_bridge/large_wooden_bridge_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26584,7 +26584,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/large_wooden_bridge/large_wooden_bridge_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/large_wooden_bridge/large_wooden_bridge_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26605,7 +26605,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/large_stone_bridge/large_stone_bridge.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/large_stone_bridge/large_stone_bridge.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26615,7 +26615,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/large_stone_bridge/large_stone_bridge_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/large_stone_bridge/large_stone_bridge_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26625,7 +26625,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/large_stone_bridge/large_stone_bridge_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/large_stone_bridge/large_stone_bridge_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26644,7 +26644,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/large_stone_bridge_end/large_stone_bridge_end.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/large_stone_bridge_end/large_stone_bridge_end.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26654,7 +26654,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/large_stone_bridge_end/large_stone_bridge_end_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/large_stone_bridge_end/large_stone_bridge_end_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26664,7 +26664,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/large_stone_bridge_end/large_stone_bridge_end_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/large_stone_bridge_end/large_stone_bridge_end_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26682,7 +26682,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/small_stone_bridge_end/small_stone_bridge_end.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_stone_bridge_end/small_stone_bridge_end.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26692,7 +26692,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/small_stone_bridge_end/small_stone_bridge_end_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_stone_bridge_end/small_stone_bridge_end_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26702,7 +26702,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/small_stone_bridge_end/small_stone_bridge_end_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_stone_bridge_end/small_stone_bridge_end_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26720,7 +26720,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall/s_log_wall.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall/s_log_wall.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26730,7 +26730,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall/s_log_wall_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall/s_log_wall_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26740,7 +26740,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall/s_log_wall_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall/s_log_wall_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26758,7 +26758,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_wood_pillar/s_wood_pillar.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_pillar/s_wood_pillar.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26768,7 +26768,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_wood_pillar/s_wood_pillar_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_pillar/s_wood_pillar_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26786,7 +26786,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_cor_wall/s_log_cor_wall.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_cor_wall/s_log_cor_wall.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26796,7 +26796,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_cor_wall/s_log_cor_wall_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_cor_wall/s_log_cor_wall_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26806,7 +26806,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_cor_wall/s_log_cor_wall_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_cor_wall/s_log_cor_wall_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26824,7 +26824,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_win/s_log_wall_win.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_win/s_log_wall_win.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26834,7 +26834,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_win/s_log_wall_win_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_win/s_log_wall_win_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26844,7 +26844,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_win/s_log_wall_win_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_win/s_log_wall_win_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26862,7 +26862,7 @@
             <state type="Complete">
                 <shapes>
                     <shape isDoor="1">
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_shut/s_log_wall_shut.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_shut/s_log_wall_shut.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26872,7 +26872,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_shut/s_log_wall_shut_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_shut/s_log_wall_shut_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26882,7 +26882,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_shut/s_log_wall_shut_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_shut/s_log_wall_shut_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26900,7 +26900,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_ent/s_log_wall_ent.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_ent/s_log_wall_ent.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26910,7 +26910,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_ent/s_log_wall_ent_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_ent/s_log_wall_ent_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26920,7 +26920,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_ent/s_log_wall_ent_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_ent/s_log_wall_ent_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26938,7 +26938,7 @@
             <state type="Complete">
                 <shapes>
                     <shape isDoor="1">
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_door/s_log_wall_door.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_door/s_log_wall_door.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26948,7 +26948,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_door/s_log_wall_door_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_door/s_log_wall_door_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26958,7 +26958,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_door/s_log_wall_door_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_door/s_log_wall_door_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26976,7 +26976,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_wood_floor_ent/s_wood_floor_ent.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_floor_ent/s_wood_floor_ent.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -26986,7 +26986,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_wood_floor_ent/s_wood_floor_ent_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_floor_ent/s_wood_floor_ent_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27004,7 +27004,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_wood_floor/s_wood_floor.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_floor/s_wood_floor.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27014,7 +27014,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_wood_floor/s_wood_floor_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_floor/s_wood_floor_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27032,7 +27032,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_slope_right/s_log_wall_slope_right.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_slope_right/s_log_wall_slope_right.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27042,7 +27042,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_slope_right/s_log_wall_slope_right_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_slope_right/s_log_wall_slope_right_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27052,7 +27052,7 @@
 			<state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_slope_right/s_log_wall_slope_right_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_slope_right/s_log_wall_slope_right_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27070,7 +27070,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_slope_left/s_log_wall_slope_left.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_slope_left/s_log_wall_slope_left.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27080,7 +27080,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_slope_left/s_log_wall_slope_left_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_slope_left/s_log_wall_slope_left_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27090,7 +27090,7 @@
 			<state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_slope_left/s_log_wall_slope_left_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_slope_left/s_log_wall_slope_left_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27108,7 +27108,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof/s_thatch_roof.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof/s_thatch_roof.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27118,7 +27118,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof/s_thatch_roof_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof/s_thatch_roof_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27128,7 +27128,7 @@
 			<state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof/s_thatch_roof_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof/s_thatch_roof_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27146,7 +27146,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_right_end/s_thatch_roof_right_end.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_right_end/s_thatch_roof_right_end.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27156,7 +27156,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_right_end/s_thatch_roof_right_end_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_right_end/s_thatch_roof_right_end_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27166,7 +27166,7 @@
 			<state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_right_end/s_thatch_roof_right_end_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_right_end/s_thatch_roof_right_end_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27184,7 +27184,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_left_end/s_thatch_roof_left_end.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_left_end/s_thatch_roof_left_end.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27194,7 +27194,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_left_end/s_thatch_roof_left_end_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_left_end/s_thatch_roof_left_end_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27204,7 +27204,7 @@
 			<state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_left_end/s_thatch_roof_left_end_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_left_end/s_thatch_roof_left_end_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27222,7 +27222,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_out_cor/s_thatch_roof_out_cor.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_out_cor/s_thatch_roof_out_cor.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27232,7 +27232,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_out_cor/s_thatch_roof_out_cor_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_out_cor/s_thatch_roof_out_cor_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27242,7 +27242,7 @@
 			<state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_out_cor/s_thatch_roof_out_cor_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_out_cor/s_thatch_roof_out_cor_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27260,7 +27260,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_l1/s_log_wall_l1.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_l1/s_log_wall_l1.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27270,7 +27270,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_l1/s_log_wall_l1_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_l1/s_log_wall_l1_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27280,7 +27280,7 @@
 			<state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_l1/s_log_wall_l1_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_l1/s_log_wall_l1_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27298,7 +27298,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_wood_pillar_l1/s_wood_pillar_l1.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_pillar_l1/s_wood_pillar_l1.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27308,7 +27308,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_wood_pillar_l1/s_wood_pillar_l1_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_pillar_l1/s_wood_pillar_l1_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27326,7 +27326,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_cor_wall_l1/s_log_cor_wall_l1.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_cor_wall_l1/s_log_cor_wall_l1.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27336,7 +27336,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_cor_wall_l1/s_log_cor_wall_l1_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_cor_wall_l1/s_log_cor_wall_l1_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27346,7 +27346,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_cor_wall_l1/s_log_cor_wall_l1_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_cor_wall_l1/s_log_cor_wall_l1_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27364,7 +27364,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_win_l1/s_log_wall_win_l1.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_win_l1/s_log_wall_win_l1.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27374,7 +27374,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_win_l1/s_log_wall_win_l1_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_win_l1/s_log_wall_win_l1_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27384,7 +27384,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_win_l1/s_log_wall_win_l1_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_win_l1/s_log_wall_win_l1_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27402,7 +27402,7 @@
             <state type="Complete">
                 <shapes>
                     <shape isDoor="1">
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_shut_l1/s_log_wall_shut_l1.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_shut_l1/s_log_wall_shut_l1.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27412,7 +27412,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_shut_l1/s_log_wall_shut_l1_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_shut_l1/s_log_wall_shut_l1_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27422,7 +27422,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_shut_l1/s_log_wall_shut_l1_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_shut_l1/s_log_wall_shut_l1_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27440,7 +27440,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_ent_l1/s_log_wall_ent_l1.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_ent_l1/s_log_wall_ent_l1.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27450,7 +27450,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_ent_l1/s_log_wall_ent_l1_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_ent_l1/s_log_wall_ent_l1_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27460,7 +27460,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_ent_l1/s_log_wall_ent_l1_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_ent_l1/s_log_wall_ent_l1_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27478,7 +27478,7 @@
             <state type="Complete">
                 <shapes>
                     <shape isDoor="1">
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_door_l1/s_log_wall_door_l1.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_door_l1/s_log_wall_door_l1.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27488,7 +27488,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_door_l1/s_log_wall_door_l1_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_door_l1/s_log_wall_door_l1_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27498,7 +27498,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_log_wall_door_l1/s_log_wall_door_l1_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_door_l1/s_log_wall_door_l1_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27516,7 +27516,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_wood_floor_ent_l1/s_wood_floor_ent_l1.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_floor_ent_l1/s_wood_floor_ent_l1.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27526,7 +27526,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_wood_floor_ent_l1/s_wood_floor_ent_l1_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_floor_ent_l1/s_wood_floor_ent_l1_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27544,7 +27544,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_wood_floor_l1/s_wood_floor_l1.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_floor_l1/s_wood_floor_l1.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27554,7 +27554,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_wood_floor_l1/s_wood_floor_l1_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_floor_l1/s_wood_floor_l1_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27572,7 +27572,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/misc/small_wooden_stairs/small_wooden_stairs.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/misc/small_wooden_stairs/small_wooden_stairs.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27582,7 +27582,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/misc/small_wooden_stairs/small_wooden_stairs_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/misc/small_wooden_stairs/small_wooden_stairs_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27600,7 +27600,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_top/s_thatch_roof_top.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_top/s_thatch_roof_top.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27610,7 +27610,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_top/s_thatch_roof_top_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_top/s_thatch_roof_top_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27620,7 +27620,7 @@
 			<state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_top/s_thatch_roof_top_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_top/s_thatch_roof_top_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27638,7 +27638,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_out_cor_top/s_thatch_roof_out_cor_top.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_out_cor_top/s_thatch_roof_out_cor_top.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27648,7 +27648,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_out_cor_top/s_thatch_roof_out_cor_top_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_out_cor_top/s_thatch_roof_out_cor_top_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27658,7 +27658,7 @@
 			<state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_out_cor_top/s_thatch_roof_out_cor_top_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_out_cor_top/s_thatch_roof_out_cor_top_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27676,7 +27676,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_top_left_end/s_thatch_roof_top_left_end.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_top_left_end/s_thatch_roof_top_left_end.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27686,7 +27686,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_top_left_end/s_thatch_roof_top_left_end_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_top_left_end/s_thatch_roof_top_left_end_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27696,7 +27696,7 @@
 			<state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_top_left_end/s_thatch_roof_top_left_end_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_top_left_end/s_thatch_roof_top_left_end_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27714,7 +27714,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_top_right_end/s_thatch_roof_top_right_end.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_top_right_end/s_thatch_roof_top_right_end.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27724,7 +27724,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_top_right_end/s_thatch_roof_top_right_end_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_top_right_end/s_thatch_roof_top_right_end_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27734,7 +27734,7 @@
 			<state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_top_right_end/s_thatch_roof_top_right_end_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_top_right_end/s_thatch_roof_top_right_end_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27752,7 +27752,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_l1/s_thatch_roof_l1.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_l1/s_thatch_roof_l1.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27762,7 +27762,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_l1/s_thatch_roof_l1_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_l1/s_thatch_roof_l1_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27772,7 +27772,7 @@
 			<state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_l1/s_thatch_roof_l1_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_l1/s_thatch_roof_l1_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27790,7 +27790,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_out_cor_l1/s_thatch_roof_out_cor_l1.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_out_cor_l1/s_thatch_roof_out_cor_l1.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27800,7 +27800,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_out_cor_l1/s_thatch_roof_out_cor_l1_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_out_cor_l1/s_thatch_roof_out_cor_l1_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27810,7 +27810,7 @@
 			<state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_out_cor_l1/s_thatch_roof_out_cor_l1_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_out_cor_l1/s_thatch_roof_out_cor_l1_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27828,7 +27828,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_wood_railing/s_wood_railing.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_railing/s_wood_railing.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27838,7 +27838,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_wood_railing/s_wood_railing_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_railing/s_wood_railing_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27856,7 +27856,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_wood_railing_l1/s_wood_railing_l1.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_railing_l1/s_wood_railing_l1.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27866,7 +27866,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_wood_railing_l1/s_wood_railing_l1_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_railing_l1/s_wood_railing_l1_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27884,7 +27884,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_out_cor_top_l1/s_thatch_roof_out_cor_top_l1.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_out_cor_top_l1/s_thatch_roof_out_cor_top_l1.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27894,7 +27894,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_out_cor_top_l1/s_thatch_roof_out_cor_top_l1_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_out_cor_top_l1/s_thatch_roof_out_cor_top_l1_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27904,7 +27904,7 @@
 			<state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_out_cor_top_l1/s_thatch_roof_out_cor_top_l1_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_out_cor_top_l1/s_thatch_roof_out_cor_top_l1_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27922,7 +27922,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/lightning/wall_torch/wall_torch.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/lightning/wall_torch/wall_torch.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27932,7 +27932,7 @@
             <state type="Working">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/lightning/wall_torch/wall_torch.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/lightning/wall_torch/wall_torch.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27970,7 +27970,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art//models/3d/construction/lightning/wall_torch/wall_torch.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art//models/3d/construction/lightning/wall_torch/wall_torch.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -27998,7 +27998,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/lightning/small_candle/small_candle.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/lightning/small_candle/small_candle.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -28008,7 +28008,7 @@
             <state type="Working">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/lightning/small_candle/small_candle.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/lightning/small_candle/small_candle.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -28034,7 +28034,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/lightning/small_candle/small_candle.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/lightning/small_candle/small_candle.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -28559,7 +28559,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_in_cor/s_thatch_roof_in_cor.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_in_cor/s_thatch_roof_in_cor.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -28569,7 +28569,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_in_cor/s_thatch_roof_in_cor_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_in_cor/s_thatch_roof_in_cor_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -28579,7 +28579,7 @@
 			<state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/modular/s_thatch_roof_in_cor/s_thatch_roof_in_cor_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_in_cor/s_thatch_roof_in_cor_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -28597,7 +28597,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/mobiles/transportation/woodcart/woodcart_passive.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/mobiles/transportation/woodcart/woodcart_passive.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -28617,7 +28617,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/mobiles/transportation/woodcart/woodcart_passive.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/mobiles/transportation/woodcart/woodcart_passive.dts</shapeName>
                         <offset x="0" y="1.6" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -28635,7 +28635,7 @@
             <state type="Complete">
                 <shapes>
                     <shape isDoor="1">
-                        <shapeName>mod/JorvikMod/art/models/3d/mobiles/transportation/siegetower/siegetower_passive.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/mobiles/transportation/siegetower/siegetower_passive.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -28645,7 +28645,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/mobiles/transportation/siegetower/siegetower_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/mobiles/transportation/siegetower/siegetower_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -28655,7 +28655,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/mobiles/transportation/siegetower/siegetower_passive.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/mobiles/transportation/siegetower/siegetower_passive.dts</shapeName>
                         <offset x="0" y="1.6" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -28861,7 +28861,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -28871,7 +28871,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -28881,7 +28881,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -28899,7 +28899,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier_T.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier_T.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -28909,7 +28909,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier_T.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier_T.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -28919,7 +28919,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier_T_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier_T_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -28937,7 +28937,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier_L.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier_L.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -28947,7 +28947,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier_L.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier_L.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -28957,7 +28957,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier_L_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier_L_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -28975,7 +28975,7 @@
             <state type="Complete">
                 <shapes>
                     <shape isDoor="1">
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/fences/wattle_wicket/wattle_wicket.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/fences/wattle_wicket/wattle_wicket.dts</shapeName>
                         <offset x="0" y="2" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -28985,7 +28985,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape isDoor="1">
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/fences/wattle_wicket/wattle_wicket.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/fences/wattle_wicket/wattle_wicket.dts</shapeName>
                         <offset x="0" y="2" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -28995,7 +28995,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/fences/wattle_wicket/wattle_wicket_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/fences/wattle_wicket/wattle_wicket_inc.dts</shapeName>
                         <offset x="0" y="2" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -29013,7 +29013,7 @@
             <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/idols/idol_cross.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/idols/idol_cross.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -29053,7 +29053,7 @@
             <state type="Complete">
                 <shapes>
                     <shape isDoor="1">
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/residence/wooden_church/wooden_church.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/wooden_church/wooden_church.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -29063,7 +29063,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/residence/wooden_church/wooden_church_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/wooden_church/wooden_church_dmg.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -29123,7 +29123,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/residence/wooden_church/wooden_church_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/wooden_church/wooden_church_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -29133,7 +29133,7 @@
             <state type="Working">
                 <shapes>
                     <shape isDoor="1">
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/residence/wooden_church/wooden_church.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/wooden_church/wooden_church.dts</shapeName>
                        
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
@@ -29268,8 +29268,8 @@
             <state type="Complete">
                 <shapes>
                     <shape isDoor="1">
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/residence/Sanctum/Sanctum.dts</shapeName>
-                        <censoredShapeName>mod/JorvikMod/art/models/3d/construction/residence/Sanctum/Sanctum_black.dts</censoredShapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/Sanctum/Sanctum.dts</shapeName>
+                        <censoredShapeName>yolauncher/modpack/art/models/3d/construction/residence/Sanctum/Sanctum_black.dts</censoredShapeName>
                         <offset x="9.88" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -29297,8 +29297,8 @@
             <state type="Working">
                 <shapes>
                     <shape isDoor="1">
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/residence/Sanctum/Sanctum.dts</shapeName>
-						<censoredShapeName>mod/JorvikMod/art/models/3d/construction/residence/Sanctum/Sanctum_black.dts</censoredShapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/Sanctum/Sanctum.dts</shapeName>
+						<censoredShapeName>yolauncher/modpack/art/models/3d/construction/residence/Sanctum/Sanctum_black.dts</censoredShapeName>
                         <offset x="9.88" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -29579,8 +29579,8 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/residence/Sanctum/Sanctum_dmg.dts</shapeName>
-                        <censoredShapeName>mod/JorvikMod/art/models/3d/construction/residence/Sanctum/Sanctrum_dmg_black.dts</censoredShapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/Sanctum/Sanctum_dmg.dts</shapeName>
+                        <censoredShapeName>yolauncher/modpack/art/models/3d/construction/residence/Sanctum/Sanctrum_dmg_black.dts</censoredShapeName>
                         <offset x="9.88" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -29828,7 +29828,7 @@
 			<state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>mod/JorvikMod/art/models/3d/construction/residence/Sanctum/Sanctum_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/Sanctum/Sanctum_inc.dts</shapeName>
                         <offset x="9.88" y="0" z="0" />
 						<rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />

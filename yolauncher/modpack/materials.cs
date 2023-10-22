@@ -4,16 +4,16 @@
 singleton Material(flag_PVE_flag)
 {
    mapTo = "flag";
-   diffuseMap[0] = "mod/JorvikMod/art//Textures/TextureLib/flag.dds";
-   diffuseMap[1] = "mod/JorvikMod/art/Textures/TextureLib/flag_nm.dds";
+   diffuseMap[0] = "yolauncher/modpack/art//Textures/TextureLib/flag.dds";
+   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/flag_nm.dds";
    translucentBlendOp = "None";
 };
 //Flag PvP
 singleton Material(flag_PVP_flag)
 {
    mapTo = "flag";
-   diffuseMap[0] = "mod/JorvikMod/art/Textures/TextureLib/flag.dds";
-   diffuseMap[1] = "mod/JorvikMod/art/Textures/TextureLib/flag_nm.dds";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/flag.dds";
+   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/flag_nm.dds";
    translucentBlendOp = "None";
 };
 //------------- WoodCart ---------------->
@@ -77,18 +77,18 @@ singleton Material(PineBark_Cart) // сосна ствол
 singleton Material(BlueWall_A_mat)
 {
    mapTo = "BlueWall_A_M1";
-   diffuseMap[0] = "mod/JorvikMod/art/Textures/TextureLib/BlueWall_A_DIFFUSE.dds";
-   diffuseMap[1] = "mod/JorvikMod/art/Textures/TextureLib/BlueWall_A_NORMALMAP.dds";
-   diffuseMap[2] = "mod/JorvikMod/art/Textures/TextureLib/BlueWall_A_SPECULAR.dds";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/BlueWall_A_DIFFUSE.dds";
+   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/BlueWall_A_NORMALMAP.dds";
+   diffuseMap[2] = "yolauncher/modpack/art/Textures/TextureLib/BlueWall_A_SPECULAR.dds";
 };
 
 singleton Material(BlueWall_B_mat)
 {
    mapTo = "BlueWall_B_M1";
-   diffuseMap[0] = "mod/JorvikMod/art/Textures/TextureLib/BlueWall_B_DIFFUSE.dds";
-   diffuseMap[1] = "mod/JorvikMod/art/Textures/TextureLib/BlueWall_B_NORMALMAP.dds";
-   diffuseMap[2] = "mod/JorvikMod/art/Textures/TextureLib/BlueWall_B_SPECULAR.dds";
-   diffuseMap[12] = "mod/JorvikMod/art/Textures/TextureLib/BlueWall_B_EMISSIVE.dds";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/BlueWall_B_DIFFUSE.dds";
+   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/BlueWall_B_NORMALMAP.dds";
+   diffuseMap[2] = "yolauncher/modpack/art/Textures/TextureLib/BlueWall_B_SPECULAR.dds";
+   diffuseMap[12] = "yolauncher/modpack/art/Textures/TextureLib/BlueWall_B_EMISSIVE.dds";
    emission = "1";
    emissionIntensityMin = "0";
    emissionIntensityMax = "1.0";
@@ -98,56 +98,56 @@ singleton Material(BlueWall_B_mat)
 singleton Material(ChurchGlass_mat)
 {
    mapTo = "ChurchGlass_diff";
-   diffuseMap[0] = "mod/JorvikMod/art/Textures/TextureLib/ChurchGlass_DIFFUSE.dds";
-   diffuseMap[2] = "mod/JorvikMod/art/Textures/TextureLib/ChurchGlass_SPECULAR.dds";
-   diffuseMap[12] = "mod/JorvikMod/art/Textures/TextureLib/ChurchGlass_EMISSIVE.dds";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/ChurchGlass_DIFFUSE.dds";
+   diffuseMap[2] = "yolauncher/modpack/art/Textures/TextureLib/ChurchGlass_SPECULAR.dds";
+   diffuseMap[12] = "yolauncher/modpack/art/Textures/TextureLib/ChurchGlass_EMISSIVE.dds";
 };
 
 singleton Material(Church_Door_mat)
 {
    mapTo = "Church_DoorA_M2";
-   diffuseMap[0] = "mod/JorvikMod/art/Textures/TextureLib/Church_DoorA_DIFFUSE.dds";
-   diffuseMap[1] = "mod/JorvikMod/art/Textures/TextureLib/Church_DoorA_NORMALMAP.dds";
-   diffuseMap[2] = "mod/JorvikMod/art/Textures/TextureLib/Church_DoorA_SPECULAR.dds";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/Church_DoorA_DIFFUSE.dds";
+   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/Church_DoorA_NORMALMAP.dds";
+   diffuseMap[2] = "yolauncher/modpack/art/Textures/TextureLib/Church_DoorA_SPECULAR.dds";
 };
 
 singleton Material(floor_mat)
 {
    mapTo = "floor_diff";
-   diffuseMap[0] = "mod/JorvikMod/art/Textures/TextureLib/floor_diff.dds";
-   diffuseMap[1] = "mod/JorvikMod/art/Textures/TextureLib/floor_nm.dds";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/floor_diff.dds";
+   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/floor_nm.dds";
 };
 
 singleton Material(Fence_inside_mat)
 {
    mapTo = "Fence_inside_diff";
-   diffuseMap[0] = "mod/JorvikMod/art/Textures/TextureLib/Fence_inside_diff.dds";
-   diffuseMap[1] = "mod/JorvikMod/art/Textures/TextureLib/Fence_inside_nm.dds";
-   diffuseMap[2] = "mod/JorvikMod/art/Textures/TextureLib/Fence_inside_spec.dds";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/Fence_inside_diff.dds";
+   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/Fence_inside_nm.dds";
+   diffuseMap[2] = "yolauncher/modpack/art/Textures/TextureLib/Fence_inside_spec.dds";
 };
 
 singleton Material(RedArc_mat)
 {
    mapTo = "RedArc_M1";
-   diffuseMap[0] = "mod/JorvikMod/art/Textures/TextureLib/RedArc_DIFFUSE.dds";
-   diffuseMap[1] = "mod/JorvikMod/art/Textures/TextureLib/RedArc_NORMALMAP.dds";
-   diffuseMap[2] = "mod/JorvikMod/art/Textures/TextureLib/RedArc_SPECULAR.dds";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/RedArc_DIFFUSE.dds";
+   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/RedArc_NORMALMAP.dds";
+   diffuseMap[2] = "yolauncher/modpack/art/Textures/TextureLib/RedArc_SPECULAR.dds";
 };
 
 singleton Material(RedEntranceA_mat)
 {
    mapTo = "RedEntranceA";
-   diffuseMap[0] = "mod/JorvikMod/art/Textures/TextureLib/RedEntranceA_DIFFUSE.dds";
-   diffuseMap[1] = "mod/JorvikMod/art/Textures/TextureLib/RedEntranceA_NORMALMAP.dds";
-   diffuseMap[2] = "mod/JorvikMod/art/Textures/TextureLib/RedEntranceA_SPECULAR.dds";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/RedEntranceA_DIFFUSE.dds";
+   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/RedEntranceA_NORMALMAP.dds";
+   diffuseMap[2] = "yolauncher/modpack/art/Textures/TextureLib/RedEntranceA_SPECULAR.dds";
 };
 
 singleton Material(Svefni_mat)
 {
    mapTo = "Svefni1";
-   diffuseMap[0] = "mod/JorvikMod/art/Textures/TextureLib/Svefni_DIFFUSE.dds";
-   diffuseMap[1] = "mod/JorvikMod/art/Textures/TextureLib/Svefni_NORMALMAP.dds";
-   diffuseMap[2] = "mod/JorvikMod/art/Textures/TextureLib/Svefni_SPECULAR.dds";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/Svefni_DIFFUSE.dds";
+   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/Svefni_NORMALMAP.dds";
+   diffuseMap[2] = "yolauncher/modpack/art/Textures/TextureLib/Svefni_SPECULAR.dds";
 };
 
 singleton Material(Church_Roof_B_mat)
@@ -160,47 +160,47 @@ singleton Material(Church_Roof_B_mat)
 singleton Material(planks_02_inside_mat)
 {
    mapTo = "planks_02_inside_diff";
-   diffuseMap[0] = "mod/JorvikMod/art/Textures/TextureLib/planks_02_inside_diff.dds";
-   diffuseMap[1] = "mod/JorvikMod/art/Textures/TextureLib/planks_02_inside_nm.dds";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/planks_02_inside_diff.dds";
+   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/planks_02_inside_nm.dds";
 };
 
 singleton Material(Church_Bricks_mat)
 {
    mapTo = "Church_Bricks_M1";
-   diffuseMap[0] = "mod/JorvikMod/art/Textures/TextureLib/Church_Bricks_A_DIFFUSE.dds";
-   diffuseMap[1] = "mod/JorvikMod/art/Textures/TextureLib/Church_Bricks_A_NORMALMAP.dds";
-   diffuseMap[2] = "mod/JorvikMod/art/Textures/TextureLib/Church_Bricks_A_SPECULAR.dds";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/Church_Bricks_A_DIFFUSE.dds";
+   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/Church_Bricks_A_NORMALMAP.dds";
+   diffuseMap[2] = "yolauncher/modpack/art/Textures/TextureLib/Church_Bricks_A_SPECULAR.dds";
 };
 
 singleton Material(Church_EmbossWall_mat)
 {
    mapTo = "EmbossWall";
-   diffuseMap[0] = "mod/JorvikMod/art/Textures/TextureLib/Church_EmbossWall_DIFFUSE.dds";
-   diffuseMap[1] = "mod/JorvikMod/art/Textures/TextureLib/Church_EmbossWall_NORMALMAP.dds";
-   diffuseMap[2] = "mod/JorvikMod/art/Textures/TextureLib/Church_EmbossWall_SPECULAR.dds";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/Church_EmbossWall_DIFFUSE.dds";
+   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/Church_EmbossWall_NORMALMAP.dds";
+   diffuseMap[2] = "yolauncher/modpack/art/Textures/TextureLib/Church_EmbossWall_SPECULAR.dds";
 };
 
 singleton Material(Altar_Stone2_Colored_mat)
 {
    mapTo = "Altar_Stone2_Colored";
-   diffuseMap[0] = "mod/JorvikMod/art/Textures/TextureLib/Altar_Stones_Part2_DIFFUSE.dds";
-   diffuseMap[1] = "mod/JorvikMod/art/Textures/TextureLib/Altar_Stones_Part2_NORMALMAP.dds";
-   diffuseMap[2] = "mod/JorvikMod/art/Textures/TextureLib/Altar_Stones_Part2_SPECULAR.dds";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/Altar_Stones_Part2_DIFFUSE.dds";
+   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/Altar_Stones_Part2_NORMALMAP.dds";
+   diffuseMap[2] = "yolauncher/modpack/art/Textures/TextureLib/Altar_Stones_Part2_SPECULAR.dds";
 };
 
 
 singleton Material(altar_statues_pack2_mat)
 {
    mapTo = "altar_statues_pack2";
-   diffuseMap[0] = "mod/JorvikMod/art/Textures/TextureLib/Altar_Statues_DIFFUSE.dds";
-   diffuseMap[1] = "mod/JorvikMod/art/Textures/TextureLib/Altar_Statues_NORMALMAP.dds";
-   diffuseMap[2] = "mod/JorvikMod/art/Textures/TextureLib/Altar_Statues_SPECULAR.dds";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/Altar_Statues_DIFFUSE.dds";
+   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/Altar_Statues_NORMALMAP.dds";
+   diffuseMap[2] = "yolauncher/modpack/art/Textures/TextureLib/Altar_Statues_SPECULAR.dds";
 };
 
 singleton Material(OakTree_mat)
 {
    mapTo = "OakTree_diff";
-   diffuseMap[0] = "mod/JorvikMod/art/Textures/TextureLib/OakTree_Diffuse.dds";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/OakTree_Diffuse.dds";
    alphaTest = "1";
    alphaRef = "80";
 };
@@ -208,14 +208,14 @@ singleton Material(OakTree_mat)
 singleton Material(OakBark_mat)
 {
    mapTo = "OakBark_diff";
-   diffuseMap[0] = "mod/JorvikMod/art/Textures/TextureLib/OakBark_Diffuse.dds";
-   diffuseMap[1] = "mod/JorvikMod/art/Textures/TextureLib/OakBark_Normal.dds";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/OakBark_Diffuse.dds";
+   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/OakBark_Normal.dds";
 };
 
 singleton Material(FloorDecal_mat)
 {
    mapTo = "FloorDecal_diff";
-   diffuseMap[0] = "mod/JorvikMod/art/Textures/TextureLib/FloorDecal_Diffuse.dds";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/FloorDecal_Diffuse.dds";
    alphaTest = "1";
    alphaRef = "200";
 };
@@ -223,25 +223,25 @@ singleton Material(FloorDecal_mat)
 singleton Material(ChurchTree_mat)
 {
    mapTo = "ChurchTree";
-   diffuseMap[0] = "mod/JorvikMod/art/Textures/TextureLib/ChurchTree_DIFFUSE.dds";
-   diffuseMap[1] = "mod/JorvikMod/art/Textures/TextureLib/ChurchTree_NORMALMAP.dds";
-   diffuseMap[2] = "mod/JorvikMod/art/Textures/TextureLib/ChurchTree_SPECULAR.dds";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/ChurchTree_DIFFUSE.dds";
+   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/ChurchTree_NORMALMAP.dds";
+   diffuseMap[2] = "yolauncher/modpack/art/Textures/TextureLib/ChurchTree_SPECULAR.dds";
 };
 
 singleton Material(Church70_mat)
 {
    mapTo = "Church70_diff";
-   diffuseMap[0] = "mod/JorvikMod/art/Textures/TextureLib/Church70_DIFFUSE.dds";
-   diffuseMap[1] = "mod/JorvikMod/art/Textures/TextureLib/Church70_NORMALMAP.dds";
-   diffuseMap[2] = "mod/JorvikMod/art/Textures/TextureLib/Church70_SPECULAR.dds";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/Church70_DIFFUSE.dds";
+   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/Church70_NORMALMAP.dds";
+   diffuseMap[2] = "yolauncher/modpack/art/Textures/TextureLib/Church70_SPECULAR.dds";
 };
 
 singleton Material(RedColumn_mat)
 {
    mapTo = "RedColumn";
-   diffuseMap[0] = "mod/JorvikMod/art/Textures/TextureLib/RedColumn_DIFFUSE.dds";
-   diffuseMap[1] = "mod/JorvikMod/art/Textures/TextureLib/RedColumn_NORMALMAP.dds";
-   diffuseMap[2] = "mod/JorvikMod/art/Textures/TextureLib/RedColumn_SPECULAR.dds";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/RedColumn_DIFFUSE.dds";
+   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/RedColumn_NORMALMAP.dds";
+   diffuseMap[2] = "yolauncher/modpack/art/Textures/TextureLib/RedColumn_SPECULAR.dds";
    alphaTest = "1";
    alphaRef = "80";
 };
@@ -263,9 +263,9 @@ singleton Material(Church_RoofRed_mat)
 singleton Material(LeavesA_mat)
 {
    mapTo = "LeavesA_M1";
-   diffuseMap[0] = "mod/JorvikMod/art/Textures/TextureLib/Decal_ScatteredLeaves2_1k_d.dds";
-   diffuseMap[1] = "mod/JorvikMod/art/Textures/TextureLib/Decal_ScatteredLeaves2_1k_n.dds";
-   diffuseMap[2] = "mod/JorvikMod/art/Textures/TextureLib/Decal_ScatteredLeaves1_1k_s.dds";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/Decal_ScatteredLeaves2_1k_d.dds";
+   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/Decal_ScatteredLeaves2_1k_n.dds";
+   diffuseMap[2] = "yolauncher/modpack/art/Textures/TextureLib/Decal_ScatteredLeaves1_1k_s.dds";
    alphaTest = "1";
    alphaRef = "80";
 };
@@ -273,9 +273,9 @@ singleton Material(LeavesA_mat)
 singleton Material(Wall_PlasterA_mat)
 {
    mapTo = "Wall_PlasterA_M1";
-   diffuseMap[0] = "mod/JorvikMod/art/Textures/TextureLib/Church_WallA_DIFFUSE.dds";
-   diffuseMap[1] = "mod/JorvikMod/art/Textures/TextureLib/Church_WallA_NORMALMAP.dds";
-   diffuseMap[2] = "mod/JorvikMod/art/Textures/TextureLib/Church_WallA_SPECULAR.dds";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/Church_WallA_DIFFUSE.dds";
+   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/Church_WallA_NORMALMAP.dds";
+   diffuseMap[2] = "yolauncher/modpack/art/Textures/TextureLib/Church_WallA_SPECULAR.dds";
 };
 
 singleton Material(Church_floor_M2_mat)

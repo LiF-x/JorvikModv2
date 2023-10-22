@@ -17,13 +17,27 @@ package JorvikMod
 {
   function JorvikMod::setup() {
     LiFx::registerCallback($LiFx::hooks::onMaterialsLoad, RegisterMaterials, JorvikMod);
-
+    LiFx::registerCallback($LiFx::hooks::onInitialized, onInitialized, JorvikMod);
+    LiFx::registerCallback($LiFx::hooks::onDatablockLoad, RegisterDatablock, JorvikMod);
   }
   function JorvikMod::RegisterMaterials() {
   }
   function JorvikMod::path() {
     return $Con::File;
   }
+  
+  function JorvikMod::RegisterDatablock() {
+    LiFx::loadRecursivelyInFolder("yolauncher/modpack/art/datablocks", "Transport.cs");
+    LiFx::loadRecursivelyInFolder("yolauncher/modpack/art/datablocks", "audioProfiles.cs");
+  }
+
+  function JorvikMod::onInitialized() {
+    LiFx::loadRecursivelyInFolder("yolauncher/modpack/art/gui/forms", "heraldryDialog.gui");
+    LiFx::loadRecursivelyInFolder("yolauncher/modpack/art/gui/forms", "mainMenuGui.gui");
+    LiFx::loadRecursivelyInFolder("yolauncher/modpack/art/gui/forms", "selectCharacter.gui");
+
+  }
+  
 };
 activatePackage(JorvikMod);
 LiFx::registerCallback($LiFx::hooks::mods, setup, JorvikMod);
