@@ -45,7 +45,7 @@ package JorvikMod
 	*/
 
     // Buildings
-    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenShed(), JorvikMod);
+    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenShed(), JorvikMod); // same ID as V1
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesFlagPvP(), JorvikMod);
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesFlagPvE(), JorvikMod);
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesLonghouse(), JorvikMod);
@@ -53,169 +53,88 @@ package JorvikMod
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenBridge(), JorvikMod);
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallStoneBridge(), JorvikMod);
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesLargeWoodenBridge(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesLargeStoneBridge(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesLargeStoneBridgeEnd(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallStoneBridgeEnd(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesModularConstructions(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogWall(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenPillar(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogCornerWall(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogWallWithWindow(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogWallWithShutters(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogWallWithEntrance(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogWallWithDoor(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenFloorEntrance(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenFloor(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogWallSlopeRight(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogWallSlopeLeft(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallThatchRoof(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallThatchRoofRightEnd(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallThatchRoofLeftEnd(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallThatchRoofOuterCorner(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesModularConstructionslvl1(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogWalllvl1(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenPillarlvl1(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogCornerWalllvl1(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogWallWithWindowlvl1(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogWallWithShutterslvl1(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogWallWithEntrancelvl1(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogWallWithDoorlvl1(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenFloorEntrancelvl1(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenFloorlvl1(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenStairs(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallThatchRoofTop(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallThatchRoofOuterCornerTop(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallThatchRoofTopLeftEnd(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallThatchRoofTopRightEnd(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallThatchRooflvl1(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallThatchRoofOuterCornerlvl1(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenRailing(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenRailinglvl1(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallThatchRoofOuterCornerToplvl1(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesWallTorch(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesWallTorchMovable(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallCandle(), JorvikMod);
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallCandleMovable(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesAurochsCowstand(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesAurochsCoweat(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesAurochsCowsleep(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSowstand(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSoweat(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSowsleep(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesHorsestand(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesHorseeat(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesHorsesleep(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSlaveworking(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesWranentheHunterstand(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesBookPaper(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesHealthBook(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallThatchRoofInnerCorner(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesWoodCart(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSiegeTower(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesAurochsBullstand(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesAurochsBulleat(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesAurochsBullsleep(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenPier(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenPierT(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenPierL(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesWattleWicket(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesIdolCross(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesWoodenChurch(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSanctumoftheSleeper(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesNoviceDecoratorKit(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesApprenticeDecoratorKit(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesMasterDecoratorKit(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesWolfstand(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesGoldSheet(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesMetalScissors(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesMetalStamp(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesGoldBlanks(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSilverSheet(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesCopperSheet(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSilverBlanks(), JorvikMod);
-
-    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesCopperBlanks(), JorvikMod);
-
-    
+    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesCopperBlanks(), JorvikMod);  
+    //Register Callbacks
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenShed, JorvikMod);
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, FlagPvP, JorvikMod);
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, FlagPvE, JorvikMod);
@@ -224,166 +143,87 @@ package JorvikMod
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenBridge, JorvikMod);
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallStoneBridge, JorvikMod);
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, LargeWoodenBridge, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, LargeStoneBridge, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, LargeStoneBridgeEnd, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallStoneBridgeEnd, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, ModularConstructions, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogWall, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenPillar, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogCornerWall, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogWallWithWindow, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogWallWithShutters, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogWallWithEntrance, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogWallWithDoor, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenFloorEntrance, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenFloor, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogWallSlopeRight, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogWallSlopeLeft, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallThatchRoof, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallThatchRoofRightEnd, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallThatchRoofLeftEnd, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallThatchRoofOuterCorner, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogWalllvl1, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenPillarlvl1, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogCornerWalllvl1, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogWallWithWindowlvl1, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogWallWithShutterslvl1, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogWallWithEntrancelvl1, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogWallWithDoorlvl1, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenFloorEntrancelvl1, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenFloorlvl1, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenStairs, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallThatchRoofTop, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallThatchRoofOuterCornerTop, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallThatchRoofTopLeftEnd, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallThatchRoofTopRightEnd, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallThatchRooflvl1, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallThatchRoofOuterCornerlvl1, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenRailing, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenRailinglvl1, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallThatchRoofOuterCornerToplvl1, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, WallTorch, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallCandle, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, AurochsCowstand, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, AurochsCoweat, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, AurochsCowsleep, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, Sowstand, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, Soweat, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, Sowsleep, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, Horsestand, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, Horseeat, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, Horsesleep, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, Slaveworking, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, WranentheHunterstand, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, BookPaper, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, HealthBook, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallThatchRoofInnerCorner, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, WoodCart, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SiegeTower, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, AurochsBullstand, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, AurochsBulleat, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, AurochsBullsleep, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenPier, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenPierT, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenPierL, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, WattleWicket, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, IdolCross, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, WoodenChurch, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SanctumoftheSleeper, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, NoviceDecoratorKit, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, ApprenticeDecoratorKit, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, MasterDecoratorKit, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, Wolfstand, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, GoldSheet, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, MetalScissors, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, MetalStamp, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, GoldBlanks, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SilverSheet, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, CopperSheet, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SilverBlanks, JorvikMod);
-
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, CopperBlanks, JorvikMod);
 
   }
 
-  
   function JorvikMod::objectsConversions(%this, %client) {
       dbi.Update("INSERT IGNORE `objects_conversions` VALUES (NULL, 2490, 2507)");
       dbi.Update("INSERT IGNORE `objects_conversions` VALUES (NULL, 2500, 2501)");
@@ -396,7 +236,7 @@ package JorvikMod
   function JorvikMod::ObjectsTypesSmallWoodenShed() {
     return new ScriptObject(ObjectsTypesSmallWoodenShed : ObjectsTypes)
     {
-      id = 2400; // *UNIQUE INT* Has to be a unique id - grab id from here: https://lifxmod.com/Docs/objects-types-id-list.html
+      id = 2403; // *UNIQUE INT* Has to be a unique id - grab id from here: https://lifxmod.com/Docs/objects-types-id-list.html
       ObjectName = "Small Wooden Shed"; // *STRING* Name of your object
       ParentID = 69; // *INT* ParentID decides what type of object you have, think of it as class inheritance
       IsContainer = 1; // *BOOL* 1 (true) or 0 (false) - If your object is supposed to have a container referenced
@@ -427,7 +267,7 @@ package JorvikMod
   }
   function JorvikMod::SmallWoodenShed() {
                                    //dbi.update("INSERT IGNORE INTO `recipe` VALUES (NULL,      Name,                 Description,      StartingToolsID,   SkillTypeID, SkillLvl, ResultObjectTypeID, SkillDepends,       Quantity, Autorepeat, isBluePrint, ImagePath)
-    dbi.Select(JorvikMod, "SmallWoodenShedRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Wooden Shed', 'Object from Jorvik MOD',        32,               18,          60,        2400,               25,           1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_wooden_shed.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallWoodenShedRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Wooden Shed', 'Object from Jorvik MOD',        32,               18,          60,        2403,               25,           1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_wooden_shed.png') RETURNING ID");
   }
   function JorvikMod::SmallWoodenShedRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
