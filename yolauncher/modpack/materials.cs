@@ -20,57 +20,57 @@ singleton Material(flag_PVP_flag)
 singleton Material(MapleBark_Diffuse_Cart)
 {
    mapTo = "MapleBark_cart";
-   diffuseMap[0] = "yolauncher/modpack/art/models/3d/environment/trees/maple/textures/maplebark_diffuse.dds";
-   diffuseMap[1] = "yolauncher/modpack/art/models/3d/environment/trees/maple/textures/maplebark_normal.dds";
+   diffuseMap[0] = "art/models/3d/environment/trees/maple/textures/maplebark_diffuse.dds";
+   diffuseMap[1] = "art/models/3d/environment/trees/maple/textures/maplebark_normal.dds";
 };
 
 singleton Material(MapleTree_Cart) // клен
 {
    mapTo = "MapleTree_cart";
-   diffuseMap[0] = "yolauncher/modpack/art/models/3d/environment/trees/maple/textures/mapletree_diffuse.dds";
-   diffuseMap[1] = "yolauncher/modpack/art/models/3d/environment/trees/maple/textures/mapletree_normal.dds";
+   diffuseMap[0] = "art/models/3d/environment/trees/maple/textures/mapletree_diffuse.dds";
+   diffuseMap[1] = "art/models/3d/environment/trees/maple/textures/mapletree_normal.dds";
 };
 
 singleton Material(OakTree_Cart) // дуб
 {
    mapTo = "OakTree_Diffuse_cart";
-   diffuseMap[0] = "yolauncher/modpack/art/models/3d/environment/trees/oak/textures/oaktree_diffuse.dds";
-   diffuseMap[1] = "yolauncher/modpack/art/models/3d/environment/trees/oak/textures/oaktree_normal.dds";
+   diffuseMap[0] = "art/models/3d/environment/trees/oak/textures/oaktree_diffuse.dds";
+   diffuseMap[1] = "art/models/3d/environment/trees/oak/textures/oaktree_normal.dds";
 };
 
 singleton Material(OakBark01_Cart) // дуб ствол
 {
    mapTo = "OakBark01_cart";
-   diffuseMap[0] = "yolauncher/modpack/art/models/3d/environment/trees/oak/textures/oakbark_diffuse.dds";
-   diffuseMap[1] = "yolauncher/modpack/art/models/3d/environment/trees/oak/textures/oakbark_normal.dds";
+   diffuseMap[0] = "art/models/3d/environment/trees/oak/textures/oakbark_diffuse.dds";
+   diffuseMap[1] = "art/models/3d/environment/trees/oak/textures/oakbark_normal.dds";
 };
 
 singleton Material(BirchTree_Cart) // береза
 {
    mapTo = "BirchTree_cart";
-   diffuseMap[0] = "yolauncher/modpack/art/models/3d/environment/trees/birch/textures/birchtree_diffuse.dds";
-   diffuseMap[1] = "yolauncher/modpack/art/models/3d/environment/trees/birch/textures/birchtree_normal.dds";
+   diffuseMap[0] = "art/models/3d/environment/trees/birch/textures/birchtree_diffuse.dds";
+   diffuseMap[1] = "art/models/3d/environment/trees/birch/textures/birchtree_normal.dds";
 };
 
 singleton Material(BirchBark_Cart) // береза ствол
 {
    mapTo = "BirchBark_cart";
-   diffuseMap[0] = "yolauncher/modpack/art/models/3d/environment/trees/birch/textures/birchbark_diffuse.dds";
-   diffuseMap[1] = "yolauncher/modpack/art/models/3d/environment/trees/birch/textures/birchbark_normal.dds";
+   diffuseMap[0] = "art/models/3d/environment/trees/birch/textures/birchbark_diffuse.dds";
+   diffuseMap[1] = "art/models/3d/environment/trees/birch/textures/birchbark_normal.dds";
 };
 
 singleton Material(PineTree_Cart) // сосна
 {
    mapTo = "PineTree_cart";
-   diffuseMap[0] = "yolauncher/modpack/art/models/3d/environment/trees/pine/textures/pinetree_diffuse.dds";
-   diffuseMap[1] = "yolauncher/modpack/art/models/3d/environment/trees/pine/textures/pinetree_normal.dds";
+   diffuseMap[0] = "art/models/3d/environment/trees/pine/textures/pinetree_diffuse.dds";
+   diffuseMap[1] = "art/models/3d/environment/trees/pine/textures/pinetree_normal.dds";
 };
 
 singleton Material(PineBark_Cart) // сосна ствол
 {
    mapTo = "PineBark_cart";
-   diffuseMap[0] = "yolauncher/modpack/art/models/3d/environment/trees/pine/textures/pinebark_diffuse.dds";
-   diffuseMap[1] = "yolauncher/modpack/art/models/3d/environment/trees/pine/textures/pinebark_normal.dds";
+   diffuseMap[0] = "art/models/3d/environment/trees/pine/textures/pinebark_diffuse.dds";
+   diffuseMap[1] = "art/models/3d/environment/trees/pine/textures/pinebark_normal.dds";
 };
 //------------- Church ---------------->
 
@@ -153,8 +153,8 @@ singleton Material(Svefni_mat)
 singleton Material(Church_Roof_B_mat)
 {
    mapTo = "Church_Roof_B_M1";
-   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/roof_tile_diff.dds";
-   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/roof_tile_nm.dds";
+   diffuseMap[0] = "art/Textures/TextureLib/roof_tile_diff.dds";
+   diffuseMap[1] = "art/Textures/TextureLib/roof_tile_nm.dds";
 };
 
 singleton Material(planks_02_inside_mat)
@@ -249,15 +249,15 @@ singleton Material(RedColumn_mat)
 singleton Material(Church_Roof_A_mat)
 {
    mapTo = "Church_Roof_A_M1";
-   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/roof_tile_diff.dds";
-   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/roof_tile_nm.dds";
+   diffuseMap[0] = "art/Textures/TextureLib/roof_tile_diff.dds";
+   diffuseMap[1] = "art/Textures/TextureLib/roof_tile_nm.dds";
 };
 
 singleton Material(Church_RoofRed_mat)
 {
    mapTo = "Church_RoofRed_M1";
-   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/roof_tile_diff.dds";
-   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/roof_tile_nm.dds";
+   diffuseMap[0] = "art/Textures/TextureLib/roof_tile_diff.dds";
+   diffuseMap[1] = "art/Textures/TextureLib/roof_tile_nm.dds";
 };
 
 singleton Material(LeavesA_mat)
@@ -281,7 +281,7 @@ singleton Material(Wall_PlasterA_mat)
 singleton Material(Church_floor_M2_mat)
 {
    mapTo = "Church_floor_M2";
-   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/CastleConstructions_Beam_DIFFUSE.dds";
-   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/CastleConstructions_Beam_NORMALMAP.dds";
-   diffuseMap[2] = "yolauncher/modpack/art/Textures/TextureLib/CastleConstructions_Beam_SPECULAR.dds";	
+   diffuseMap[0] = "art/Textures/TextureLib/CastleConstructions_Beam_DIFFUSE.dds";
+   diffuseMap[1] = "art/Textures/TextureLib/CastleConstructions_Beam_NORMALMAP.dds";
+   diffuseMap[2] = "art/Textures/TextureLib/CastleConstructions_Beam_SPECULAR.dds";	
 };
