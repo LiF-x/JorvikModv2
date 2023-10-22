@@ -26216,7 +26216,7 @@
         </states>
     </object>
     <!--Jorvik Mod-->
-	<object id="2400" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2403" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Wooden Shed -->
       <lockedCells>
           <cell x="0" y="0" />
@@ -26363,7 +26363,7 @@
         </states>
     </object>
 
-    <object id="2403" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="3">
+    <object id="2543" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="3">
       <!--name = Long house-->
         <lockedCells>
 		<cell x="-8" y="3" />	<cell x="-7" y="3" />	<cell x="-6" y="3" />	<cell x="-5" y="3" />	<cell x="-4" y="3" />	<cell x="-3" y="3" />	<cell x="-2" y="3" />	<cell x="-1" y="3" />	<cell x="0" y="3" />	<cell x="1" y="3" />	<cell x="2" y="3" />	<cell x="3" y="3" />	<cell x="4" y="3" />	<cell x="5" y="3" />	<cell x="6" y="3" />	<cell x="7" y="3" />	<cell x="8" y="3" />
