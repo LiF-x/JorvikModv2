@@ -37090,11 +37090,49 @@
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
+		<ID>2501</ID>
+		<ParentID>1902</ParentID>
+		<Name>Wall Torch</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>1</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>yolauncher/modpack/art/2D/Recipes/wall_torch.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<row>
 		<ID>2502</ID>
 		<ParentID>1637</ParentID>
 		<Name>Small Candle</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>1</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>3</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>yolauncher/modpack/art/2D/Recipes/small_candle.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<row>
+		<ID>2503</ID>
+		<ParentID>1902</ParentID>
+		<Name>Small Candle</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
 		<IsUnmovableobject>0</IsUnmovableobject>
 		<IsTool>0</IsTool>
 		<IsDevice>0</IsDevice>

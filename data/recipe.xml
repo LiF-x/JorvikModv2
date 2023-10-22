@@ -13901,7 +13901,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/large_wooden_bridge.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/large_wooden_bridge.png</ImagePath>
 	</row>
 	<row>
 		<ID>1095</ID>
@@ -13915,7 +13915,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/large_stone_bridge.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/large_stone_bridge.png</ImagePath>
 	</row>
 	<row>
 		<ID>1096</ID>
@@ -13929,7 +13929,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/large_stone_bridge_end.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/large_stone_bridge_end.png</ImagePath>
 	</row>
 	<row>
 		<ID>1097</ID>
@@ -13943,7 +13943,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_stone_bridge_end.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_stone_bridge_end.png</ImagePath>
 	</row>
 	<row>
 		<ID>1098</ID>
@@ -13957,7 +13957,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_log_wall.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_log_wall.png</ImagePath>
 	</row>
 	<row>
 		<ID>1099</ID>
@@ -13971,7 +13971,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_wooden_pillar.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_wooden_pillar.png</ImagePath>
 	</row>
 	<row>
 		<ID>1100</ID>
@@ -13985,7 +13985,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_log_corner_wall.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_log_corner_wall.png</ImagePath>
 	</row>
 	<row>
 		<ID>1101</ID>
@@ -13999,7 +13999,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_log_wall_with_window.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_log_wall_with_window.png</ImagePath>
 	</row>
 	<row>
 		<ID>1102</ID>
@@ -14013,7 +14013,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_log_wall_with_shutters.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_log_wall_with_shutters.png</ImagePath>
 	</row>
 	<row>
 		<ID>1103</ID>
@@ -14027,7 +14027,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_log_wall_with_entrance.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_log_wall_with_entrance.png</ImagePath>
 	</row>
 	<row>
 		<ID>1104</ID>
@@ -14041,7 +14041,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_log_wall_with_door.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_log_wall_with_door.png</ImagePath>
 	</row>
 	<row>
 		<ID>1105</ID>
@@ -14055,7 +14055,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_wooden_floor_entrance.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_wooden_floor_entrance.png</ImagePath>
 	</row>
 	<row>
 		<ID>1106</ID>
@@ -14069,7 +14069,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_wooden_floor.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_wooden_floor.png</ImagePath>
 	</row>
 	<row>
 		<ID>1107</ID>
@@ -14083,7 +14083,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_log_wall_slope_right.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_log_wall_slope_right.png</ImagePath>
 	</row>
 	<row>
 		<ID>1108</ID>
@@ -14097,7 +14097,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_log_wall_slope_left.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_log_wall_slope_left.png</ImagePath>
 	</row>
 	<row>
 		<ID>1109</ID>
@@ -14111,7 +14111,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_thatch_roof.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_thatch_roof.png</ImagePath>
 	</row>
 	<row>
 		<ID>1110</ID>
@@ -14125,7 +14125,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_thatch_roof_right_end.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_thatch_roof_right_end.png</ImagePath>
 	</row>
 	<row>
 		<ID>1111</ID>
@@ -14139,7 +14139,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_thatch_roof_left_end.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_thatch_roof_left_end.png</ImagePath>
 	</row>
 	<row>
 		<ID>1112</ID>
@@ -14153,7 +14153,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_thatch_roof_outer_corner.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_thatch_roof_outer_corner.png</ImagePath>
 	</row>
 	<row>
 		<ID>1113</ID>
@@ -14167,7 +14167,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_log_wall_lvl1.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_log_wall_lvl1.png</ImagePath>
 	</row>
 	<row>
 		<ID>1114</ID>
@@ -14181,7 +14181,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_wooden_pillar_lvl1.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_wooden_pillar_lvl1.png</ImagePath>
 	</row>
 	<row>
 		<ID>1115</ID>
@@ -14195,7 +14195,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_log_corner_wall_lvl1.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_log_corner_wall_lvl1.png</ImagePath>
 	</row>
 	<row>
 		<ID>1116</ID>
@@ -14209,7 +14209,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_log_wall_with_window_lvl1.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_log_wall_with_window_lvl1.png</ImagePath>
 	</row>
 	<row>
 		<ID>1117</ID>
@@ -14223,7 +14223,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_log_wall_with_shutters_lvl1.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_log_wall_with_shutters_lvl1.png</ImagePath>
 	</row>
 	<row>
 		<ID>1118</ID>
@@ -14237,7 +14237,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_log_wall_with_entrance_lvl1.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_log_wall_with_entrance_lvl1.png</ImagePath>
 	</row>
 	<row>
 		<ID>1119</ID>
@@ -14251,7 +14251,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_log_wall_with_door_lvl1.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_log_wall_with_door_lvl1.png</ImagePath>
 	</row>
 	<row>
 		<ID>1120</ID>
@@ -14265,7 +14265,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_wooden_floor_entrance_lvl1.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_wooden_floor_entrance_lvl1.png</ImagePath>
 	</row>
 	<row>
 		<ID>1121</ID>
@@ -14279,7 +14279,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_wooden_floor_lvl1.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_wooden_floor_lvl1.png</ImagePath>
 	</row>
 	<row>
 		<ID>1122</ID>
@@ -14293,7 +14293,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_wooden_stairs.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_wooden_stairs.png</ImagePath>
 	</row>
 	<row>
 		<ID>1123</ID>
@@ -14307,7 +14307,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_thatch_roof_top.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_thatch_roof_top.png</ImagePath>
 	</row>
 	<row>
 		<ID>1124</ID>
@@ -14321,7 +14321,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_thatch_roof_outer_corner_top.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_thatch_roof_outer_corner_top.png</ImagePath>
 	</row>
 	<row>
 		<ID>1125</ID>
@@ -14335,7 +14335,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_thatch_roof_top_left_end.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_thatch_roof_top_left_end.png</ImagePath>
 	</row>
 	<row>
 		<ID>1126</ID>
@@ -14349,7 +14349,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_thatch_roof_top_right_end.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_thatch_roof_top_right_end.png</ImagePath>
 	</row>
 	<row>
 		<ID>1127</ID>
@@ -14363,7 +14363,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_thatch_roof.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_thatch_roof.png</ImagePath>
 	</row>
 	<row>
 		<ID>1128</ID>
@@ -14377,7 +14377,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_thatch_roof_outer_corner.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_thatch_roof_outer_corner.png</ImagePath>
 	</row>
 	<row>
 		<ID>1129</ID>
@@ -14391,7 +14391,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_wooden_railing.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_wooden_railing.png</ImagePath>
 	</row>
 	<row>
 		<ID>1130</ID>
@@ -14405,7 +14405,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_wooden_railing_lvl1.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_wooden_railing_lvl1.png</ImagePath>
 	</row>
 	<row>
 		<ID>1131</ID>
@@ -14419,7 +14419,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_thatch_roof_outer_corner_top.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_thatch_roof_outer_corner_top.png</ImagePath>
 	</row>
 	<row>
 		<ID>1134</ID>
@@ -14433,7 +14433,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/aurochs_cow.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/aurochs_cow.png</ImagePath>
 	</row>
 	<row>
 		<ID>1135</ID>
@@ -14447,7 +14447,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/aurochs_cow.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/aurochs_cow.png</ImagePath>
 	</row>
 	<row>
 		<ID>1136</ID>
@@ -14461,7 +14461,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/sow.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/sow.png</ImagePath>
 	</row>
 	<row>
 		<ID>1137</ID>
@@ -14475,7 +14475,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/sow.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/sow.png</ImagePath>
 	</row>
 	<row>
 		<ID>1138</ID>
@@ -14489,7 +14489,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/sow.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/sow.png</ImagePath>
 	</row>
 	<row>
 		<ID>1139</ID>
@@ -14503,7 +14503,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/horse.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/horse.png</ImagePath>
 	</row>
 	<row>
 		<ID>1140</ID>
@@ -14517,7 +14517,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/horse.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/horse.png</ImagePath>
 	</row>
 	<row>
 		<ID>1141</ID>
@@ -14531,7 +14531,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/horse.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/horse.png</ImagePath>
 	</row>
 	<row>
 		<ID>1142</ID>
@@ -14545,7 +14545,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/slave.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/slave.png</ImagePath>
 	</row>
 	<row>
 		<ID>1143</ID>
@@ -14559,7 +14559,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/wranen_the_hunter.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/wranen_the_hunter.png</ImagePath>
 	</row>
 	<row>
 		<ID>1144</ID>
@@ -14573,7 +14573,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>1</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Items/paper.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Items/paper.png</ImagePath>
 	</row>
 	<row>
 		<ID>1145</ID>
@@ -14587,7 +14587,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>1</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Items/health_book.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Items/health_book.png</ImagePath>
 	</row>
 	<row>
 		<ID>1146</ID>
@@ -14601,7 +14601,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_thatch_roof_inner_corner.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_thatch_roof_inner_corner.png</ImagePath>
 	</row>
 	<row>
 		<ID>1147</ID>
@@ -14615,7 +14615,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/wood_cart.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/wood_cart.png</ImagePath>
 	</row>
 	<row>
 		<ID>1148</ID>
@@ -14629,7 +14629,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/siegetower.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/siegetower.png</ImagePath>
 	</row>
 	<row>
 		<ID>1149</ID>
@@ -14643,7 +14643,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/aurochs_bull.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/aurochs_bull.png</ImagePath>
 	</row>
 	<row>
 		<ID>1150</ID>
@@ -14657,7 +14657,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/aurochs_bull.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/aurochs_bull.png</ImagePath>
 	</row>
 	<row>
 		<ID>1151</ID>
@@ -14671,7 +14671,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/aurochs_bull.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/aurochs_bull.png</ImagePath>
 	</row>
 	<row>
 		<ID>1152</ID>
@@ -14685,7 +14685,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_wooden_pier.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_wooden_pier.png</ImagePath>
 	</row>
 	<row>
 		<ID>1153</ID>
@@ -14699,7 +14699,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_wooden_pier_T.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_wooden_pier_T.png</ImagePath>
 	</row>
 	<row>
 		<ID>1154</ID>
@@ -14713,7 +14713,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/small_wooden_pier_L.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/small_wooden_pier_L.png</ImagePath>
 	</row>
 	<row>
 		<ID>1155</ID>
@@ -14727,7 +14727,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/wattle_wicket.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/wattle_wicket.png</ImagePath>
 	</row>
 	<row>
 		<ID>1156</ID>
@@ -14741,7 +14741,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/idol_cross.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/idol_cross.png</ImagePath>
 	</row>
 	<row>
 		<ID>1157</ID>
@@ -14755,7 +14755,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/wooden_church.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/wooden_church.png</ImagePath>
 	</row>
 	<row>
 		<ID>1158</ID>
@@ -14783,7 +14783,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Recipes/wolf.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Recipes/wolf.png</ImagePath>
 	</row>
 	<row>
 		<ID>1160</ID>
@@ -14797,7 +14797,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>1</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Items/gold_sheet.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Items/gold_sheet.png</ImagePath>
 	</row>
 	<row>
 		<ID>1161</ID>
@@ -14811,7 +14811,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>1</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Items/scissors.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Items/scissors.png</ImagePath>
 	</row>
 	<row>
 		<ID>1162</ID>
@@ -14825,7 +14825,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>1</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Items/metal_stamp.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Items/metal_stamp.png</ImagePath>
 	</row>
 	<row>
 		<ID>1163</ID>
@@ -14839,7 +14839,7 @@
 		<Quantity>5</Quantity>
 		<Autorepeat>1</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Items/gold_blanks.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Items/gold_blanks.png</ImagePath>
 	</row>
 	<row>
 		<ID>1164</ID>
@@ -14853,7 +14853,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>1</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Items/silver_sheet.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Items/silver_sheet.png</ImagePath>
 	</row>
 	<row>
 		<ID>1165</ID>
@@ -14867,7 +14867,7 @@
 		<Quantity>1</Quantity>
 		<Autorepeat>1</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Items/copper_sheet.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Items/copper_sheet.png</ImagePath>
 	</row>
 	<row>
 		<ID>1166</ID>
@@ -14881,7 +14881,7 @@
 		<Quantity>5</Quantity>
 		<Autorepeat>1</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Items/silver_blanks.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Items/silver_blanks.png</ImagePath>
 	</row>
 	<row>
 		<ID>1167</ID>
@@ -14895,6 +14895,6 @@
 		<Quantity>5</Quantity>
 		<Autorepeat>1</Autorepeat>
 		<IsBlueprint>0</IsBlueprint>
-		<ImagePath>yolauncher/modpack/mod/art/2D/Items/copper_blanks.png</ImagePath>
+		<ImagePath>yolauncher/modpack/art/2D/Items/copper_blanks.png</ImagePath>
 	</row>
 </table>
