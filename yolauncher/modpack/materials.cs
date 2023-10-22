@@ -4,7 +4,7 @@
 singleton Material(flag_PVE_flag)
 {
    mapTo = "flag";
-   diffuseMap[0] = "yolauncher/modpack/art//Textures/TextureLib/flag.dds";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/flag.dds";
    diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/flag_nm.dds";
    translucentBlendOp = "None";
 };
