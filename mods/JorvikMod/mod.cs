@@ -1626,7 +1626,7 @@ package JorvikMod
   function JorvikMod::ObjectsTypesSmallThatchRoofOuterCornerTop() {
     return new ScriptObject(ObjectsTypesSmallThatchRoofOuterCornerTop: ObjectsTypes)
     {
-      id = 2552; 
+      id = 2551; 
       ObjectName = "SmallThatchRoofOuterCornerTop"; 
       ParentID = 2411; 
       IsContainer = 0;
@@ -3648,7 +3648,7 @@ package JorvikMod
     %resultSet.delete();
   }	
   function JorvikMod::SmallThatchRoofOuterCornerTop() {
-    dbi.Select(JorvikMod, "SmallThatchRoofOuterCornerTopRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'SmallThatchRoofOuterCornerTop', 'Object from Jorvik MOD',        32,               18,          30,        2552,               35,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_thatch_roof_outer_corner_top.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallThatchRoofOuterCornerTopRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'SmallThatchRoofOuterCornerTop', 'Object from Jorvik MOD',        32,               18,          30,        2551,               35,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_thatch_roof_outer_corner_top.png') RETURNING ID");
   }
   function JorvikMod::SmallThatchRoofOuterCornerTopRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
