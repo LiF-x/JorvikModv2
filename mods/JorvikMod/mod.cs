@@ -879,8 +879,8 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/";
-      Description = "Object from Jorvik MOD"; 
+      FaceImage = "";
+      Description = ""; 
       BasePrice = 10; 
       OwnerTimeout = NULL; 
       AllowExportFromRed = 0; // Not in use
@@ -1391,8 +1391,8 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/";
-      Description = "Object from Jorvik MOD"; 
+      FaceImage = "";
+      Description = ""; 
       BasePrice = 10; 
       OwnerTimeout = NULL; 
       AllowExportFromRed = 0; // Not in use
