@@ -26995,7 +26995,7 @@
             </state>        
         </states>
     </object>
-	<object id="2420" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2473" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Wooden Floor-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27023,7 +27023,7 @@
             </state>        
         </states>
     </object>
-	<object id="2421" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2474" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Log Wall Slope Right-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27061,7 +27061,7 @@
             </state>			
         </states>
     </object>
-	<object id="2422" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2475" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Log Wall Slope Left-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27099,7 +27099,7 @@
             </state>			
         </states>
     </object>
-	<object id="2423" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2476" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Thatch Roof-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27137,7 +27137,7 @@
             </state>			
         </states>
     </object>
-	<object id="2424" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2477" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Thatch Roof Right End-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27175,7 +27175,7 @@
             </state>			
         </states>
     </object>
-	<object id="2425" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2478" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Thatch Roof Left End-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27213,7 +27213,7 @@
             </state>			
         </states>
     </object>
-	<object id="2426" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2479" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Thatch Roof Outer Corner-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27251,7 +27251,7 @@
             </state>			
         </states>
     </object>
-    <object id="2428" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+    <object id="2481" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Log Wall lvl 1-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27289,7 +27289,7 @@
             </state>			
         </states>
     </object>
-	<object id="2429" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2482" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Wooden Pillar LVL 1-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27317,7 +27317,7 @@
             </state>        
         </states>
     </object>
-	<object id="2430" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2483" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Log Corner Wall lvl 1-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27355,7 +27355,7 @@
             </state>
         </states>
     </object>
-	<object id="2431" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2484" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Log Wall With Window lvl 1-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27393,7 +27393,7 @@
             </state>
         </states>
     </object>
-	<object id="2432" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2485" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Log Wall With Shutters lvl1-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27431,7 +27431,7 @@
             </state>
         </states>
     </object>
-	<object id="2433" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2486" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Log Wall With Entrance lvl1-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27469,7 +27469,7 @@
             </state>
         </states>
     </object>
-	<object id="2434" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2487" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Log Wall With Door LVL 1-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27507,7 +27507,7 @@
             </state>
         </states>
     </object>
-	<object id="2435" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2488" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Wooden Floor Entrance lvl 1-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27535,7 +27535,7 @@
             </state>        
         </states>
     </object>
-	<object id="2436" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2489" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Wooden Floor lvl 1-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27563,7 +27563,7 @@
             </state>        
         </states>
     </object>
-	<object id="2437" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="3">
+	<object id="2490" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Wooden Stairs-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27591,7 +27591,7 @@
             </state>        
         </states>
     </object>
-	<object id="2438" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2491" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Thatch Top-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27629,7 +27629,7 @@
             </state>			
         </states>
     </object>
-	<object id="2439" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2492" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Thatch Roof Outer Corner Top-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27667,7 +27667,7 @@
             </state>			
         </states>
     </object>
-	<object id="2440" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2493" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Thatch Roof Top Left End-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27705,7 +27705,7 @@
             </state>			
         </states>
     </object>
-	<object id="2441" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2494" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Thatch Roof Top Right End-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27743,7 +27743,7 @@
             </state>			
         </states>
     </object>
-	<object id="2442" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2495" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Thatch Roof lvl 1-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27781,7 +27781,7 @@
             </state>			
         </states>
     </object>
-	<object id="2443" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2496" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Thatch Roof Outer Corner lvl 1-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27819,7 +27819,7 @@
             </state>			
         </states>
     </object>
-	<object id="2444" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2497" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Wooden Railing-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27847,7 +27847,7 @@
             </state>        
         </states>
     </object>
-	<object id="2445" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2498" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Wooden Railing lvl 1-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27875,7 +27875,7 @@
             </state>        
         </states>
     </object>
-	<object id="2446" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2499" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Thatch Roof Outer Corner Top lvl 1-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27913,7 +27913,7 @@
             </state>			
         </states>
     </object>
-    <object id="2447" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
+    <object id="2500" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
         <!--name = Wall Torch-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -27989,7 +27989,7 @@
             </state>
         </states>
     </object>
-	<object id="2449" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
+	<object id="2502" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
         <!--name = Small Candle-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -28053,7 +28053,7 @@
             </state>
         </states>
     </object>
-    <object id="2451" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
+    <object id="2504" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
         <!--name = Aurochs Cow (stand)-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -28099,7 +28099,7 @@
             </state>
         </states>
     </object>
-    <object id="2452" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
+    <object id="2505" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
         <!--name = Aurochs Cow (eat)-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -28145,7 +28145,7 @@
             </state>
         </states>
     </object>
-    <object id="2453" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
+    <object id="2506" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
         <!--name = Aurochs Cow (sleep)-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -28191,7 +28191,7 @@
             </state>
         </states>
     </object>
-    <object id="2455" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
+    <object id="2508" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
         <!--name = Sow (stand)-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -28237,7 +28237,7 @@
             </state>
         </states>
     </object>
-    <object id="2456" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
+    <object id="2509" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
         <!--name = Sow (eat)-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -28283,7 +28283,7 @@
             </state>
         </states>
     </object>
-    <object id="2457" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
+    <object id="2510" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
         <!--name = Sow (sleep)-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -28329,7 +28329,7 @@
             </state>
         </states>
     </object>
-    <object id="2458" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
+    <object id="2511" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
         <!--name = Horse (stand)-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -28375,7 +28375,7 @@
             </state>
         </states>
     </object>
-    <object id="2459" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
+    <object id="2512" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
         <!--name = Horse (eat)-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -28421,7 +28421,7 @@
             </state>
         </states>
     </object>
-    <object id="2460" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
+    <object id="2513" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
         <!--name = Horse (sleep)-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -28467,7 +28467,7 @@
             </state>
         </states>
     </object>
-    <object id="2461" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
+    <object id="2514" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
         <!--name = Slave (working)-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -28514,7 +28514,7 @@
             </state>
         </states>
     </object>
-    <object id="2462" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
+    <object id="2515" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
         <!--name = Wranen the Hunter (stand)-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -28550,7 +28550,7 @@
             </state>
         </states>
     </object>
-    <object id="2465" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+    <object id="2518" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Thatch Roof Inner Corner-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -28588,7 +28588,7 @@
             </state>			
         </states>
     </object>
-    <object id="2466" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
+    <object id="2519" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
         <!--name = Horse cart-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -28626,7 +28626,7 @@
             </state>
         </states>
     </object>
-    <object id="2467" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
+    <object id="2520" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
         <!--name = Siege Tower-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -28714,7 +28714,7 @@
             </state>
         </states>
     </object>
-    <object id="2468" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
+    <object id="2521" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
         <!--name = Aurochs Bull (stand)-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -28760,7 +28760,7 @@
             </state>
         </states>
     </object>
-    <object id="2469" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
+    <object id="2522" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
         <!--name = Aurochs Bull (eat)-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -28806,7 +28806,7 @@
             </state>
         </states>
     </object>
-    <object id="2470" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
+    <object id="2523" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
         <!--name = Aurochs Bull (sleep)-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -28852,7 +28852,7 @@
             </state>
         </states>
     </object>
-    <object id="2471" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
+    <object id="2524" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
         <!--name = Small Wooden Pier-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -28890,7 +28890,7 @@
             </state>
         </states>
     </object>
-    <object id="2472" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
+    <object id="2525" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
         <!--name = Small Wooden Pier T-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -28928,7 +28928,7 @@
             </state>
         </states>
     </object>
-    <object id="2473" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
+    <object id="2526" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
         <!--name = Small Wooden Pier L-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -28966,7 +28966,7 @@
             </state>
         </states>
     </object>
-    <object id="2474" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" IsSideObject="1" StreamingGroup="2"  noRuins="1" noDecay="1">
+    <object id="2527" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" IsSideObject="1" StreamingGroup="2"  noRuins="1" noDecay="1">
         <!--name = Wattle Wicket-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -29004,7 +29004,7 @@
             </state>
         </states>
     </object>
-    <object id="2475" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
+    <object id="2528" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
     <!--name = Idol Cross -->
         <lockedCells>
             <cell x="0" y="0" />
@@ -29032,7 +29032,7 @@
             </state>
         </states>
     </object>
-    <object id="2476" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="3">
+    <object id="2529" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="3">
         <!--name = Wooden Church-->
         <lockedCells>
             <cell x="-1" y="6" />	<cell x="0" y="6" />	<cell x="1" y="6" />		
@@ -29149,7 +29149,7 @@
             </state>
         </states>
     </object>
-    <object id="2477" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="3" noRuins="1">
+    <object id="2530" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="3" noRuins="1">
 	    <!--name = Sanctum of the Sleeper -->
 	    <lockedCells>
 			<cell x="1" y="0" />
@@ -29837,7 +29837,7 @@
             </state>
         </states>
     </object>
-    <object id="2481" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
+    <object id="2534" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
         <!--name = Wolf (stand)-->
         <lockedCells>
             <cell x="0" y="0" />
