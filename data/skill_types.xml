@@ -5714,7 +5714,7 @@
 						<ent_reqs>
 							<ent_req type="complex_object_type">movable</ent_req>
 							<ent_req type="state">complete damaged</ent_req>
-							<ent_req type="not_object_type_id">77 1070 1071 1079 1080 1083 1090 1448 1449 1457 2003 2403 2412 2413 2414 2415 2416 2417 2418 2419 2473 2474 2475 2475 2476 2477 2478 2418 2482 2483 2484 2485 2486 2487 2488 2489 2491 2492 2493 2494 2495 2496 2497 2498 2499 2518 2520</ent_req>
+							<ent_req type="not_object_type_id">77 1070 1071 1079 1080 1083 1090 1448 1449 1457 2003 2403 2561 2562 2563 2564 2565 2566 2567 2568 2469 2474 2475 2475 2476 2477 2478 2482 2483 2484 2544 2545 2546 2547 2548 2550 2551 2493 2494 2495 2496 2497 2498 2499 2518 2520</ent_req>
 							<ent_req type="claim" usage_type="use">
 								<land type="realm" jh_allowed_worlds="everywhere"/>
 								<land type="outpost" jh_allowed_worlds="everywhere"/>
@@ -6013,7 +6013,7 @@
 					<entity type="complex_obj">
 						<ent_reqs>
 							<ent_req type="state">complete working</ent_req>
-							<ent_req type="object_type_id">127 128 131 132 134 139 140 146 147 148 186 187 188 189 455 516 518 519 520 521 1055 1085 1086 1087 1088 1089 1109 1077 1665 2543 2404 2416 2418 2485 2487 2520 2527 2529 2530</ent_req>
+							<ent_req type="object_type_id">127 128 131 132 134 139 140 146 147 148 186 187 188 189 455 516 518 519 520 521 1055 1085 1086 1087 1088 1089 1109 1077 1665 2543 2554 2565 2567 2544 2546 2520 2527 2529 2530</ent_req>
 							<ent_req type="claim" usage_type="use">
 								<land type="realm" jh_allowed_worlds="everywhere"/>
 								<land type="outpost" jh_allowed_worlds="everywhere"/>
