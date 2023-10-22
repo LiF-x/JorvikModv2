@@ -4068,8 +4068,8 @@ package JorvikMod
   function JorvikMod::GoldBlanksRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2482,                  0,       10,         1,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2483,                  0,       10,         40,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2535,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2536,                  0,       10,         40,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  453,                  0,       10,         15,       0)");
 
 	  
@@ -4115,8 +4115,8 @@ package JorvikMod
   function JorvikMod::SilverBlanksRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2486,                  0,       10,         1,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2483,                  0,       10,         40,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2539,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2536,                  0,       10,         40,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  453,                  0,       10,         15,       0)");
 
 
@@ -4131,8 +4131,8 @@ package JorvikMod
   function JorvikMod::CopperBlanksRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2487,                  0,       10,         1,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2483,                  0,       10,         40,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2540,                  0,       10,         1,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2536,                  0,       10,         40,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  453,                  0,       10,         15,       0)");
  
 
@@ -4148,8 +4148,8 @@ package JorvikMod
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
 
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2485,                  0,       50,         5,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2484,                  0,       10,         40,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2538,                  0,       50,         5,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2537,                  0,       10,         40,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  453,                  0,       10,         15,       0)");
 
 	  
@@ -4163,8 +4163,8 @@ package JorvikMod
   function JorvikMod::SilverCoinsRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2488,                  0,       50,         5,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2484,                  0,       10,         40,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2541,                  0,       50,         5,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2537,                  0,       10,         40,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  453,                  0,       10,         15,       0)");
   
 	  
@@ -4178,8 +4178,8 @@ package JorvikMod
   function JorvikMod::CopperCoinsRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2489,                  0,       50,         5,       0)");
-      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2484,                  0,       10,         40,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2542,                  0,       50,         5,       0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  2537,                  0,       10,         40,       0)");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  453,                  0,       10,         15,       0)");
 	  
     }
