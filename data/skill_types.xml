@@ -5714,7 +5714,7 @@
 						<ent_reqs>
 							<ent_req type="complex_object_type">movable</ent_req>
 							<ent_req type="state">complete damaged</ent_req>
-							<ent_req type="not_object_type_id">77 1070 1071 1079 1080 1083 1090 1448 1449 1457 2003 2403 2561 2562 2563 2564 2565 2566 2567 2568 2469 2474 2475 2475 2476 2477 2478 2482 2483 2484 2544 2545 2546 2547 2548 2550 2551 2493 2494 2495 2496 2497 2498 2499 2518 2520</ent_req>
+							<ent_req type="not_object_type_id">77 1070 1071 1079 1080 1083 1090 1448 1449 1457 2003 2403 2561 2562 2563 2564 2565 2566 2567 2568 2473 2474 2475 2475 2476 2477 2478 2482 2483 2484 2544 2545 2546 2547 2548 2550 2551 2493 2494 2495 2496 2497 2498 2499 2518 2520</ent_req>
 							<ent_req type="claim" usage_type="use">
 								<land type="realm" jh_allowed_worlds="everywhere"/>
 								<land type="outpost" jh_allowed_worlds="everywhere"/>
