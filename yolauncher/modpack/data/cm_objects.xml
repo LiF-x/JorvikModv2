@@ -18853,10 +18853,117 @@
         </states>
     </object>
 
-    <object id="1232" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="2" noRuins="1">
+    <object id="1232" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" StreamingWeight="3">
     <!--name = Long_House-->
         <lockedCells>
-            <cell x="0" y="0" />
+                      <cell x="0" y="0" />
+          <cell x="0" y="1" />
+          <cell x="0" y="2" />
+          <cell x="0" y="3" />
+          <cell x="0" y="4" />
+          <cell x="0" y="-1" />
+          <cell x="0" y="-2" />
+          <cell x="-1" y="-1" />
+          <cell x="-1" y="-2" />
+          <cell x="-2" y="-1" />
+          <cell x="-2" y="-2" />
+          <cell x="-3" y="-1" />
+          <cell x="-3" y="-2" />
+          <cell x="-4" y="-1" />
+          <cell x="-4" y="-2" />
+          <cell x="-5" y="-1" />
+          <cell x="-5" y="-2" />
+          <cell x="-6" y="-1" />
+          <cell x="-6" y="-2" />
+          <cell x="-7" y="-1" />
+          <cell x="-7" y="-2" />
+          <cell x="-1" y="1" />
+          <cell x="-1" y="2" />
+          <cell x="-1" y="3" />
+          <cell x="-1" y="4" />
+          <cell x="-2" y="1" />
+          <cell x="-2" y="2" />
+          <cell x="-2" y="3" />
+          <cell x="-2" y="4" />
+          <cell x="-3" y="1" />
+          <cell x="-3" y="2" />
+          <cell x="-3" y="3" />
+          <cell x="-3" y="4" />
+          <cell x="-4" y="1" />
+          <cell x="-4" y="2" />
+          <cell x="-4" y="3" />
+          <cell x="-4" y="4" />
+          <cell x="-5" y="0" />
+          <cell x="-5" y="1" />
+          <cell x="-5" y="2" />
+          <cell x="-5" y="3" />
+          <cell x="-5" y="4" />
+          <cell x="-6" y="1" /> 
+          <cell x="-6" y="2" />
+          <cell x="-6" y="3" />
+          <cell x="-6" y="4" />
+          <cell x="-7" y="1" />
+          <cell x="-7" y="2" />
+          <cell x="-7" y="3" />
+          <cell x="-7" y="4" />
+          <cell x="1" y="-1" />
+          <cell x="1" y="-2" />
+          <cell x="2" y="-1" />
+          <cell x="2" y="-2" />
+          <cell x="3" y="-1" />
+          <cell x="3" y="-2" />
+          <cell x="4" y="-1" />
+          <cell x="4" y="-2" />
+          <cell x="5" y="-1" />
+          <cell x="5" y="-2" />
+          <cell x="6" y="-1" />
+          <cell x="6" y="-2" />
+          <cell x="7" y="-1" />
+          <cell x="7" y="-2" />
+          <cell x="-1" y="0" />
+          <cell x="-2" y="0" />
+          <cell x="-3" y="0" />
+          <cell x="-4" y="0" />
+          <cell x="-5" y="0" />
+          <cell x="-6" y="0" />
+          <cell x="-7" y="0" />
+          <cell x="-8" y="1" />
+          <cell x="-8" y="2" />
+          <cell x="-8" y="3" />
+          <cell x="-8" y="4" />
+          <cell x="8" y="-2" />
+          <cell x="1" y="0" />
+          <cell x="2" y="0" />
+          <cell x="3" y="0" />
+          <cell x="4" y="0" />
+          <cell x="5" y="0" />
+          <cell x="6" y="0" />
+          <cell x="7" y="0" />
+          <cell x="8" y="0" />
+          <cell x="1" y="1" />
+          <cell x="2" y="1" />
+          <cell x="3" y="1" />
+          <cell x="4" y="1" />
+          <cell x="5" y="1" />
+          <cell x="6" y="1" />
+          <cell x="7" y="1" />
+          <cell x="8" y="1" />
+          <cell x="1" y="2" />
+          <cell x="2" y="2" />
+          <cell x="3" y="2" />
+          <cell x="4" y="2" />
+          <cell x="5" y="2" />
+          <cell x="6" y="2" />
+          <cell x="7" y="2" />
+          <cell x="8" y="2" />
+          <cell x="1" y="3" />
+          <cell x="2" y="3" />
+          <cell x="3" y="3" />
+          <cell x="4" y="3" />
+          <cell x="5" y="3" />
+          <cell x="6" y="3" />
+          <cell x="7" y="3" />
+          <cell x="8" y="3" />
         </lockedCells>
         <states>
             <state type="Complete">
@@ -18872,7 +18979,7 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>art/models/3d/construction/misc/newbieisland/long_house.dts</shapeName>
+                        <shapeName>art/models/3d/construction/storage/large_warehouse/large_warehouse_inc.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -21977,9 +22084,10 @@
                 </shapes>
                 <soundEmitters>
                     <emitter>
-                        <event>Object_TowerBell_Mid</event>
+                        <event>Bell</event>
                         <offset x="0" y="0" z="32.2" />
                         <rot x="0" y="0" z="1" angle="0" />
+                        <radius>25</radius>
                     </emitter>
                 </soundEmitters>
             </state>
@@ -25818,9 +25926,12 @@
                 </shapes>
                 <soundEmitters>
                     <emitter>
-                        <profile>env_bell</profile>
-                        <offset x="0" y="0" z="20" />
-                    </emitter>
+                        <profile>BellTowerSound</profile>
+                        <event>Object_TowerBell_High</event>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <radius>20</radius>
+                    </emitter>  
                 </soundEmitters>
             </state>
         </states>
@@ -26213,9 +26324,204 @@
             </state>
         </states>
     </object>
-    <!--Jorvik Mod-->
-	<object id="2400" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Wooden Shed -->
+    	<object id="2400" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
+    <!--name = Wooden Cross -->
+        <lockedCells>
+            <cell x="0" y="0" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/idols/wooden_cross.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="0" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+			<state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/idols/wooden_cross.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="0" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+              <particleEmitters>
+                  <emitter>
+                      <datablock>LiFEmitterNodeData</datablock>
+                      <emitter>Conflagration_fire_medium</emitter>
+                      <offset x="0" y="0" z="1.5571" />
+                      <rot x="0" y="0" z="1" angle="0" />
+                  </emitter>
+                  <emitter>
+                      <datablock>LiFEmitterNodeData</datablock>
+                      <emitter>Conflagration_sparks_medium</emitter>
+                      <offset x="0" y="0" z="1.5571" />
+                      <rot x="0" y="0" z="1" angle="0" />
+                  </emitter>
+                  <emitter>
+                      <datablock>LiFEmitterNodeData</datablock>
+                      <emitter>Conflagration_smoke_medium</emitter>
+                      <offset x="0" y="0" z="2.1455" />
+                      <rot x="0" y="0" z="1" angle="0" />
+                  </emitter>
+              </particleEmitters>
+              <soundEmitters>
+                  <emitter>
+                      <profile>env_fire</profile>
+                      <offset x="0" y="1" z="2.1455" />
+                      <rot x="0" y="0" z="1" angle="0" />
+                  </emitter>
+              </soundEmitters>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="0" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+	<object id="2401" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1" noDecay="0">
+        <!--name = Wooden Bridge-->
+        <lockedCells>
+            <cell x="0" y="0" />
+			<cell x="-1" y="0" />
+			<cell x="4" y="0" />
+			<cell x="5" y="0" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/bridges/wooden_bridge.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="0" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/bridges/wooden_bridge_damaged.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="0" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+              <particleEmitters>
+                  <emitter>
+                      <datablock>LiFEmitterNodeData</datablock>
+                      <emitter>Conflagration_fire_medium</emitter>
+                      <offset x="1.22" y="0" z="0.5571" />
+                      <rot x="0" y="0" z="1" angle="0" />
+                  </emitter>
+                  <emitter>
+                      <datablock>LiFEmitterNodeData</datablock>
+                      <emitter>Conflagration_sparks_medium</emitter>
+                      <offset x="1.22" y="0" z="0.5571" />
+                      <rot x="0" y="0" z="1" angle="0" />
+                  </emitter>
+                  <emitter>
+                      <datablock>LiFEmitterNodeData</datablock>
+                      <emitter>Conflagration_smoke_medium</emitter>
+                      <offset x="1.22" y="0" z="1.1455" />
+                      <rot x="0" y="0" z="1" angle="0" />
+                  </emitter>
+                  <emitter>
+                      <datablock>LiFEmitterNodeData</datablock>
+                      <emitter>Conflagration_smoke_big</emitter>
+                      <offset x="10.63667" y="0.69489" z="0.5571" />
+                      <rot x="0" y="0" z="1" angle="0" />
+                  </emitter>
+                  <emitter>
+                      <datablock>LiFEmitterNodeData</datablock>
+                      <emitter>Conflagration_fire_big</emitter>
+                      <offset x="10.63667" y="0.69489" z="0.5571" />
+                      <rot x="0" y="0" z="1" angle="0" />
+                  </emitter>
+                  <emitter>
+                      <datablock>LiFEmitterNodeData</datablock>
+                      <emitter>Conflagration_sparks_big</emitter>
+                      <offset x="10.63667" y="0.69489" z="1.1455" />
+                      <rot x="0" y="0" z="1" angle="0" />
+                  </emitter>
+              </particleEmitters>
+              <soundEmitters>
+                  <emitter>
+                      <profile>env_fire</profile>
+                      <offset x="0" y="1" z="0.5571" />
+                      <rot x="0" y="0" z="1" angle="0" />
+                  </emitter>
+              </soundEmitters>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/bridges/wooden_bridge_construct.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="0" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+	<object id="2402" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="0" noDecay="0">
+        <!--name = Stone Bridge-->
+        <lockedCells>
+            <cell x="0" y="0" />
+			<cell x="0" y="1" />
+			<cell x="1" y="0" />
+			<cell x="1" y="1" />
+			<cell x="5" y="0" />
+			<cell x="5" y="1" />
+			<cell x="6" y="0" />
+			<cell x="6" y="1" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/bridges/stone_bridge.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="0" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/bridges/stone_bridge_damaged.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/bridges/stone_bridge_construct.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="0" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+	<object id="2403" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="3">
+      name = Small Wooden Shed 
       <lockedCells>
           <cell x="0" y="0" />
           <cell x="1" y="0" />
@@ -26224,7 +26530,7 @@
             <state type="Complete">
               <shapes>
                   <shape>
-                      <shapeName>yolauncher/modpack/art/models/3d/construction/storage/small_wooden_shed/small_wooden_shed.dts</shapeName>
+                      <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/storage/small_wooden_shed.dts</shapeName>
                       <offset x="0" y="0" z="0" />
                       <rot x="0" y="0" z="0" angle="0" />
                       <scale x="1" y="1" z="1" />
@@ -26234,7 +26540,7 @@
             <state type="Damaged">
               <shapes>
                   <shape>
-                      <shapeName>yolauncher/modpack/art/models/3d/construction/storage/small_wooden_shed/small_wooden_shed_dmg.dts</shapeName>
+                      <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/storage/small_wooden_shed_damaged.dts</shapeName>
                       <offset x="0" y="0" z="0" />
                       <rot x="0" y="0" z="0" angle="0" />
                       <scale x="1" y="1" z="1" />
@@ -26271,7 +26577,7 @@
           <state type="Incomplete">
               <shapes>
                   <shape>
-                      <shapeName>yolauncher/modpack/art/models/3d/construction/storage/small_wooden_shed/small_wooden_shed_inc.dts</shapeName>
+                      <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/storage/small_wooden_shed_construct.dts</shapeName>
                       <offset x="0" y="0" z="0" />
                       <rot x="0" y="0" z="0" angle="0" />
                       <scale x="1" y="1" z="1" />
@@ -26279,108 +26585,29 @@
               </shapes>
           </state>
       </states>
-    </object>
-    <object id="2401" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="3" noRuins="1" noDecay="1">
-        <!--name = Flag PvP-->
+  </object> 
+  <object id="2404" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="2" noRuins="1">
+        <!--name = Metal Cage -->
         <lockedCells>
             <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/decorations/flags/flag_pvp.dts</shapeName>
-                        <animationName>Wind</animationName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/decorations/flags/flag_pvp.dts</shapeName>
-                        <animationName>Wind</animationName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2402" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="3" noRuins="1" noDecay="1">
-        <!--name = Flag PvE-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/decorations/flags/flag_pve.dts</shapeName>
-                        <animationName>Wind</animationName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/decorations/flags/flag_pve.dts</shapeName>
-                        <animationName>Wind</animationName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-
-    <object id="2403" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="3">
-      <!--name = Long house-->
-        <lockedCells>
-		<cell x="-8" y="3" />	<cell x="-7" y="3" />	<cell x="-6" y="3" />	<cell x="-5" y="3" />	<cell x="-4" y="3" />	<cell x="-3" y="3" />	<cell x="-2" y="3" />	<cell x="-1" y="3" />	<cell x="0" y="3" />	<cell x="1" y="3" />	<cell x="2" y="3" />	<cell x="3" y="3" />	<cell x="4" y="3" />	<cell x="5" y="3" />	<cell x="6" y="3" />	<cell x="7" y="3" />	<cell x="8" y="3" />
-		<cell x="-8" y="2" />	<cell x="-7" y="2" />	<cell x="-6" y="2" />	<cell x="-5" y="2" />	<cell x="-4" y="2" />	<cell x="-3" y="2" />	<cell x="-2" y="2" />	<cell x="-1" y="2" />	<cell x="0" y="2" />	<cell x="1" y="2" />	<cell x="2" y="2" />	<cell x="3" y="2" />	<cell x="4" y="2" />	<cell x="5" y="2" />	<cell x="6" y="2" />	<cell x="7" y="2" />	<cell x="8" y="2" />
-		<cell x="-8" y="1" />	<cell x="-7" y="1" />	<cell x="-6" y="1" />	<cell x="-5" y="1" />	<cell x="-4" y="1" />	<cell x="-3" y="1" />	<cell x="-2" y="1" />	<cell x="-1" y="1" />	<cell x="0" y="1" />	<cell x="1" y="1" />	<cell x="2" y="1" />	<cell x="3" y="1" />	<cell x="4" y="1" />	<cell x="5" y="1" />	<cell x="6" y="1" />	<cell x="7" y="1" />	<cell x="8" y="1" />
-		<cell x="-8" y="0" />	<cell x="-7" y="0" />	<cell x="-6" y="0" />	<cell x="-5" y="0" />	<cell x="-4" y="0" />	<cell x="-3" y="0" />	<cell x="-2" y="0" />	<cell x="-1" y="0" />	<cell x="0" y="0" />	<cell x="1" y="0" />	<cell x="2" y="0" />	<cell x="3" y="0" />	<cell x="4" y="0" />	<cell x="5" y="0" />	<cell x="6" y="0" />	<cell x="7" y="0" />	<cell x="8" y="0" />
-		<cell x="-8" y="-1" />	<cell x="-7" y="-1" />	<cell x="-6" y="-1" />	<cell x="-5" y="-1" />	<cell x="-4" y="-1" />	<cell x="-3" y="-1" />	<cell x="-2" y="-1" />	<cell x="-1" y="-1" />	<cell x="0" y="-1" />	<cell x="1" y="-1" />	<cell x="2" y="-1" />	<cell x="3" y="-1" />	<cell x="4" y="-1" />	<cell x="5" y="-1" />	<cell x="6" y="-1" />	<cell x="7" y="-1" />	<cell x="8" y="-1" />
-		<cell x="-8" y="-2" />	<cell x="-7" y="-2" />	<cell x="-6" y="-2" />	<cell x="-5" y="-2" />	<cell x="-4" y="-2" />	<cell x="-3" y="-2" />	<cell x="-2" y="-2" />	<cell x="-1" y="-2" />	<cell x="0" y="-2" />	<cell x="1" y="-2" />	<cell x="2" y="-2" />	<cell x="3" y="-2" />	<cell x="4" y="-2" />	<cell x="5" y="-2" />	<cell x="6" y="-2" />	<cell x="7" y="-2" />	<cell x="8" y="-2" />
-		<cell x="-8" y="-3" />	<cell x="-7" y="-3" />	<cell x="-6" y="-3" />	<cell x="-5" y="-3" />	<cell x="-4" y="-3" />	<cell x="-3" y="-3" />	<cell x="-2" y="-3" />	<cell x="-1" y="-3" />	<cell x="0" y="-3" />	<cell x="1" y="-3" />	<cell x="2" y="-3" />	<cell x="3" y="-3" />	<cell x="4" y="-3" />	<cell x="5" y="-3" />	<cell x="6" y="-3" />	<cell x="7" y="-3" />	<cell x="8" y="-3" />
-		<cell x="-8" y="-4" />	<cell x="-7" y="-4" />	<cell x="-6" y="-4" />	<cell x="-5" y="-4" />	<cell x="-4" y="-4" />	<cell x="-3" y="-4" />	<cell x="-2" y="-4" />	<cell x="-1" y="-4" />	<cell x="0" y="-4" />	<cell x="1" y="-4" />	<cell x="2" y="-4" />	<cell x="3" y="-4" />	<cell x="4" y="-4" />	<cell x="5" y="-4" />	<cell x="6" y="-4" />	<cell x="7" y="-4" />	<cell x="8" y="-4" />
-
         </lockedCells>
         <states>
             <state type="Complete">
                 <shapes>
                     <shape isDoor="1">
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/long_house/long_house.dts</shapeName>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/residence/metal_cage.dts</shapeName>
                         <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
+                        <rot x="0" y="0" z="0" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/residence/metal_cage.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
                     </shape>
                 </shapes>
@@ -26388,569 +26615,219 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/long_house/long_house_inc.dts</shapeName>
+                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
                         <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/long_house/long_house_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-                <particleEmitters>
-				    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Conflagration_fire_medium</emitter>
-                        <offset x="4" y="0" z="16" />
-                        <rot x="0" y="-1" z="0" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Conflagration_sparks_medium</emitter>
-                        <offset x="4" y="0" z="16" />
-                        <rot x="0" y="-1" z="0" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Conflagration_smoke_medium</emitter>
-                        <offset x="4" y="0" z="16" />
-                        <rot x="0" y="-1" z="0" angle="0" />
-                    </emitter>
-                </particleEmitters>
-              	<soundEmitters>
-				    <emitter>
-                        <profile>env_fire</profile>
-                        <offset x="4" y="0" z="16" />
                         <rot x="0" y="0" z="0" angle="0" />
-                    </emitter>
-				</soundEmitters>
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
             </state>
         </states>
     </object>
-
-    <object id="2404" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Stone Gate 2x1-->
+	<object id="2405" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1" noDecay="0">
+        <!--name = Wooden Pier -->
         <lockedCells>
             <cell x="0" y="0" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/bridges/pier.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="0" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/bridges/pier.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="0" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/bridges/pier_construct.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="0" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+	<object id="2406" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1" noDecay="0">
+        <!--name = Wooden Barricade -->
+        <lockedCells>
+            <cell x="0" y="0" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/fortifications/wooden_barricade.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="0" angle="0" />
+                        <scale x="0.9" y="0.9" z="0.9" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/fortifications/wooden_barricade.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="0" angle="0" />
+                        <scale x="0.9" y="0.9" z="0.9" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="0" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+	<object id="2408" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="0" noDecay="0">
+        <!--name = Stone Altar -->
+        <lockedCells>
             <cell x="-1" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape isDoor="1">
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Fortifications/stone_gate/stone_gate.dts</shapeName>
-                        <offset x="-6" y="2" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Fortifications/stone_gate/stone_gate_inc.dts</shapeName>
-                        <offset x="-6" y="2" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Fortifications/stone_gate/stone_gate_dmg.dts</shapeName>
-                        <offset x="-6" y="2" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2405" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" noDecay="1">
-      <!--name = Small Wooden Bridge-->
-        <lockedCells>
-            <cell x="0" y="0" />
+			<cell x="-1" y="-1" />
+			<cell x="0" y="-1" />
+			<cell x="1" y="-1" />
 			<cell x="1" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_wooden_bridge/small_wooden_bridge.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_wooden_bridge/small_wooden_bridge_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_wooden_bridge/small_wooden_bridge_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2406" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" noDecay="1">
-      <!--name = Small Stone Bridge-->
-        <lockedCells>
-            <cell x="0" y="0" />
-			<cell x="2" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_stone_bridge/small_stone_bridge.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_stone_bridge/small_stone_bridge_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_stone_bridge/small_stone_bridge_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2407" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" noDecay="1">
-      <!--name = Large Wooden Bridge-->
-        <lockedCells>
-            <cell x="0" y="0" />
+			<cell x="1" y="1" />
 			<cell x="0" y="1" />
+			<cell x="-1" y="1" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/stone_altar.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="0" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/stone_altar_construct.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/stone_altar_construct.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="0" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+	<object id="2409" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="0" noDecay="0">
+        <!--name = Wooden House with Tower -->
+		<lockedCells>
+			<cell x="-4" y="5" />
+			<cell x="-4" y="4" />
+			<cell x="-4" y="3" />
+			<cell x="-4" y="2" />
+			<cell x="-4" y="1" />
+			<cell x="-4" y="0" />
+			<cell x="-4" y="-1" />
+			<cell x="-4" y="-2" />
+			<cell x="-3" y="5" />
+			<cell x="-3" y="4" />
+			<cell x="-3" y="3" />
+			<cell x="-3" y="2" />
+			<cell x="-3" y="1" />
+			<cell x="-3" y="0" />
+			<cell x="-3" y="-1" />
+			<cell x="-3" y="-2" />
+			<cell x="-2" y="5" />
+			<cell x="-2" y="4" />
+			<cell x="-2" y="3" />
+			<cell x="-2" y="2" />
+			<cell x="-2" y="1" />
+			<cell x="-2" y="0" />
+			<cell x="-2" y="-1" />
+			<cell x="-2" y="-2" />
+			<cell x="-1" y="5" />
+			<cell x="-1" y="4" />
+			<cell x="-1" y="3" />
+			<cell x="-1" y="2" />
+			<cell x="-1" y="1" />
+			<cell x="-1" y="0" />
+			<cell x="-1" y="-1" />
+			<cell x="-1" y="-2" />
+			<cell x="0" y="5" />
+			<cell x="0" y="4" />
+			<cell x="0" y="3" />
+			<cell x="0" y="2" />
+			<cell x="0" y="1" />
+			<cell x="0" y="0" />
+			<cell x="0" y="-1" />
+			<cell x="0" y="-2" />
+			<cell x="1" y="5" />
+			<cell x="1" y="4" />
+			<cell x="1" y="3" />
+			<cell x="1" y="2" />
 			<cell x="1" y="1" />
 			<cell x="1" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/large_wooden_bridge/large_wooden_bridge.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/large_wooden_bridge/large_wooden_bridge_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/large_wooden_bridge/large_wooden_bridge_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-	<object id="2408" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" noDecay="1">
-      <!--name = Large Stone Bridge -->
-        <lockedCells>
-            <cell x="0" y="1" />
-			<cell x="0" y="0" />
+			<cell x="1" y="-1" />
+			<cell x="1" y="-2" />
+			<cell x="2" y="5" />
+			<cell x="2" y="4" />
+			<cell x="2" y="3" />
+			<cell x="2" y="2" />
 			<cell x="2" y="1" />
 			<cell x="2" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/large_stone_bridge/large_stone_bridge.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/large_stone_bridge/large_stone_bridge_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/large_stone_bridge/large_stone_bridge_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2409" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" noDecay="1">
-      <!--name = Large Stone Bridge End-->
-        <lockedCells>
-			<cell x="0" y="1" />
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/large_stone_bridge_end/large_stone_bridge_end.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/large_stone_bridge_end/large_stone_bridge_end_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/large_stone_bridge_end/large_stone_bridge_end_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2410" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" noDecay="1">
-      <!--name = Small Stone Bridge End-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_stone_bridge_end/small_stone_bridge_end.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_stone_bridge_end/small_stone_bridge_end_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_stone_bridge_end/small_stone_bridge_end_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2412" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Log Wall-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall/s_log_wall.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall/s_log_wall_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall/s_log_wall_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2413" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Wooden Pillar-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_pillar/s_wood_pillar.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_pillar/s_wood_pillar_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-        </states>
-    </object>
-    <object id="2414" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Log Corner Wall-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_cor_wall/s_log_cor_wall.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_cor_wall/s_log_cor_wall_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_cor_wall/s_log_cor_wall_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-	<object id="2415" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Log Wall with Window-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_win/s_log_wall_win.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_win/s_log_wall_win_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_win/s_log_wall_win_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-	<object id="2416" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Log Wall With Shutters-->
-        <lockedCells>
-            <cell x="0" y="0" />
+			<cell x="2" y="-1" />
+			<cell x="2" y="-2" />
+			<cell x="3" y="5" />
+			<cell x="3" y="4" />
+			<cell x="3" y="3" />
+			<cell x="3" y="2" />
+			<cell x="3" y="1" />
+			<cell x="3" y="0" />
+			<cell x="3" y="-1" />
+			<cell x="3" y="-2" />
+			<cell x="4" y="5" />
+			<cell x="4" y="4" />
+			<cell x="4" y="3" />
+			<cell x="4" y="2" />
+			<cell x="4" y="1" />
+			<cell x="4" y="0" />
+			<cell x="4" y="-1" />
+			<cell x="4" y="-2" />
         </lockedCells>
         <states>
             <state type="Complete">
                 <shapes>
                     <shape isDoor="1">
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_shut/s_log_wall_shut.dts</shapeName>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/residence/wooden_house_with_tower.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_shut/s_log_wall_shut_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_shut/s_log_wall_shut_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-	<object id="2417" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Log Wall With Entrance-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_ent/s_log_wall_ent.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_ent/s_log_wall_ent_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_ent/s_log_wall_ent_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-	<object id="2418" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Log Wall With Door-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape isDoor="1">
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_door/s_log_wall_door.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_door/s_log_wall_door_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
                     </shape>
                 </shapes>
@@ -26958,1800 +26835,67 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_door/s_log_wall_door_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/residence/wooden_house_with_tower_damaged.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
                     </shape>
                 </shapes>
-            </state>
-        </states>
-    </object>
-	<object id="2419" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Wooden Floor Entrance-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_floor_ent/s_wood_floor_ent.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_floor_ent/s_wood_floor_ent_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-        </states>
-    </object>
-	<object id="2420" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Wooden Floor-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_floor/s_wood_floor.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_floor/s_wood_floor_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-        </states>
-    </object>
-	<object id="2421" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Log Wall Slope Right-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_slope_right/s_log_wall_slope_right.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_slope_right/s_log_wall_slope_right_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>     
-			<state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_slope_right/s_log_wall_slope_right_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>			
-        </states>
-    </object>
-	<object id="2422" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Log Wall Slope Left-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_slope_left/s_log_wall_slope_left.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_slope_left/s_log_wall_slope_left_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>     
-			<state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_slope_left/s_log_wall_slope_left_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>			
-        </states>
-    </object>
-	<object id="2423" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Thatch Roof-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof/s_thatch_roof.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof/s_thatch_roof_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>     
-			<state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof/s_thatch_roof_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>			
-        </states>
-    </object>
-	<object id="2424" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Thatch Roof Right End-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_right_end/s_thatch_roof_right_end.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_right_end/s_thatch_roof_right_end_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>     
-			<state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_right_end/s_thatch_roof_right_end_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>			
-        </states>
-    </object>
-	<object id="2425" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Thatch Roof Left End-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_left_end/s_thatch_roof_left_end.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_left_end/s_thatch_roof_left_end_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>     
-			<state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_left_end/s_thatch_roof_left_end_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>			
-        </states>
-    </object>
-	<object id="2426" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Thatch Roof Outer Corner-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_out_cor/s_thatch_roof_out_cor.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_out_cor/s_thatch_roof_out_cor_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>     
-			<state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_out_cor/s_thatch_roof_out_cor_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>			
-        </states>
-    </object>
-    <object id="2428" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Log Wall lvl 1-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_l1/s_log_wall_l1.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_l1/s_log_wall_l1_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>     
-			<state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_l1/s_log_wall_l1_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>			
-        </states>
-    </object>
-	<object id="2429" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Wooden Pillar LVL 1-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_pillar_l1/s_wood_pillar_l1.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_pillar_l1/s_wood_pillar_l1_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-        </states>
-    </object>
-	<object id="2430" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Log Corner Wall lvl 1-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_cor_wall_l1/s_log_cor_wall_l1.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_cor_wall_l1/s_log_cor_wall_l1_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_cor_wall_l1/s_log_cor_wall_l1_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-	<object id="2431" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Log Wall With Window lvl 1-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_win_l1/s_log_wall_win_l1.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_win_l1/s_log_wall_win_l1_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_win_l1/s_log_wall_win_l1_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-	<object id="2432" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Log Wall With Shutters lvl1-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape isDoor="1">
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_shut_l1/s_log_wall_shut_l1.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_shut_l1/s_log_wall_shut_l1_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_shut_l1/s_log_wall_shut_l1_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-	<object id="2433" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Log Wall With Entrance lvl1-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_ent_l1/s_log_wall_ent_l1.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_ent_l1/s_log_wall_ent_l1_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_ent_l1/s_log_wall_ent_l1_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-	<object id="2434" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Log Wall With Door LVL 1-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape isDoor="1">
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_door_l1/s_log_wall_door_l1.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_door_l1/s_log_wall_door_l1_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_log_wall_door_l1/s_log_wall_door_l1_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-	<object id="2435" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Wooden Floor Entrance lvl 1-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_floor_ent_l1/s_wood_floor_ent_l1.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_floor_ent_l1/s_wood_floor_ent_l1_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-        </states>
-    </object>
-	<object id="2436" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Wooden Floor lvl 1-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_floor_l1/s_wood_floor_l1.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_floor_l1/s_wood_floor_l1_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-        </states>
-    </object>
-	<object id="2437" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Wooden Stairs-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/misc/small_wooden_stairs/small_wooden_stairs.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/misc/small_wooden_stairs/small_wooden_stairs_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-        </states>
-    </object>
-	<object id="2438" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Thatch Top-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_top/s_thatch_roof_top.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_top/s_thatch_roof_top_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>     
-			<state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_top/s_thatch_roof_top_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>			
-        </states>
-    </object>
-	<object id="2439" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Thatch Roof Outer Corner Top-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_out_cor_top/s_thatch_roof_out_cor_top.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_out_cor_top/s_thatch_roof_out_cor_top_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>     
-			<state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_out_cor_top/s_thatch_roof_out_cor_top_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>			
-        </states>
-    </object>
-	<object id="2440" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Thatch Roof Top Left End-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_top_left_end/s_thatch_roof_top_left_end.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_top_left_end/s_thatch_roof_top_left_end_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>     
-			<state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_top_left_end/s_thatch_roof_top_left_end_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>			
-        </states>
-    </object>
-	<object id="2441" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Thatch Roof Top Right End-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_top_right_end/s_thatch_roof_top_right_end.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_top_right_end/s_thatch_roof_top_right_end_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>     
-			<state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_top_right_end/s_thatch_roof_top_right_end_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>			
-        </states>
-    </object>
-	<object id="2442" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Thatch Roof lvl 1-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_l1/s_thatch_roof_l1.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_l1/s_thatch_roof_l1_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>     
-			<state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_l1/s_thatch_roof_l1_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>			
-        </states>
-    </object>
-	<object id="2443" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Thatch Roof Outer Corner lvl 1-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_out_cor_l1/s_thatch_roof_out_cor_l1.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_out_cor_l1/s_thatch_roof_out_cor_l1_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>     
-			<state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_out_cor_l1/s_thatch_roof_out_cor_l1_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>			
-        </states>
-    </object>
-	<object id="2444" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Wooden Railing-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_railing/s_wood_railing.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_railing/s_wood_railing_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-        </states>
-    </object>
-	<object id="2445" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Wooden Railing lvl 1-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_railing_l1/s_wood_railing_l1.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_wood_railing_l1/s_wood_railing_l1_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>        
-        </states>
-    </object>
-	<object id="2446" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Thatch Roof Outer Corner Top lvl 1-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_out_cor_top_l1/s_thatch_roof_out_cor_top_l1.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_out_cor_top_l1/s_thatch_roof_out_cor_top_l1_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>     
-			<state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_out_cor_top_l1/s_thatch_roof_out_cor_top_l1_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>			
-        </states>
-    </object>
-    <object id="2447" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
-        <!--name = Wall Torch-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/lightning/wall_torch/wall_torch.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Working">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/lightning/wall_torch/wall_torch.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-                <pointLights>
-                    <light>
-                        <prototype>Lamppost_Light</prototype>
-                        <offset x="0" y="0" z="4.0" />
-                        <radius>10</radius>
-                    </light>
-                </pointLights>
-                <particleEmitters>
-				<emitter>
+				<particleEmitters>
+                  <emitter>
                       <datablock>LiFEmitterNodeData</datablock>
-                      <emitter>SparksOfTorchEmitter</emitter>
-                      <offset x="0" y="0" z="4.0" />
-                      <rot x="0" y="0" z="1" angle="0" />
+                      <emitter>Conflagration_fire_medium</emitter>
+                      <offset x="9" y="12" z="11.5571" />
+                      <rot x="0" y="0" z="0" angle="0" />
                   </emitter>
-					<emitter>
+                  <emitter>
                       <datablock>LiFEmitterNodeData</datablock>
-                      <emitter>FireEmitterLiF2Z</emitter>
-                      <offset x="0" y="0" z="4.0" />
-                      <rot x="0" y="0" z="1" angle="0" />
-					</emitter>
-                    <emitter>
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>FireEmitterLiF2Z</emitter>
-                        <offset x="0" y="0" z="3.9" />
-                        <rot x="0" y="0" z="1" angle="0" />             
-                    </emitter>
-                </particleEmitters>
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art//models/3d/construction/lightning/wall_torch/wall_torch.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-	<object id="2449" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
-        <!--name = Small Candle-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/lightning/small_candle/small_candle.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Working">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/lightning/small_candle/small_candle.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-                <pointLights>
-                    <light>
-                        <prototype>Lamppost_Light</prototype>
-                        <offset x="0" y="0" z="4.0" />
-                        <radius>5</radius>
-                    </light>
-                </pointLights>
-                <particleEmitters>
-                    <emitter>
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>FireEmitterLiF2Z</emitter>
-                        <offset x="0" y="0" z="4.0" />
-                        <rot x="0" y="0" z="1" angle="0" />             
-                    </emitter>
-                </particleEmitters>
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/lightning/small_candle/small_candle.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2451" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
-        <!--name = Aurochs Cow (stand)-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-           <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimals/aurochscow.dts</shapeName>
-                        <animationName>idle_stand</animationName>
-						<offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-                <soundEmitters>
-                    <emitter>
-                        <profile>aurochscow_idle</profile>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                    </emitter>
-                </soundEmitters>
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/achouscow_death.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/achouscow_death.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2452" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
-        <!--name = Aurochs Cow (eat)-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-           <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimals/aurochscow.dts</shapeName>
-                        <animationName>idle_eat</animationName>
-						<offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-                <soundEmitters>
-                    <emitter>
-                        <profile>aurochscow_eat</profile>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                    </emitter>
-                </soundEmitters>
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/achouscow_death.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/achouscow_death.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2453" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
-        <!--name = Aurochs Cow (sleep)-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-           <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimals/aurochscow.dts</shapeName>
-                        <animationName>idle_sleep</animationName>
-						<offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-                <soundEmitters>
-                    <emitter>
-                        <profile>aurochscow_sleep</profile>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                    </emitter>
-                </soundEmitters>
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/achouscow_death.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/achouscow_death.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2455" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
-        <!--name = Sow (stand)-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-           <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimals/sow.dts</shapeName>
-                        <animationName>idle_stand</animationName>
-						<offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-                <soundEmitters>
-                    <emitter>
-                        <profile>sow_idle</profile>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                    </emitter>
-                </soundEmitters>
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/sow_death.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/sow_death.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2456" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
-        <!--name = Sow (eat)-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-           <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimals/sow.dts</shapeName>
-                        <animationName>idle_eat</animationName>
-						<offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-                <soundEmitters>
-                    <emitter>
-                        <profile>sow_eat</profile>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                    </emitter>
-                </soundEmitters>
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/sow_death.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/sow_death.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2457" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
-        <!--name = Sow (sleep)-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-           <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimals/sow.dts</shapeName>
-                        <animationName>idle_sleep</animationName>
-						<offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-                <soundEmitters>
-                    <emitter>
-                        <profile>sow_sleep</profile>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                    </emitter>
-                </soundEmitters>
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/sow_death.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/sow_death.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2458" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
-        <!--name = Horse (stand)-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-           <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimals/wildhorse.dts</shapeName>
-                        <animationName>idle_stand</animationName>
-						<offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-                <soundEmitters>
-                    <emitter>
-                        <profile>wildhorse_idle</profile>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                    </emitter>
-                </soundEmitters>
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/wildhorse_death.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/wildhorse_death.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2459" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
-        <!--name = Horse (eat)-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-           <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimals/wildhorse.dts</shapeName>
-                        <animationName>idle_eat</animationName>
-						<offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-                <soundEmitters>
-                    <emitter>
-                        <profile>wildhorse_eat</profile>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                    </emitter>
-                </soundEmitters>
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/wildhorse_death.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/wildhorse_death.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2460" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
-        <!--name = Horse (sleep)-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-           <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimals/wildhorse.dts</shapeName>
-                        <animationName>idle_sleep</animationName>
-						<offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-                <soundEmitters>
-                    <emitter>
-                        <profile>wildhorse_sleep</profile>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                    </emitter>
-                </soundEmitters>
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/wildhorse_death.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/wildhorse_death.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2461" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
-        <!--name = Slave (working)-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-           <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/npc/npc_slave_b.dts</shapeName>
-                        <animationName>Perform</animationName>
-						<offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-                <soundEmitters>
-                    <emitter>
-                        <profile>slave_working</profile>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                    </emitter>
-                </soundEmitters>
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/npc/npc_slave_a.dts</shapeName>
-                        <animationName>death</animationName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2462" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
-        <!--name = Wranen the Hunter (stand)-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-           <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/npc/wranen_the_hunter.dts</shapeName>
-                        <animationName>idle1</animationName>
-						<offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-                <soundEmitters>
-                    <emitter>
-                        <profile>wranen_stand</profile>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                    </emitter>
-                </soundEmitters>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2465" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
-      <!--name = Small Thatch Roof Inner Corner-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_in_cor/s_thatch_roof_in_cor.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_in_cor/s_thatch_roof_in_cor_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>     
-			<state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/modular/s_thatch_roof_in_cor/s_thatch_roof_in_cor_dmg.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>			
-        </states>
-    </object>
-    <object id="2466" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
-        <!--name = Horse cart-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/mobiles/transportation/woodcart/woodcart_passive.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/mobiles/transportation/woodcart/woodcart_passive.dts</shapeName>
-                        <offset x="0" y="1.6" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2467" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
-        <!--name = Siege Tower-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape isDoor="1">
-                        <shapeName>yolauncher/modpack/art/models/3d/mobiles/transportation/siegetower/siegetower_passive.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/mobiles/transportation/siegetower/siegetower_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/mobiles/transportation/siegetower/siegetower_passive.dts</shapeName>
-                        <offset x="0" y="1.6" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-                <particleEmitters>
-				    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Conflagration_fire_medium</emitter>
-                        <offset x="4" y="8" z="1" />
-                        <rot x="0" y="-1" z="0" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Conflagration_sparks_medium</emitter>
-                        <offset x="4" y="8" z="1" />
-                        <rot x="0" y="-1" z="0" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Conflagration_smoke_medium</emitter>
-                        <offset x="4" y="8" z="1" />
-                        <rot x="0" y="-1" z="0" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Conflagration_fire_medium</emitter>
-                        <offset x="0" y="4" z="12" />
-                        <rot x="0" y="-1" z="0" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Conflagration_sparks_medium</emitter>
-                        <offset x="0" y="4" z="12" />
-                        <rot x="0" y="-1" z="0" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Conflagration_smoke_medium</emitter>
-                        <offset x="0" y="4" z="12" />
-                        <rot x="0" y="-1" z="0" angle="0" />
-                    </emitter>
-                </particleEmitters>
-              	<soundEmitters>
-				    <emitter>
-                        <profile>env_fire</profile>
-                        <offset x="4" y="8" z="1" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <profile>env_fire</profile>
-                        <offset x="0" y="4" z="12" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                    </emitter>
+                      <emitter>Conflagration_sparks_medium</emitter>
+                      <offset x="9" y="12" z="11.5571" />
+                      <rot x="0" y="0" z="0" angle="0" />
+                  </emitter>
+                  <emitter>
+                      <datablock>LiFEmitterNodeData</datablock>
+                      <emitter>Conflagration_smoke_medium</emitter>
+                      <offset x="9" y="12" z="11.1455" />
+                      <rot x="0" y="0" z="0" angle="0" />
+                  </emitter>
+				  <emitter>
+                      <datablock>LiFEmitterNodeData</datablock>
+                      <emitter>Conflagration_fire_medium</emitter>
+                      <offset x="-9" y="12" z="22.5571" />
+                      <rot x="0" y="0" z="0" angle="0" />
+                  </emitter>
+                  <emitter>
+                      <datablock>LiFEmitterNodeData</datablock>
+                      <emitter>Conflagration_sparks_medium</emitter>
+                      <offset x="-9" y="12" z="22.5571" />
+                      <rot x="0" y="0" z="0" angle="0" />
+                  </emitter>
+                  <emitter>
+                      <datablock>LiFEmitterNodeData</datablock>
+                      <emitter>Conflagration_smoke_medium</emitter>
+                      <offset x="-9" y="12" z="22.1455" />
+                      <rot x="0" y="0" z="0" angle="0" />
+                  </emitter>
+				</particleEmitters>
+				<soundEmitters>
+                  <emitter>
+                      <profile>env_fire</profile>
+                      <offset x="9" y="12" z="22.1455" />
+                      <rot x="0" y="0" z="0" angle="0" />
+                  </emitter>
+				  <emitter>
+                      <profile>env_fire</profile>
+                      <offset x="-9" y="12" z="20.1455" />
+                      <rot x="0" y="0" z="0" angle="0" />
+                  </emitter>
 				</soundEmitters>
             </state>
-        </states>
-    </object>
-    <object id="2468" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
-        <!--name = Aurochs Bull (stand)-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-           <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimals/aurochsbull.dts</shapeName>
-                        <animationName>idle_stand</animationName>
-						<offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-                <soundEmitters>
-                    <emitter>
-                        <profile>aurochsbull_idle</profile>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                    </emitter>
-                </soundEmitters>
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/archousbull_death.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/archousbull_death.dts</shapeName>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/residence/wooden_house_with_tower_construct.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -28760,300 +26904,28 @@
             </state>
         </states>
     </object>
-    <object id="2469" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
-        <!--name = Aurochs Bull (eat)-->
+	<object id="2410" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="0" noDecay="0">
+        <!--name = Wooden Church -->
         <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-           <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimals/aurochsbull.dts</shapeName>
-                        <animationName>idle_eat</animationName>
-						<offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-                <soundEmitters>
-                    <emitter>
-                        <profile>aurochsbull_eat</profile>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                    </emitter>
-                </soundEmitters>
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/archousbull_death.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/archousbull_death.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2470" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
-        <!--name = Aurochs Bull (sleep)-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-           <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimals/aurochsbull.dts</shapeName>
-                        <animationName>idle_sleep</animationName>
-						<offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-                <soundEmitters>
-                    <emitter>
-                        <profile>aurochsbull_sleep</profile>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                    </emitter>
-                </soundEmitters>
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/archousbull_death.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/archousbull_death.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2471" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
-        <!--name = Small Wooden Pier-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2472" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
-        <!--name = Small Wooden Pier T-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier_T.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier_T.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier_T_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2473" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
-        <!--name = Small Wooden Pier L-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier_L.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier_L.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/Misc/small_wooden_pier/small_wooden_pier_L_inc.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2474" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" IsSideObject="1" StreamingGroup="2"  noRuins="1" noDecay="1">
-        <!--name = Wattle Wicket-->
-        <lockedCells>
-            <cell x="0" y="0" />
+		<cell x="-1" y="6" />	<cell x="0" y="6" />	<cell x="1" y="6" />		
+		<cell x="-1" y="5" />	<cell x="0" y="5" />	<cell x="1" y="5" />		
+		<cell x="-1" y="4" />	<cell x="0" y="4" />	<cell x="1" y="4" />		
+		<cell x="-2" y="3" />	<cell x="-1" y="3" />	<cell x="0" y="3" />	<cell x="1" y="3" />	<cell x="2" y="3" />
+		<cell x="-2" y="2" />	<cell x="-1" y="2" />	<cell x="0" y="2" />	<cell x="1" y="2" />	<cell x="2" y="2" />
+		<cell x="-2" y="1" />	<cell x="-1" y="1" />	<cell x="0" y="1" />	<cell x="1" y="1" />	<cell x="2" y="1" />
+		<cell x="-2" y="0" />	<cell x="-1" y="0" />	<cell x="0" y="0" />	<cell x="1" y="0" />	<cell x="2" y="0" />
+		<cell x="-2" y="-1" />	<cell x="-1" y="-1" />	<cell x="0" y="-1" />	<cell x="1" y="-1" />	<cell x="2" y="-1" />
+		<cell x="-2" y="-2" />	<cell x="-1" y="-2" />	<cell x="0" y="-2" />	<cell x="1" y="-2" />	<cell x="2" y="-2" />
+		<cell x="-2" y="-3" />	<cell x="-1" y="-3" />	<cell x="0" y="-3" />	<cell x="1" y="-3" />	<cell x="2" y="-3" />
+		<cell x="-2" y="-4" />	<cell x="-1" y="-4" />	<cell x="0" y="-4" />	<cell x="1" y="-4" />	<cell x="2" y="-4" />
+		<cell x="-1" y="-5" />	<cell x="0" y="-5" />	<cell x="1" y="-5" />		
+		<cell x="-1" y="-6" />	<cell x="0" y="-6" />	<cell x="1" y="-6" />		
         </lockedCells>
         <states>
             <state type="Complete">
                 <shapes>
                     <shape isDoor="1">
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/fences/wattle_wicket/wattle_wicket.dts</shapeName>
-                        <offset x="0" y="2" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape isDoor="1">
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/fences/wattle_wicket/wattle_wicket.dts</shapeName>
-                        <offset x="0" y="2" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/fences/wattle_wicket/wattle_wicket_inc.dts</shapeName>
-                        <offset x="0" y="2" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2475" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
-    <!--name = Idol Cross -->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/idols/idol_cross.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2476" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="3">
-        <!--name = Wooden Church-->
-        <lockedCells>
-            <cell x="-1" y="6" />	<cell x="0" y="6" />	<cell x="1" y="6" />		
-		    <cell x="-1" y="5" />	<cell x="0" y="5" />	<cell x="1" y="5" />		
-		    <cell x="-1" y="4" />	<cell x="0" y="4" />	<cell x="1" y="4" />		
-		    <cell x="-2" y="3" />	<cell x="-1" y="3" />	<cell x="0" y="3" />	<cell x="1" y="3" />	<cell x="2" y="3" />
-		    <cell x="-2" y="2" />	<cell x="-1" y="2" />	<cell x="0" y="2" />	<cell x="1" y="2" />	<cell x="2" y="2" />
-		    <cell x="-2" y="1" />	<cell x="-1" y="1" />	<cell x="0" y="1" />	<cell x="1" y="1" />	<cell x="2" y="1" />
-		    <cell x="-2" y="0" />	<cell x="-1" y="0" />	<cell x="0" y="0" />	<cell x="1" y="0" />	<cell x="2" y="0" />
-		    <cell x="-2" y="-1" />	<cell x="-1" y="-1" />	<cell x="0" y="-1" />	<cell x="1" y="-1" />	<cell x="2" y="-1" />
-		    <cell x="-2" y="-2" />	<cell x="-1" y="-2" />	<cell x="0" y="-2" />	<cell x="1" y="-2" />	<cell x="2" y="-2" />
-		    <cell x="-2" y="-3" />	<cell x="-1" y="-3" />	<cell x="0" y="-3" />	<cell x="1" y="-3" />	<cell x="2" y="-3" />
-		    <cell x="-2" y="-4" />	<cell x="-1" y="-4" />	<cell x="0" y="-4" />	<cell x="1" y="-4" />	<cell x="2" y="-4" />
-		    <cell x="-1" y="-5" />	<cell x="0" y="-5" />	<cell x="1" y="-5" />		
-		    <cell x="-1" y="-6" />	<cell x="0" y="-6" />	<cell x="1" y="-6" />		
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape isDoor="1">
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/wooden_church/wooden_church.dts</shapeName>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/residence/wooden_church.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -29063,7 +26935,7 @@
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/wooden_church/wooden_church_dmg.dts</shapeName>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/residence/wooden_church_damaged.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -29123,748 +26995,35 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/wooden_church/wooden_church_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/residence/wooden_church_construct.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
                     </shape>
                 </shapes>
             </state>
-            <state type="Working">
-                <shapes>
-                    <shape isDoor="1">
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/wooden_church/wooden_church.dts</shapeName>
-                       
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-                <soundEmitters>
-                    <emitter>
-                        <profile>env_bell</profile>
-                        <offset x="0" y="-4" z="6" />
-                    </emitter>
-                </soundEmitters>
-            </state>
         </states>
     </object>
-    <object id="2477" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="3" noRuins="1">
-	    <!--name = Sanctum of the Sleeper -->
-	    <lockedCells>
-			<cell x="1" y="0" />
-			<cell x="2" y="0" />
-			<cell x="3" y="0" />
-			<cell x="1" y="-1" />
-			<cell x="2" y="-1" />
-			<cell x="3" y="-1" />
-			<cell x="1" y="1" />
-			<cell x="2" y="1" />
-			<cell x="3" y="1" />
-			<cell x="0" y="0" />
-			<cell x="0" y="1" />
-			<cell x="0" y="-1" />
-			<cell x="-1" y="0" />
-			<cell x="-1" y="1" />
-			<cell x="-1" y="-1" />
-			<cell x="-2" y="0" />
-			<cell x="-3" y="0" />
-			<cell x="-4" y="0" />
-			<cell x="-5" y="0" />
-			<cell x="-6" y="0" />
-			<cell x="4" y="0" />
-			<cell x="5" y="0" />
-			<cell x="6" y="0" />
-			<cell x="7" y="0" />
-			<cell x="4" y="1" />
-			<cell x="5" y="1" />
-			<cell x="6" y="1" />
-			<cell x="7" y="1" />
-			<cell x="4" y="-1" />
-			<cell x="5" y="-1" />
-			<cell x="6" y="-1" />
-			<cell x="7" y="-1" />
-			<cell x="4" y="-2" />
-			<cell x="4" y="2" />
-			<cell x="1" y="2" />
-			<cell x="1" y="3" />
-			<cell x="1" y="4" />
-			<cell x="1" y="-2" />
-			<cell x="1" y="-3" />
-			<cell x="1" y="-4" />
-			<cell x="2" y="2" />
-			<cell x="2" y="3" />
-			<cell x="2" y="4" />
-			<cell x="2" y="-2" />
-			<cell x="2" y="-3" />
-			<cell x="2" y="-4" />
-			<cell x="-2" y="1" />
-			<cell x="-3" y="1" />
-			<cell x="-4" y="1" />
-			<cell x="-5" y="1" />		
-			<cell x="-2" y="-1" />
-			<cell x="-3" y="-1" />
-			<cell x="-4" y="-1" />
-			<cell x="-5" y="-1" />
-			<cell x="4" y="0" />
-			<cell x="-2" y="0" />
-			<cell x="-3" y="0" />
-			<cell x="-4" y="0" />
-			<cell x="-1" y="2" />
-			<cell x="-2" y="2" />
-			<cell x="-3" y="2" />
-			<cell x="-4" y="2" />
-			<cell x="-5" y="2" />
-			<cell x="-1" y="-2" />
-			<cell x="-2" y="-2" />
-			<cell x="-3" y="-2" />
-			<cell x="-4" y="-2" />
-			<cell x="-5" y="-2" />
-			<cell x="-5" y="3" />
-			<cell x="-5" y="-3" />
-			<cell x="-1" y="3" />
-			<cell x="-3" y="3" />
-			<cell x="-1" y="-3" />
-			<cell x="-3" y="-3" />
-			<cell x="-1" y="4" />
-			<cell x="-1" y="-4" />
-			<cell x="0" y="2" />
-			<cell x="0" y="3" />
-			<cell x="0" y="4" />
-			<cell x="0" y="-2" />
-			<cell x="0" y="-3" />
-			<cell x="0" y="-4" />
-			<cell x="3" y="-2" />
-			<cell x="3" y="-3" />
-			<cell x="3" y="-4" />
-			<cell x="3" y="2" />
-			<cell x="3" y="3" />
-			<cell x="3" y="4" />
-			<cell x="4" y="-3" />
-			<cell x="4" y="-4" />
-			<cell x="4" y="3" />
-			<cell x="4" y="4" />
-			<cell x="5" y="-2" />
-			<cell x="5" y="-3" />
-			<cell x="5" y="-4" />
-			<cell x="5" y="2" />
-			<cell x="5" y="3" />
-			<cell x="5" y="4" />
-			<cell x="6" y="2" />
-			<cell x="7" y="2" />
-			<cell x="6" y="-2" />
-			<cell x="7" y="-2" />
-			<cell x="8" y="0" />
-			<cell x="9" y="0" />
-			<cell x="10" y="0" />
-			<cell x="8" y="-1" />
-			<cell x="9" y="-1" />
-			<cell x="10" y="-1" />
-			<cell x="8" y="1" />
-			<cell x="9" y="1" />
-			<cell x="10" y="1" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape isDoor="1">
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/Sanctum/Sanctum.dts</shapeName>
-                        <censoredShapeName>yolauncher/modpack/art/models/3d/construction/residence/Sanctum/Sanctum_black.dts</censoredShapeName>
-                        <offset x="9.88" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-                <soundEmitters>
-                    <emitter>
-                        <event>OBJECT_FIREMEDIUM</event>
-                        <offset x="26" y="0.2" z="23.1" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <event>OBJECT_FIREMEDIUM</event>
-                        <offset x="-10.12" y="0" z="-0.5" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <event trigger="OpenDoor">PLAY_DOOR_WOODDOOR_OPEN</event>
-                        <event trigger="CloseDoor">PLAY_DOOR_WOODDOOR_CLOSE</event>
-                        <offset x="24" y="7.2" z="9.7" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                </soundEmitters>
-            </state>
-            <state type="Working">
-                <shapes>
-                    <shape isDoor="1">
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/Sanctum/Sanctum.dts</shapeName>
-						<censoredShapeName>yolauncher/modpack/art/models/3d/construction/residence/Sanctum/Sanctum_black.dts</censoredShapeName>
-                        <offset x="9.88" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-                <pointLights>
-                    <light>
-                        <prototype>FirePointLight</prototype>
-                        <offset x="26" y="7.3" z="26" />
-                        <radius>8</radius>
-                    </light>
-                    <light>
-                        <prototype>FirePointLight</prototype>
-                        <offset x="26" y="-8.3" z="26" />
-                        <radius>8</radius>
-                    </light>
-                    <light>
-                        <prototype>bonfire_light2</prototype>
-                        <offset x="25.2" y="4.1" z="11.1" />
-                        <radius>3.5</radius>
-                    </light>
-                    <light>
-                        <prototype>bonfire_light2</prototype>
-                        <offset x="25.2" y="-4.3" z="11.1" />
-                        <radius>3.5</radius>
-                    </light>
-                    <!--Interior light-->
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="5.648" y="5.155" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-0.109" y="5.155" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-5.321" y="5.155" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-10.705" y="5.155" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-14.756" y="3.845" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="5.648" y="-5.155" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-0.109" y="-5.155" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-5.321" y="-5.155" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-10.705" y="-5.155" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-14.756" y="-3.845" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-16.342" y="-0.308" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-5.915" y="0.0" z="2.495" />
-                        <radius>4</radius>
-                    </light>
-                    <!--Tree light-->
-                    <light>
-                        <prototype>church_tree</prototype>
-                        <offset x="-9.952" y="0.181" z="15.0" />
-                        <radius>10</radius>
-                    </light>
-                    <!--Cellar light-->
-                    <light>
-                        <prototype>FirePointLight</prototype>
-                        <offset x="-18.8" y="3.35" z="2" />
-                        <radius>3</radius>
-                    </light>
-                    <light>
-                        <prototype>FirePointLight</prototype>
-                        <offset x="-18.8" y="-3.35" z="2" />
-                        <radius>3</radius>
-                    </light>
-                    <light>
-                        <prototype>FirePointLight</prototype>
-                        <offset x="-13.3" y="7" z="2" />
-                        <radius>3</radius>
-                    </light>
-                    <light>
-                        <prototype>FirePointLight</prototype>
-                        <offset x="-13.3" y="-7" z="2" />
-                        <radius>3</radius>
-                    </light>
-                    <light>
-                        <prototype>FirePointLight</prototype>
-                        <offset x="-3.55" y="7" z="2" />
-                        <radius>3</radius>
-                    </light>
-                    <light>
-                        <prototype>FirePointLight</prototype>
-                        <offset x="-3.55" y="-7.2" z="2" />
-                        <radius>3</radius>
-                    </light>
-                </pointLights>
-                <!-- Cellar -->
-                <particleEmitters>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire</emitter>
-                        <offset x="-18.8" y="3.35" z="1.1" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire_smoke</emitter>
-                        <offset x="-18.8" y="3.35" z="1.5" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire</emitter>
-                        <offset x="-18.8" y="-3.35" z="1" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire_smoke</emitter>
-                        <offset x="-18.8" y="-3.35" z="1.5" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire</emitter>
-                        <offset x="-13.3" y="7" z="1" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire_smoke</emitter>
-                        <offset x="-13.3" y="7" z="1.5" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire</emitter>
-                        <offset x="-13.3" y="-7" z="1" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire_smoke</emitter>
-                        <offset x="-13.3" y="-7" z="1.5" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire</emitter>
-                        <offset x="-3.55" y="7" z="1" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire_smoke</emitter>
-                        <offset x="-3.55" y="7" z="1.5" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire</emitter>
-                        <offset x="-3.55" y="-7.2" z="1" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire_smoke</emitter>
-                        <offset x="-3.55" y="-7.2" z="1.5" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                <!-- Columns and torches -->
-                    <emitter>
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire</emitter>
-                        <offset x="26.3" y="7.3" z="24.1" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire_smoke</emitter>
-                        <offset x="26.3" y="7.3" z="24.3" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire</emitter>
-                        <offset x="26.3" y="-8.3" z="24.1" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire_smoke</emitter>
-                        <offset x="26.3" y="-8.3" z="24.3" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Halloween_Trophy_fire</emitter>
-                        <offset x="25.3" y="4.1" z="11" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>SparksOfTorchEmitter</emitter>
-                        <offset x="25.3" y="4.1" z="11" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Halloween_Trophy_fire</emitter>
-                        <offset x="25.3" y="-4.3" z="11" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>SparksOfTorchEmitter</emitter>
-                        <offset x="25.3" y="-4.3" z="11" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>motes_church</emitter>
-                        <offset x="-9.952" y="0.181" z="15.0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                </particleEmitters>
-                <soundEmitters>
-                    <emitter>
-                        <event>OBJECT_FIREMEDIUM</event>
-                        <offset x="26" y="0.2" z="23.1" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <event>OBJECT_FIREMEDIUM</event>
-                        <offset x="-10.12" y="0" z="-0.5" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <event trigger="OpenDoor">PLAY_DOOR_WOODDOOR_OPEN</event>
-                        <event trigger="CloseDoor">PLAY_DOOR_WOODDOOR_CLOSE</event>                     
-                        <offset x="24" y="7.2" z="9.7" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    
-                </soundEmitters>                
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/Sanctum/Sanctum_dmg.dts</shapeName>
-                        <censoredShapeName>yolauncher/modpack/art/models/3d/construction/residence/Sanctum/Sanctrum_dmg_black.dts</censoredShapeName>
-                        <offset x="9.88" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-                <pointLights>
-                    <light>
-                        <prototype>bonfire_light2</prototype>
-                        <offset x="25.2" y="4.1" z="11.1" />
-                        <radius>3.5</radius>
-                    </light>
-                    <light>
-                        <prototype>bonfire_light2</prototype>
-                        <offset x="25.2" y="-4.3" z="11.1" />
-                        <radius>3.5</radius>
-                    </light>
-                    <!--Interior light-->
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="5.648" y="5.155" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-0.109" y="5.155" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-5.321" y="5.155" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-10.705" y="5.155" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-14.756" y="3.845" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="5.648" y="-5.155" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-0.109" y="-5.155" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-5.321" y="-5.155" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-10.705" y="-5.155" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-14.756" y="-3.845" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-16.342" y="-0.308" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-5.915" y="0.0" z="2.495" />
-                        <radius>4</radius>
-                    </light>
-                    <!--Tree light-->
-                    <light>
-                        <prototype>church_tree</prototype>
-                        <offset x="-9.952" y="0.181" z="15.0" />
-                        <radius>10</radius>
-                    </light>
-					<!--Cellar light-->
-					<light>
-                        <prototype>FirePointLight</prototype>
-                        <offset x="-18.8" y="3.35" z="2" />
-                        <radius>3</radius>
-                    </light>
-					<light>
-                        <prototype>FirePointLight</prototype>
-                        <offset x="-18.8" y="-3.35" z="2" />
-                        <radius>3</radius>
-                    </light>
-					<light>
-                        <prototype>FirePointLight</prototype>
-                        <offset x="-13.3" y="7" z="2" />
-                        <radius>3</radius>
-                    </light>
-					<light>
-                        <prototype>FirePointLight</prototype>
-                        <offset x="-13.3" y="-7" z="2" />
-                        <radius>3</radius>
-                    </light>
-					<light>
-                        <prototype>FirePointLight</prototype>
-                        <offset x="-3.55" y="7" z="2" />
-                        <radius>3</radius>
-                    </light>
-					<light>
-                        <prototype>FirePointLight</prototype>
-                        <offset x="-3.55" y="-7.2" z="2" />
-                        <radius>3</radius>
-                    </light>
-                </pointLights>
-				<particleEmitters>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire</emitter>
-                        <offset x="26.3" y="7.3" z="24.1" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire_smoke</emitter>
-                        <offset x="26" y="7.2" z="24.3" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-					<emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Halloween_Trophy_fire</emitter>
-                        <offset x="25.3" y="4.1" z="11" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>SparksOfTorchEmitter</emitter>
-                        <offset x="25.3" y="4.1" z="11" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-					<emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Halloween_Trophy_fire</emitter>
-                        <offset x="25.3" y="-4.3" z="11" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>SparksOfTorchEmitter</emitter>
-                        <offset x="25.3" y="-4.3" z="11" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>motes_church</emitter>
-                        <offset x="-9.952" y="0.181" z="15.0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-					<emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire</emitter>
-                        <offset x="-18.8" y="3.35" z="1.1" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire_smoke</emitter>
-                        <offset x="-18.8" y="3.35" z="1.5" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-					<emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire</emitter>
-                        <offset x="-18.8" y="-3.35" z="1" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire_smoke</emitter>
-                        <offset x="-18.8" y="-3.35" z="1.5" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-					<emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire</emitter>
-                        <offset x="-13.3" y="7" z="1" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire_smoke</emitter>
-                        <offset x="-13.3" y="7" z="1.5" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-					<emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire</emitter>
-                        <offset x="-13.3" y="-7" z="1" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire_smoke</emitter>
-                        <offset x="-13.3" y="-7" z="1.5" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-					<emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire</emitter>
-                        <offset x="-3.55" y="7" z="1" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire_smoke</emitter>
-                        <offset x="-3.55" y="7" z="1.5" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-					<emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire</emitter>
-                        <offset x="-3.55" y="-7.2" z="1" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Campfire_smoke</emitter>
-                        <offset x="-3.55" y="-7.2" z="1.5" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                </particleEmitters>
-				<soundEmitters>
-                    <emitter>
-                        <event>OBJECT_FIREMEDIUM</event>
-                        <offset x="26" y="7.2" z="23.1" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-					<emitter>
-                        <event>OBJECT_FIREMEDIUM</event>
-                        <offset x="-10.12" y="0" z="-0.5" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                </soundEmitters>
-			</state>
-			<state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/Sanctum/Sanctum_inc.dts</shapeName>
-                        <offset x="9.88" y="0" z="0" />
-						<rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2481" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
-        <!--name = Wolf (stand)-->
+	<object id="2411" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1" noDecay="0">
+        <!--name = Wooden Pier T -->
         <lockedCells>
             <cell x="0" y="0" />
         </lockedCells>
         <states>
-           <state type="Complete">
+            <state type="Complete">
                 <shapes>
                     <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimals/wolf.dts</shapeName>
-                        <animationName>idle_stand</animationName>
-						<offset x="0" y="0" z="0" />
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/bridges/pier_T.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
                     </shape>
                 </shapes>
-                <soundEmitters>
-                    <emitter>
-                        <profile>wolf_idle</profile>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="0" angle="0" />
-                    </emitter>
-                </soundEmitters>
             </state>
             <state type="Damaged">
                 <shapes>
                     <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/wolf_death.dts</shapeName>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/bridges/pier_T.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -29874,7 +27033,84 @@
             <state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>art/models/3d/mobiles/wildanimalsdead/wolf_death.dts</shapeName>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/bridges/pier_T_construct.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="0" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+	<object id="2412" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1" noDecay="0">
+        <!--name = Wooden Pier L -->
+        <lockedCells>
+            <cell x="0" y="0" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/bridges/pier_L.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="0" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/bridges/pier_L.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="0" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/bridges/pier_L_construct.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="0" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+	<object id="2413" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="0" noDecay="0">
+        <!--name = Stone tomb with cross -->
+        <lockedCells>
+            <cell x="0" y="0" />
+			<cell x="0" y="1" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/stone_tomb_with_cross.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="0" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>yolauncher/modpack/mods/Jorvik/art/models/construction/stone_tomb_with_cross.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />

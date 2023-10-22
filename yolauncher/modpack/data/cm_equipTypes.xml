@@ -135,7 +135,7 @@
       <slot>13</slot>
    </slots>
 </object>
-<object id="2483">
+<object id="2536">
    <!--name = Metal Scissors -->
    <skillID>33</skillID>
    <skillAmount>0</skillAmount>
@@ -146,7 +146,7 @@
       <slot>13</slot>
    </slots>
 </object>
-<object id="2484">
+<object id="2537">
    <!--name = Metal Stamp  -->
    <skillID>33</skillID>
    <skillAmount>0</skillAmount>
@@ -157,7 +157,7 @@
       <slot>13</slot>
    </slots>
 </object>
-<object id="2464">
+<object id="2517">
    <!--name = Health Book  -->
    <skillID>33</skillID>
    <skillAmount>0</skillAmount>

@@ -34,7 +34,7 @@ package JorvikMod
     * Parameter 2: Non scoped name of function in your package
     * Parameter 3: The package name to scope your function appropiately.
 	*/
-    LiFx::registerCallback($LiFx::hooks::onSpawnCallbacks, onSpawn, JorvikMod);
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, objectsConversions, JorvikMod);
     LiFx::registerCallback($LiFx::hooks::onServerCreatedCallbacks, loadDatablocks, JorvikMod);
 	/**
 	* LiFx::registerObjectsTypes is a global framework function, it takes 2 parameters
@@ -133,7 +133,10 @@ package JorvikMod
 
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesWallTorch(), JorvikMod);
 
+    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesWallTorchMovable(), JorvikMod);
+
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallCandle(), JorvikMod);
+    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallCandleMovable(), JorvikMod);
 
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesAurochsCowstand(), JorvikMod);
 
@@ -379,10 +382,11 @@ package JorvikMod
 
   }
 
-  // Example function references from setup above, this code will execute when the hook is called by the LiFx framework
-  function JorvikMod::onSpawn(%this, %client) {
-    echo(%this.getName() SPC %client.getName());
-
+  
+  function JorvikMod::objectsConversions(%this, %client) {
+      dbi.Update("INSERT IGNORE `objects_conversions` VALUES (NULL, 2490, 2507)");
+      dbi.Update("INSERT IGNORE `objects_conversions` VALUES (NULL, 2500, 2501)");
+      dbi.Update("INSERT IGNORE `objects_conversions` VALUES (NULL, 2502, 2503)");
   }
   function JorvikMod::loadDatablocks() {
     LiFx::loadRecursivelyInFolder("yolauncher/modpack/art/datablocks", "audioProfiles.cs");
@@ -1714,6 +1718,38 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
+  function JorvikMod::ObjectsTypesSmallWoodenStairsMovable() {
+    return new ScriptObject(ObjectsTypesSmallWoodenStairsMovable : ObjectsTypes)
+    {
+      id = 2507; 
+      ObjectName = "Small Wooden Stairs"; 
+      ParentID = 1902; 
+      IsContainer = 0;
+      IsMovableObject = 0; 
+      IsUnmovableobject = 0; 
+      IsTool = 0; 
+      IsDevice = 0; 
+      IsDoor = 0; 
+      IsPremium = 0; 
+      MaxContSize = 0;
+      Length = 0;  
+      MaxStackSize = 0; 
+      UnitWeight = 5000; 
+      BackgrndImage = ""; 
+      WorkAreaTop = 0;
+      WorkAreaLeft = 0;
+      WorkAreaWidth = 0;
+      WorkAreaHeight = 0;
+      BtnCloseTop = 0;
+      BtnCloseLeft = 0;
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_wooden_stairs.png";
+      Description = "Object from Jorvik MOD"; 
+      BasePrice = 100; 
+      OwnerTimeout = 120; 
+      AllowExportFromRed = 0; // Not in use
+      AllowExportFromGreen = 0; // Not in use
+   };
+  }
   function JorvikMod::ObjectsTypesSmallThatchRoofTop() {
     return new ScriptObject(ObjectsTypesSmallThatchRoofTop: ObjectsTypes)
     {
@@ -2034,6 +2070,38 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
+  function JorvikMod::ObjectsTypesWallTorchMovable() {
+    return new ScriptObject(ObjectsTypesWallTorchMovable : ObjectsTypes)
+    {
+      id = 2501; 
+      ObjectName = "Wall Torch"; 
+      ParentID = 1902; 
+      IsContainer = 0;
+      IsMovableObject = 0; 
+      IsUnmovableobject = 0; 
+      IsTool = 0; 
+      IsDevice = 0; 
+      IsDoor = 0; 
+      IsPremium = 0; 
+      MaxContSize = 0;
+      Length = 3;  
+      MaxStackSize = 1; 
+      UnitWeight = 1000; 
+      BackgrndImage = ""; 
+      WorkAreaTop = 0;
+      WorkAreaLeft = 0;
+      WorkAreaWidth = 0;
+      WorkAreaHeight = 0;
+      BtnCloseTop = 0;
+      BtnCloseLeft = 0;
+      FaceImage = "yolauncher/modpack/art/2D/Recipes/wall_torch.png";
+      Description = "Object from Jorvik MOD"; 
+      BasePrice = 0; 
+      OwnerTimeout = 0; 
+      AllowExportFromRed = 0; // Not in use
+      AllowExportFromGreen = 0; // Not in use
+   };
+  }
   function JorvikMod::ObjectsTypesSmallCandle() {
     return new ScriptObject(ObjectsTypesSmallCandle : ObjectsTypes)
     {
@@ -2042,6 +2110,38 @@ package JorvikMod
       ParentID = 1637; 
       IsContainer = 0;
       IsMovableObject = 1; 
+      IsUnmovableobject = 0; 
+      IsTool = 0; 
+      IsDevice = 0; 
+      IsDoor = 0; 
+      IsPremium = 1; 
+      MaxContSize = 0;
+      Length = 3;  
+      MaxStackSize = 0; 
+      UnitWeight = 1000; 
+      BackgrndImage = ""; 
+      WorkAreaTop = 0;
+      WorkAreaLeft = 0;
+      WorkAreaWidth = 0;
+      WorkAreaHeight = 0;
+      BtnCloseTop = 0;
+      BtnCloseLeft = 0;
+      FaceImage = "yolauncher/modpack/art/2D/Recipes/small_candle.png";
+      Description = "Object from Jorvik MOD"; 
+      BasePrice = 0; 
+      OwnerTimeout = 0; 
+      AllowExportFromRed = 0; // Not in use
+      AllowExportFromGreen = 0; // Not in use
+   };
+  }
+  function JorvikMod::ObjectsTypesSmallCandleMovable() {
+    return new ScriptObject(ObjectsTypesSmallCandleMovable : ObjectsTypes)
+    {
+      id = 2503; 
+      ObjectName = "Small Candle"; 
+      ParentID = 1902; 
+      IsContainer = 0;
+      IsMovableObject = 0; 
       IsUnmovableobject = 0; 
       IsTool = 0; 
       IsDevice = 0; 
