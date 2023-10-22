@@ -2,7 +2,7 @@
 datablock AttachedShapeData(HarnessedWoodHorseCart)
 {
         id = 702;
-        objectTypeId = 2466;
+        objectTypeId = 2519;
         
         shapeFile = "yolauncher/modpack/art/models/3d/mobiles/transportation/woodcart/woodhorsecart.dts";
 };
@@ -10,7 +10,7 @@ datablock AttachedShapeData(HarnessedWoodHorseCart)
 datablock AttachedShapeData(HarnessedSiegeTower)
 {
         id = 703;
-        objectTypeId = 2467;
+        objectTypeId = 2520;
         
         shapeFile = "yolauncher/modpack/art/models/3d/mobiles/transportation/siegetower/siegetower.dts";
 };
