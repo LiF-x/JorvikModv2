@@ -45,16 +45,13 @@ package JorvikMod
 
     // Buildings
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenShed(), JorvikMod);
-    
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesFlagPvP(), JorvikMod);
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesFlagPvE(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesLonghouse(), JorvikMod);
-    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesLargeWoodenBridge(), JorvikMod);
-
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesStoneGate(), JorvikMod);
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenBridge(), JorvikMod);
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallStoneBridge(), JorvikMod);
+    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesLargeWoodenBridge(), JorvikMod);
 
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesLargeStoneBridge(), JorvikMod);
 
@@ -96,23 +93,23 @@ package JorvikMod
 
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesModularConstructionslvl1(), JorvikMod);
 
-    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogWall(), JorvikMod);
+    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogWalllvl1(), JorvikMod);
 
-    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenPillar(), JorvikMod);
+    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenPillarlvl1(), JorvikMod);
 
-    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogCornerWall(), JorvikMod);
+    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogCornerWalllvl1(), JorvikMod);
 
-    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogWallWithWindow(), JorvikMod);
+    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogWallWithWindowlvl1(), JorvikMod);
 
-    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogWallWithShutters(), JorvikMod);
+    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogWallWithShutterslvl1(), JorvikMod);
 
-    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogWallWithEntrance(), JorvikMod);
+    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogWallWithEntrancelvl1(), JorvikMod);
 
-    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogWallWithDoor(), JorvikMod);
+    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallLogWallWithDoorlvl1(), JorvikMod);
 
-    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenFloorEntrance(), JorvikMod);
+    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenFloorEntrancelvl1(), JorvikMod);
 
-    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenFloor(), JorvikMod);
+    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenFloorlvl1(), JorvikMod);
 
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenStairs(), JorvikMod);
 
@@ -124,15 +121,15 @@ package JorvikMod
 
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallThatchRoofTopRightEnd(), JorvikMod);
 
-    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallThatchRoof(), JorvikMod);
+    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallThatchRooflvl1(), JorvikMod);
 
-    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallThatchRoofOuterCorner(), JorvikMod);
-
-    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenRailing(), JorvikMod);
+    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallThatchRoofOuterCornerlvl1(), JorvikMod);
 
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenRailing(), JorvikMod);
 
-    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallThatchRoofOuterCorner(), JorvikMod);
+    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallWoodenRailinglvl1(), JorvikMod);
+
+    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSmallThatchRoofOuterCornerToplvl1(), JorvikMod);
 
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesWallTorch(), JorvikMod);
 
@@ -213,6 +210,173 @@ package JorvikMod
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSilverBlanks(), JorvikMod);
 
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesCopperBlanks(), JorvikMod);
+
+    
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenShed, JorvikMod);
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, FlagPvP, JorvikMod);
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, FlagPvE, JorvikMod);
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, Longhouse, JorvikMod);
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, StoneGate, JorvikMod);
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenBridge, JorvikMod);
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallStoneBridge, JorvikMod);
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, LargeWoodenBridge, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, LargeStoneBridge, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, LargeStoneBridgeEnd, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallStoneBridgeEnd, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, ModularConstructions, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogWall, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenPillar, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogCornerWall, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogWallWithWindow, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogWallWithShutters, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogWallWithEntrance, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogWallWithDoor, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenFloorEntrance, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenFloor, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogWallSlopeRight, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogWallSlopeLeft, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallThatchRoof, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallThatchRoofRightEnd, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallThatchRoofLeftEnd, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallThatchRoofOuterCorner, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogWalllvl1, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenPillarlvl1, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogCornerWalllvl1, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogWallWithWindowlvl1, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogWallWithShutterslvl1, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogWallWithEntrancelvl1, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallLogWallWithDoorlvl1, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenFloorEntrancelvl1, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenFloorlvl1, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenStairs, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallThatchRoofTop, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallThatchRoofOuterCornerTop, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallThatchRoofTopLeftEnd, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallThatchRoofTopRightEnd, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallThatchRooflvl1, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallThatchRoofOuterCornerlvl1, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenRailing, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenRailinglvl1, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallThatchRoofOuterCornerToplvl1, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, WallTorch, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallCandle, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, AurochsCowstand, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, AurochsCoweat, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, AurochsCowsleep, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, Sowstand, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, Soweat, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, Sowsleep, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, Horsestand, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, Horseeat, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, Horsesleep, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, Slaveworking, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, WranentheHunterstand, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, BookPaper, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, HealthBook, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallThatchRoofInnerCorner, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, WoodCart, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SiegeTower, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, AurochsBullstand, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, AurochsBulleat, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, AurochsBullsleep, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenPier, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenPierT, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenPierL, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, WattleWicket, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, IdolCross, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, WoodenChurch, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SanctumoftheSleeper, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, NoviceDecoratorKit, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, ApprenticeDecoratorKit, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, MasterDecoratorKit, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, Wolfstand, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, GoldSheet, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, MetalScissors, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, MetalStamp, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, GoldBlanks, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SilverSheet, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, CopperSheet, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SilverBlanks, JorvikMod);
+
+    LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, CopperBlanks, JorvikMod);
+
   }
 
   // Example function references from setup above, this code will execute when the hook is called by the LiFx framework
@@ -224,12 +388,7 @@ package JorvikMod
     LiFx::loadRecursivelyInFolder("yolauncher/modpack/art/datablocks", "audioProfiles.cs");
     LiFx::loadRecursivelyInFolder("yolauncher/modpack/art/datablocks", "Transport.cs");
   }
-  // The function name should match the object you create as a return object inside of the function
   function JorvikMod::ObjectsTypesSmallWoodenShed() {
-
-    // this returns and writes to the dump.sql file for ease of distribution
-	// The name of the object should be the same as the function name it registers
-	// Each of the variables in the object, corrosponds to the column value in the database
     return new ScriptObject(ObjectsTypesSmallWoodenShed : ObjectsTypes)
     {
       id = 2400; // *UNIQUE INT* Has to be a unique id - grab id from here: https://lifxmod.com/Docs/objects-types-id-list.html
@@ -549,11 +708,11 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmallStoneBridge() {
+  function JorvikMod::SmallStoneBridge() {
                                    //dbi.update("INSERT IGNORE INTO `recipe` VALUES (NULL,      Name,                 Description,      StartingToolsID,   SkillTypeID, SkillLvl, ResultObjectTypeID, SkillDepends,                  Quantity,Autorepeat,isBluePrint,           ImagePath)
-    dbi.Select(JorvikMod, "ObjectsTypesSmallStoneBridgeRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Stone Gate', 'Object from Jorvik MOD',        32,               18,          60,        2406,               35,                       0,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_wooden_bridge.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallStoneBridgeRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Stone Gate', 'Object from Jorvik MOD',        32,               18,          60,        2406,               35,                       0,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_wooden_bridge.png') RETURNING ID");
   }
-  function JorvikMod::ObjectsTypesSmallStoneBridgeRequirements(%this, %resultSet) {
+  function JorvikMod::SmallStoneBridgeRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
     //dbi.update("INSERT IGNORE INTO `recipe_requirement` VALUES (RecipeID,            MaterialObjectTypeID, Quality, Influence, Quantity, IsRegionalItemRequired)
@@ -1235,12 +1394,12 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmallLogWall() {
-    return new ScriptObject(ObjectsTypesSmallLogWall : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallLogWalllvl1() {
+    return new ScriptObject(ObjectsTypesSmallLogWalllvl1 : ObjectsTypes)
     {
       id = 2481; 
       ObjectName = "Small Log Wall"; 
-      ParentID = 2427; 
+      ParentID = 2480;
       IsContainer = 0;
       IsMovableObject = 1; 
       IsUnmovableobject = 0; 
@@ -1267,12 +1426,12 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmallWoodenPillar() {
-    return new ScriptObject(ObjectsTypesSmallWoodenPillar : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallWoodenPillarlvl1() {
+    return new ScriptObject(ObjectsTypesSmallWoodenPillarlvl1 : ObjectsTypes)
     {
       id = 2482; 
       ObjectName = "Small Wooden Pillar"; 
-      ParentID = 2427; 
+      ParentID = 2480;
       IsContainer = 0;
       IsMovableObject = 1; 
       IsUnmovableobject = 0; 
@@ -1299,12 +1458,12 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmallLogCornerWall() {
-    return new ScriptObject(ObjectsTypesSmallLogCornerWall : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallLogCornerWalllvl1() {
+    return new ScriptObject(ObjectsTypesSmallLogCornerWalllvl1 : ObjectsTypes)
     {
       id = 2483; 
       ObjectName = "Small Log Corner Wall"; 
-      ParentID = 2427; 
+      ParentID = 2480;
       IsContainer = 0;
       IsMovableObject = 1; 
       IsUnmovableobject = 0; 
@@ -1331,12 +1490,12 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmallLogWallWithWindow() {
-    return new ScriptObject(ObjectsTypesSmallLogWallWithWindow : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallLogWallWithWindowlvl1() {
+    return new ScriptObject(ObjectsTypesSmallLogWallWithWindowlvl1 : ObjectsTypes)
     {
       id = 2484; 
       ObjectName = "Small Log Wall With Window"; 
-      ParentID = 2427; 
+      ParentID = 2480;
       IsContainer = 0;
       IsMovableObject = 1; 
       IsUnmovableobject = 0; 
@@ -1363,12 +1522,12 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmallLogWallWithShutters() {
-    return new ScriptObject(ObjectsTypesSmallLogWallWithShutters : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallLogWallWithShutterslvl1() {
+    return new ScriptObject(ObjectsTypesSmallLogWallWithShutterslvl1 : ObjectsTypes)
     {
       id = 2485; 
       ObjectName = "Small Log Wall With Shutters"; 
-      ParentID = 2427; 
+      ParentID = 2480;
       IsContainer = 0;
       IsMovableObject = 1; 
       IsUnmovableobject = 0; 
@@ -1395,12 +1554,12 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmallLogWallWithEntrance() {
-    return new ScriptObject(ObjectsTypesSmallLogWallWithEntrance : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallLogWallWithEntrancelvl1() {
+    return new ScriptObject(ObjectsTypesSmallLogWallWithEntrancelvl1 : ObjectsTypes)
     {
       id = 2486; 
       ObjectName = "Small Log Wall With Entrance"; 
-      ParentID = 2427; 
+      ParentID = 2480;
       IsContainer = 0;
       IsMovableObject = 1; 
       IsUnmovableobject = 0; 
@@ -1427,12 +1586,12 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmallLogWallWithDoor() {
-    return new ScriptObject(ObjectsTypesSmallLogWallWithDoor : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallLogWallWithDoorlvl1() {
+    return new ScriptObject(ObjectsTypesSmallLogWallWithDoorlvl1 : ObjectsTypes)
     {
       id = 2487; 
       ObjectName = "Small Log Wall With Door"; 
-      ParentID = 2427; 
+      ParentID = 2480;
       IsContainer = 0;
       IsMovableObject = 1; 
       IsUnmovableobject = 0; 
@@ -1459,12 +1618,12 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmallWoodenFloorEntrance() {
-    return new ScriptObject(ObjectsTypesSmallWoodenFloorEntrance : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallWoodenFloorEntrancelvl1() {
+    return new ScriptObject(ObjectsTypesSmallWoodenFloorEntrancelvl1: ObjectsTypes)
     {
       id = 2488; 
       ObjectName = "Small Wooden Floor Entrance"; 
-      ParentID = 2427; 
+      ParentID = 2480;
       IsContainer = 0;
       IsMovableObject = 1; 
       IsUnmovableobject = 0; 
@@ -1491,12 +1650,12 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmallWoodenFloor() {
-    return new ScriptObject(ObjectsTypesSmallWoodenFloor : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallWoodenFloorlvl1() {
+    return new ScriptObject(ObjectsTypesSmallWoodenFloorlvl1 : ObjectsTypes)
     {
       id = 2489; 
       ObjectName = "Small Wooden Floor"; 
-      ParentID = 2427; 
+      ParentID = 2480;
       IsContainer = 0;
       IsMovableObject = 1; 
       IsUnmovableobject = 0; 
@@ -1683,12 +1842,12 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmallThatchRoof() {
-    return new ScriptObject(ObjectsTypesSmallThatchRoof : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallThatchRooflvl1() {
+    return new ScriptObject(ObjectsTypesSmallThatchRooflvl1 : ObjectsTypes)
     {
       id = 2495; 
       ObjectName = "SmallThatchRoof"; 
-      ParentID = 2427; 
+      ParentID = 2480;
       IsContainer = 0;
       IsMovableObject = 1; 
       IsUnmovableobject = 0; 
@@ -1715,12 +1874,12 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmallThatchRoofOuterCorner() {
-    return new ScriptObject(ObjectsTypesSmallThatchRoofOuterCorner : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallThatchRoofOuterCornerlvl1() {
+    return new ScriptObject(ObjectsTypesSmallThatchRoofOuterCornerlvl1 : ObjectsTypes)
     {
       id = 2496; 
       ObjectName = "SmallThatchRoofOuterCorner"; 
-      ParentID = 2427; 
+      ParentID = 2480;
       IsContainer = 0;
       IsMovableObject = 1; 
       IsUnmovableobject = 0; 
@@ -1779,12 +1938,12 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmallWoodenRailing() {
-    return new ScriptObject(ObjectsTypesSmallWoodenRailing : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallWoodenRailinglvl1() {
+    return new ScriptObject(ObjectsTypesSmallWoodenRailinglvl1 : ObjectsTypes)
     {
       id = 2498; 
       ObjectName = "Small Wooden Railing"; 
-      ParentID = 2427; 
+      ParentID = 2480;
       IsContainer = 0;
       IsMovableObject = 1; 
       IsUnmovableobject = 0; 
@@ -1811,12 +1970,12 @@ package JorvikMod
       AllowExportFromGreen = 0; // Not in use
    };
   }
-  function JorvikMod::ObjectsTypesSmallThatchRoofOuterCorner() {
-    return new ScriptObject(ObjectsTypesSmallThatchRoofOuterCorner : ObjectsTypes)
+  function JorvikMod::ObjectsTypesSmallThatchRoofOuterCornerToplvl1() {
+    return new ScriptObject(ObjectsTypesSmallThatchRoofOuterCornerToplvl1 : ObjectsTypes)
     {
       id = 2499; 
       ObjectName = "SmallThatchRoofOuterCorner"; 
-      ParentID = 2427; 
+      ParentID = 2480;
       IsContainer = 0;
       IsMovableObject = 1; 
       IsUnmovableobject = 0; 
@@ -1827,7 +1986,7 @@ package JorvikMod
       MaxContSize = 0;
       Length = 0;  
       MaxStackSize = 0; 
-      UnitWeight = 10000; 
+      UnitWeight = 5000; 
       BackgrndImage = ""; 
       WorkAreaTop = 0;
       WorkAreaLeft = 0;
@@ -1835,7 +1994,7 @@ package JorvikMod
       WorkAreaHeight = 0;
       BtnCloseTop = 0;
       BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/art/2D/Objects/small_thatch_roof_outer_corner.png";
+      FaceImage = "yolauncher/modpack/art/2D/Objects/small_thatch_roof_outer_corner_top.png";
       Description = "Object from Jorvik MOD"; 
       BasePrice = 0; 
       OwnerTimeout = 0; 
@@ -3375,7 +3534,8 @@ package JorvikMod
     }
     dbi.remove(%resultSet);
     %resultSet.delete();
-  }  function JorvikMod::SmallThatchRoofOuterCorner() {
+  }
+  function JorvikMod::SmallThatchRoofOuterCorner() {
     dbi.Select(JorvikMod, "SmallThatchRoofOuterCornerRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'SmallThatchRoofOuterCorner', 'Object from Jorvik MOD',        32,               18,          30,        2479,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_thatch_roof_outer_corner.png') RETURNING ID");
   }
   function JorvikMod::SmallThatchRoofOuterCornerRequirements(%this, %resultSet) {
@@ -3389,10 +3549,10 @@ package JorvikMod
     }
     dbi.remove(%resultSet);
     %resultSet.delete();
-  }  function JorvikMod::SmallLogWall() {
-    dbi.Select(JorvikMod, "SmallLogWallRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Log Wall', 'Object from Jorvik MOD',        32,               18,          30,        2481,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_log_wall_lvl1.png') RETURNING ID");
+  }  function JorvikMod::SmallLogWalllvl1() {
+    dbi.Select(JorvikMod, "SmallLogWalllvl1Requirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Log Wall', 'Object from Jorvik MOD',        32,               18,          30,        2481,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_log_wall_lvl1.png') RETURNING ID");
   }
-  function JorvikMod::SmallLogWallRequirements(%this, %resultSet) {
+  function JorvikMod::SmallLogWalllvl1Requirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         2,       0)");
@@ -3401,10 +3561,11 @@ package JorvikMod
     }
     dbi.remove(%resultSet);
     %resultSet.delete();
-  }  function JorvikMod::SmallWoodenPillar() {
-    dbi.Select(JorvikMod, "SmallWoodenPillarRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Wooden Pillar', 'Object from Jorvik MOD',        32,               18,          30,        2482,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_wooden_pillar_lvl1.png') RETURNING ID");
   }
-  function JorvikMod::SmallWoodenPillarRequirements(%this, %resultSet) {
+  function JorvikMod::SmallWoodenPillarlvl1() {
+    dbi.Select(JorvikMod, "SmallWoodenPillarlvl1Requirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Wooden Pillar', 'Object from Jorvik MOD',        32,               18,          30,        2482,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_wooden_pillar_lvl1.png') RETURNING ID");
+  }
+  function JorvikMod::SmallWoodenPillarlvl1Requirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         1,       0)");
@@ -3414,10 +3575,10 @@ package JorvikMod
     dbi.remove(%resultSet);
     %resultSet.delete();
   }	  
-  function JorvikMod::SmallLogCornerWall() {
+  function JorvikMod::SmallLogCornerWalllvl1() {
     dbi.Select(JorvikMod, "SmallLogCornerWallRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Log Corner Wall', 'Object from Jorvik MOD',        32,               18,          30,        2483,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_log_corner_wall_lvl1.png') RETURNING ID");
   }
-  function JorvikMod::SmallLogCornerWallRequirements(%this, %resultSet) {
+  function JorvikMod::SmallLogCornerWalllvl1Requirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         2,       0)");
@@ -3428,10 +3589,10 @@ package JorvikMod
     dbi.remove(%resultSet);
     %resultSet.delete();
   }	  
-	  function JorvikMod::SmallLogWallWithWindow() {
-    dbi.Select(JorvikMod, "SmallLogWallWithWindowRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Log Wall With Window', 'Object from Jorvik MOD',        32,               18,          30,        2484,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_log_wall_with_window_lvl1.png') RETURNING ID");
+  function JorvikMod::SmallLogWallWithWindowlvl1() {
+    dbi.Select(JorvikMod, "SmallLogWallWithWindowlvl1Requirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Log Wall With Window', 'Object from Jorvik MOD',        32,               18,          30,        2484,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_log_wall_with_window_lvl1.png') RETURNING ID");
   }
-  function JorvikMod::SmallLogWallWithWindowRequirements(%this, %resultSet) {
+  function JorvikMod::SmallLogWallWithWindowlvl1Requirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         2,       0)");
@@ -3443,10 +3604,10 @@ package JorvikMod
     dbi.remove(%resultSet);
     %resultSet.delete();
   }	
-  function JorvikMod::SmallLogWallWithShutters() {
-    dbi.Select(JorvikMod, "SmallLogWallWithShuttersRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Log Wall With Shutters', 'Object from Jorvik MOD',        32,               18,          30,        2485,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_log_wall_with_shutters_lvl1.png') RETURNING ID");
+  function JorvikMod::SmallLogWallWithShutterslvl1() {
+    dbi.Select(JorvikMod, "SmallLogWallWithShutterslvl1Requirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Log Wall With Shutters', 'Object from Jorvik MOD',        32,               18,          30,        2485,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_log_wall_with_shutters_lvl1.png') RETURNING ID");
   }
-  function JorvikMod::SmallLogWallWithShuttersRequirements(%this, %resultSet) {
+  function JorvikMod::SmallLogWallWithShutterslvl1Requirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         2,       0)");
@@ -3459,10 +3620,10 @@ package JorvikMod
     dbi.remove(%resultSet);
     %resultSet.delete();
   }	
-  function JorvikMod::SmallLogWallWithEntrance() {
-    dbi.Select(JorvikMod, "SmallLogWallWithEntranceRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Log Wall With Entrance', 'Object from Jorvik MOD',        32,               18,          30,        2486,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_log_wall_with_entrance_lvl1.png') RETURNING ID");
+  function JorvikMod::SmallLogWallWithEntrancelvl1() {
+    dbi.Select(JorvikMod, "SmallLogWallWithEntrancelvl1Requirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Log Wall With Entrance', 'Object from Jorvik MOD',        32,               18,          30,        2486,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_log_wall_with_entrance_lvl1.png') RETURNING ID");
   }
-  function JorvikMod::SmallLogWallWithEntranceRequirements(%this, %resultSet) {
+  function JorvikMod::SmallLogWallWithEntrancelvl1Requirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         4,       0)");
@@ -3473,10 +3634,10 @@ package JorvikMod
     dbi.remove(%resultSet);
     %resultSet.delete();
   }	
-  function JorvikMod::SmallLogWallWithDoor() {
-    dbi.Select(JorvikMod, "SmallLogWallWithDoorRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Log Wall With Door', 'Object from Jorvik MOD',        32,               18,          30,        2487,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_log_wall_with_door_lvl1.png') RETURNING ID");
+  function JorvikMod::SmallLogWallWithDoorlvl1() {
+    dbi.Select(JorvikMod, "SmallLogWallWithDoorlvl1Requirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Log Wall With Door', 'Object from Jorvik MOD',        32,               18,          30,        2487,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_log_wall_with_door_lvl1.png') RETURNING ID");
   }
-  function JorvikMod::SmallLogWallWithDoorRequirements(%this, %resultSet) {
+  function JorvikMod::SmallLogWallWithDoorlvl1Requirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         4,       0)");
@@ -3489,10 +3650,10 @@ package JorvikMod
     dbi.remove(%resultSet);
     %resultSet.delete();
   }	
-  function JorvikMod::SmallWoodenFloorEntrance() {
+  function JorvikMod::SmallWoodenFloorEntrancelvl1() {
     dbi.Select(JorvikMod, "SmallWoodenFloorEntranceRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Wooden Floor Entrance', 'Object from Jorvik MOD',        32,               18,          30,        2488,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_wooden_floor_entrance_lvl1.png') RETURNING ID");
   }
-  function JorvikMod::SmallWoodenFloorEntranceRequirements(%this, %resultSet) {
+  function JorvikMod::SmallWoodenFloorEntrancelvl1Requirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  235,                  0,       10,         8,       0)");
@@ -3502,10 +3663,10 @@ package JorvikMod
     dbi.remove(%resultSet);
     %resultSet.delete();
   }	
-  function JorvikMod::SmallWoodenFloor() {
-    dbi.Select(JorvikMod, "SmallWoodenFloorRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Wooden Floor', 'Object from Jorvik MOD',        32,               18,          30,        2489,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_wooden_floor_lvl1.png') RETURNING ID");
+  function JorvikMod::SmallWoodenFloorlvl1() {
+    dbi.Select(JorvikMod, "SmallWoodenFloorlvl1Requirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Wooden Floor', 'Object from Jorvik MOD',        32,               18,          30,        2489,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_wooden_floor_lvl1.png') RETURNING ID");
   }
-  function JorvikMod::SmallWoodenFloorRequirements(%this, %resultSet) {
+  function JorvikMod::SmallWoodenFloorlvl1Requirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  235,                  0,       10,         5,       0)");
@@ -3590,10 +3751,10 @@ package JorvikMod
     dbi.remove(%resultSet);
     %resultSet.delete();
   }	
-  function JorvikMod::SmallThatchRoof() {
-    dbi.Select(JorvikMod, "SmallThatchRoofRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'SmallThatchRoof', 'Object from Jorvik MOD',        32,               18,          30,        2495,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_thatch_roof.png') RETURNING ID");
+  function JorvikMod::SmallThatchRooflvl1() {
+    dbi.Select(JorvikMod, "SmallThatchRooflvl1Requirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'SmallThatchRoof', 'Object from Jorvik MOD',        32,               18,          30,        2495,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_thatch_roof.png') RETURNING ID");
   }
-  function JorvikMod::SmallThatchRoofRequirements(%this, %resultSet) {
+  function JorvikMod::SmallThatchRooflvl1Requirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         1,       0)");
@@ -3605,10 +3766,10 @@ package JorvikMod
     dbi.remove(%resultSet);
     %resultSet.delete();
   }	
-  function JorvikMod::SmallThatchRoofOuterCorner() {
-    dbi.Select(JorvikMod, "SmallThatchRoofOuterCornerRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'SmallThatchRoofOuterCorner', 'Object from Jorvik MOD',        32,               18,          30,        2496,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_thatch_roof_outer_corner.png') RETURNING ID");
+  function JorvikMod::SmallThatchRoofOuterCornerlvl1() {
+    dbi.Select(JorvikMod, "SmallThatchRoofOuterCornerlvl1Requirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'SmallThatchRoofOuterCorner', 'Object from Jorvik MOD',        32,               18,          30,        2496,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_thatch_roof_outer_corner.png') RETURNING ID");
   }
-  function JorvikMod::SmallThatchRoofOuterCornerRequirements(%this, %resultSet) {
+  function JorvikMod::SmallThatchRoofOuterCornerlvl1Requirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         1,       0)");
@@ -3633,10 +3794,10 @@ package JorvikMod
     dbi.remove(%resultSet);
     %resultSet.delete();
   }	
-  function JorvikMod::SmallWoodenRailing() {
-    dbi.Select(JorvikMod, "SmallWoodenRailingRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Wooden Railing', 'Object from Jorvik MOD',        32,               18,          30,        2498,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_wooden_railing_lvl1.png') RETURNING ID");
+  function JorvikMod::SmallWoodenRailinglvl1() {
+    dbi.Select(JorvikMod, "SmallWoodenRailinglvl1Requirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Wooden Railing', 'Object from Jorvik MOD',        32,               18,          30,        2498,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_wooden_railing_lvl1.png') RETURNING ID");
   }
-  function JorvikMod::SmallWoodenRailingRequirements(%this, %resultSet) {
+  function JorvikMod::SmallWoodenRailinglvl1Requirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  235,                  0,       10,         5,       0)");
@@ -3646,10 +3807,10 @@ package JorvikMod
     dbi.remove(%resultSet);
     %resultSet.delete();
   }	
-  function JorvikMod::SmallThatchRoofOuterCornerTop() {
-    dbi.Select(JorvikMod, "SmallThatchRoofOuterCornerTopRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'SmallThatchRoofOuterCornerTop', 'Object from Jorvik MOD',        32,               18,          30,        2499,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_thatch_roof_outer_corner_top.png') RETURNING ID");
+  function JorvikMod::SmallThatchRoofOuterCornerToplvl1() {
+    dbi.Select(JorvikMod, "SmallThatchRoofOuterCornerToplvl1Requirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'SmallThatchRoofOuterCornerTop', 'Object from Jorvik MOD',        32,               18,          30,        2499,               35,                       1,        0,          0,           'yolauncher/modpack/mod/art/2D/Recipes/small_thatch_roof_outer_corner_top.png') RETURNING ID");
   }
-  function JorvikMod::SmallThatchRoofOuterCornerTopRequirements(%this, %resultSet) {
+  function JorvikMod::SmallThatchRoofOuterCornerToplvl1Requirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
       dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233,                  0,       10,         1,       0)");
@@ -4276,7 +4437,7 @@ package JorvikMod
     dbi.remove(%resultSet);
     %resultSet.delete();
   }	
-  function JorvikMod::Silver Blanks() {
+  function JorvikMod::SilverBlanks() {
     dbi.Select(JorvikMod, "SilverBlanksRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Silver Blanks', 'Object from Jorvik MOD',        453,               4,          90,        2541,               90,                       5,        1,          0,           'yolauncher/modpack/mod/art/2D/Items/silver_blanks.png') RETURNING ID");
   }
   function JorvikMod::SilverBlanksRequirements(%this, %resultSet) {
