@@ -378,7 +378,7 @@ package JorvikMod
   function JorvikMod::ObjectsTypesLonghouse() {
     return new ScriptObject(ObjectsTypesLonghouse : ObjectsTypes)
     {
-      id = 2403; 
+      id = 2543; 
       ObjectName = "Longhouse"; 
       ParentID = 72; 
       IsContainer = 0;
@@ -409,7 +409,7 @@ package JorvikMod
   }
   function JorvikMod::Longhouse() {
                                    //dbi.update("INSERT IGNORE INTO `recipe` VALUES (NULL,      Name,                 Description,      StartingToolsID,   SkillTypeID, SkillLvl, ResultObjectTypeID, SkillDepends,       Quantity, Autorepeat, isBluePrint, ImagePath)
-    dbi.Select(JorvikMod, "LonghouseRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Longhouse', 'Object from Jorvik MOD',        32,               20,          60,        2403,               20,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/long_house.png') RETURNING ID");
+    dbi.Select(JorvikMod, "LonghouseRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Longhouse', 'Object from Jorvik MOD',        32,               20,          60,        2543,               20,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/long_house.png') RETURNING ID");
   }
   function JorvikMod::LonghouseRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
