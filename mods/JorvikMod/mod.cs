@@ -2509,7 +2509,7 @@ package JorvikMod
    };
   }
   function JorvikMod::ObjectsTypesWoodenChurch() {
-    return new ScriptObject(ObjectsTypesWooden Church : ObjectsTypes)
+    return new ScriptObject(ObjectsTypesWoodenChurch : ObjectsTypes)
     {
       id = 2529; 
       ObjectName = "Wooden Church"; 
@@ -2733,7 +2733,7 @@ package JorvikMod
    };
   }
   function JorvikMod::ObjectsTypesMetalScissors() {
-    return new ScriptObject(ObjectsTypesMetal Scissors : ObjectsTypes)
+    return new ScriptObject(ObjectsTypesMetalScissors : ObjectsTypes)
     {
       id = 2536; 
       ObjectName = "Metal Scissors"; 
@@ -2765,7 +2765,7 @@ package JorvikMod
    };
   }
   function JorvikMod::ObjectsTypesMetalStamp() {
-    return new ScriptObject(ObjectsTypesMetal Stamp : ObjectsTypes)
+    return new ScriptObject(ObjectsTypesMetalStamp : ObjectsTypes)
     {
       id = 2537; 
       ObjectName = "Metal Stamp"; 
@@ -2797,7 +2797,7 @@ package JorvikMod
    };
   }
   function JorvikMod::ObjectsTypesGoldBlanks() {
-    return new ScriptObject(ObjectsTypesGold Blanks : ObjectsTypes)
+    return new ScriptObject(ObjectsTypesGoldBlanks : ObjectsTypes)
     {
       id = 2538; 
       ObjectName = "Gold Blanks"; 
