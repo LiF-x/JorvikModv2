@@ -666,7 +666,7 @@ package JorvikMod
   }
   function JorvikMod::SmallWoodenBridge() {
                                    //dbi.update("INSERT IGNORE INTO `recipe` VALUES (NULL,      Name,                 Description,      StartingToolsID,   SkillTypeID, SkillLvl, ResultObjectTypeID, SkillDepends,                  Quantity,Autorepeat,isBluePrint,           ImagePath)
-    dbi.Select(JorvikMod, "SmallWoodenBridgeRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Stone Gate', 'Object from Jorvik MOD',        32,               18,          60,        2405,               10,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_wooden_bridge.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SmallWoodenBridgeRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Small Wooden Bridge', 'Object from Jorvik MOD',        32,               18,          60,        2405,               10,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/small_wooden_bridge.png') RETURNING ID");
   }
   function JorvikMod::SmallWoodenBridgeRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
