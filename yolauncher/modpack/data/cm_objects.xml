@@ -21934,6 +21934,7 @@
                         <event>Object_TowerBell_Small</event>
                         <offset x="0" y="0" z="32.2" />
                         <rot x="0" y="0" z="1" angle="0" />
+                        <radius>20</radius>
                     </emitter>
                 </soundEmitters>
             </state>
@@ -21980,6 +21981,7 @@
                         <event>Object_TowerBell_Mid</event>
                         <offset x="0" y="0" z="32.2" />
                         <rot x="0" y="0" z="1" angle="0" />
+                       <radius>40</radius> 
                     </emitter>
                 </soundEmitters>
             </state>
