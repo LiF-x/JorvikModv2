@@ -16,14 +16,17 @@ if (!isObject(JorvikMod))
 package JorvikMod
 {
   function JorvikMod::setup() {
-    LiFx::registerCallback($LiFx::hooks::onMaterialsLoad, RegisterMaterials, JorvikMod);
+    LiFx::registerCallback($LiFx::hooks::onMaterialsLoaded, RegisterMaterials, JorvikMod);
     LiFx::registerCallback($LiFx::hooks::onInitialized, onInitialized, JorvikMod);
     LiFx::registerCallback($LiFx::hooks::onDatablockLoad, RegisterDatablock, JorvikMod);
   }
   function JorvikMod::RegisterMaterials() {
+    LiFx::loadRecursivelyInFolder("yolauncher/modpack/", "materials.cs");
   }
   function JorvikMod::path() {
-    return $Con::File;
+    %path = $Con::File; 
+    echo(%path);
+    return %path;
   }
   
   function JorvikMod::RegisterDatablock() {
@@ -32,6 +35,18 @@ package JorvikMod
   }
 
   function JorvikMod::onInitialized() {
+    if(isObject(MainMenuGui))
+    {
+      MainMenuGui.delete();
+    }
+    if(isObject(SettingsMenuGui))
+    {
+      SettingsMenuGui.delete();
+    }
+    if(isObject(selectCharacterDlg))
+    {
+      selectCharacterDlg.delete();
+    }
     LiFx::loadRecursivelyInFolder("yolauncher/modpack/art/gui/forms", "heraldryDialog.gui");
     LiFx::loadRecursivelyInFolder("yolauncher/modpack/art/gui/forms", "mainMenuGui.gui");
     LiFx::loadRecursivelyInFolder("yolauncher/modpack/art/gui/forms", "selectCharacter.gui");
