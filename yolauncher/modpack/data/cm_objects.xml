@@ -21923,7 +21923,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/construction/decorations/alarmbell/alarmbell_1thtier.dts</shapeName>
-                       <animationName>bell</animationName>
+                       <animationName>almbell</animationName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -21970,7 +21970,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/construction/decorations/alarmbell/alarmbell_2thtier.dts</shapeName>
-                       <animationName>bell</animationName>
+                       <animationName>Tower</animationName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -21978,7 +21978,7 @@
                 </shapes>
                 <soundEmitters>
                     <emitter>
-                        <event>Object_TowerBell_Mid</event>
+                        <event>Object_TowerBell_High</event>
                         <offset x="0" y="0" z="32.2" />
                         <rot x="0" y="0" z="1" angle="0" />
                        <radius>40</radius> 
@@ -25812,7 +25812,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/construction/decorations/alarmbell/alarmbell_3rdtier.dts</shapeName>
-                       <animationName>bell</animationName>
+                       <animationName>lilbell</animationName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -25820,9 +25820,10 @@
                 </shapes>
                 <soundEmitters>
                     <emitter>
-                        <profile>env_bell</profile>
+                        <event>Object_TowerBell_Small</event>
                         <offset x="0" y="0" z="20" />
-                    </emitter>
+                        <radius>20</radius>
+                    </emitter>               
                 </soundEmitters>
             </state>
         </states>
@@ -29135,8 +29136,7 @@
             <state type="Working">
                 <shapes>
                     <shape isDoor="1">
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/wooden_church/wooden_church.dts</shapeName>
-                       
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/wooden_church/wooden_church.dts</shapeName>                      
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -29144,9 +29144,10 @@
                 </shapes>
                 <soundEmitters>
                     <emitter>
-                        <profile>env_bell</profile>
+                        <event>Object_TowerBell_Small</event>
                         <offset x="0" y="-4" z="6" />
-                    </emitter>
+                        <radius>20</radius>
+                    </emitter>               
                 </soundEmitters>
             </state>
         </states>

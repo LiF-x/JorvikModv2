@@ -6,19 +6,24 @@ datablock SFXProfile(env_bell)
    filename = "yolauncher/modpack/art/sound/SFX/env_bell.ogg";
    description = AudioObjectsCloseLoop3D;
 };
-datablock SFXProfile(env_bell)
+
+datablock SFXProfile(env_lilbell)
 {
+   local = 1;
    filename = "yolauncher/modpack/art/sound/SFX/env_bell.ogg";
-   description = AudioDefault3D;
-   referenceDistance = 10;
-   maxDistance = 100;
-   preload = true;
+   description = AudioObjectsCloseLoop3D;
 };
-datablock AudioDescription(AudioDefault3D)
+
+datablock SFXProfile(env_almbell)
 {
-   volume = 1.0;
-   isLooping = false;
-   is3D = true;
-   ReferenceDistance = 10.0;
-   maxDistance = 100.0;
+   local = 1;
+   filename = "yolauncher/modpack/art/sound/SFX/env_bell.ogg";
+   description = AudioObjectsCloseLoop3D;
+};
+
+datablock SFXProfile(env_cbell)
+{
+   local = 1;
+   filename = "yolauncher/modpack/art/sound/SFX/env_bell.ogg";
+   description = AudioObjectsCloseLoop3D;
 };
