@@ -5878,7 +5878,7 @@
 					</entity>
 					<entity type="attached_obj">
 						<ent_reqs>
-							<ent_req type="object_type_id">1437 1496 2519</ent_req>
+							<ent_req type="object_type_id">1437 1496 2570</ent_req>
 							<ent_req type="claim" usage_type="use">
 								<land type="realm" jh_allowed_worlds="everywhere"/>
 								<land type="outpost" jh_allowed_worlds="everywhere"/>
@@ -6625,7 +6625,7 @@
 				<entities>
 					<entity type="attached_obj">
 						<ent_reqs>
-							<ent_req type="object_type_id">1437 1496 2519 2520</ent_req>
+							<ent_req type="object_type_id">1437 1496 2570 2520</ent_req>
 							<ent_req type="claim" usage_type="use">
 								<land type="realm" jh_allowed_worlds="everywhere"/>
 								<land type="outpost" jh_allowed_worlds="everywhere"/>
@@ -6711,7 +6711,7 @@
 				<entities>
 					<entity type="attached_obj">
 						<ent_reqs>
-							<ent_req type="object_type_id">1437 1496 2519 2520</ent_req>
+							<ent_req type="object_type_id">1437 1496 2570 2520</ent_req>
 							<ent_req type="claim" usage_type="use">
 								<land type="realm" jh_allowed_worlds="everywhere"/>
 								<land type="outpost" jh_allowed_worlds="everywhere"/>
@@ -6740,7 +6740,7 @@
 				<entities>
 					<entity type="attached_obj">
 						<ent_reqs>
-							<ent_req type="object_type_id">1437 1496 2519</ent_req>
+							<ent_req type="object_type_id">1437 1496 2570</ent_req>
 							<ent_req type="claim" usage_type="use">
 								<land type="realm" jh_allowed_worlds="everywhere"/>
 								<land type="outpost" jh_allowed_worlds="everywhere"/>
@@ -7257,7 +7257,7 @@
 					</entity>
 					<entity type="attached_obj">
 						<ent_reqs>
-							<ent_req type="object_type_id">1437 1496 2519 2520</ent_req>
+							<ent_req type="object_type_id">1437 1496 2570 2520</ent_req>
 							<ent_req type="claim" usage_type="use">
 								<land type="realm" jh_allowed_worlds="everywhere"/>
 								<land type="outpost" jh_allowed_worlds="everywhere"/>

@@ -36,7 +36,7 @@ package JorvikMod
     * Parameter 3: The package name to scope your function appropiately.
 	*/
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, objectsConversions, JorvikMod);
-    LiFx::registerCallback($LiFx::hooks::onServerCreatedCallbacks, loadDatablocks, JorvikMod);
+    LiFx::registerCallback($LiFx::hooks::preServerCreatedCallbacks, loadDatablocks, JorvikMod);
 	/**
 	* LiFx::registerObjectsTypes is a global framework function, it takes 2 parameters
 	* It is used to write to the dump.sql on start, prior to the server reading it, and is necessary as bitbox wipes the objectstypes table on each start up.
@@ -134,6 +134,7 @@ package JorvikMod
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesCopperSheet(), JorvikMod);
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesSilverBlanks(), JorvikMod);
     LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesCopperBlanks(), JorvikMod);  
+    LiFx::registerObjectsTypes(JorvikMod::ObjectsTypesWoodCartHarnessed(), JorvikMod);
     //Register Callbacks
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenShed, JorvikMod);
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, FlagPvP, JorvikMod);
@@ -230,8 +231,8 @@ package JorvikMod
       dbi.Update("INSERT IGNORE `objects_conversions` VALUES (NULL, 2502, 2503)");
   }
   function JorvikMod::loadDatablocks() {
-    LiFx::loadRecursivelyInFolder("yolauncher/modpack/art/datablocks", "audioProfiles.cs");
-    LiFx::loadRecursivelyInFolder("yolauncher/modpack/art/datablocks", "Transport.cs");
+    loadRecursivelyInFolder("yolauncher/modpack/art/datablocks", "audioProfiles.cs");
+    loadRecursivelyInFolder("yolauncher/modpack/art/datablocks", "Transport.cs");
   }
   function JorvikMod::ObjectsTypesSmallWoodenShed() {
     return new ScriptObject(ObjectsTypesSmallWoodenShed : ObjectsTypes)
@@ -4455,7 +4456,38 @@ package JorvikMod
     dbi.remove(%resultSet);
     %resultSet.delete();
   }  
-  
+  function JorvikMod::ObjectsTypesWoodCartHarnessed() {
+    return new ScriptObject(ObjectsTypesWoodCartHarnessed : ObjectsTypes)
+    {
+      id = 2570; 
+      ObjectName = "Wood Cart (harnessed)"; 
+      ParentID = 77; 
+      IsContainer = 1;
+      IsMovableObject = 1; 
+      IsUnmovableobject = 0; 
+      IsTool = 0; 
+      IsDevice = 0; 
+      IsDoor = 0; 
+      IsPremium = 0; 
+      MaxContSize = 3000000;
+      Length = 7;  
+      MaxStackSize = 0; 
+      UnitWeight = 10000; 
+      BackgrndImage = "art/images/universal"; 
+      WorkAreaTop = 0;
+      WorkAreaLeft = 0;
+      WorkAreaWidth = 0;
+      WorkAreaHeight = 0;
+      BtnCloseTop = 0;
+      BtnCloseLeft = 0;
+      FaceImage = "yolauncher/modpack/art/2D/Objects/wood_cart.png";
+      Description = "Object from Jorvik MOD"; 
+      BasePrice = 100; 
+      OwnerTimeout = 30; 
+      AllowExportFromRed = 0; // Not in use
+      AllowExportFromGreen = 0; // Not in use
+   };
+  }
 
   function serverCmdRequestRules(%client)
   {
