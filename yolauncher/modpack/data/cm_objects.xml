@@ -29144,9 +29144,9 @@
                 </shapes>
                 <soundEmitters>
                     <emitter>
-                        <event>Object_TowerBell_Small</event>
+                        <event>Object_TowerBell_High</event>
                         <offset x="0" y="-4" z="6" />
-                        <radius>20</radius>
+                        <radius>60</radius>
                     </emitter>               
                 </soundEmitters>
             </state>
