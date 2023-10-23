@@ -2810,7 +2810,7 @@ package JorvikMod
   function JorvikMod::ObjectsTypesSanctumoftheSleeper() {
     return new ScriptObject(ObjectsTypesSanctumoftheSleeper : ObjectsTypes)
     {
-      id = 2530; 
+      id = 2485; 
       ObjectName = "Sanctum of the Sleeper"; 
       ParentID = 72; 
       IsContainer = 0;
@@ -4202,7 +4202,7 @@ package JorvikMod
     %resultSet.delete();
   }
   function JorvikMod::SanctumoftheSleeper() {
-    dbi.Select(JorvikMod, "SanctumoftheSleeperRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Sanctum of the Sleeper', 'Object from Jorvik MOD',        32,               20,          60,        2530,               35,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/church.png') RETURNING ID");
+    dbi.Select(JorvikMod, "SanctumoftheSleeperRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Sanctum of the Sleeper', 'Object from Jorvik MOD',        32,               20,          60,        2485,               35,                       1,        0,          0,           'yolauncher/modpack/art/2D/Recipes/church.png') RETURNING ID");
   }
   function JorvikMod::SanctumoftheSleeperRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {

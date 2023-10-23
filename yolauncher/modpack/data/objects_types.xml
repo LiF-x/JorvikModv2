@@ -36235,25 +36235,6 @@
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
-		<ID>2454</ID>
-		<ParentID>172</ParentID>
-		<Name>Stone Gate</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>0</IsMovableObject>
-		<IsUnmovableobject>1</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>1</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>0</Length>
-		<MaxStackSize>12</MaxStackSize>
-		<UnitWeight>1000000</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/long_house.png</FaceImage>
-		<Description>Object from Jorvik MOD</Description>
-	</row>
-	<row>
 		<ID>2455</ID>
 		<ParentID>61</ParentID>
 		<Name>Small Wooden Bridge</Name>
@@ -36365,177 +36346,6 @@
 		<UnitWeight>400000</UnitWeight>
 		<BackgndImage></BackgndImage>
 		<FaceImage>yolauncher/modpack/art/2D/Objects/small_stone_bridge_end.png</FaceImage>
-		<Description>Object from Jorvik MOD</Description>
-	</row>
-	<row>
-		<ID>2461</ID>
-		<ParentID>2473</ParentID>
-		<Name>Small Log Wall</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>1</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>0</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>5000</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_wall.png</FaceImage>
-		<Description>Object from Jorvik MOD</Description>
-	</row>
-	<row>
-		<ID>2462</ID>
-		<ParentID>2473</ParentID>
-		<Name>Small Wooden Pillar</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>1</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>0</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>1000</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_wooden_pillar.png</FaceImage>
-		<Description>Object from Jorvik MOD</Description>
-	</row>
-	<row>
-		<ID>2463</ID>
-		<ParentID>2473</ParentID>
-		<Name>Small Log Corner Wall</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>1</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>0</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>10000</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_corner_wall.png</FaceImage>
-		<Description>Object from Jorvik MOD</Description>
-	</row>
-	<row>
-		<ID>2464</ID>
-		<ParentID>2473</ParentID>
-		<Name>Small Log Wall With Window</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>1</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>0</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>5000</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_wall_with_window.png</FaceImage>
-		<Description>Object from Jorvik MOD</Description>
-	</row>
-	<row>
-		<ID>2465</ID>
-		<ParentID>2473</ParentID>
-		<Name>Small Log Wall With Shutters</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>1</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>1</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>0</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>5000</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_wall_with_shutters.png</FaceImage>
-		<Description>Object from Jorvik MOD</Description>
-	</row>
-	<row>
-		<ID>2466</ID>
-		<ParentID>2473</ParentID>
-		<Name>Small Log Wall With Entrance</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>1</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>0</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>5000</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_wall_with_entrance.png</FaceImage>
-		<Description>Object from Jorvik MOD</Description>
-	</row>
-	<row>
-		<ID>2467</ID>
-		<ParentID>2473</ParentID>
-		<Name>Small Log Wall With Door</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>1</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>1</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>0</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>5000</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_wall_with_door.png</FaceImage>
-		<Description>Object from Jorvik MOD</Description>
-	</row>
-	<row>
-		<ID>2468</ID>
-		<ParentID>2473</ParentID>
-		<Name>Small Wooden Floor Entrance</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>1</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>0</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>2000</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_wooden_floor_entrance.png</FaceImage>
-		<Description>Object from Jorvik MOD</Description>
-	</row>
-	<row>
-		<ID>2469</ID>
-		<ParentID>2473</ParentID>
-		<Name>Small Wooden Floor</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>1</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>0</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>1000</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_wooden_floor.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36764,6 +36574,25 @@
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
 		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_wall_with_window_lvl1.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<row>
+		<ID>2485</ID>
+		<ParentID>72</ParentID>
+		<Name>Sanctum of the Sleeper</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>1</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>10</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>4000000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>yolauncher/modpack/art/2D/Recipes/church.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37451,25 +37280,6 @@
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
-		<ID>2530</ID>
-		<ParentID>72</ParentID>
-		<Name>Sanctum of the Sleeper</Name>
-		<IsContainer>0</IsContainer>
-		<IsMovableObject>0</IsMovableObject>
-		<IsUnmovableobject>1</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>1</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>10</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>4000000</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/church.png</FaceImage>
-		<Description>Object from Jorvik MOD</Description>
-	</row>
-	<row>
 		<ID>2531</ID>
 		<ParentID>7</ParentID>
 		<Name>Novice Decorator Kit</Name>
@@ -37866,6 +37676,196 @@
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
 		<FaceImage>yolauncher/modpack/art/2D/Objects/small_thatch_roof_outer_corner_top.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<row>
+		<ID>2554</ID>
+		<ParentID>172</ParentID>
+		<Name>Stone Gate</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>0</IsMovableObject>
+		<IsUnmovableobject>1</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>1</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>12</MaxStackSize>
+		<UnitWeight>1000000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>yolauncher/modpack/art/2D/Objects/long_house.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<row>
+		<ID>2561</ID>
+		<ParentID>2473</ParentID>
+		<Name>Small Log Wall</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_wall.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<row>
+		<ID>2562</ID>
+		<ParentID>2473</ParentID>
+		<Name>Small Wooden Pillar</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>yolauncher/modpack/art/2D/Objects/small_wooden_pillar.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<row>
+		<ID>2563</ID>
+		<ParentID>2473</ParentID>
+		<Name>Small Log Corner Wall</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>10000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_corner_wall.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<row>
+		<ID>2564</ID>
+		<ParentID>2473</ParentID>
+		<Name>Small Log Wall With Window</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_wall_with_window.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<row>
+		<ID>2565</ID>
+		<ParentID>2473</ParentID>
+		<Name>Small Log Wall With Shutters</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>1</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_wall_with_shutters.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<row>
+		<ID>2566</ID>
+		<ParentID>2473</ParentID>
+		<Name>Small Log Wall With Entrance</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_wall_with_entrance.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<row>
+		<ID>2567</ID>
+		<ParentID>2473</ParentID>
+		<Name>Small Log Wall With Door</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>1</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>5000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_wall_with_door.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<row>
+		<ID>2568</ID>
+		<ParentID>2473</ParentID>
+		<Name>Small Wooden Floor Entrance</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>2000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>yolauncher/modpack/art/2D/Objects/small_wooden_floor_entrance.png</FaceImage>
+		<Description>Object from Jorvik MOD</Description>
+	</row>
+	<row>
+		<ID>2569</ID>
+		<ParentID>2473</ParentID>
+		<Name>Small Wooden Floor</Name>
+		<IsContainer>0</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>0</MaxContSize>
+		<Length>0</Length>
+		<MaxStackSize>0</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage></BackgndImage>
+		<FaceImage>yolauncher/modpack/art/2D/Objects/small_wooden_floor.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 </table>
