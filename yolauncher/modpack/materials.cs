@@ -83,6 +83,14 @@ singleton Material(BlueWall_A_mat)
    diffuseMap[2] = "yolauncher/modpack/art/Textures/TextureLib/BlueWall_A_SPECULAR.dds";
 };
 
+singleton Material(BlueWall_A_M1_mat)
+{
+   mapTo = "BlueWall_A_M1";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/BlueWall_A_M1.dds";
+   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/BlueWall_A_NORMALMAP.dds";
+   materialTag0 = "LiF";
+};
+
 singleton Material(BlueWall_B_mat)
 {
    mapTo = "BlueWall_B_M1";
@@ -369,6 +377,14 @@ singleton Material(Church_Roof_B_M1_mat)
     diffuseMap[2] = "yolauncher/modpack/art/Textures/TextureLib/Roof_RoundTilesA_01_SPECULAR.dds";
     //normal3DC = "1";
     doubleSided = "1";
+};
+
+singleton Material(Church_Roof_A_M1_mat)
+{
+   mapTo = "Church_Roof_A_M1";
+   diffuseMap[0] = "yolauncher/modpack/art/Textures/TextureLib/Church_Roof_A_M1.dds";
+   diffuseMap[1] = "yolauncher/modpack/art/Textures/TextureLib/Roof_RoundTilesA_01_NORMALMAP.dds";
+   materialTag0 = "LiF";
 };
 
 singleton Material(Church_RoofRed_M1_mat)
