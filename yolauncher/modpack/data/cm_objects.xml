@@ -82,7 +82,7 @@
                     </decal>
                     <decal>
                         <datablock>ScorchBigDecal</datablock>
-                        <offset x="0.00575076" y="-0.402464" z="1.63994" />
+                        <offset x="0.00575076" y="-0.402415" z="1.63994" />
                         <normal x="6.64266e-005" y="0.983117" z="0.18298" />
                         <tangent x="9.41725e-013" y="0.18298" z="-0.983117" />
                         <size>1.2</size>
@@ -11557,7 +11557,7 @@
                     </decal>
                     <decal>
                         <datablock>ScorchBigDecal</datablock>
-                        <offset x="0.00575076" y="-0.402464" z="1.63994" />
+                        <offset x="0.00575076" y="-0.402415" z="1.63994" />
                         <normal x="6.64266e-005" y="0.983117" z="0.18298" />
                         <tangent x="9.41725e-013" y="0.18298" z="-0.983117" />
                         <size>1.2</size>
@@ -11611,7 +11611,7 @@
                     </decal>
                     <decal>
                         <datablock>ScorchBigDecal</datablock>
-                        <offset x="0.00575076" y="-0.402464" z="1.63994" />
+                        <offset x="0.00575076" y="-0.402415" z="1.63994" />
                         <normal x="6.64266e-005" y="0.983117" z="0.18298" />
                         <tangent x="9.41725e-013" y="0.18298" z="-0.983117" />
                         <size>1.2</size>
@@ -11665,7 +11665,7 @@
                     </decal>
                     <decal>
                         <datablock>ScorchBigDecal</datablock>
-                        <offset x="0.00575076" y="-0.402464" z="1.63994" />
+                        <offset x="0.00575076" y="-0.402415" z="1.63994" />
                         <normal x="6.64266e-005" y="0.983117" z="0.18298" />
                         <tangent x="9.41725e-013" y="0.18298" z="-0.983117" />
                         <size>1.2</size>
@@ -11719,7 +11719,7 @@
                     </decal>
                     <decal>
                         <datablock>ScorchBigDecal</datablock>
-                        <offset x="0.00575076" y="-0.402464" z="1.63994" />
+                        <offset x="0.00575076" y="-0.402415" z="1.63994" />
                         <normal x="6.64266e-005" y="0.983117" z="0.18298" />
                         <tangent x="9.41725e-013" y="0.18298" z="-0.983117" />
                         <size>1.2</size>
@@ -11773,7 +11773,7 @@
                     </decal>
                     <decal>
                         <datablock>ScorchBigDecal</datablock>
-                        <offset x="0.00575076" y="-0.402464" z="1.63994" />
+                        <offset x="0.00575076" y="-0.402415" z="1.63994" />
                         <normal x="6.64266e-005" y="0.983117" z="0.18298" />
                         <tangent x="9.41725e-013" y="0.18298" z="-0.983117" />
                         <size>1.2</size>
@@ -11827,7 +11827,7 @@
                     </decal>
                     <decal>
                         <datablock>ScorchBigDecal</datablock>
-                        <offset x="0.00575076" y="-0.402464" z="1.63994" />
+                        <offset x="0.00575076" y="-0.402415" z="1.63994" />
                         <normal x="6.64266e-005" y="0.983117" z="0.18298" />
                         <tangent x="9.41725e-013" y="0.18298" z="-0.983117" />
                         <size>1.2</size>
@@ -11881,7 +11881,7 @@
                     </decal>
                     <decal>
                         <datablock>ScorchBigDecal</datablock>
-                        <offset x="0.00575076" y="-0.402464" z="1.63994" />
+                        <offset x="0.00575076" y="-0.402415" z="1.63994" />
                         <normal x="6.64266e-005" y="0.983117" z="0.18298" />
                         <tangent x="9.41725e-013" y="0.18298" z="-0.983117" />
                         <size>1.2</size>
@@ -11935,7 +11935,7 @@
                     </decal>
                     <decal>
                         <datablock>ScorchBigDecal</datablock>
-                        <offset x="0.00575076" y="-0.402464" z="1.63994" />
+                        <offset x="0.00575076" y="-0.402415" z="1.63994" />
                         <normal x="6.64266e-005" y="0.983117" z="0.18298" />
                         <tangent x="9.41725e-013" y="0.18298" z="-0.983117" />
                         <size>1.2</size>
@@ -11989,7 +11989,7 @@
                     </decal>
                     <decal>
                         <datablock>ScorchBigDecal</datablock>
-                        <offset x="0.00575076" y="-0.402464" z="1.63994" />
+                        <offset x="0.00575076" y="-0.402415" z="1.63994" />
                         <normal x="6.64266e-005" y="0.983117" z="0.18298" />
                         <tangent x="9.41725e-013" y="0.18298" z="-0.983117" />
                         <size>1.2</size>
@@ -21923,7 +21923,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/construction/decorations/alarmbell/alarmbell_1thtier.dts</shapeName>
-                       <animationName>almbell</animationName>
+                       <animationName>bell</animationName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -21970,7 +21970,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/construction/decorations/alarmbell/alarmbell_2thtier.dts</shapeName>
-                       <animationName>Tower</animationName>
+                       <animationName>bell</animationName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -21978,7 +21978,7 @@
                 </shapes>
                 <soundEmitters>
                     <emitter>
-                        <event>Object_TowerBell_High</event>
+                        <event>Object_TowerBell_Mid</event>
                         <offset x="0" y="0" z="32.2" />
                         <rot x="0" y="0" z="1" angle="0" />
                        <radius>40</radius> 
@@ -25269,7 +25269,7 @@
                     </decal>
                     <decal>
                         <datablock>ScorchBigDecal</datablock>
-                        <offset x="0.00575076" y="-0.402464" z="1.63994" />
+                        <offset x="0.00575076" y="-0.402415" z="1.63994" />
                         <normal x="6.64266e-005" y="0.983117" z="0.18298" />
                         <tangent x="9.41725e-013" y="0.18298" z="-0.983117" />
                         <size>1.2</size>
@@ -25323,7 +25323,7 @@
                     </decal>
                     <decal>
                         <datablock>ScorchBigDecal</datablock>
-                        <offset x="0.00575076" y="-0.402464" z="1.63994" />
+                        <offset x="0.00575076" y="-0.402415" z="1.63994" />
                         <normal x="6.64266e-005" y="0.983117" z="0.18298" />
                         <tangent x="9.41725e-013" y="0.18298" z="-0.983117" />
                         <size>1.2</size>
@@ -25377,7 +25377,7 @@
                     </decal>
                     <decal>
                         <datablock>ScorchBigDecal</datablock>
-                        <offset x="0.00575076" y="-0.402464" z="1.63994" />
+                        <offset x="0.00575076" y="-0.402415" z="1.63994" />
                         <normal x="6.64266e-005" y="0.983117" z="0.18298" />
                         <tangent x="9.41725e-013" y="0.18298" z="-0.983117" />
                         <size>1.2</size>
@@ -25431,7 +25431,7 @@
                     </decal>
                     <decal>
                         <datablock>ScorchBigDecal</datablock>
-                        <offset x="0.00575076" y="-0.402464" z="1.63994" />
+                        <offset x="0.00575076" y="-0.402415" z="1.63994" />
                         <normal x="6.64266e-005" y="0.983117" z="0.18298" />
                         <tangent x="9.41725e-013" y="0.18298" z="-0.983117" />
                         <size>1.2</size>
@@ -25485,7 +25485,7 @@
                     </decal>
                     <decal>
                         <datablock>ScorchBigDecal</datablock>
-                        <offset x="0.00575076" y="-0.402464" z="1.63994" />
+                        <offset x="0.00575076" y="-0.402415" z="1.63994" />
                         <normal x="6.64266e-005" y="0.983117" z="0.18298" />
                         <tangent x="9.41725e-013" y="0.18298" z="-0.983117" />
                         <size>1.2</size>
@@ -25539,7 +25539,7 @@
                     </decal>
                     <decal>
                         <datablock>ScorchBigDecal</datablock>
-                        <offset x="0.00575076" y="-0.402464" z="1.63994" />
+                        <offset x="0.00575076" y="-0.402415" z="1.63994" />
                         <normal x="6.64266e-005" y="0.983117" z="0.18298" />
                         <tangent x="9.41725e-013" y="0.18298" z="-0.983117" />
                         <size>1.2</size>
@@ -25593,7 +25593,7 @@
                     </decal>
                     <decal>
                         <datablock>ScorchBigDecal</datablock>
-                        <offset x="0.00575076" y="-0.402464" z="1.63994" />
+                        <offset x="0.00575076" y="-0.402415" z="1.63994" />
                         <normal x="6.64266e-005" y="0.983117" z="0.18298" />
                         <tangent x="9.41725e-013" y="0.18298" z="-0.983117" />
                         <size>1.2</size>
@@ -25647,7 +25647,7 @@
                     </decal>
                     <decal>
                         <datablock>ScorchBigDecal</datablock>
-                        <offset x="0.00575076" y="-0.402464" z="1.63994" />
+                        <offset x="0.00575076" y="-0.402415" z="1.63994" />
                         <normal x="6.64266e-005" y="0.983117" z="0.18298" />
                         <tangent x="9.41725e-013" y="0.18298" z="-0.983117" />
                         <size>1.2</size>
@@ -25701,7 +25701,7 @@
                     </decal>
                     <decal>
                         <datablock>ScorchBigDecal</datablock>
-                        <offset x="0.00575076" y="-0.402464" z="1.63994" />
+                        <offset x="0.00575076" y="-0.402415" z="1.63994" />
                         <normal x="6.64266e-005" y="0.983117" z="0.18298" />
                         <tangent x="9.41725e-013" y="0.18298" z="-0.983117" />
                         <size>1.2</size>
@@ -25755,7 +25755,7 @@
                     </decal>
                     <decal>
                         <datablock>ScorchBigDecal</datablock>
-                        <offset x="0.00575076" y="-0.402464" z="1.63994" />
+                        <offset x="0.00575076" y="-0.402415" z="1.63994" />
                         <normal x="6.64266e-005" y="0.983117" z="0.18298" />
                         <tangent x="9.41725e-013" y="0.18298" z="-0.983117" />
                         <size>1.2</size>
@@ -25812,7 +25812,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/construction/decorations/alarmbell/alarmbell_3rdtier.dts</shapeName>
-                       <animationName>lilbell</animationName>
+                       <animationName>bell</animationName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -25820,10 +25820,9 @@
                 </shapes>
                 <soundEmitters>
                     <emitter>
-                        <event>Object_TowerBell_Small</event>
+                        <profile>env_bell</profile>
                         <offset x="0" y="0" z="20" />
-                        <radius>20</radius>
-                    </emitter>               
+                    </emitter>
                 </soundEmitters>
             </state>
         </states>
@@ -26283,7 +26282,7 @@
           </state>
       </states>
     </object>
-    <object id="2452" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="3" noRuins="1" noDecay="1">
+    <object id="2401" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="3" noRuins="1" noDecay="1">
         <!--name = Flag PvP-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -26323,7 +26322,7 @@
             </state>
         </states>
     </object>
-    <object id="2453" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="3" noRuins="1" noDecay="1">
+    <object id="2402" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="3" noRuins="1" noDecay="1">
         <!--name = Flag PvE-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -26438,7 +26437,7 @@
         </states>
     </object>
 
-    <object id="2454" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+    <object id="2404" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Stone Gate 2x1-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -26477,7 +26476,7 @@
             </state>
         </states>
     </object>
-    <object id="2455" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" noDecay="1">
+    <object id="2405" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" noDecay="1">
       <!--name = Small Wooden Bridge-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -26516,7 +26515,7 @@
             </state>
         </states>
     </object>
-    <object id="2456" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" noDecay="1">
+    <object id="2406" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" noDecay="1">
       <!--name = Small Stone Bridge-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -26555,7 +26554,7 @@
             </state>
         </states>
     </object>
-    <object id="2457" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" noDecay="1">
+    <object id="2407" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" noDecay="1">
       <!--name = Large Wooden Bridge-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -26596,7 +26595,7 @@
             </state>
         </states>
     </object>
-	<object id="2458" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" noDecay="1">
+	<object id="2408" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" noDecay="1">
       <!--name = Large Stone Bridge -->
         <lockedCells>
             <cell x="0" y="1" />
@@ -26637,7 +26636,7 @@
             </state>
         </states>
     </object>
-    <object id="2459" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" noDecay="1">
+    <object id="2409" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" noDecay="1">
       <!--name = Large Stone Bridge End-->
         <lockedCells>
 			<cell x="0" y="1" />
@@ -26676,7 +26675,7 @@
             </state>
         </states>
     </object>
-    <object id="2460" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" noDecay="1">
+    <object id="2410" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" noDecay="1">
       <!--name = Small Stone Bridge End-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -26714,7 +26713,7 @@
             </state>
         </states>
     </object>
-    <object id="2561" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+    <object id="2412" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Log Wall-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -26752,7 +26751,7 @@
             </state>
         </states>
     </object>
-    <object id="2562" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+    <object id="2413" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Wooden Pillar-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -26780,7 +26779,7 @@
             </state>        
         </states>
     </object>
-    <object id="2563" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+    <object id="2414" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Log Corner Wall-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -26818,7 +26817,7 @@
             </state>
         </states>
     </object>
-	<object id="2564" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2415" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Log Wall with Window-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -26856,7 +26855,7 @@
             </state>
         </states>
     </object>
-	<object id="2565" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2416" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Log Wall With Shutters-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -26894,7 +26893,7 @@
             </state>
         </states>
     </object>
-	<object id="2566" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2417" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Log Wall With Entrance-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -26932,7 +26931,7 @@
             </state>
         </states>
     </object>
-	<object id="2567" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2418" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Log Wall With Door-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -26970,7 +26969,7 @@
             </state>
         </states>
     </object>
-	<object id="2568" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2419" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Wooden Floor Entrance-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -26998,7 +26997,7 @@
             </state>        
         </states>
     </object>
-	<object id="2569" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
+	<object id="2473" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3">
       <!--name = Small Wooden Floor-->
         <lockedCells>
             <cell x="0" y="0" />
@@ -29136,7 +29135,8 @@
             <state type="Working">
                 <shapes>
                     <shape isDoor="1">
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/wooden_church/wooden_church.dts</shapeName>                      
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/wooden_church/wooden_church.dts</shapeName>
+                       
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -29144,10 +29144,9 @@
                 </shapes>
                 <soundEmitters>
                     <emitter>
-                        <event>Object_TowerBell_High</event>
+                        <profile>env_bell</profile>
                         <offset x="0" y="-4" z="6" />
-                        <radius>60</radius>
-                    </emitter>               
+                    </emitter>
                 </soundEmitters>
             </state>
         </states>
@@ -29880,44 +29879,6 @@
                         <shapeName>art/models/3d/mobiles/wildanimalsdead/wolf_death.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="0" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-        </states>
-    </object>
-    <object id="2570" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
-        <!--name = Wood cart (Harnessed)-->
-        <lockedCells>
-            <cell x="0" y="0" />
-        </lockedCells>
-        <states>
-            <state type="Complete">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/mobiles/transportation/woodcart/woodcart_passive.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Incomplete">
-                <shapes>
-                    <shape>
-                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
-                        <offset x="0" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
-            </state>
-            <state type="Damaged">
-                <shapes>
-                    <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/mobiles/transportation/woodcart/woodcart_passive.dts</shapeName>
-                        <offset x="0" y="1.6" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
                     </shape>
                 </shapes>

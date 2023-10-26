@@ -36193,7 +36193,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>10000</UnitWeight>
 		<BackgndImage>art/images/warehouse</BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/objects/small_wooden_shed.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/objects/small_wooden_shed.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36212,7 +36212,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>10000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/flag_pvp.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/flag_pvp.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36231,7 +36231,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>10000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/flag_pve.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/flag_pve.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36250,7 +36250,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>400000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_wooden_bridge.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_wooden_bridge.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36269,7 +36269,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>700000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_stone_bridge.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_stone_bridge.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36288,7 +36288,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>600000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/large_wooden_bridge.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/large_wooden_bridge.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36307,7 +36307,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>900000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/large_stone_bridge.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/large_stone_bridge.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36326,7 +36326,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>500000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/large_stone_bridge_end.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/large_stone_bridge_end.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36345,7 +36345,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>400000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_stone_bridge_end.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_stone_bridge_end.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36383,7 +36383,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_wall_slope_right.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_log_wall_slope_right.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36402,7 +36402,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_wall_slope_left.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_log_wall_slope_left.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36421,7 +36421,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_thatch_roof.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_thatch_roof.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36440,7 +36440,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_thatch_roof_rihgt_end.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_thatch_roof_rihgt_end.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36459,7 +36459,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_thatch_roof_left_end.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_thatch_roof_left_end.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36478,7 +36478,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>10000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_thatch_roof_outer_corner.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_thatch_roof_outer_corner.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36516,7 +36516,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_wall_lvl1.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_log_wall_lvl1.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36535,7 +36535,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>1000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_wooden_pillar_lvl1.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_wooden_pillar_lvl1.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36554,7 +36554,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>10000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_corner_wall.png_lvl1</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_log_corner_wall.png_lvl1</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36573,7 +36573,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_wall_with_window_lvl1.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_log_wall_with_window_lvl1.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36592,7 +36592,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>4000000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/church.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/church.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36611,7 +36611,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_thatch_roof_top_left_end.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_thatch_roof_top_left_end.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36630,7 +36630,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_thatch_roof_top_right_end.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_thatch_roof_top_right_end.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36649,7 +36649,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_thatch_roof.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_thatch_roof.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36668,7 +36668,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>10000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_thatch_roof_outer_corner.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_thatch_roof_outer_corner.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36687,7 +36687,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>1000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_wooden_railing.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_wooden_railing.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36706,7 +36706,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>1000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_wooden_railing_lvl1.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_wooden_railing_lvl1.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36725,7 +36725,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_thatch_roof_outer_corner_top.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_thatch_roof_outer_corner_top.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36744,7 +36744,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>1000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/wall_torch.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/wall_torch.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36763,7 +36763,7 @@
 		<MaxStackSize>1</MaxStackSize>
 		<UnitWeight>1000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/wall_torch.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/wall_torch.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36782,7 +36782,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>1000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/small_candle.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/small_candle.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36801,7 +36801,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>1000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/small_candle.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/small_candle.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36820,7 +36820,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>400000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/aurochs_cow.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/aurochs_cow.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36839,7 +36839,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>400000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/aurochs_cow.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/aurochs_cow.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36858,7 +36858,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>400000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/aurochs_cow.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/aurochs_cow.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36877,7 +36877,7 @@
 		<MaxStackSize>1</MaxStackSize>
 		<UnitWeight>100000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/sow.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/sow.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36896,7 +36896,7 @@
 		<MaxStackSize>1</MaxStackSize>
 		<UnitWeight>100000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/sow.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/sow.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36915,7 +36915,7 @@
 		<MaxStackSize>1</MaxStackSize>
 		<UnitWeight>100000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/sow.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/sow.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36934,7 +36934,7 @@
 		<MaxStackSize>1</MaxStackSize>
 		<UnitWeight>300000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/horse.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/horse.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36953,7 +36953,7 @@
 		<MaxStackSize>1</MaxStackSize>
 		<UnitWeight>300000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/horse.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/horse.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36972,7 +36972,7 @@
 		<MaxStackSize>1</MaxStackSize>
 		<UnitWeight>300000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/horse.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/horse.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -36991,7 +36991,7 @@
 		<MaxStackSize>1</MaxStackSize>
 		<UnitWeight>300000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/slave.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/slave.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37010,7 +37010,7 @@
 		<MaxStackSize>1</MaxStackSize>
 		<UnitWeight>300000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/wranen_the_hunter.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/wranen_the_hunter.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37029,7 +37029,7 @@
 		<MaxStackSize>1000</MaxStackSize>
 		<UnitWeight>100</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Items/paper.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Items/paper.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37048,7 +37048,7 @@
 		<MaxStackSize>1</MaxStackSize>
 		<UnitWeight>1000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Items/health_book.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Items/health_book.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37067,7 +37067,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>10000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_thatch_roof_inner_corner.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_thatch_roof_inner_corner.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37086,7 +37086,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>10000</UnitWeight>
 		<BackgndImage>art/images/universal</BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/wood_cart.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/wood_cart.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37105,7 +37105,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>100000</UnitWeight>
 		<BackgndImage>art/images/universal</BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/siegetower.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/siegetower.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37124,7 +37124,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>400000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/aurochs_bull.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/aurochs_bull.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37143,7 +37143,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>400000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/aurochs_bull.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/aurochs_bull.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37162,7 +37162,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>400000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/aurochs_bull.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/aurochs_bull.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37181,7 +37181,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>100000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/small_wooden_pier.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/small_wooden_pier.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37200,7 +37200,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>100000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/small_wooden_pier_T.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/small_wooden_pier_T.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37219,7 +37219,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>100000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/small_wooden_pier_L.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/small_wooden_pier_L.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37238,7 +37238,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/wattle_wicket.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/wattle_wicket.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37257,7 +37257,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/idol_cross.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/idol_cross.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37276,7 +37276,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>2000000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/wooden_church.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/wooden_church.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37295,7 +37295,7 @@
 		<MaxStackSize>10000</MaxStackSize>
 		<UnitWeight>10000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Items/decoration_kit_small.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Items/decoration_kit_small.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37314,7 +37314,7 @@
 		<MaxStackSize>10000</MaxStackSize>
 		<UnitWeight>20000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Items/decoration_kit_medium.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Items/decoration_kit_medium.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37333,7 +37333,7 @@
 		<MaxStackSize>10000</MaxStackSize>
 		<UnitWeight>30000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Items/decoration_kit_large.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Items/decoration_kit_large.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37352,7 +37352,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>100000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipes/wolf.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Recipes/wolf.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37371,7 +37371,7 @@
 		<MaxStackSize>10000</MaxStackSize>
 		<UnitWeight>10000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Items/gold_sheet.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Items/gold_sheet.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37390,7 +37390,7 @@
 		<MaxStackSize>1</MaxStackSize>
 		<UnitWeight>1000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Items/scissors.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Items/scissors.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37409,7 +37409,7 @@
 		<MaxStackSize>1</MaxStackSize>
 		<UnitWeight>1000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Items/metal_stamp.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Items/metal_stamp.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37428,7 +37428,7 @@
 		<MaxStackSize>10000</MaxStackSize>
 		<UnitWeight>1000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Items/gold_blanks.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Items/gold_blanks.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37447,7 +37447,7 @@
 		<MaxStackSize>10000</MaxStackSize>
 		<UnitWeight>10000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Items/silver_sheet.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Items/silver_sheet.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37466,7 +37466,7 @@
 		<MaxStackSize>10000</MaxStackSize>
 		<UnitWeight>10000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Items/copper_sheet.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Items/copper_sheet.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37485,7 +37485,7 @@
 		<MaxStackSize>10000</MaxStackSize>
 		<UnitWeight>1000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Items/silver_blanks.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Items/silver_blanks.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37504,7 +37504,7 @@
 		<MaxStackSize>10000</MaxStackSize>
 		<UnitWeight>1000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Items/silver_blanks.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Items/silver_blanks.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37523,7 +37523,7 @@
 		<MaxStackSize>12</MaxStackSize>
 		<UnitWeight>1000000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/long_house.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/long_house.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37542,7 +37542,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_wall_with_shutters_lvl1.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_log_wall_with_shutters_lvl1.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37561,7 +37561,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_wall_with_entrance_lvl1.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_log_wall_with_entrance_lvl1.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37580,7 +37580,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_wall_with_door_lvl1.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_log_wall_with_door_lvl1.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37599,7 +37599,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>2000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_wooden_floor_entrance_lvl1.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_wooden_floor_entrance_lvl1.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37618,7 +37618,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_wooden_floor.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_wooden_floor.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37637,7 +37637,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_wooden_stairs.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_wooden_stairs.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37656,7 +37656,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_thatch_roof_top.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_thatch_roof_top.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37675,7 +37675,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_thatch_roof_outer_corner_top.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_thatch_roof_outer_corner_top.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37694,7 +37694,7 @@
 		<MaxStackSize>12</MaxStackSize>
 		<UnitWeight>1000000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/long_house.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/long_house.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37713,7 +37713,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_wall.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_log_wall.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37732,7 +37732,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>1000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_wooden_pillar.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_wooden_pillar.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37751,7 +37751,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>10000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_corner_wall.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_log_corner_wall.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37770,7 +37770,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_wall_with_window.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_log_wall_with_window.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37789,7 +37789,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_wall_with_shutters.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_log_wall_with_shutters.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37808,7 +37808,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_wall_with_entrance.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_log_wall_with_entrance.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37827,7 +37827,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_log_wall_with_door.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_log_wall_with_door.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37846,7 +37846,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>2000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_wooden_floor_entrance.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_wooden_floor_entrance.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37865,7 +37865,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>1000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/small_wooden_floor.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/small_wooden_floor.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 	<row>
@@ -37884,7 +37884,7 @@
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>10000</UnitWeight>
 		<BackgndImage>art/images/universal</BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Objects/wood_cart.png</FaceImage>
+		<FaceImage>yolauncher/modpack/JorvikModv2/art/2D/Objects/wood_cart.png</FaceImage>
 		<Description>Object from Jorvik MOD</Description>
 	</row>
 </table>
