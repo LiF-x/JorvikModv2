@@ -7095,7 +7095,7 @@
 					<entity type="complex_obj">
 						<ent_reqs>
 							<ent_req type="state">complete</ent_req>
-							<ent_req type="object_type_id">1670 1671 1733 2529</ent_req>
+							<ent_req type="object_type_id">1670 1671 1733 2529 2485</ent_req>
 							<ent_req type="claim" usage_type="use"/>
 						</ent_reqs>
 					</entity>

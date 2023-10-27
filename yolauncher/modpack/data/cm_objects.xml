@@ -21931,10 +21931,11 @@
                 </shapes>
                 <soundEmitters>
                     <emitter>
-                        <event>Object_TowerBell_Small</event>
-                        <offset x="0" y="0" z="32.2" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <radius>20</radius>
+                       <profile>BellTowerSound</profile>
+                        <event>Object_TowerBell_High</event>
+                      <offset x="0" y="0" z="32.2" />
+                      <rot x="0" y="0" z="1" angle="0" />
+                        <radius>25</radius>
                     </emitter>
                 </soundEmitters>
             </state>
@@ -25820,9 +25821,12 @@
                 </shapes>
                 <soundEmitters>
                     <emitter>
-                        <profile>env_bell</profile>
-                        <offset x="0" y="0" z="20" />
-                    </emitter>
+                        <profile>BellTowerSound</profile>
+                        <event>Object_TowerBell_High</event>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <radius>40</radius>
+                    </emitter>  
                 </soundEmitters>
             </state>
         </states>
@@ -29151,9 +29155,9 @@
             </state>
         </states>
     </object>
-    <object id="2485" isUnflattenAllowed="0" rotationStep="1" defaultState="Complete" StreamingGroup="3" noRuins="1">
-	    <!--name = Sanctum of the Sleeper -->
-	    <lockedCells>
+<object id="2485" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" StreamingWeight="3">
+   <!--name = Sanctum of the Sleeper - LIFx TWEAK -->
+  <lockedCells>
 			<cell x="1" y="0" />
 			<cell x="2" y="0" />
 			<cell x="3" y="0" />
@@ -29277,43 +29281,14 @@
                         <scale x="1" y="1" z="1" />
                     </shape>
                 </shapes>
-                <soundEmitters>
-                    <emitter>
-                        <event>OBJECT_FIREMEDIUM</event>
-                        <offset x="26" y="0.2" z="23.1" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <event>OBJECT_FIREMEDIUM</event>
-                        <offset x="-10.12" y="0" z="-0.5" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <event trigger="OpenDoor">PLAY_DOOR_WOODDOOR_OPEN</event>
-                        <event trigger="CloseDoor">PLAY_DOOR_WOODDOOR_CLOSE</event>
-                        <offset x="24" y="7.2" z="9.7" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                </soundEmitters>
-            </state>
-            <state type="Working">
-                <shapes>
-                    <shape isDoor="1">
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/Sanctum/Sanctum.dts</shapeName>
-						<censoredShapeName>yolauncher/modpack/art/models/3d/construction/residence/Sanctum/Sanctum_black.dts</censoredShapeName>
-                        <offset x="9.88" y="0" z="0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                        <scale x="1" y="1" z="1" />
-                    </shape>
-                </shapes>
                 <pointLights>
                     <light>
-                        <prototype>FirePointLight</prototype>
+                        <prototype>bonfire_light</prototype>
                         <offset x="26" y="7.3" z="26" />
                         <radius>8</radius>
                     </light>
                     <light>
-                        <prototype>FirePointLight</prototype>
+                        <prototype>bonfire_light</prototype>
                         <offset x="26" y="-8.3" z="26" />
                         <radius>8</radius>
                     </light>
@@ -29328,72 +29303,9 @@
                         <radius>3.5</radius>
                     </light>
                     <!--Interior light-->
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="5.648" y="5.155" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-0.109" y="5.155" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-5.321" y="5.155" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-10.705" y="5.155" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-14.756" y="3.845" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="5.648" y="-5.155" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-0.109" y="-5.155" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-5.321" y="-5.155" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-10.705" y="-5.155" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-14.756" y="-3.845" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-16.342" y="-0.308" z="9.0" />
-                        <radius>4</radius>
-                    </light>
-                    <light>
-                        <prototype>church_interior</prototype>
-                        <offset x="-5.915" y="0.0" z="2.495" />
-                        <radius>4</radius>
-                    </light>
+                    
                     <!--Tree light-->
-                    <light>
-                        <prototype>church_tree</prototype>
-                        <offset x="-9.952" y="0.181" z="15.0" />
-                        <radius>10</radius>
-                    </light>
+                    
                     <!--Cellar light-->
                     <light>
                         <prototype>FirePointLight</prototype>
@@ -29529,7 +29441,7 @@
                     </emitter>
                     <emitter>
                         <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Halloween_Trophy_fire</emitter>
+                        <emitter>Campfire</emitter>
                         <offset x="25.3" y="4.1" z="11" />
                         <rot x="0" y="0" z="1" angle="0" />
                     </emitter>
@@ -29541,7 +29453,7 @@
                     </emitter>
                     <emitter>
                         <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>Halloween_Trophy_fire</emitter>
+                        <emitter>Campfire</emitter>
                         <offset x="25.3" y="-4.3" z="11" />
                         <rot x="0" y="0" z="1" angle="0" />
                     </emitter>
@@ -29553,30 +29465,228 @@
                     </emitter>
                     <emitter>
                         <datablock>LiFEmitterNodeData</datablock>
-                        <emitter>motes_church</emitter>
+                        <emitter>motes</emitter>
                         <offset x="-9.952" y="0.181" z="15.0" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                </particleEmitters>
-                <soundEmitters>
-                    <emitter>
-                        <event>OBJECT_FIREMEDIUM</event>
-                        <offset x="26" y="0.2" z="23.1" />
-                        <rot x="0" y="0" z="1" angle="0" />
-                    </emitter>
-                    <emitter>
-                        <event>OBJECT_FIREMEDIUM</event>
-                        <offset x="-10.12" y="0" z="-0.5" />
                         <rot x="0" y="0" z="1" angle="0" />
                     </emitter>
                     <emitter>
                         <event trigger="OpenDoor">PLAY_DOOR_WOODDOOR_OPEN</event>
-                        <event trigger="CloseDoor">PLAY_DOOR_WOODDOOR_CLOSE</event>                     
+                        <event trigger="CloseDoor">PLAY_DOOR_WOODDOOR_CLOSE</event>
                         <offset x="24" y="7.2" z="9.7" />
                         <rot x="0" y="0" z="1" angle="0" />
                     </emitter>
+                </particleEmitters>
+                          
+            </state>
+
+            <state type="Working">
+                <shapes>
+                    <shape isDoor="1">
+                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/Sanctum/Sanctum.dts</shapeName>
+                        <censoredShapeName>yolauncher/modpack/art/models/3d/construction/residence/Sanctum/Sanctum_black.dts</censoredShapeName>
+                        <offset x="9.88" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+                <pointLights>
+                    <light>
+                        <prototype>bonfire_light</prototype>
+                        <offset x="26" y="7.3" z="26" />
+                        <radius>8</radius>
+                    </light>
+                    <light>
+                        <prototype>bonfire_light</prototype>
+                        <offset x="26" y="-8.3" z="26" />
+                        <radius>8</radius>
+                    </light>
+                    <light>
+                        <prototype>bonfire_light2</prototype>
+                        <offset x="25.2" y="4.1" z="11.1" />
+                        <radius>3.5</radius>
+                    </light>
+                    <light>
+                        <prototype>bonfire_light2</prototype>
+                        <offset x="25.2" y="-4.3" z="11.1" />
+                        <radius>3.5</radius>
+                    </light>
+                    <!--Interior light-->
                     
-                </soundEmitters>                
+                    <!--Tree light-->
+                    
+                    <!--Cellar light-->
+                    <light>
+                        <prototype>FirePointLight</prototype>
+                        <offset x="-18.8" y="3.35" z="2" />
+                        <radius>3</radius>
+                    </light>
+                    <light>
+                        <prototype>FirePointLight</prototype>
+                        <offset x="-18.8" y="-3.35" z="2" />
+                        <radius>3</radius>
+                    </light>
+                    <light>
+                        <prototype>FirePointLight</prototype>
+                        <offset x="-13.3" y="7" z="2" />
+                        <radius>3</radius>
+                    </light>
+                    <light>
+                        <prototype>FirePointLight</prototype>
+                        <offset x="-13.3" y="-7" z="2" />
+                        <radius>3</radius>
+                    </light>
+                    <light>
+                        <prototype>FirePointLight</prototype>
+                        <offset x="-3.55" y="7" z="2" />
+                        <radius>3</radius>
+                    </light>
+                    <light>
+                        <prototype>FirePointLight</prototype>
+                        <offset x="-3.55" y="-7.2" z="2" />
+                        <radius>3</radius>
+                    </light>
+                </pointLights>
+                <!-- Cellar -->
+                <particleEmitters>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="-18.8" y="3.35" z="1.1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="-18.8" y="3.35" z="1.5" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="-18.8" y="-3.35" z="1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="-18.8" y="-3.35" z="1.5" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="-13.3" y="7" z="1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="-13.3" y="7" z="1.5" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="-13.3" y="-7" z="1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="-13.3" y="-7" z="1.5" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="-3.55" y="7" z="1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="-3.55" y="7" z="1.5" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="-3.55" y="-7.2" z="1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="-3.55" y="-7.2" z="1.5" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                <!-- Columns and torches -->
+                    <emitter>
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="26.3" y="7.3" z="24.1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="26.3" y="7.3" z="24.3" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="26.3" y="-8.3" z="24.1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="26.3" y="-8.3" z="24.3" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="25.3" y="4.1" z="11" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>SparksOfTorchEmitter</emitter>
+                        <offset x="25.3" y="4.1" z="11" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="25.3" y="-4.3" z="11" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>SparksOfTorchEmitter</emitter>
+                        <offset x="25.3" y="-4.3" z="11" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>motes</emitter>
+                        <offset x="-9.952" y="0.181" z="15.0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                </particleEmitters>                         
+                <soundEmitters>
+                    <emitter>
+                       <profile>env_bell</profile>
+                        <event>Object_TowerBell_High</event>
+                      <offset x="0" y="0" z="32.2" />
+                      <rot x="0" y="0" z="1" angle="0" />
+                        <radius>40</radius>
+                    </emitter>
+                </soundEmitters>
             </state>
             <state type="Damaged">
                 <shapes>
@@ -29830,7 +29940,7 @@
 			<state type="Incomplete">
                 <shapes>
                     <shape>
-                        <shapeName>yolauncher/modpack/art/models/3d/construction/residence/Sanctum/Sanctum_inc.dts</shapeName>
+                        <shapeName>yolauncher/modpack/mods/LiFx/Church/art/Models/3D/construction/Decorations/church/church_inc.dts</shapeName>
                         <offset x="9.88" y="0" z="0" />
 						<rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -29839,6 +29949,9 @@
             </state>
         </states>
     </object>
+
+    
+
     <object id="2534" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
         <!--name = Wolf (stand)-->
         <lockedCells>
