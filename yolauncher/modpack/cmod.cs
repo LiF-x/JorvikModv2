@@ -7,34 +7,34 @@
 * <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
 */
 
-if (!isObject(JorvikMod))
+if (!isObject(JorvikMod2))
 {
-    new ScriptObject(JorvikMod)
+    new ScriptObject(JorvikMod2)
     {
     };
 }
-package JorvikMod
+package JorvikMod2
 {
-  function JorvikMod::setup() {
-    LiFx::registerCallback($LiFx::hooks::onMaterialsLoad, RegisterMaterials, JorvikMod);
-    LiFx::registerCallback($LiFx::hooks::onInitialized, onInitialized, JorvikMod);
-    LiFx::registerCallback($LiFx::hooks::onDatablockLoad, RegisterDatablock, JorvikMod);
+  function JorvikMod2::setup() {
+    LiFx::registerCallback($LiFx::hooks::onMaterialsLoad, RegisterMaterials, JorvikMod2);
+    LiFx::registerCallback($LiFx::hooks::onInitialized, onInitialized, JorvikMod2);
+    LiFx::registerCallback($LiFx::hooks::onDatablockLoad, RegisterDatablock, JorvikMod2);
   }
-  function JorvikMod::RegisterMaterials() {
+  function JorvikMod2::RegisterMaterials() {
     LiFx::loadRecursivelyInFolder("yolauncher/modpack/", "materials.cs");
   }
-  function JorvikMod::path() {
+  function JorvikMod2::path() {
     %path = $Con::File; 
     echo(%path);
     return %path;
   }
   
-  function JorvikMod::RegisterDatablock() {
+  function JorvikMod2::RegisterDatablock() {
     LiFx::loadRecursivelyInFolder("yolauncher/modpack/art/datablocks", "Transport.cs");
     LiFx::loadRecursivelyInFolder("yolauncher/modpack/art/datablocks", "audioProfiles.cs");
   }
 
-  function JorvikMod::onInitialized() {
+  function JorvikMod2::onInitialized() {
     if(isObject(MainMenuGui))
     {
       MainMenuGui.delete();
@@ -54,5 +54,5 @@ package JorvikMod
   }
   
 };
-activatePackage(JorvikMod);
-LiFx::registerCallback($LiFx::hooks::mods, setup, JorvikMod);
+activatePackage(JorvikMod2);
+LiFx::registerCallback($LiFx::hooks::mods, setup, JorvikMod2);

@@ -232,7 +232,7 @@ package JorvikMod2
   }
   function JorvikMod2::loadDatablocks() {
   //  loadRecursivelyInFolder("yolauncher/modpack/art/datablocks", "audioProfiles.cs");
-  //  loadRecursivelyInFolder("yolauncher/modpack/art/datablocks", "Transport.cs");
+      loadRecursivelyInFolder("yolauncher/modpack/art/datablocks", "Transport.cs");
   }
   function JorvikMod2::ObjectsTypesSmallWoodenShed() {
     return new ScriptObject(ObjectsTypesSmallWoodenShed : ObjectsTypes)
