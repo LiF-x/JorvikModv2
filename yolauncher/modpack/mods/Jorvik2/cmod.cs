@@ -21,7 +21,7 @@ package JorvikMod2
     LiFx::registerCallback($LiFx::hooks::onDatablockLoad, RegisterDatablock, JorvikMod2);
   }
   function JorvikMod2::RegisterMaterials() {
-    LiFx::loadRecursivelyInFolder("yolauncher/modpack/", "materials.cs");
+    LiFx::loadRecursivelyInFolder("yolauncher/modpack/mods/Jorvik2/", "materials.cs");
   }
   function JorvikMod2::path() {
     %path = $Con::File; 
@@ -30,8 +30,8 @@ package JorvikMod2
   }
   
   function JorvikMod2::RegisterDatablock() {
-    LiFx::loadRecursivelyInFolder("yolauncher/modpack/art/datablocks", "Transport.cs");
-    LiFx::loadRecursivelyInFolder("yolauncher/modpack/art/datablocks", "audioProfiles.cs");
+    LiFx::loadRecursivelyInFolder("yolauncher/modpack/mods/Jorvik2/art/datablocks", "Transport.cs");
+    LiFx::loadRecursivelyInFolder("yolauncher/modpack/mods/Jorvik2/art/datablocks", "audioProfiles.cs");
   }
 
   function JorvikMod2::onInitialized() {
@@ -47,9 +47,9 @@ package JorvikMod2
     {
       selectCharacterDlg.delete();
     }
-    LiFx::loadRecursivelyInFolder("yolauncher/modpack/art/gui/forms", "heraldryDialog.gui");
-    LiFx::loadRecursivelyInFolder("yolauncher/modpack/art/gui/forms", "mainMenuGui.gui");
-    LiFx::loadRecursivelyInFolder("yolauncher/modpack/art/gui/forms", "selectCharacter.gui");
+    LiFx::loadRecursivelyInFolder("yolauncher/modpack/mods/Jorvik2/art/gui/forms", "heraldryDialog.gui");
+    LiFx::loadRecursivelyInFolder("yolauncher/modpack/mods/Jorvik2/art/gui/forms", "mainMenuGui.gui");
+    LiFx::loadRecursivelyInFolder("yolauncher/modpack/mods/Jorvik2/art/gui/forms", "selectCharacter.gui");
 
   }
   
