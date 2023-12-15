@@ -1,8 +1,8 @@
 //---------------------------- Wood Cart -----------------------------------
 datablock AttachedShapeData(HarnessedWoodHorseCart)
 {
-        id = 702;
-        objectTypeId = 2519;
+        id = 695;
+        objectTypeId = 3016;
         
         shapeFile = "yolauncher/modpack/mods/Jorvik2/art/models/3d/mobiles/transportation/woodcart/woodhorsecart.dts";
 };

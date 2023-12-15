@@ -2459,7 +2459,7 @@ package JorvikMod2
   function JorvikMod2::ObjectsTypesWoodCart() {
     return new ScriptObject(ObjectsTypesWoodCart : ObjectsTypes)
     {
-      id = 2519; 
+      id = 3016; 
       ObjectName = "Wood Cart"; 
       ParentID = 77; 
       IsContainer = 1;
