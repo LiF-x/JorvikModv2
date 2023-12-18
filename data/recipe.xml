@@ -14610,7 +14610,7 @@
 		<StartingToolsID>36</StartingToolsID>
 		<SkillTypeID>8</SkillTypeID>
 		<SkillLvl>90</SkillLvl>
-		<ResultObjectTypeID>2519</ResultObjectTypeID>
+		<ResultObjectTypeID>3016</ResultObjectTypeID>
 		<SkillDepends>30</SkillDepends>
 		<Quantity>1</Quantity>
 		<Autorepeat>0</Autorepeat>

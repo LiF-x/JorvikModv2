@@ -134,7 +134,6 @@ package JorvikMod2
     LiFx::registerObjectsTypes(JorvikMod2::ObjectsTypesCopperSheet(), JorvikMod2);
     LiFx::registerObjectsTypes(JorvikMod2::ObjectsTypesSilverBlanks(), JorvikMod2);
     LiFx::registerObjectsTypes(JorvikMod2::ObjectsTypesCopperBlanks(), JorvikMod2);  
-    LiFx::registerObjectsTypes(JorvikMod2::ObjectsTypesWoodCartHarnessed(), JorvikMod2);
     //Register Callbacks
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, SmallWoodenShed, JorvikMod2);
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, FlagPvP, JorvikMod2);
@@ -4030,7 +4029,7 @@ package JorvikMod2
     %resultSet.delete();
   }	
 	  function JorvikMod2::WoodCart() {
-    dbi.Select(JorvikMod2, "WoodCartRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Wood Cart', 'Object from Jorvik MOD',        36,               8,          90,        2519,               30,                       1,        0,          0,           'yolauncher/modpack/mods/Jorvik2/art/2D/Recipes/wood_cart.png') RETURNING ID");
+    dbi.Select(JorvikMod2, "WoodCartRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'Wood Cart', 'Object from Jorvik MOD',        36,               8,          90,        3016,               30,                       1,        0,          0,           'yolauncher/modpack/mods/Jorvik2/art/2D/Recipes/wood_cart.png') RETURNING ID");
   }
   function JorvikMod2::WoodCartRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
@@ -4456,38 +4455,6 @@ package JorvikMod2
     dbi.remove(%resultSet);
     %resultSet.delete();
   }  
-  function JorvikMod2::ObjectsTypesWoodCartHarnessed() {
-    return new ScriptObject(ObjectsTypesWoodCartHarnessed : ObjectsTypes)
-    {
-      id = 2570; 
-      ObjectName = "Wood Cart (harnessed)"; 
-      ParentID = 77; 
-      IsContainer = 1;
-      IsMovableObject = 1; 
-      IsUnmovableobject = 0; 
-      IsTool = 0; 
-      IsDevice = 0; 
-      IsDoor = 0; 
-      IsPremium = 0; 
-      MaxContSize = 3000000;
-      Length = 7;  
-      MaxStackSize = 0; 
-      UnitWeight = 10000; 
-      BackgrndImage = "art/images/universal"; 
-      WorkAreaTop = 0;
-      WorkAreaLeft = 0;
-      WorkAreaWidth = 0;
-      WorkAreaHeight = 0;
-      BtnCloseTop = 0;
-      BtnCloseLeft = 0;
-      FaceImage = "yolauncher/modpack/mods/Jorvik2/art/2D/Objects/wood_cart.png";
-      Description = "Object from Jorvik MOD"; 
-      BasePrice = 100; 
-      OwnerTimeout = 30; 
-      AllowExportFromRed = 0; // Not in use
-      AllowExportFromGreen = 0; // Not in use
-   };
-  }
 
   function serverCmdRequestRules(%client)
   {
