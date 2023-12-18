@@ -2,11 +2,12 @@
 
 datablock AttachedShapeData(HarnessedHorseCart)
 {
-	id = 1461;
+	id = 702;
 	objectTypeId = 3016;
 	
 	shapeFile = "yolauncher/modpack/mods/Jorvik2/art/models/3d/mobiles/transportation/woodcart/woodhorsecart.dts";
 };
+
 //---------------------------- Siege Tower-----------------------------------
 datablock AttachedShapeData(HarnessedSiegeTower)
 {
