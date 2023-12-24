@@ -1,6 +1,20 @@
-//---------------------------- Wood Cart -----------------------------------
+datablock ShapeBaseImageData( MountedCart) {
+	id = 691;
+	Object_typeID = 168;
+	mountPoint = 2;
+	shapefile = "art/models/3d/mobiles/transportation/cart/cart.dts";
+	wheelRadius = 1.0;
 
-datablock AttachedShapeData(HarnessedHorseCart)
+	stateName[0] = "Lift";
+
+	stateName[1] = "Transport";
+	stateSound[1] = WagonSound;
+};
+
+//---------------------------- Wood Cart -----------------------------------
+$Cart::wheelsAnimScale = 0.33;
+
+datablock AttachedShapeData(HarnessedWoodHorseCart)
 {
 	id = 702;
 	objectTypeId = 3016;
