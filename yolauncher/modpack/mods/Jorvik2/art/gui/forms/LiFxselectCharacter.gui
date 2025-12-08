@@ -394,7 +394,7 @@ singleton GuiControlProfile( EmptynessProfile : GuiBaseTextProfile) {
 			useMouseEvents = "0";
 			visible = "1";
 			active = "1";
-			command = "displayRules();";
+			command = "displayRules(true);";
 			isContainer = "0";
 			canSave = "1";
 			canSaveDynamicFields = "0";
