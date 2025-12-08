@@ -60,6 +60,7 @@ package JorvikMod2
         LiFx::loadRecursivelyInFolder("yolauncher/modpack/mods/Jorvik2/art/gui/forms", "LiFxheraldryDialog.gui");
         LiFx::loadRecursivelyInFolder("yolauncher/modpack/mods/Jorvik2/art/gui/forms", "LiFxmainMenuGui.gui");
         LiFx::loadRecursivelyInFolder("yolauncher/modpack/mods/Jorvik2/art/gui/forms", "LiFxselectCharacter.gui");
+        LiFx::loadRecursivelyInFolder("yolauncher/modpack/mods/Jorvik2/art/gui/forms", "LiFxloadingGui.gui");
     }
 
     // ---------------------------------------------------------------------
