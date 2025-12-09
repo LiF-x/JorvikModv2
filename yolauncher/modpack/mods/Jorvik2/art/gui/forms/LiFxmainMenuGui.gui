@@ -128,7 +128,7 @@
 			imageIndex = "H44Btn";
 			horizSizing = "center";
 			vertSizing = "bottom";
-			position = "102 80";	//position set in function toggleEscMenu
+			position = "102 40";	//position set in function toggle
 			extent = %escMenuButtonExtent;
 			profile = "EscMenuButtonProfile";
 			groupNum = "-1";
