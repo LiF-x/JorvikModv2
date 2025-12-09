@@ -1,0 +1,29 @@
+new GuiWindowCtrl(ServerRulesWindow)
+{
+    profile = "GuiWindowProfile";
+    text = "Server Rules";
+    resizeWidth = false;
+    resizeHeight = false;
+    canClose = true;
+    canMinimize = false;
+    canMaximize = false;
+    
+    // Position & size (x, y, w, h)
+    position = "200 150";
+    extent = "400 300";
+
+    new GuiScrollCtrl()
+    {
+        profile = "GuiScrollProfile";
+        position = "10 30";
+        extent = "380 260";
+
+        new GuiMLTextCtrl(ServerRulesText)
+        {
+            profile = "GuiMLTextProfile";
+            position = "0 0";
+            extent = "360 250";
+            text = "";
+        };
+    };
+};
