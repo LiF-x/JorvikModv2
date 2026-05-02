@@ -35,19 +35,20 @@
     "dataPatches": [
       {
         "target": "data/cm_equipTypes.xml",
-        "patch": "patches/cm_equipTypes.patch"
+        "transform": "transforms/cm_equipTypes.xdt.xml"
       },
       {
         "target": "data/cm_messages.xml",
-        "patch": "patches/cm_messages.patch"
+        "transform": "transforms/cm_messages.xdt.xml"
       },
       {
         "target": "data/cm_objects.xml",
-        "patch": "patches/cm_objects.patch"
+        "transform": "transforms/cm_objects.xdt.xml"
       },
       {
         "target": "data/skill_types.xml",
-        "patch": "patches/skill_types.patch"
+        "transform": "transforms/skill_types.xdt.xml",
+        "mergeOps": "transforms/skill_types.merge.json"
       }
     ]
   }

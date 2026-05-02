@@ -1,0 +1,96 @@
+[
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "7"
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "name",
+        "keyValue": "Repair"
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "entity",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "not_object_type_id"
+      }
+    ],
+    "tokensToAdd": "3016"
+  },
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "63"
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "name",
+        "keyValue": "Get On"
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "entity",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "attached_obj"
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "object_type_id"
+      }
+    ],
+    "tokensToAdd": "3016 2520"
+  }
+]
