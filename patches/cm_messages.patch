@@ -1,0 +1,17 @@
+diff --git a/data/cm_messages.xml b/data/cm_messages.xml
+index fc6ba5e..8624eda 100755
+--- a/data/cm_messages.xml
++++ b/data/cm_messages.xml
+@@ -5200,4 +5200,11 @@
+ <string id="5198"></string>
+ <string id="5199"></string>
+ <string id="5200"></string>
++<string id="5201">Allfather</string>
++<string id="5202">Deer Head</string>
++<string id="5203">Cross</string>
++<string id="5204">Oak Tree</string>
++<string id="5205">Rose</string>
++<string id="5206">Lys</string>
++<string id="5207">Server Rules</string>
+ </strings>
+

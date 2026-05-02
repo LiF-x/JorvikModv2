@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "JorvikModv2",
+  "name": "JorvikModv2",
+  "version": "0.1.0",
+  "description": "JorvikMod v2 (LiFx Framework \u002B yolauncher compatible). Creator: Odin one Eye; modified by Mjoed.",
+  "authors": [
+    "Odin one Eye",
+    "Mjoed"
+  ],
+  "loadOrderHint": 100,
+  "files": {
+    "overlay": [
+      {
+        "src": "mods/",
+        "dest": "mods/"
+      },
+      {
+        "src": "data/objects_types.xml",
+        "dest": "data/objects_types.xml"
+      },
+      {
+        "src": "data/recipe.xml",
+        "dest": "data/recipe.xml"
+      },
+      {
+        "src": "data/recipe_requirement.xml",
+        "dest": "data/recipe_requirement.xml"
+      },
+      {
+        "src": "yolauncher/modpack/mods/Jorvik2/",
+        "dest": "yolauncher/modpack/mods/Jorvik2/"
+      }
+    ],
+    "dataPatches": [
+      {
+        "target": "data/cm_equipTypes.xml",
+        "patch": "patches/cm_equipTypes.patch"
+      },
+      {
+        "target": "data/cm_messages.xml",
+        "patch": "patches/cm_messages.patch"
+      },
+      {
+        "target": "data/cm_objects.xml",
+        "patch": "patches/cm_objects.patch"
+      },
+      {
+        "target": "data/skill_types.xml",
+        "patch": "patches/skill_types.patch"
+      }
+    ]
+  }
+}

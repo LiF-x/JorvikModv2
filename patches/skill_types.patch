@@ -1,0 +1,246 @@
+diff --git a/data/skill_types.xml b/data/skill_types.xml
+index a0a83e5..d64e1be 100755
+--- a/data/skill_types.xml
++++ b/data/skill_types.xml
+@@ -287,30 +287,7 @@
+ 				<requirements/>
+ 				<results/>
+ 			</ability>
+-			<ability lvl="0" name="a Camp" type="Create" id="23">
+-				<duration const="10 20"/>
+-				<ability_skill_mult>600</ability_skill_mult>
+-				<entities>
+-					<entity type="cell">
+-						<ent_reqs>
+-							<ent_req type="claim" usage_type="build"/>
+-						</ent_reqs>
+-					</entity>
+-					<entity type="complex_obj">
+-						<ent_reqs>
+-							<ent_req type="state">incomplete</ent_req>
+-							<ent_req type="object_type_id">523 682 1152</ent_req>
+-							<ent_req type="claim" usage_type="build"/>
+-						</ent_reqs>
+-					</entity>
+-				</entities>
+-				<requirements/>
+-				<results>
+-					<animation>perform</animation>
+-					<sound>player_perform</sound>
+-					<sstam_spent>20</sstam_spent>
+-				</results>
+-			</ability>
++			
+ 			<ability lvl="0" name="Create a Primitive Tool" id="24">
+ 				<duration const="10 20"/>
+ 				<ability_skill_mult>500</ability_skill_mult>
+@@ -1186,7 +1163,7 @@
+ 				<entities>
+ 					<entity type="complex_obj">
+ 						<ent_reqs>
+-							<ent_req type="not_object_type_id">60 74 76 622 624 625 682 1125 1397 1153 1154 1155 1448 1449 1457</ent_req>
++							<ent_req type="not_object_type_id">60 74 76 622 624 625 682 1125 1397 1153 1154 1155 1448 1449 1457 3016</ent_req>
+ 							<ent_req type="claim" usage_type="use">
+ 								<land type="realm" jh_allowed_worlds="everywhere"/>
+ 								<land type="outpost" jh_allowed_worlds="everywhere"/>
+@@ -2186,7 +2163,7 @@
+ 		<GMMessageID>497</GMMessageID>
+ 		<skill_mult>1</skill_mult>
+ 		<abilities>
+-			<ability lvl="0" name="Metal Tools" type="Forge" id="105">
++			<ability lvl="0" name="Metal Tools and Coins" type="Forge" id="105">
+ 				<duration const="15 10"/>
+ 				<chance>0.001</chance>
+ 				<ability_skill_mult>320</ability_skill_mult>
+@@ -2204,7 +2181,7 @@
+ 					</entity>
+ 				</entities>
+ 				<requirements>
+-					<req type="tool_id" parent="1">43 1647</req>
++					<req type="tool_id" parent="1">43 1647 2536 2537</req>
+ 				</requirements>
+ 				<results>
+ 					<animation>Smithing</animation>
+@@ -3464,6 +3441,30 @@
+ 					<sstam_spent>50</sstam_spent>
+ 				</results>
+ 			</ability>
++			<ability lvl="90" name="NPC's" type="Create" id="23">
++				<duration const="10 20"/>
++				<ability_skill_mult>600</ability_skill_mult>
++				<entities>
++					<entity type="cell">
++						<ent_reqs>
++							<ent_req type="claim" usage_type="build"/>
++						</ent_reqs>
++					</entity>
++					<entity type="complex_obj">
++						<ent_reqs>
++							<ent_req type="state">incomplete</ent_req>
++							<ent_req type="object_type_id">2504 2505 2506 2508 2509 2510 2511 2512 2513 2514 2515 2521 2522 2523 2534</ent_req>
++							<ent_req type="claim" usage_type="build"/>
++						</ent_reqs>
++					</entity>
++				</entities>
++				<requirements/>
++				<results>
++					<animation>pray</animation>
++					<sound>player_perform</sound>
++					<sstam_spent>50</sstam_spent>
++				</results>
++			</ability>
+ 			<ability lvl="30" name="Wounds" type="Treat" id="56">
+ 				<duration const="">5</duration>
+ 				<ability_skill_mult>300</ability_skill_mult>
+@@ -5713,7 +5714,7 @@
+ 						<ent_reqs>
+ 							<ent_req type="complex_object_type">movable</ent_req>
+ 							<ent_req type="state">complete damaged</ent_req>
+-							<ent_req type="not_object_type_id">77 1070 1071 1079 1080 1083 1090 1448 1449 1457 2003</ent_req>
++							<ent_req type="not_object_type_id">77 1070 1071 1079 1080 1083 1090 1448 1449 1457 2003 2403 2561 2562 2563 2564 2565 2566 2567 2568 2473 2474 2475 2475 2476 2477 2478 2482 2483 2484 2544 2545 2546 2547 2548 2550 2551 2493 2494 2495 2496 2497 2498 2499 2518 2520</ent_req>
+ 							<ent_req type="claim" usage_type="use">
+ 								<land type="realm" jh_allowed_worlds="everywhere"/>
+ 								<land type="outpost" jh_allowed_worlds="everywhere"/>
+@@ -5877,7 +5878,7 @@
+ 					</entity>
+ 					<entity type="attached_obj">
+ 						<ent_reqs>
+-							<ent_req type="object_type_id">1437 1496</ent_req>
++							<ent_req type="object_type_id">1437 1496 3016</ent_req>
+ 							<ent_req type="claim" usage_type="use">
+ 								<land type="realm" jh_allowed_worlds="everywhere"/>
+ 								<land type="outpost" jh_allowed_worlds="everywhere"/>
+@@ -6004,7 +6005,7 @@
+ 					<sound>player_equip</sound>
+ 				</results>
+ 			</ability>
+-			<ability lvl="0" name="Open/Close Door" type="Special" id="144">
++			<ability lvl="0" name="Open/Close" type="Special" id="144">
+ 				<duration const="">0</duration>
+ 				<ability_skill_mult>0</ability_skill_mult>
+ 				<enable_movement>1</enable_movement>
+@@ -6012,7 +6013,7 @@
+ 					<entity type="complex_obj">
+ 						<ent_reqs>
+ 							<ent_req type="state">complete working</ent_req>
+-							<ent_req type="object_type_id">127 128 131 132 134 139 140 146 147 148 186 187 188 189 455 516 518 519 520 521 1055 1085 1086 1087 1088 1089 1109 1077 1665</ent_req>
++							<ent_req type="object_type_id">127 128 131 132 134 139 140 146 147 148 186 187 188 189 455 516 518 519 520 521 1055 1085 1086 1087 1088 1089 1109 1077 1665 2543 2554 2565 2567 2544 2546 2520 2527 2529 2485</ent_req>
+ 							<ent_req type="claim" usage_type="use">
+ 								<land type="realm" jh_allowed_worlds="everywhere"/>
+ 								<land type="outpost" jh_allowed_worlds="everywhere"/>
+@@ -6032,7 +6033,7 @@
+ 				<entities>
+ 					<entity type="complex_obj">
+ 						<ent_reqs>
+-							<ent_req type="object_type_id">139 140 142 145 146 1055 147 518 519 521 148 1084 1085 1086 1087 1088 1089 1355</ent_req>
++							<ent_req type="object_type_id">84 85 139 140 142 145 146 1055 147 518 519 521 148 1084 1085 1086 1087 1088 1089 1355 2543</ent_req>
+ 							<ent_req type="claim" usage_type="use"/>
+ 						</ent_reqs>
+ 					</entity>
+@@ -6493,7 +6494,7 @@
+ 				<entities>
+ 					<entity type="complex_obj">
+ 						<ent_reqs>
+-							<ent_req type="object_type_id">86 165 166 1336 1629 1630 1631 1632 1633 1657 1658 1659 1660 1661</ent_req>
++							<ent_req type="object_type_id">86 165 166 1336 1629 1630 1631 1632 1633 1657 1658 1659 1660 1661 2500 2502</ent_req>
+ 							<ent_req type="claim" usage_type="use"/>
+ 						</ent_reqs>
+ 					</entity>
+@@ -6601,7 +6602,7 @@
+ 				<entities>
+ 					<entity type="complex_obj">
+ 						<ent_reqs>
+-							<ent_req type="object_type_id">1461 1497</ent_req>
++							<ent_req type="object_type_id">1461 1497 3016 2520</ent_req>
+ 							<ent_req type="state">complete damaged</ent_req>
+ 							<ent_req type="claim" usage_type="use">
+ 								<land type="realm" jh_allowed_worlds="everywhere"/>
+@@ -6624,7 +6625,7 @@
+ 				<entities>
+ 					<entity type="attached_obj">
+ 						<ent_reqs>
+-							<ent_req type="object_type_id">1437 1496</ent_req>
++							<ent_req type="object_type_id">1437 1496 3016 2520</ent_req>
+ 							<ent_req type="claim" usage_type="use">
+ 								<land type="realm" jh_allowed_worlds="everywhere"/>
+ 								<land type="outpost" jh_allowed_worlds="everywhere"/>
+@@ -6710,7 +6711,7 @@
+ 				<entities>
+ 					<entity type="attached_obj">
+ 						<ent_reqs>
+-							<ent_req type="object_type_id">1437 1496</ent_req>
++							<ent_req type="object_type_id">1437 1496 3016 2520</ent_req>
+ 							<ent_req type="claim" usage_type="use">
+ 								<land type="realm" jh_allowed_worlds="everywhere"/>
+ 								<land type="outpost" jh_allowed_worlds="everywhere"/>
+@@ -6720,7 +6721,7 @@
+ 					</entity>
+ 					<entity type="complex_obj">
+ 						<ent_reqs>
+-							<ent_req type="object_type_id">1461 1497</ent_req>
++							<ent_req type="object_type_id">1461 1497 3016 2520</ent_req>
+ 							<ent_req type="state">complete damaged</ent_req>
+ 							<ent_req type="claim" usage_type="use">
+ 								<land type="realm" jh_allowed_worlds="everywhere"/>
+@@ -6739,7 +6740,7 @@
+ 				<entities>
+ 					<entity type="attached_obj">
+ 						<ent_reqs>
+-							<ent_req type="object_type_id">1437 1496</ent_req>
++							<ent_req type="object_type_id">1437 1496 3016</ent_req>
+ 							<ent_req type="claim" usage_type="use">
+ 								<land type="realm" jh_allowed_worlds="everywhere"/>
+ 								<land type="outpost" jh_allowed_worlds="everywhere"/>
+@@ -6749,7 +6750,7 @@
+ 					</entity>
+ 					<entity type="complex_obj">
+ 						<ent_reqs>
+-							<ent_req type="object_type_id">1461 1497</ent_req>
++							<ent_req type="object_type_id">1461 1497 3016</ent_req>
+ 							<ent_req type="state">complete damaged</ent_req>
+ 							<ent_req type="claim" usage_type="use">
+ 								<land type="realm" jh_allowed_worlds="everywhere"/>
+@@ -6882,7 +6883,7 @@
+ 					</entity>
+ 				</entities>
+ 				<requirements>
+-					<req type="tool_id" parent="0">42 43 1464</req>
++					<req type="tool_id" parent="0">42 43 1464 2536 2537</req>
+ 				</requirements>
+ 				<results>
+ 					<animation>Smithing</animation>
+@@ -7094,7 +7095,7 @@
+ 					<entity type="complex_obj">
+ 						<ent_reqs>
+ 							<ent_req type="state">complete</ent_req>
+-							<ent_req type="object_type_id">1670 1671 1733</ent_req>
++							<ent_req type="object_type_id">1670 1671 1733 2529 2485</ent_req>
+ 							<ent_req type="claim" usage_type="use"/>
+ 						</ent_reqs>
+ 					</entity>
+@@ -7256,7 +7257,7 @@
+ 					</entity>
+ 					<entity type="attached_obj">
+ 						<ent_reqs>
+-							<ent_req type="object_type_id">1437 1496</ent_req>
++							<ent_req type="object_type_id">1437 1496 3016 2520</ent_req>
+ 							<ent_req type="claim" usage_type="use">
+ 								<land type="realm" jh_allowed_worlds="everywhere"/>
+ 								<land type="outpost" jh_allowed_worlds="everywhere"/>
+@@ -7659,7 +7660,7 @@
+ 				<entities>
+ 					<entity type="complex_obj">
+ 						<ent_reqs>
+-							<ent_req type="object_type_id" parent="1">74 96 107 109 111 114 115 116 117 118 122 123 131 132 133 134 135 136 137 138 139 140 141 143 144 145 146 147 148 174 175 176 177 453 455 472 503 504 507 508 509 512 513 514 515 516 517 518 519 520 521 682 1055 1077 1084 1085 1086 1087 1088 1089 1092 1093 1097 1098 1109 1110 1121 1342 1343 1353 1357 1359 1394 1410 1411 1412 1413 1499 53 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 97 98 99 100 101 103 104 105 106 109 115 116 118 119 120 121 123 167 168 169 472 522 523 1152 1323 1333 1334 1394 1405 1406 1407 1445 1446 1461 1497 1657 1658 1659 1660 1661 1701 1723 1724 1725 1726 1727 1728 1729 1730 1731 1732</ent_req>
++							<ent_req type="object_type_id" parent="1">74 96 107 109 111 114 115 116 117 118 122 123 131 132 133 134 135 136 137 138 139 140 141 143 144 145 146 147 148 174 175 176 177 453 455 472 503 504 507 508 509 512 513 514 515 516 517 518 519 520 521 682 1055 1077 1084 1085 1086 1087 1088 1089 1092 1093 1097 1098 1109 1110 1121 1342 1343 1353 1357 1359 1394 1410 1411 1412 1413 1499 53 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 97 98 99 100 101 103 104 105 106 109 115 116 118 119 120 121 123 167 168 169 472 522 523 1152 1323 1333 1334 1394 1405 1406 1407 1445 1446 1461 1497 1657 1658 1659 1660 1661 1701 1723 1724 1725 1726 1727 1728 1729 1730 1731 1732 3016</ent_req>
+ 							<ent_req type="claim" usage_type="destroy"/>
+ 						</ent_reqs>
+ 					</entity>
+@@ -7839,4 +7840,4 @@
+ 			</ability>
+ 		</abilities>
+ 	</row>
+-</table>
++</table>
+\ No newline at end of file
+
