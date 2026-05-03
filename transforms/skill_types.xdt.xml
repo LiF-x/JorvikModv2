@@ -1,0 +1,2508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform" xmlns="https://lifeisfeudal.com/schemas/skill_types.xsd">
+  <row xdt:Locator="Condition(*[local-name()='ID']='1')" xdt:Transform="Replace">
+		<ID>1</ID>
+		<Name>Artisan</Name>
+		<Parent>0</Parent>
+		<Group>1</Group>
+		<PrimaryStat>Int</PrimaryStat>
+		<SecondaryStat>Str</SecondaryStat>
+		<Icon>art\2D\skills\Artisan.png</Icon>
+		<UnknownIcon>art\2D\skills\Artisan_u.png</UnknownIcon>
+		<Passive>100</Passive>
+		<DescLvl0>101</DescLvl0>
+		<DescLvl30>102</DescLvl30>
+		<DescLvl60>103</DescLvl60>
+		<DescLvl90>104</DescLvl90>
+		<DescLvl100>105</DescLvl100>
+		<MasterMessageID>594</MasterMessageID>
+		<GMMessageID>595</GMMessageID>
+		<skill_mult>1</skill_mult>
+		<abilities>
+			<ability lvl="0" name="to Lower Ground Level" id="7" type="Use Shovel" priority="10.1">
+				<duration const="6 50" />
+				<ability_skill_mult>100</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="substance">1 6 7 8 9 10 11 13 15 17 18 20 22 24 2 19 25 26 27 101 102 103 104 105 106 111 112 113 114 115 116 121 122 123 124 125 126 131 132 133 134 135 136 141 142 143 144 145 146 151 152 153 154 155 156 161 162 163 164 165 166 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189</ent_req>
+							<ent_req type="claim" usage_type="build">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">31</req>
+				</requirements>
+				<results>
+					<animation>digging</animation>
+					<sound>player_dig</sound>
+					<sstam_spent>50</sstam_spent>
+				</results>
+				<autorepeat>possible</autorepeat>
+			</ability>
+			<ability lvl="0" name="Pour on the Ground" id="8">
+				<duration const="">4</duration>
+				<ability_skill_mult>20</ability_skill_mult>
+				<entities>
+					<entity type="inventory_item">
+						<ent_reqs>
+							<ent_req type="object_type_id">334 332 333 241 243 242 665 330 328 331 329 245 244 246 1551 1552 1553 1554 1555 1556 1557 1558</ent_req>
+							<ent_req type="claim" usage_type="build">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>perform</animation>
+					<sound>player_dig</sound>
+					<sstam_spent>10</sstam_spent>
+				</results>
+				<autorepeat>possible</autorepeat>
+			</ability>
+			<ability lvl="30" name="to Flat Ground" id="9" type="Use Shovel" priority="11.3">
+				<duration const="6 25" />
+				<ability_skill_mult>200</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="substance">1 6 7 8 9 10 11 13 15 17 18 20 22 24 2 19 25 26 27 101 102 103 104 105 106 111 112 113 114 115 116 121 122 123 124 125 126 131 132 133 134 135 136 141 142 143 144 145 146 151 152 153 154 155 156 161 162 163 164 165 166 171 172 173 174 175 176 177 178 179 180 181</ent_req>
+							<ent_req type="flatten">0</ent_req>
+							<ent_req type="claim" usage_type="build">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">31</req>
+				</requirements>
+				<results>
+					<animation>digging</animation>
+					<sound>player_dig</sound>
+					<sstam_spent>20</sstam_spent>
+				</results>
+				<autorepeat>possible</autorepeat>
+			</ability>
+			<ability lvl="30" name="to Flat Upward Slope" type="Use Shovel" id="10" priority="11.2">
+				<duration const="6 50" />
+				<ability_skill_mult>300</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="substance">1 6 7 8 9 10 11 13 15 17 18 20 22 24 2 19 25 26 27 101 102 103 104 105 106 111 112 113 114 115 116 121 122 123 124 125 126 131 132 133 134 135 136 141 142 143 144 145 146 151 152 153 154 155 156 161 162 163 164 165 166 171 172 173 174 175 176 177 178 179 180 181</ent_req>
+							<ent_req type="flatten">0</ent_req>
+							<ent_req type="claim" usage_type="build">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">31</req>
+				</requirements>
+				<results>
+					<animation>digging</animation>
+					<sound>player_dig</sound>
+					<sstam_spent>20</sstam_spent>
+				</results>
+				<autorepeat>possible</autorepeat>
+			</ability>
+			<ability lvl="30" name="to Flat Downward Slope" type="Use Shovel" id="11" priority="11.1">
+				<duration const="6 50" />
+				<ability_skill_mult>300</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="substance">1 6 7 8 9 10 11 13 15 17 18 20 22 24 2 19 25 26 27 101 102 103 104 105 106 111 112 113 114 115 116 121 122 123 124 125 126 131 132 133 134 135 136 141 142 143 144 145 146 151 152 153 154 155 156 161 162 163 164 165 166 171 172 173 174 175 176 177 178 179 180 181</ent_req>
+							<ent_req type="flatten">0</ent_req>
+							<ent_req type="claim" usage_type="build">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">31</req>
+				</requirements>
+				<results>
+					<animation>digging</animation>
+					<sound>player_dig</sound>
+					<sstam_spent>20</sstam_spent>
+				</results>
+				<autorepeat>possible</autorepeat>
+			</ability>
+			<ability lvl="0" name="a Bark" id="33" type="Gather" priority="9.2">
+				<duration const="">5</duration>
+				<chance>0.01</chance>
+				<ability_skill_mult>100</ability_skill_mult>
+				<entities>
+					<entity type="tree">
+						<ent_reqs>
+							<ent_req type="tree_type" age="medium major" stub="0">apple birch elm spruce pine maple mulberry oak aspen hazel juniper spinny</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>perform</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>20</sstam_spent>
+				</results>
+				<autorepeat>possible</autorepeat>
+			</ability>
+			<ability lvl="0" name="Cut Down" id="34" type="Special" priority="9.1">
+				<duration const="10 20" />
+				<chance>0.04</chance>
+				<ability_skill_mult>600</ability_skill_mult>
+				<entities>
+					<entity type="tree">
+						<ent_reqs>
+							<ent_req type="tree_type" stub="0">apple spruce pine mulberry aspen juniper spinny</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">34</req>
+				</requirements>
+				<results>
+					<animation>tree_cut</animation>
+					<sound>player_treecut</sound>
+					<sstam_spent>50</sstam_spent>
+				</results>
+				<autorepeat>possible</autorepeat>
+			</ability>
+			<ability lvl="30" name="Uproot" type="Special" id="35">
+				<duration const="20 10" />
+				<chance>0.06</chance>
+				<ability_skill_mult>960</ability_skill_mult>
+				<entities>
+					<entity type="tree">
+						<ent_reqs>
+							<ent_req type="tree_type" stub="1">apple birch elm spruce pine maple mulberry oak aspen hazel juniper spinny</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">31</req>
+				</requirements>
+				<results>
+					<animation>digging</animation>
+					<sound>player_dig</sound>
+					<sstam_spent>100</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Cut Down" id="36" type="Special" priority="9.1">
+				<duration const="15 20" />
+				<chance>0.04</chance>
+				<ability_skill_mult>880</ability_skill_mult>
+				<entities>
+					<entity type="tree">
+						<ent_reqs>
+							<ent_req type="tree_type" stub="0">birch elm maple oak hazel</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">34</req>
+				</requirements>
+				<results>
+					<animation>tree_cut</animation>
+					<sound>player_treecut</sound>
+					<sstam_spent>50</sstam_spent>
+				</results>
+				<autorepeat>possible</autorepeat>
+			</ability>
+			<ability lvl="0" name="Add Some Fuel" type="Special" id="112">
+				<duration const="">1</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">111 114 141 682</ent_req>
+							<ent_req type="state">complete working damaged</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results />
+			</ability>
+			
+			<ability lvl="0" name="Create a Primitive Tool" id="24">
+				<duration const="10 20" />
+				<ability_skill_mult>500</ability_skill_mult>
+				<entities>
+					<entity type="inventory_item">
+						<ent_reqs>
+							<ent_req type="object_type_id">237</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>perform</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>10</sstam_spent>
+				</results>
+				<autorepeat>possible</autorepeat>
+			</ability>
+			<ability lvl="0" name="to Raise Ground Level" type="Use Shovel" id="70" priority="10.2">
+				<duration const="">4</duration>
+				<ability_skill_mult>200</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="substance">1 6 7 8 9 10 11 13 15 17 18 20 22 24 2 19 25 26 27 101 102 103 104 105 106 111 112 113 114 115 116 121 122 123 124 125 126 131 132 133 134 135 136 141 142 143 144 145 146 151 152 153 154 155 156 161 162 163 164 165 166 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189</ent_req>
+							<ent_req type="claim" usage_type="build">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">31</req>
+				</requirements>
+				<results>
+					<animation>digging</animation>
+					<sound>player_dig</sound>
+					<sstam_spent>10</sstam_spent>
+				</results>
+				<autorepeat>possible</autorepeat>
+			</ability>
+		</abilities>
+	</row>
+  <row xdt:Locator="Condition(*[local-name()='ID']='4')" xdt:Transform="Replace">
+		<ID>4</ID>
+		<Name>Forging</Name>
+		<Parent>3</Parent>
+		<Group>1</Group>
+		<PrimaryStat>Str</PrimaryStat>
+		<SecondaryStat>Con</SecondaryStat>
+		<Icon>art\2D\skills\Forging.png</Icon>
+		<UnknownIcon>art\2D\skills\Forging_u.png</UnknownIcon>
+		<Passive>118</Passive>
+		<DescLvl0>119</DescLvl0>
+		<DescLvl30>120</DescLvl30>
+		<DescLvl60>121</DescLvl60>
+		<DescLvl90>122</DescLvl90>
+		<DescLvl100>123</DescLvl100>
+		<MasterMessageID>496</MasterMessageID>
+		<GMMessageID>497</GMMessageID>
+		<skill_mult>1</skill_mult>
+		<abilities>
+			<ability lvl="0" name="Metal Tools and Coins" type="Forge" id="105">
+				<duration const="15 10" />
+				<chance>0.001</chance>
+				<ability_skill_mult>320</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">136 453</ent_req>
+							<ent_req type="state">working</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">43 1647 2536 2537</req>
+				</requirements>
+				<results>
+					<animation>Smithing</animation>
+					<sound>player_smithing</sound>
+					<sstam_spent>20</sstam_spent>
+				</results>
+				<autorepeat>possible</autorepeat>
+			</ability>
+			<ability lvl="30" name="Weapons" type="Forge" id="106">
+				<duration const="15 10" />
+				<chance>0.001</chance>
+				<ability_skill_mult>320</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">136 453</ent_req>
+							<ent_req type="state">working</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">1647</req>
+				</requirements>
+				<results>
+					<animation>Smithing</animation>
+					<sound>player_smithing</sound>
+					<sstam_spent>25</sstam_spent>
+				</results>
+				<autorepeat>possible</autorepeat>
+			</ability>
+		</abilities>
+	</row>
+  <row xdt:Locator="Condition(*[local-name()='ID']='14')" xdt:Transform="Replace">
+		<ID>14</ID>
+		<Name>Healing</Name>
+		<Parent>12</Parent>
+		<Group>1</Group>
+		<PrimaryStat>Int</PrimaryStat>
+		<SecondaryStat>Str</SecondaryStat>
+		<Icon>art\2D\skills\Healing.png</Icon>
+		<UnknownIcon>art\2D\skills\Healing_u.png</UnknownIcon>
+		<Passive>178</Passive>
+		<DescLvl0>179</DescLvl0>
+		<DescLvl30>180</DescLvl30>
+		<DescLvl60>181</DescLvl60>
+		<DescLvl90>182</DescLvl90>
+		<DescLvl100>183</DescLvl100>
+		<MasterMessageID>516</MasterMessageID>
+		<GMMessageID>517</GMMessageID>
+		<skill_mult>1</skill_mult>
+		<abilities>
+			<ability lvl="0" name="Patient" type="Treat" id="54">
+				<duration const="">5</duration>
+				<ability_skill_mult>300</ability_skill_mult>
+				<entities>
+					<entity type="player">
+						<ent_reqs />
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>perform</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>50</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="to Revive" type="Treat" id="55">
+				<duration const="">5</duration>
+				<ability_skill_mult>150</ability_skill_mult>
+				<entities>
+					<entity type="player">
+						<ent_reqs />
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>Bring_round</animation>
+					<sstam_spent>50</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="90" name="NPC's" type="Create" id="23">
+				<duration const="10 20" />
+				<ability_skill_mult>600</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="claim" usage_type="build" />
+						</ent_reqs>
+					</entity>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="state">incomplete</ent_req>
+							<ent_req type="object_type_id">2504 2505 2506 2508 2509 2510 2511 2512 2513 2514 2515 2521 2522 2523 2534</ent_req>
+							<ent_req type="claim" usage_type="build" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>pray</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>50</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="30" name="Wounds" type="Treat" id="56">
+				<duration const="">5</duration>
+				<ability_skill_mult>300</ability_skill_mult>
+				<entities>
+					<entity type="player">
+						<ent_reqs />
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>perform</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>50</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="60" name="Fractures" type="Treat" id="57">
+				<duration const="">5</duration>
+				<ability_skill_mult>600</ability_skill_mult>
+				<entities>
+					<entity type="player">
+						<ent_reqs />
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id">44 1464</req>
+				</requirements>
+				<results>
+					<animation>perform</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>75</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="90" name="Severe Injuries" type="Treat" id="58">
+				<duration const="">10</duration>
+				<ability_skill_mult>800</ability_skill_mult>
+				<entities>
+					<entity type="player">
+						<ent_reqs />
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">36</req>
+				</requirements>
+				<results>
+					<animation>perform</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>100</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Inspect patient" type="Special" id="267">
+				<duration const="">1</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="player">
+						<ent_reqs />
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<sstam_spent>30</sstam_spent>
+				</results>
+			</ability>
+		</abilities>
+	</row>
+  <row xdt:Locator="Condition(*[local-name()='ID']='61')" xdt:Transform="Replace">
+		<ID>61</ID>
+		<Name>Movement</Name>
+		<Parent>0</Parent>
+		<Group>3</Group>
+		<PrimaryStat>Str</PrimaryStat>
+		<SecondaryStat>Will</SecondaryStat>
+		<Icon>art\2D\skills\Lifting.png</Icon>
+		<UnknownIcon>art\2D\skills\Lifting_u.png</UnknownIcon>
+		<Passive>460</Passive>
+		<DescLvl0>461</DescLvl0>
+		<DescLvl30>462</DescLvl30>
+		<DescLvl60>463</DescLvl60>
+		<DescLvl90>464</DescLvl90>
+		<DescLvl100>465</DescLvl100>
+		<MasterMessageID>610</MasterMessageID>
+		<GMMessageID>611</GMMessageID>
+		<skill_mult>1</skill_mult>
+		<abilities>
+			<ability lvl="0" name="Lift Object" type="Special" id="96">
+				<duration const="">1</duration>
+				<ability_skill_mult>300</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="complex_object_type">movable</ent_req>
+							<ent_req type="state">complete damaged</ent_req>
+							<ent_req type="not_object_type_id">77 1070 1071 1079 1080 1083 1090 1448 1449 1457 2003 2403 2561 2562 2563 2564 2565 2566 2567 2568 2473 2474 2475 2475 2476 2477 2478 2482 2483 2484 2544 2545 2546 2547 2548 2550 2551 2493 2494 2495 2496 2497 2498 2499 2518 2520</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>perform</animation>
+					<sound>player_perform</sound>
+				</results>
+			</ability>
+			<ability lvl="0" name="Drop Object" id="97">
+				<duration const="">1</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="complex_object_type">unmovable</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+					<entity type="tun_side">
+						<ent_reqs>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="world">green</req>
+				</requirements>
+				<results />
+			</ability>
+			<ability lvl="0" name="Drop Object" id="357">
+				<duration const="">1</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs />
+					</entity>
+					<entity type="complex_obj">
+						<ent_reqs />
+					</entity>
+					<entity type="tun_side">
+						<ent_reqs />
+					</entity>
+				</entities>
+				<requirements>
+					<req type="world">red</req>
+				</requirements>
+				<results />
+			</ability>
+			<ability lvl="0" name="Move" type="Special" id="183">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="state">complete damaged</ent_req>
+							<ent_req type="object_type_id">167 168 169</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>Plowing</animation>
+					<sound>player_plow</sound>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+		</abilities>
+	</row>
+  <row xdt:Locator="Condition(*[local-name()='ID']='62')" xdt:Transform="Replace">
+		<ID>62</ID>
+		<Name>General actions</Name>
+		<Parent>0</Parent>
+		<Group>3</Group>
+		<PrimaryStat>Con</PrimaryStat>
+		<SecondaryStat>Str</SecondaryStat>
+		<Icon>art\2D\skills\general_moves.png</Icon>
+		<UnknownIcon>art\2D\skills\general_moves_u.png</UnknownIcon>
+		<Passive>466</Passive>
+		<DescLvl0>467</DescLvl0>
+		<DescLvl30>468</DescLvl30>
+		<DescLvl60>469</DescLvl60>
+		<DescLvl90>470</DescLvl90>
+		<DescLvl100>471</DescLvl100>
+		<MasterMessageID>612</MasterMessageID>
+		<GMMessageID>613</GMMessageID>
+		<skill_mult>1</skill_mult>
+		<abilities>
+			<ability lvl="0" name="Eat" id="43">
+				<duration const="">4</duration>
+				<ability_skill_mult>200</ability_skill_mult>
+				<entities>
+					<entity type="inventory_item">
+						<ent_reqs>
+							<ent_req type="object_type_id" parent="1">227 228 229 230 231 232</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>eat</animation>
+					<sound>player_eat</sound>
+				</results>
+			</ability>
+			<ability lvl="0" name="Look in the Bag" id="95">
+				<duration const="">1</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="inventory_item">
+						<ent_reqs>
+							<ent_req type="object_type_id">458 459 460 461</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+				</requirements>
+				<results />
+			</ability>
+			<ability lvl="0" name="Look in Inventory" type="Special" id="108">
+				<duration const="">1</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="complex_object_type">movable</ent_req>
+							<ent_req type="state">complete working damaged</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+					<entity type="attached_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1437 1496 3016</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+				</requirements>
+				<results />
+			</ability>
+			<ability lvl="0" name="Look in Inventory" type="Special" id="350">
+				<duration const="">1</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="complex_object_type">unmovable</ent_req>
+							<ent_req type="state">damaged</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+				</requirements>
+				<results />
+			</ability>
+			<ability lvl="0" name="Look in Inventory" type="Special" id="351">
+				<duration const="">1</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="complex_object_type">unmovable</ent_req>
+							<ent_req type="state">complete working</ent_req>
+							<ent_req type="claim" usage_type="use" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+				</requirements>
+				<results />
+			</ability>
+			<ability lvl="0" name="Get Water" type="Special" id="109">
+				<duration const="">2</duration>
+				<ability_skill_mult>100</ability_skill_mult>
+				<entities>
+					<entity type="water" />
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">95 96 1712</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>perform</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>10</sstam_spent>
+				</results>
+				<autorepeat>possible</autorepeat>
+			</ability>
+			<ability lvl="0" name="Drop from Inventory" id="110">
+				<duration const="">0.5</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="inventory_item">
+						<ent_reqs>
+							<ent_req type="claim" usage_type="use" jh_allowed="true" />
+							<ent_req type="not_object_type_id">1492</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+				</requirements>
+				<results />
+			</ability>
+			<ability lvl="0" name="Planning" id="111">
+				<duration const="">-1</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<enable_movement>1</enable_movement>
+				<entities>
+					<entity type="cell">
+						<ent_reqs />
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<state>planning</state>
+				</results>
+			</ability>
+			<ability lvl="0" name="Equip" id="126">
+				<duration const="">3</duration>
+				<priority>5</priority>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="inventory_item">
+						<ent_reqs>
+							<ent_req type="object_type_id" parent="1">5</ent_req>
+							<ent_req type="durability">solid corrupted</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="warstance">allowed</req>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>equipping</animation>
+					<sound>player_equip</sound>
+				</results>
+			</ability>
+			<ability lvl="0" name="Open/Close" type="Special" id="144">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<enable_movement>1</enable_movement>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="state">complete working</ent_req>
+							<ent_req type="object_type_id">127 128 131 132 134 139 140 146 147 148 186 187 188 189 455 516 518 519 520 521 1055 1085 1086 1087 1088 1089 1109 1077 1665 2543 2554 2565 2567 2544 2546 2520 2527 2529 2485</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>perform</animation>
+					<sound>player_perform</sound>
+				</results>
+			</ability>
+			<ability lvl="0" name="as Your Home" type="Claim" id="145">
+				<duration const="">1</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">84 85 139 140 142 145 146 1055 147 518 519 521 148 1084 1085 1086 1087 1088 1089 1355 2543</ent_req>
+							<ent_req type="claim" usage_type="use" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+				</requirements>
+				<results>
+					<sound>player_perform</sound>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Bind to Longhouse" type="Special" id="331">
+				<duration const="">3</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1232</ent_req>
+							<ent_req type="state">incomplete complete damaged</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+				</requirements>
+				<results>
+					<animation>pray</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Loot" type="Special" id="152">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1070 1083 924 925 926 927 928 929 930 931 932 933 934 935 936 1090 1460</ent_req>
+						</ent_reqs>
+					</entity>
+					<entity type="player" />
+				</entities>
+				<requirements />
+				<results>
+					<animation>perform</animation>
+					<sound>player_perform</sound>
+				</results>
+			</ability>
+			<ability lvl="0" name="Stuck" id="168">
+				<duration const="">30</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities />
+				<requirements>
+					<req type="warstance">denied</req>
+				</requirements>
+				<results>
+					<animation>perform</animation>
+					<sound>player_perform</sound>
+					<cooldowns>
+						<cooldown group="unstuck">60</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Continue Construction" type="Special" id="174">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="substance">1 6 7 8 9 10 19 178 180 181</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="state">incomplete</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results />
+			</ability>
+			<ability lvl="0" name="Rest" id="182">
+				<duration const="">0</duration>
+				<ability_skill_mult>100</ability_skill_mult>
+				<icon>art\2D\skills\abilities\rest.png</icon>
+				<entities />
+				<requirements />
+				<results>
+					<animation>Rest_down</animation>
+					<cooldowns>
+						<cooldown group="rest">5</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Name the Bag" id="184">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="inventory_item">
+						<ent_reqs>
+							<ent_req type="object_type_id">458 459 460 461</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+				</requirements>
+				<results />
+			</ability>
+			<ability lvl="0" name="Approve" id="189">
+				<duration const="">3</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<icon>art\2D\skills\abilities\approval.png</icon>
+				<entities />
+				<requirements>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>approval</animation>
+					<sound sid="92" />
+					<state>emoting</state>
+					<cooldowns>
+						<cooldown group="emote">3</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Courtesy" id="190">
+				<duration const="">2.5</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<icon>art\2D\skills\abilities\courtesy.png</icon>
+				<entities />
+				<requirements>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>curtsey</animation>
+					<sound />
+					<state>emoting</state>
+					<cooldowns>
+						<cooldown group="emote">2.5</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Dance" id="191">
+				<duration const="">4</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<icon>art\2D\skills\abilities\dance.png</icon>
+				<entities />
+				<requirements>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>dance</animation>
+					<sound />
+					<state>emoting</state>
+					<cooldowns>
+						<cooldown group="emote">4</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Disapproval" id="192">
+				<duration const="">5</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<icon>art\2D\skills\abilities\disapproval.png</icon>
+				<entities />
+				<requirements>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>disapproval</animation>
+					<sound sid="93" />
+					<state>emoting</state>
+					<cooldowns>
+						<cooldown group="emote">5</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Fright" id="193">
+				<duration const="">5</duration><!-- trailer version, proper value=5 -->
+				<!-- trailer version, proper value=5 -->
+				<ability_skill_mult>0</ability_skill_mult>
+				<icon>art\2D\skills\abilities\fright.png</icon>
+				<entities />
+				<requirements>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>fright</animation>
+					<sound sid="94" />
+					<state>emoting</state>
+					<cooldowns>
+						<cooldown group="emote">5</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Laughter" id="194">
+				<duration const="">5</duration><!-- trailer version, proper value=5 -->
+				<!-- trailer version, proper value=5 -->
+				<ability_skill_mult>0</ability_skill_mult>
+				<icon>art\2D\skills\abilities\laughter.png</icon>
+				<entities />
+				<requirements>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>laughter</animation>
+					<sound sid="97" />
+					<state>emoting</state>
+					<cooldowns>
+						<cooldown group="emote">5</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Provocation" id="195">
+				<duration const="">4</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<icon>art\2D\skills\abilities\provocation.png</icon>
+				<entities />
+				<requirements>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>provocation</animation>
+					<sound />
+					<state>emoting</state>
+					<cooldowns>
+						<cooldown group="emote">4</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Honor" id="196">
+				<duration const="">2</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<icon>art\2D\skills\abilities\the_return_of_honor.png</icon>
+				<entities />
+				<requirements>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>the return of honor</animation>
+					<sound sid="96" />
+					<state>emoting</state>
+					<cooldowns>
+						<cooldown group="emote">2</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Welcome" id="197">
+				<duration const="">3.5</duration><!-- trailer version, proper value=3.5 -->
+				<!-- trailer version, proper value=3.5 -->
+				<ability_skill_mult>0</ability_skill_mult>
+				<icon>art\2D\skills\abilities\welcome.png</icon>
+				<entities />
+				<requirements>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>Welcome</animation>
+					<sound sid="98" />
+					<state>emoting</state>
+					<cooldowns>
+						<cooldown group="emote">3.5</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Indication" id="198">
+				<duration const="">3</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<icon>art\2D\skills\abilities\pointing_finger.png</icon>
+				<entities />
+				<requirements>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>indication hand</animation>
+					<sound sid="95" />
+					<state>emoting</state>
+					<cooldowns>
+						<cooldown group="emote">3</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Drink" id="205">
+				<duration const="">1</duration>
+				<enable_movement>1</enable_movement>
+				<ability_skill_mult>200</ability_skill_mult>
+				<entities>
+					<entity type="inventory_item">
+						<ent_reqs>
+							<ent_req type="object_type_id" parent="1">1091 962 1117 1118 1119 1532</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="warstance">allowed</req>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>drink</animation>
+					<sound>drink</sound>
+					<sstam_spent>5</sstam_spent>
+					<state>craftperformmove</state>
+				</results>
+			</ability>
+			<ability lvl="0" name="Eat the Preparation" id="206">
+				<duration const="">1</duration>
+				<enable_movement>1</enable_movement>
+				<ability_skill_mult>200</ability_skill_mult>
+				<entities>
+					<entity type="inventory_item">
+						<ent_reqs>
+							<ent_req type="object_type_id" parent="1">212</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="warstance">allowed</req>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>drink</animation>
+					<sound>eat</sound>
+					<sstam_spent>5</sstam_spent>
+					<state>craftperformmove</state>
+				</results>
+			</ability>
+			<ability lvl="0" name="Inspect" id="208" priority="10.0">
+				<duration const="">2</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="state">incomplete complete damaged working</ent_req>
+							<ent_req type="not_object_type_id">623 1070 1071 1083 1090 1448 1449 1457 1540</ent_req>
+						</ent_reqs>
+					</entity>
+					<entity type="attached_obj" />
+					<entity type="cell" />
+					<entity type="tun_side" />
+					<entity type="tree" />
+					<entity type="player" />
+					<entity type="horse" />
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+				</requirements>
+				<results>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Open/Close the Gate" type="Special" id="212">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<enable_movement>1</enable_movement>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="state">complete working</ent_req>
+							<ent_req type="object_type_id">175 176 177 1092 503 504 509 1098 514 515</ent_req>
+							<ent_req type="claim" usage_type="use" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+				</requirements>
+				<results>
+					<sound>player_perform</sound>
+				</results>
+			</ability>
+			<ability lvl="0" name="Remove the Ruins" type="Special" id="251">
+				<duration const="">4</duration>
+				<ability_skill_mult>200</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1126 1127 1128 1129 1398 1399 1400 1401</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">31</req>
+				</requirements>
+				<results>
+					<animation>digging</animation>
+					<sound>player_dig</sound>
+					<sstam_spent>20</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Repair" id="252">
+				<duration const="">5</duration>
+				<ability_skill_mult>100</ability_skill_mult>
+				<entities>
+					<entity type="inventory_item">
+						<ent_reqs>
+							<ent_req type="object_type_id" parent="1">8 9 10 11 20 224 683</ent_req>
+							<ent_req type="not_object_type_id" parent="1">23</ent_req>
+							<ent_req type="durability">corrupted broken</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>perform</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>50</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="as Rallying Point" type="Claim" id="264">
+				<duration const="">1</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">165 175 1092 176 177 1336</ent_req>
+							<ent_req type="claim" usage_type="use" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+				</requirements>
+				<results>
+					<sound>player_perform</sound>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Light/Put Out the Fire" type="Special" id="268">
+				<duration const="">2</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">86 165 166 1336 1629 1630 1631 1632 1633 1657 1658 1659 1660 1661 2500 2502</ent_req>
+							<ent_req type="claim" usage_type="use" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>perform</animation>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Sit" type="Special" id="275">
+				<duration const="">0</duration>
+				<ability_skill_mult>50</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">78 79 80 83 522 1665</ent_req>
+							<ent_req type="claim" usage_type="use" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results />
+			</ability>
+			<ability lvl="0" name="Lay down" id="276">
+				<duration const="">0</duration>
+				<ability_skill_mult>50</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">84</ent_req>
+							<ent_req type="claim" usage_type="use" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results />
+			</ability>
+			<ability lvl="0" name="Get up" type="Special" id="277">
+				<duration const="">0</duration>
+				<ability_skill_mult>50</ability_skill_mult>
+				<entities>
+					<entity type="cell" />
+					<entity type="complex_obj" />
+					<entity type="tree" />
+					<entity type="player" />
+				</entities>
+				<requirements />
+				<results>
+					<sstam_spent>30</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Learn" id="283">
+				<duration const="">10</duration>
+				<ability_skill_mult>500</ability_skill_mult>
+				<entities>
+					<entity type="inventory_item">
+						<ent_reqs>
+							<ent_req type="object_type_id">1395</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>perform</animation>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Set Fire" type="Special" id="284">
+				<duration const="">3</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1335 1410 1411 1412</ent_req>
+							<ent_req type="state">complete</ent_req>
+							<ent_req type="claim" usage_type="use" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>perform</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>50</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Draw Blueprint" id="285">
+				<duration const="">10</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities />
+				<requirements />
+				<results>
+					<animation>perform</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Harness" type="Special" id="288">
+				<duration const="20 10" />
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1461 1497 3016 2520</ent_req>
+							<ent_req type="state">complete damaged</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>perform</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>30</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Unharness" type="Special" id="289">
+				<duration const="20 10" />
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="attached_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1437 1496 3016 2520</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>perform</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>30</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Follow" id="286">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities />
+				<requirements>
+					<req type="onhorse">allowed</req>
+				</requirements>
+				<results />
+			</ability>
+			<ability lvl="0" name="Unfollow" id="295">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities />
+				<requirements>
+					<req type="onhorse">allowed</req>
+				</requirements>
+				<results />
+			</ability>
+			<ability lvl="0" name="UnharnessDrop" id="296">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs />
+					</entity>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="complex_object_type">unmovable</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+					<entity type="tun_side">
+						<ent_reqs />
+					</entity>
+				</entities>
+				<requirements />
+				<results />
+			</ability>
+			<ability lvl="0" name="Interact" id="297">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities />
+				<!-- entities are defined in quests_subjects.xml -->
+				<requirements />
+				<results />
+			</ability>
+			<ability lvl="0" name="Gloomelindhe" id="299">
+				<duration const="">5</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<icon>art\2D\skills\abilities\suicide.png</icon>
+				<entities />
+				<requirements>
+					<req type="warstance">allowed</req>
+				</requirements>
+				<results>
+					<animation>Honorable_death</animation>
+					<sstam_spent>50</sstam_spent>
+					<cooldowns>
+						<cooldown group="299">10</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Put in Cart" type="Special" id="300">
+				<duration const="">5</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="attached_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1437 1496 3016 2520</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1461 1497 3016 2520</ent_req>
+							<ent_req type="state">complete damaged</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results />
+			</ability>
+			<ability lvl="0" name="Pull from Cart" type="Special" id="301">
+				<duration const="">5</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="attached_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1437 1496 3016</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1461 1497 3016</ent_req>
+							<ent_req type="state">complete damaged</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results />
+			</ability>
+			<ability lvl="0" name="Deconstruct" type="Special" id="181">
+				<duration const="">3</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="state">incomplete</ent_req>
+							<ent_req type="not_object_type_id">152 153 154 155 911 912 913 914 915 916 917 918 919 920 921 922 923 1142 1143 1144 1145 1146 1147 1148 1149 1150</ent_req>
+							<ent_req type="claim" usage_type="destroy">
+								<land type="realm" jh_allowed_worlds="everywhere" />
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+								<land type="town" jh_allowed_worlds="red" />
+							</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>perform</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>100</sstam_spent>
+				</results>
+			</ability>
+			<!-- premium decorations ability -->
+			<ability lvl="0" name="Premium Decorations" type="Build" id="338">
+				<duration const="">5</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="claim" usage_type="build" />
+						</ent_reqs>
+					</entity>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="state">incomplete</ent_req>
+							<ent_req type="claim" usage_type="build" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+				</requirements>
+				<results>
+					<animation>perform</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>50</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Dismantle" id="335">
+				<duration const="">3</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1637</ent_req>
+							<ent_req type="claim" usage_type="destroy" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+				</requirements>
+				<results>
+					<animation>perform</animation>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Clean Coop" type="Special" id="314">
+				<duration const="">5</duration>
+				<ability_skill_mult>20</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1541</ent_req>
+							<ent_req type="state">complete damaged</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>perform</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>10</sstam_spent>
+					<cooldowns>
+						<cooldown group="self">300</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Gather Eggs" type="Special" id="315">
+				<duration const="">5</duration>
+				<ability_skill_mult>10</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1541</ent_req>
+							<ent_req type="state">complete damaged</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>perform</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>10</sstam_spent>
+					<cooldowns>
+						<cooldown group="self">300</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Forge" type="Special" id="316">
+				<duration const="">5</duration>
+				<ability_skill_mult>10</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1543</ent_req>
+							<ent_req type="state">complete damaged</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="0">42 43 1464 2536 2537</req>
+				</requirements>
+				<results>
+					<animation>Smithing</animation>
+					<sound>player_smithing</sound>
+					<sstam_spent>20</sstam_spent>
+				</results>
+				<autorepeat>possible</autorepeat>
+			</ability>
+			<ability lvl="0" name="Gather Cabbage" type="Special" id="317">
+				<duration const="">5</duration>
+				<ability_skill_mult>10</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="substance">182</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">1031</req>
+				</requirements>
+				<results>
+					<animation>mowing</animation>
+					<sound>player_mow</sound>
+					<sstam_spent>10</sstam_spent>
+					<cooldowns>
+						<cooldown group="self">300</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Gather Carrot" type="Special" id="318">
+				<duration const="">5</duration>
+				<ability_skill_mult>10</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="substance">183</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">1031</req>
+				</requirements>
+				<results>
+					<animation>digging</animation>
+					<sound>player_dig</sound>
+					<sstam_spent>40</sstam_spent>
+					<cooldowns>
+						<cooldown group="self">300</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Gather Flax" type="Special" id="319">
+				<duration const="">5</duration>
+				<ability_skill_mult>10</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="substance">184</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">1031</req>
+				</requirements>
+				<results>
+					<animation>mowing</animation>
+					<sound>player_mow</sound>
+					<sstam_spent>10</sstam_spent>
+					<cooldowns>
+						<cooldown group="self">300</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Gather Grape" type="Special" id="320">
+				<duration const="">5</duration>
+				<ability_skill_mult>10</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="substance">185</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">1031</req>
+				</requirements>
+				<results>
+					<animation>mowing</animation>
+					<sound>player_mow</sound>
+					<sstam_spent>10</sstam_spent>
+					<cooldowns>
+						<cooldown group="self">300</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Gather Onion" type="Special" id="321">
+				<duration const="">5</duration>
+				<ability_skill_mult>10</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="substance">186</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">1031</req>
+				</requirements>
+				<results>
+					<animation>digging</animation>
+					<sound>player_dig</sound>
+					<sstam_spent>40</sstam_spent>
+					<cooldowns>
+						<cooldown group="self">300</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Gather Potato" type="Special" id="322">
+				<duration const="">5</duration>
+				<ability_skill_mult>10</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="substance">187</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">1031</req>
+				</requirements>
+				<results>
+					<animation>digging</animation>
+					<sound>player_dig</sound>
+					<sstam_spent>40</sstam_spent>
+					<cooldowns>
+						<cooldown group="self">300</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Gather Peas" type="Special" id="323">
+				<duration const="">5</duration>
+				<ability_skill_mult>10</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="substance">188</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">1031</req>
+				</requirements>
+				<results>
+					<animation>mowing</animation>
+					<sound>player_mow</sound>
+					<sstam_spent>10</sstam_spent>
+					<cooldowns>
+						<cooldown group="self">300</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Gather Wheat" type="Special" id="324">
+				<duration const="">5</duration>
+				<ability_skill_mult>10</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="substance">189</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">1031</req>
+				</requirements>
+				<results>
+					<animation>mowing</animation>
+					<sound>player_mow</sound>
+					<sstam_spent>10</sstam_spent>
+					<cooldowns>
+						<cooldown group="self">300</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Cook" type="Special" id="328">
+				<duration const="">5</duration>
+				<ability_skill_mult>10</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1542</ent_req>
+							<ent_req type="state">complete damaged</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">220</req>
+				</requirements>
+				<results>
+					<animation>cooking</animation>
+					<sstam_spent>20</sstam_spent>
+				</results>
+				<autorepeat>possible</autorepeat>
+			</ability>
+			<ability lvl="0" name="Toll" type="Special" id="354">
+				<duration const="">2</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="state">complete</ent_req>
+							<ent_req type="object_type_id">1670 1671 1733 2529 2485</ent_req>
+							<ent_req type="claim" usage_type="use" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>perform</animation>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Use baromsag" id="346">
+				<duration const="">5</duration>
+				<ability_skill_mult>400</ability_skill_mult>
+				<entities>
+					<entity type="inventory_item">
+						<ent_reqs>
+							<ent_req type="object_type_id" parent="1">240 241 242 243 244 245 665 238</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>perform</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Pull Out of Bag" type="Special" id="358">
+				<duration const="">1</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="inventory_item">
+						<ent_reqs>
+							<ent_req type="object_type_id" parent="1">1902</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>perform</animation>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+		</abilities>
+	</row>
+  <row xdt:Locator="Condition(*[local-name()='ID']='65')" xdt:Transform="Replace">
+		<ID>65</ID>
+		<Name>Authority</Name>
+		<Parent>0</Parent>
+		<Group>3</Group>
+		<PrimaryStat>Int</PrimaryStat>
+		<SecondaryStat>Con</SecondaryStat>
+		<Icon>art\2D\skills\Authority.png</Icon>
+		<UnknownIcon>art\2D\skills\Authority_u.png</UnknownIcon>
+		<Passive>484</Passive>
+		<DescLvl0>485</DescLvl0>
+		<DescLvl30>486</DescLvl30>
+		<DescLvl60>487</DescLvl60>
+		<DescLvl90>488</DescLvl90>
+		<DescLvl100>489</DescLvl100>
+		<MasterMessageID>618</MasterMessageID>
+		<GMMessageID>619</GMMessageID>
+		<skill_mult>1</skill_mult>
+		<abilities>
+			<ability lvl="0" name="the Monument" type="Build" id="185">
+				<duration const="15 10" />
+				<ability_skill_mult>10000</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="substance">1 2 3 6 7 8 9 10 11 12 13 14 15 16 17 19 177 178 180 181</ent_req>
+							<ent_req type="claim" usage_type="build" />
+							<ent_req type="distance">0</ent_req>
+						</ent_reqs>
+					</entity>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">152 153 154 155</ent_req>
+							<ent_req type="state">incomplete</ent_req>
+							<ent_req type="claim" usage_type="build" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">32</req>
+				</requirements>
+				<results>
+					<animation>building</animation>
+					<sound>player_nail</sound>
+					<sstam_spent>50</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Worship" type="Special" id="186">
+				<duration const="">1</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">152 153 154 155</ent_req>
+							<ent_req type="state">incomplete complete damaged</ent_req>
+							<ent_req type="claim" usage_type="use" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>pray</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Worship" type="Special" id="355">
+				<duration const="">1</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1444</ent_req>
+							<ent_req type="state">incomplete complete damaged</ent_req>
+							<ent_req type="claim" usage_type="use" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="world">green</req>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>pray</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Manage the Monument" type="Special" id="187">
+				<duration const="">1</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">152 153 154 155</ent_req>
+							<ent_req type="state">incomplete complete damaged</ent_req>
+							<ent_req type="claim" usage_type="use" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>pray</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Trespassers!" id="188">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<icon>art\2D\skills\abilities\trespassers.png</icon>
+				<entities />
+				<requirements>
+					<req type="onhorse">allowed</req>
+				</requirements>
+				<results>
+					<sound sid="50" />
+					<cooldowns>
+						<cooldown group="rest">30</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Sacrifice" type="Interface" id="199">
+				<duration const="">3</duration>
+				<ability_skill_mult>20</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">152 153 154 155 1444</ent_req>
+							<ent_req type="state">incomplete complete damaged</ent_req>
+							<ent_req type="claim" usage_type="use" />
+						</ent_reqs>
+					</entity>
+					<entity type="cell">
+						<ent_reqs />
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>pray</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>50</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Invite to Guild" id="202">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="player">
+						<ent_reqs />
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+				</requirements>
+				<results>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Destroy" type="Special" id="203">
+				<duration const="">20</duration>
+				<ability_skill_mult>100</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="claim" usage_type="destroy" />
+							<ent_req type="not_object_type_id">1456 1457 1460</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>pray</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Upgrade the Monument" type="Special" id="204">
+				<duration const="">5</duration>
+				<ability_skill_mult>2000</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">153 154 155</ent_req>
+							<ent_req type="state">incomplete</ent_req>
+							<ent_req type="claim" usage_type="use" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>pray</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Barter" type="Special" id="236">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="player">
+						<ent_reqs />
+					</entity>
+				</entities>
+				<requirements />
+				<results />
+			</ability>
+			<ability lvl="0" name="Expel the Intruders" type="Special" id="287">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">139 140 142 145 146 147 148 165 175 176 177 518 519 521 1055 1084 1085 1086 1087 1088 1089 1092 1336 1355</ent_req>
+							<ent_req type="claim" usage_type="use" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+				</requirements>
+				<results />
+			</ability>
+			<ability lvl="0" name="Private Land" type="Claim" id="290">
+				<duration const="">5</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="claim" usage_type="claim" />
+						</ent_reqs>
+					</entity>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="state">incomplete</ent_req>
+							<ent_req type="object_type_id">1444</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="world">green</req>
+				</requirements>
+				<results>
+					<animation>pray</animation>
+					<sound sid="91" />
+					<sstam_spent>50</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Resize" type="Claim" id="291">
+				<duration const="">5</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="distance">0</ent_req>
+							<ent_req type="claim" usage_type="claim" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="world">green</req>
+				</requirements>
+				<results>
+					<animation>pray</animation>
+					<sound sid="91" />
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Remove!" type="Claim" id="292">
+				<duration const="">5</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="claim" usage_type="claim" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="world">green</req>
+				</requirements>
+				<results>
+					<animation>pray</animation>
+					<sound sid="91" />
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Revoking Ritual" type="Claim" id="298">
+				<duration const="">60</duration>
+				<ability_skill_mult>100</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs />
+					</entity>
+				</entities>
+				<requirements>
+					<req type="world">green</req>
+				</requirements>
+				<results>
+					<animation>pray</animation>
+					<sound>revoke_ritual</sound>
+				</results>
+			</ability>
+			<ability lvl="0" name="PC Planning" type="Interface" id="302">
+				<duration const="">-1</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<enable_movement>1</enable_movement>
+				<entities>
+					<entity type="cell">
+						<ent_reqs />
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<state>pc_planning</state>
+				</results>
+			</ability>
+			<ability lvl="0" name="Trade" id="294">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1077</ent_req>
+							<ent_req type="state">complete damaged</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+				</requirements>
+				<results />
+			</ability>
+			<ability lvl="0" name="Rename" id="312">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id" parent="1">74 96 107 109 111 114 115 116 117 118 122 123 131 132 133 134 135 136 137 138 139 140 141 143 144 145 146 147 148 174 175 176 177 453 455 472 503 504 507 508 509 512 513 514 515 516 517 518 519 520 521 682 1055 1077 1084 1085 1086 1087 1088 1089 1092 1093 1097 1098 1109 1110 1121 1342 1343 1353 1357 1359 1394 1410 1411 1412 1413 1499 53 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 97 98 99 100 101 103 104 105 106 109 115 116 118 119 120 121 123 167 168 169 472 522 523 1152 1323 1333 1334 1394 1405 1406 1407 1445 1446 1461 1497 1657 1658 1659 1660 1661 1701 1723 1724 1725 1726 1727 1728 1729 1730 1731 1732 3016</ent_req>
+							<ent_req type="claim" usage_type="destroy" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+				</requirements>
+				<results />
+			</ability>
+			<ability lvl="0" name="Manage Object Rights" id="339">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id" parent="1">74 96 107 109 111 114 115 116 117 118 122 123 131 132 133 134 135 136 137 138 139 140 141 143 144 145 146 147 148 174 175 176 177 453 455 472 503 504 507 508 509 512 513 514 515 516 517 518 519 520 521 682 1055 1077 1084 1085 1086 1087 1088 1089 1092 1093 1097 1098 1109 1110 1121 1342 1343 1353 1357 1359 1394 1410 1411 1412 1413 1499 1701</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results />
+			</ability>
+			<ability lvl="0" name="Sacrifice Chest" id="305">
+				<duration const="">5</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="inventory_item">
+						<ent_reqs>
+							<ent_req type="object_type_id" parent="1">1458</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+				</requirements>
+				<results>
+					<animation>pray</animation>
+					<sound sid="91" />
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Open Gift" id="336">
+				<duration const="">5</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="inventory_item">
+						<ent_reqs>
+							<ent_req type="object_type_id" parent="1">1644</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>perform</animation>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Undo Claim Resize" id="329">
+				<duration const="">5</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="claim" usage_type="claim" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="world">green</req>
+				</requirements>
+				<results>
+					<animation>pray</animation>
+					<sound sid="91" />
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Build Outpost" type="Special" id="341">
+				<duration const="">10</duration>
+				<ability_skill_mult>320</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="substance">1 2 3 6 7 8 9 10 11 12 13 14 15 16 17 19 177 178 180 181</ent_req>
+							<ent_req type="claim" usage_type="build" />
+							<ent_req type="distance">0</ent_req>
+						</ent_reqs>
+					</entity>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1702 1703 1704 1705 1706 1707 1708 1709 1710 1711</ent_req>
+							<ent_req type="state">incomplete</ent_req>
+							<ent_req type="claim" usage_type="build" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">32</req>
+				</requirements>
+				<results>
+					<animation>building</animation>
+					<sound>player_nail</sound>
+					<sstam_spent>50</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Claim Outpost" type="Special" id="342">
+				<duration const="">10</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1702 1703 1704 1705 1706 1707 1708 1709 1710 1711</ent_req>
+							<ent_req type="state">complete damaged</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>pray</animation>
+					<sound>revoke_ritual</sound>
+				</results>
+			</ability>
+			<ability lvl="0" name="Stop Outpost Claiming" type="Special" id="343">
+				<duration const="">20</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1702 1703 1704 1705 1706 1707 1708 1709 1710 1711</ent_req>
+							<ent_req type="state">working</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>pray</animation>
+					<sound>revoke_ritual</sound>
+				</results>
+			</ability>
+			<ability lvl="0" name="Rule Outpost" type="Special" id="344">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1702 1703 1704 1705 1706 1707 1708 1709 1710 1711</ent_req>
+							<ent_req type="state">complete damaged working</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+							</ent_req>	
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results />
+			</ability>
+			<ability lvl="0" name="Enslave" id="345">
+				<duration const="">6</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<icon>art\2D\skills\abilities\coup_de_grace.png</icon>
+				<entities>
+					<entity type="player">
+						<ent_reqs />
+					</entity>
+				</entities>
+				<requirements>
+					<req type="warstance">allowed</req>
+					<req type="world">red</req>
+					<req type="jh">only</req>
+				</requirements>
+				<results>
+					<animation>mowing</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>30</sstam_spent>
+				</results>
+			</ability>
+		</abilities>
+	</row>
+</table>

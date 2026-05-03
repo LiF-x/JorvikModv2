@@ -1,0 +1,110 @@
+[
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "7",
+        "composite": null
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "name",
+        "keyValue": "Repair",
+        "composite": null
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "entity",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "not_object_type_id",
+        "composite": null
+      }
+    ],
+    "tokensToAdd": "3016"
+  },
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "63",
+        "composite": null
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "name",
+        "keyValue": "Get On",
+        "composite": null
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "entity",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "attached_obj",
+        "composite": null
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "object_type_id",
+        "composite": null
+      }
+    ],
+    "tokensToAdd": "3016 2520"
+  }
+]
