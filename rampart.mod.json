@@ -2,30 +2,114 @@
   "schemaVersion": 1,
   "id": "JorvikModv2",
   "name": "JorvikModv2",
-  "version": "0.1.0",
+  "version": "2.1.0",
   "description": "JorvikMod v2 (LiFx Framework \u002B yolauncher compatible). Creator: Odin one Eye; modified by Mjoed.",
   "authors": [
     "Odin one Eye",
     "Mjoed"
   ],
-  "loadOrderHint": 100,
+  "source": {
+    "repo": "LiF-x/JorvikModv2",
+    "commit": "5a4bb6fd669880a0e5f58cbb22df979e23b42adf"
+  },
+  "baseline": {
+    "gameBuild": "sha256:d47ef6156423f1226b6d07a1f31f81d3aa94bc460cc1ac76bcf7d7ef9c305d4a",
+    "steamBuildId": "11261643"
+  },
+  "license": "GPL-3.0-only",
+  "distribution": "hostable",
+  "dependencies": [
+    "LiF-x/ServerAutoloader"
+  ],
+  "loadOrderHint": 300,
+  "objectTypeIds": {
+    "added": [
+      "2401",
+      "2402",
+      "2403",
+      "2404",
+      "2405",
+      "2406",
+      "2407",
+      "2408",
+      "2409",
+      "2410",
+      "2412",
+      "2413",
+      "2414",
+      "2415",
+      "2416",
+      "2417",
+      "2418",
+      "2419",
+      "2473",
+      "2474",
+      "2475",
+      "2476",
+      "2477",
+      "2478",
+      "2479",
+      "2481",
+      "2482",
+      "2483",
+      "2484",
+      "2485",
+      "2493",
+      "2494",
+      "2495",
+      "2496",
+      "2497",
+      "2498",
+      "2499",
+      "2500",
+      "2502",
+      "2504",
+      "2505",
+      "2506",
+      "2508",
+      "2509",
+      "2510",
+      "2511",
+      "2512",
+      "2513",
+      "2514",
+      "2515",
+      "2518",
+      "2519",
+      "2520",
+      "2521",
+      "2522",
+      "2523",
+      "2524",
+      "2525",
+      "2526",
+      "2527",
+      "2528",
+      "2529",
+      "2534",
+      "2543",
+      "2544",
+      "2545",
+      "2546",
+      "2547",
+      "2548",
+      "2549",
+      "2550",
+      "2551",
+      "3016"
+    ],
+    "modified": [
+      "1670",
+      "1671",
+      "1733",
+      "2003"
+    ]
+  },
   "files": {
     "overlay": [
       {
-        "src": "mods/",
-        "dest": "mods/"
-      },
-      {
-        "src": "data/objects_types.xml",
-        "dest": "data/objects_types.xml"
-      },
-      {
-        "src": "data/recipe.xml",
-        "dest": "data/recipe.xml"
-      },
-      {
-        "src": "data/recipe_requirement.xml",
-        "dest": "data/recipe_requirement.xml"
+        "src": "mods/JorvikModv2/",
+        "dest": "mods/JorvikModv2/"
       },
       {
         "src": "yolauncher/modpack/mods/Jorvik2/",
@@ -43,7 +127,7 @@
       },
       {
         "target": "data/cm_objects.xml",
-        "replace": "data/cm_objects.xml"
+        "transform": "transforms/cm_objects.xdt.xml"
       },
       {
         "target": "data/skill_types.xml",
