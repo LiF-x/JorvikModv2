@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform" xmlns="https://lifeisfeudal.com/schemas/skill_types.xsd">
+  <row xdt:Locator="Condition(normalize-space(*[local-name()='ID'])='4')">
+    <abilities>
+      <ability name="Metal Tools and Coins" xdt:Locator="Condition(@id='105')" xdt:Transform="SetAttributes(name)" />
+    </abilities>
+  </row>
+  <row xdt:Locator="Condition(normalize-space(*[local-name()='ID'])='14')">
+    <abilities>
+      <ability lvl="90" name="NPC's" type="Create" id="23" xdt:Transform="Insert">
+				<duration const="10 20" />
+				<ability_skill_mult>600</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="claim" usage_type="build" />
+						</ent_reqs>
+					</entity>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="state">incomplete</ent_req>
+							<ent_req type="object_type_id">2504 2505 2506 2508 2509 2510 2511 2512 2513 2514 2515 2521 2522 2523 2534</ent_req>
+							<ent_req type="claim" usage_type="build" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>pray</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>50</sstam_spent>
+				</results>
+			</ability>
+    </abilities>
+  </row>
+  <row xdt:Locator="Condition(normalize-space(*[local-name()='ID'])='62')">
+    <abilities>
+      <ability name="Open/Close" xdt:Locator="Condition(@id='144')" xdt:Transform="SetAttributes(name)" />
+    </abilities>
+  </row>
+</table>

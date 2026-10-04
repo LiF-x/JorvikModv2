@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <string id="5201" xdt:Transform="Insert">Allfather</string>
+  <string id="5202" xdt:Transform="Insert">Deer Head</string>
+  <string id="5203" xdt:Transform="Insert">Cross</string>
+  <string id="5204" xdt:Transform="Insert">Oak Tree</string>
+  <string id="5205" xdt:Transform="Insert">Rose</string>
+  <string id="5206" xdt:Transform="Insert">Lys</string>
+  <string id="5207" xdt:Transform="Insert">Server Rules</string>
+</strings>

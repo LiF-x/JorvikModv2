@@ -1,0 +1,892 @@
+[
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "7",
+        "composite": null
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "id",
+        "keyValue": "210",
+        "composite": null
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "entity",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "not_object_type_id",
+        "composite": null
+      }
+    ],
+    "tokensToAdd": "3016"
+  },
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "4",
+        "composite": null
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "id",
+        "keyValue": "105",
+        "composite": null
+      },
+      {
+        "name": "requirements",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "req",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      }
+    ],
+    "tokensToAdd": "2536 2537"
+  },
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "61",
+        "composite": null
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "id",
+        "keyValue": "96",
+        "composite": null
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "entity",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "not_object_type_id",
+        "composite": null
+      }
+    ],
+    "tokensToAdd": "2403 2561 2562 2563 2564 2565 2566 2567 2568 2473 2474 2475 2476 2477 2478 2482 2483 2484 2544 2545 2546 2547 2548 2550 2551 2493 2494 2495 2496 2497 2498 2499 2518 2520"
+  },
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "62",
+        "composite": null
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "id",
+        "keyValue": "108",
+        "composite": null
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "entity",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "attached_obj",
+        "composite": null
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "object_type_id",
+        "composite": null
+      }
+    ],
+    "tokensToAdd": "3016"
+  },
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "62",
+        "composite": null
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "id",
+        "keyValue": "144",
+        "composite": null
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "entity",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "object_type_id",
+        "composite": null
+      }
+    ],
+    "tokensToAdd": "2543 2554 2565 2567 2544 2546 2520 2527 2529 2485"
+  },
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "62",
+        "composite": null
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "id",
+        "keyValue": "145",
+        "composite": null
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "entity",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "object_type_id",
+        "composite": null
+      }
+    ],
+    "tokensToAdd": "84 85 2543"
+  },
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "62",
+        "composite": null
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "id",
+        "keyValue": "268",
+        "composite": null
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "entity",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "object_type_id",
+        "composite": null
+      }
+    ],
+    "tokensToAdd": "2500 2502"
+  },
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "62",
+        "composite": null
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "id",
+        "keyValue": "288",
+        "composite": null
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "entity",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "object_type_id",
+        "composite": null
+      }
+    ],
+    "tokensToAdd": "3016 2520"
+  },
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "62",
+        "composite": null
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "id",
+        "keyValue": "289",
+        "composite": null
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "entity",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "object_type_id",
+        "composite": null
+      }
+    ],
+    "tokensToAdd": "3016 2520"
+  },
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "62",
+        "composite": null
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "id",
+        "keyValue": "300",
+        "composite": null
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "entity",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "attached_obj",
+        "composite": null
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "object_type_id",
+        "composite": null
+      }
+    ],
+    "tokensToAdd": "3016 2520"
+  },
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "62",
+        "composite": null
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "id",
+        "keyValue": "300",
+        "composite": null
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "entity",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "complex_obj",
+        "composite": null
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "object_type_id",
+        "composite": null
+      }
+    ],
+    "tokensToAdd": "3016 2520"
+  },
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "62",
+        "composite": null
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "id",
+        "keyValue": "301",
+        "composite": null
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "entity",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "attached_obj",
+        "composite": null
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "object_type_id",
+        "composite": null
+      }
+    ],
+    "tokensToAdd": "3016"
+  },
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "62",
+        "composite": null
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "id",
+        "keyValue": "301",
+        "composite": null
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "entity",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "complex_obj",
+        "composite": null
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "object_type_id",
+        "composite": null
+      }
+    ],
+    "tokensToAdd": "3016"
+  },
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "62",
+        "composite": null
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "id",
+        "keyValue": "316",
+        "composite": null
+      },
+      {
+        "name": "requirements",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "req",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      }
+    ],
+    "tokensToAdd": "2536 2537"
+  },
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "62",
+        "composite": null
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "id",
+        "keyValue": "354",
+        "composite": null
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "entity",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "object_type_id",
+        "composite": null
+      }
+    ],
+    "tokensToAdd": "2529 2485"
+  },
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "63",
+        "composite": null
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "id",
+        "keyValue": "224",
+        "composite": null
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "entity",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "attached_obj",
+        "composite": null
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "object_type_id",
+        "composite": null
+      }
+    ],
+    "tokensToAdd": "3016 2520"
+  },
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "65",
+        "composite": null
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "id",
+        "keyValue": "312",
+        "composite": null
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "entity",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null,
+        "composite": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "object_type_id",
+        "composite": null
+      }
+    ],
+    "tokensToAdd": "3016"
+  }
+]
